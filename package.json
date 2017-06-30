@@ -1,0 +1,30 @@
+{
+  "name": "yyuiSite",
+  "version": "2.0.0",
+  "description": "a front frameworkwork",
+  "author": "yayo <yayocn@qq.com>",
+  "scripts": {},
+  "dependencies": {
+    "vue": "^2.3.4"
+  },
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-runtime": "^5.8.38",
+    "css-loader": "^0.28.4",
+    "html-webpack-plugin": "^2.29.0",
+    "vue-hot-reload-api": "^2.1.0",
+    "vue-html-loader": "^1.2.4",
+    "vue-loader": "^13.0.0",
+    "vue-style-loader": "^3.0.1",
+    "vue-template-compiler": "^2.3.4",
+    "webpack": "^3.0.0",
+    "webpack-dev-server": "^2.5.0"
+  },
+  "engines": {
+    "node": ">= 4.0.0",
+    "npm": ">= 3.0.0"
+  }
+}
