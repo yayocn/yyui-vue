@@ -20,6 +20,7 @@ module.exports = {
       'Vue': 'vue/dist/vue.js'
     }
   },
+  devtool: "source-map",
   module: {
 
     rules: [
@@ -45,6 +46,22 @@ module.exports = {
       {
         test: /\.(png|jpg|gif|svg)$/,
         use: ['file-loader']
+      },
+      {
+        test: /\.scss$/,
+        use: [{
+          loader: "style-loader" // creates style nodes from JS strings
+        }, {
+          loader: "css-loader",
+          options: {
+            sourcemap: true
+          }
+        }, {
+          loader: "sass-loader",
+          options: {
+            sourcemap: true
+          }
+        }]
       }
     ]
   },
