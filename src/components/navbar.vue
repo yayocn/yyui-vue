@@ -1,13 +1,13 @@
 <template id="navbar">
   <nav class="navbar navbar-yyui-site">
     <div class="container">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nav_bar">
         <i class="fa fa-bars"></i>
       </button>
 
       <a href="/yyui" class="navbar-brand">YY UI</a>
 
-      <div id="navbar" class="navbar-collapse collapse">
+      <div id="nav_bar" class="navbar-collapse collapse">
         <ul class="nav navbar-nav">
           <li><a href="/yyui/introduction">简介</a></li>
           <li><a href="/yyui/start">开始</a></li>
