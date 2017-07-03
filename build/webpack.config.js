@@ -1,14 +1,14 @@
 // nodejs 中的path模块
-var path = require('path');
-var webpack = require('webpack');
-var HtmlWebpackPlugin = require('html-webpack-plugin');
+var path = require('path')
+var webpack = require('webpack')
+var HtmlWebpackPlugin = require('html-webpack-plugin')
 
 module.exports = {
   // 入口文件，path.resolve()方法，可以结合我们给定的两个参数最后生成绝对路径，最终指向的就是我们的index.js文件
   entry: {
-      index: [
-          path.resolve(__dirname, '../src/main.js')
-      ]
+    index: [
+      path.resolve(__dirname, '../src/main.js')
+    ]
   },
   // 输出配置
   output: {
@@ -24,7 +24,7 @@ module.exports = {
       'Vue': 'vue/dist/vue.js'
     }
   },
-  devtool: "source-map",
+  devtool: 'source-map',
   module: {
 
     rules: [
@@ -54,14 +54,14 @@ module.exports = {
       {
         test: /\.scss$/,
         use: [{
-          loader: "style-loader" // creates style nodes from JS strings
+          loader: 'style-loader' // creates style nodes from JS strings
         }, {
-          loader: "css-loader",
+          loader: 'css-loader',
           options: {
             sourcemap: true
           }
         }, {
-          loader: "sass-loader",
+          loader: 'sass-loader',
           options: {
             sourcemap: true
           }
@@ -81,7 +81,7 @@ module.exports = {
           loaders: {
             js: 'babel-loader'
           }
-        },
+        }
       }
     })
   ]
