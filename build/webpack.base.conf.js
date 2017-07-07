@@ -13,10 +13,9 @@ module.exports = {
   // 输出配置
   output: {
     // 输出路径是 myProject/output/static
-    path: path.resolve(__dirname, '../dist/static'),
+    path: path.resolve(__dirname, '../dist'),
     publicPath: '/',
-    filename: '[name].[hash].js',
-    chunkFilename: '[id].[chunkhash].js'
+    filename: '[name].[hash].js'
   },
   resolve: {
     extensions: [' ', '.js', '.vue'],
@@ -24,7 +23,6 @@ module.exports = {
       'Vue': 'vue/dist/vue.js'
     }
   },
-  devtool: 'source-map',
   module: {
 
     rules: [
@@ -41,11 +39,21 @@ module.exports = {
       },
       {
         test: /\.(woff|woff2|eot|ttf|otf)$/,
-        use: ['file-loader']
+        use: [{
+          loader: 'file-loader',
+          query: {
+            name: 'fonts/[name].[hash].[ext]'
+          }
+        }]
       },
       {
         test: /\.(png|jpg|gif|svg)$/,
-        use: ['file-loader']
+        use: [{
+          loader: 'file-loader',
+          query: {
+            name: 'image/[name].[hash].[ext]'
+          }
+        }]
       }
     ]
   },

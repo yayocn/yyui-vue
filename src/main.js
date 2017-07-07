@@ -1,7 +1,7 @@
 import Vue from 'Vue'
-import navbar from './components/navbar.vue'
+import App from './App.vue'
 
-import '../lib/yyui/css/yyui-1.1.0.min.css'
+import '../lib/yyui/css/yyui-1.1.0.css'
 import './assets/css/common.scss'
 import './assets/css/docs.scss'
 import './assets/css/sidebar-scrollspy.scss'
@@ -12,8 +12,9 @@ Vue.config.debug = true // 开启错误提示
 window.onload = function () {
   new Vue({
     el: '#yyui',
+    template: '<App/>',
     components: {
-      'navbar': navbar
+      App
     }
   })
 }

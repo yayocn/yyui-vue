@@ -2,6 +2,7 @@
 var path = require('path')
 var webpack = require('webpack')
 var HtmlWebpackPlugin = require('html-webpack-plugin')
+var ExtractTextPlugin = require('extract-text-webpack-plugin')
 
 module.exports = {
   // 入口文件，path.resolve()方法，可以结合我们给定的两个参数最后生成绝对路径，最终指向的就是我们的index.js文件
@@ -41,7 +42,10 @@ module.exports = {
       },
       {
         test: /\.css$/,
-        use: ['style-loader', 'css-loader']
+        use: ExtractTextPlugin.extract({
+          fallback: 'style-loader',
+          use: 'css-loader'
+        })
       },
       {
         test: /\.(woff|woff2|eot|ttf|otf)$/,
@@ -53,23 +57,41 @@ module.exports = {
       },
       {
         test: /\.scss$/,
-        use: [{
-          loader: 'style-loader' // creates style nodes from JS strings
-        }, {
-          loader: 'css-loader',
-          options: {
-            sourcemap: true
-          }
-        }, {
-          loader: 'sass-loader',
-          options: {
-            sourcemap: true
-          }
-        }]
+        use: ExtractTextPlugin.extract({
+          fallback: 'style-loader',
+          use: [{
+            loader: 'css-loader',
+            options: {
+              sourcemap: true
+            }
+          }, {
+            loader: 'sass-loader',
+            options: {
+              sourcemap: true
+            }
+          }]
+        })
       }
+      // {
+      //   test: /\.scss$/,
+      //   use: [{
+      //     loader: 'style-loader' // creates style nodes from JS strings
+      //   }, {
+      //     loader: 'css-loader',
+      //     options: {
+      //       sourcemap: true
+      //     }
+      //   }, {
+      //     loader: 'sass-loader',
+      //     options: {
+      //       sourcemap: true
+      //     }
+      //   }]
+      // }
     ]
   },
   plugins: [
+    new ExtractTextPlugin('../[name].[contenthash].css'),
     new HtmlWebpackPlugin({
       filename: 'index.html',
       template: path.resolve(__dirname, '../src/yyui.html'),

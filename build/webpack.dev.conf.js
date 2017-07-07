@@ -1,35 +1,55 @@
-var path = require('path')
-var HtmlWebpackPlugin = require('html-webpack-plugin')
 var webpack = require('webpack')
-var config = require('./webpack.config')
+var baseConfig = require('./webpack.base.conf')
+var merge = require('webpack-merge')
 
-config.output.publicPath = '/'
-
-config.plugins = [
-  new webpack.optimize.OccurrenceOrderPlugin(),
-  new webpack.HotModuleReplacementPlugin(),
-  new webpack.NoEmitOnErrorsPlugin(),
-  new HtmlWebpackPlugin({
-    filename: 'index.html',
-    template: path.resolve(__dirname, '../src/yyui.html'),
-    inject: true
-  }),
-  new webpack.LoaderOptionsPlugin({
-    options: {
-      yyui: {
-        loaders: {
-          js: 'babel-loader'
-        }
-      }
-    }
-  })
-]
-
-// var devClient = 'webpack-hot-middleware/client';
 var devClient = './build/dev-client'
-Object.keys(config.entry).forEach(function (name, i) {
+Object.keys(baseConfig.entry).forEach(function (name) {
   var extras = [devClient]
-  config.entry[name] = extras.concat(config.entry[name])
+  baseConfig.entry[name] = extras.concat(baseConfig.entry[name])
 })
 
-module.exports = config
+module.exports = merge(baseConfig, {
+  devtool: '#source-map',
+  module: {
+    rules: [
+      {
+        test: /\.css$/,
+        use: [{
+          loader: 'style-loader',
+          options: {
+            sourceMap: true
+          }
+        }, {
+          loader: 'css-loader',
+          options: {
+            sourceMap: true
+          }
+        }]
+      },
+      {
+        test: /\.scss$/,
+        use: [{
+          loader: 'style-loader',
+          options: {
+            sourceMap: true
+          }
+        }, {
+          loader: 'css-loader',
+          options: {
+            sourceMap: true
+          }
+        }, {
+          loader: 'sass-loader',
+          options: {
+            sourceMap: true
+          }
+        }]
+      }
+    ]
+  },
+  plugins: [
+    new webpack.optimize.OccurrenceOrderPlugin(),
+    new webpack.HotModuleReplacementPlugin(),
+    new webpack.NoEmitOnErrorsPlugin()
+  ]
+})
