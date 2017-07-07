@@ -20,8 +20,7 @@ module.exports = {
   resolve: {
     extensions: [' ', '.js', '.vue'],
     alias: {
-      'Vue': 'vue/dist/vue.js',
-      'hljs': '../lib/highlight/highlight.pack.js'
+      'Vue': 'vue/dist/vue.js'
     }
   },
   module: {
