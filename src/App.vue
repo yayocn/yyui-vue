@@ -1,22 +1,24 @@
 <template>
   <div>
     <header>
-      <navbar></navbar>
+      <navbar-component></navbar-component>
     </header>
-
-    <foot></foot>
+    <main-component></main-component>
+    <footer-component></footer-component>
   </div>
 </template>
 
 <script>
   import navbar from './components/navbar.vue'
-  import foot from './components/footer.vue'
+  import main from './components/main.vue'
+  import footer from './components/footer.vue'
 
   export default {
     name: 'app',
     components: {
-      navbar,
-      foot
+      'navbar-component': navbar,
+      'main-component': main,
+      'footer-component': footer
     }
   }
 </script>
