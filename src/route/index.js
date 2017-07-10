@@ -9,12 +9,12 @@ import plugins from '../components/plugins.vue'
 Vue.use(VueRouter)
 
 const routes = [
-    { path: '/', component: introduction },
-    { path: '/introduction', component: introduction },
-    { path: '/start', component: start },
-    { path: '/global', component: global },
-    { path: '/components', component: components },
-    { path: '/plugins', component: plugins }
+  {path: '/', component: introduction},
+  {path: '/introduction', component: introduction},
+  {path: '/start', component: start},
+  {path: '/global', component: global},
+  {path: '/components', component: components},
+  {path: '/plugins', component: plugins}
 ]
 
 const router = new VueRouter({ routes })

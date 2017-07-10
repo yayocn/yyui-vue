@@ -1,5 +1,5 @@
 <template>
-  <main>
+  <div>
     <div class="yyui-docs-masthead text-center">
       <div class="container">
         <span class="yyui-docs-log">Y</span>
@@ -36,5 +36,5 @@
         </div>
       </div>
     </div>
-  </main>
+  </div>
 </template>

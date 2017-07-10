@@ -13,10 +13,12 @@
   import main from './components/main.vue'
   import footer from './components/footer.vue'
   import router from './route/index'
+  import MainComponent from './components/main'
 
   export default {
     name: 'app',
     components: {
+      MainComponent,
       'navbar-component': navbar,
       'main-component': main,
       'footer-component': footer

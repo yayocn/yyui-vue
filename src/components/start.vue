@@ -1,5 +1,5 @@
 <template>
-  <main>
+  <div>
     <div class="yyui-docs-masthead">
       <div class="container">
         <h1>开始</h1>
@@ -57,5 +57,5 @@
         <p>YY UI 使用了大量的h5，css3的特性，建议运用于使用现代浏览器的场景，具体的兼容性yayo还未做测试。</p>
       </div>
     </div>
-  </main>
+  </div>
 </template>

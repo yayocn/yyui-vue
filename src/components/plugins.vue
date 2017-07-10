@@ -1,5 +1,5 @@
 <template>
-  <main>
+  <div>
     <div class="yyui-docs-masthead">
       <div class="container">
         <h1>插件</h1>
@@ -628,5 +628,5 @@
         </div>
       </div>
     </div>
-  </main>
+  </div>
 </template>
