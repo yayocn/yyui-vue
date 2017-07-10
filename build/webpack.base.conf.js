@@ -20,12 +20,23 @@ module.exports = {
   resolve: {
     extensions: [' ', '.js', '.vue'],
     alias: {
-      'Vue': 'vue/dist/vue.js'
+      'Vue': 'vue/dist/vue.js',
+      'jquery': '../src/assets/js/jquery-vendor.js'
     }
   },
   module: {
 
     rules: [
+      {
+        test: require.resolve('jquery'),
+        use: [{
+          loader: 'expose-loader',
+          options: 'jQuery'
+        }, {
+          loader: 'expose-loader',
+          options: '$'
+        }]
+      },
       {
         test: /\.vue$/,
         loader: 'vue-loader'
