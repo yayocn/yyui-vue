@@ -8,9 +8,6 @@
   import masthead from './common/masthead.vue'
 
   export default {
-    name: 'main',
-    components: {
-      'masthead-component': masthead
-    }
+    name: 'main'
   }
 </script>

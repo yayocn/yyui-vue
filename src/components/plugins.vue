@@ -1,11 +1,10 @@
 <template>
   <div>
-    <div class="yyui-docs-masthead">
-      <div class="container">
-        <h1>插件</h1>
-        <h4>YY UI 提供了一些常用的组件，可以进行快速的模块构建。</h4>
-      </div>
-    </div>
+
+    <masthead-component>
+      <h1>插件</h1>
+      <h4>YY UI 提供了一些常用的组件，可以进行快速的模块构建。</h4>
+    </masthead-component>
 
     <div class="container">
       <div id="sidebar_top_marker"></div>
@@ -630,3 +629,14 @@
     </div>
   </div>
 </template>
+
+<script>
+  import masthead from './common/masthead'
+
+  export default {
+    name: 'plugins',
+    components: {
+      'masthead-component': masthead
+    }
+  }
+</script>

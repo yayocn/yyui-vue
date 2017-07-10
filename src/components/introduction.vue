@@ -1,13 +1,11 @@
 <template>
   <div>
-    <div class="yyui-docs-masthead text-center">
-      <div class="container">
-        <span class="yyui-docs-log">Y</span>
-        <p class="lead">YY UI，是 YaYo 出于兴趣和学习的目的而形成的一个前端框架。</p>
-        <a class="btn btn-lg btn-theme m-b-2" href="../files/yyui-1.0.0.zip">下载 YY UI</a>
-        <p class="font-sm text-light">当前版本: 1.0.0</p>
-      </div>
-    </div>
+    <masthead-component class="text-center">
+      <span class="yyui-docs-log">Y</span>
+      <p class="lead">YY UI，是 YaYo 出于兴趣和学习的目的而形成的一个前端框架。</p>
+      <a class="btn btn-lg btn-theme m-b-2" href="../files/yyui-1.0.0.zip">下载 YY UI</a>
+      <p class="font-sm text-light">当前版本: 1.0.0</p>
+    </masthead-component>
 
     <div class="yyui-docs-feature text-center">
       <div class="container">
@@ -38,3 +36,14 @@
     </div>
   </div>
 </template>
+
+<script>
+  import masthead from './common/masthead'
+
+  export default {
+    name: 'introduction',
+    components: {
+      'masthead-component': masthead
+    }
+  }
+</script>

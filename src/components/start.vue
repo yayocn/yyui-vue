@@ -1,11 +1,9 @@
 <template>
   <div>
-    <div class="yyui-docs-masthead">
-      <div class="container">
-        <h1>开始</h1>
-        <p class="lead">简要的介绍 YY UI，以及下载、使用。</p>
-      </div>
-    </div>
+    <masthead-component>
+      <h1>开始</h1>
+      <p class="lead">简要的介绍 YY UI，以及下载、使用。</p>
+    </masthead-component>
 
     <div class="yyui-docs-feature">
       <div class="container">
@@ -59,3 +57,14 @@
     </div>
   </div>
 </template>
+
+<script>
+  import masthead from './common/masthead'
+
+  export default {
+    name: 'start',
+    components: {
+      'masthead-component': masthead
+    }
+  }
+</script>

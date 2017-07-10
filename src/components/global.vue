@@ -1,11 +1,10 @@
 <template>
   <div>
-    <div class="yyui-docs-masthead">
-      <div class="container">
-        <h1>全局样式</h1>
-        <p class="lead">设置CSS全局样式；对HTML元素的样式进行重置并可以通过Class进行增强；还有不可缺少的栅格系统等。</p>
-      </div>
-    </div>
+    <masthead-component>
+      <h1>全局样式</h1>
+      <p class="lead">设置CSS全局样式；对HTML元素的样式进行重置并可以通过Class进行增强；还有不可缺少的栅格系统等。</p>
+    </masthead-component>
+
     <div class="container">
       <div id="sidebar_top_marker"></div>
       <div class="row">
@@ -2778,3 +2777,14 @@
     </div>
   </div>
 </template>
+
+<script>
+  import masthead from './common/masthead'
+
+  export default {
+    name: 'global',
+    components: {
+      'masthead-component': masthead
+    }
+  }
+</script>

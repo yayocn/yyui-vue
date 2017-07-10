@@ -1,11 +1,9 @@
 <template>
   <div>
-    <div class="yyui-docs-masthead">
-      <div class="container">
-        <h1>组件</h1>
-        <h4>YY UI 提供了一些常用的组件，可以进行快速的模块构建。</h4>
-      </div>
-    </div>
+    <masthead-component>
+      <h1>组件</h1>
+      <h4>YY UI 提供了一些常用的组件，可以进行快速的模块构建。</h4>
+    </masthead-component>
 
     <div class="container">
       <div id="sidebar_top_marker"></div>
@@ -1011,7 +1009,7 @@
             <h3 id="nav_tabs">标签页导航</h3>
             <p>标签页导航依赖<a href="javascript:;"><code>tab.js</code></a>插件。</p>
             <p>标签页导航需要在<code>&lt;li></code>标签上添加<code>.nav-item</code>类实现交互。<code>.nav-tabs</code>中的<code>&lt;a></code>标签的<code>href</code>属性要和
-            <code>.tab-content</code>中的<code>id</code>一一对应，并且要添加<code>data-toggle="tab"</code>属性进行标注。</p>
+              <code>.tab-content</code>中的<code>id</code>一一对应，并且要添加<code>data-toggle="tab"</code>属性进行标注。</p>
             <div class="yyui-docs-example">
               <div class="yyui-docs-surface">
                 <ul class="nav nav-tabs">
@@ -1428,8 +1426,8 @@
             </h2>
             <p class="lead">提供带有展示页码的分页组件和翻页组件。</p>
             <p><code>&laquo;</code>用<code>&amp;#171;</code>或<code>&amp;laquo;</code>表示，
-            <code>&raquo;</code>用<code>&amp;#187;</code>或<code>&amp;raquo;</code>表示。
-          </p>
+              <code>&raquo;</code>用<code>&amp;#187;</code>或<code>&amp;raquo;</code>表示。
+            </p>
 
             <h3 id="pagination_default">默认分页</h3>
             <p>给<code>&lt;ul></code>添加<code>.pagination</code>类，将其变为一个分页组件。</p>
@@ -1693,9 +1691,10 @@
               <div class="yyui-docs-surface">
                 <div class="jumbotron">
                   <h1>这是超大巨幕</h1>
-                  <p>On Friday night, London sought to distinguish itself from Beijing's 2008 spectacular by joining spectators
-                  and technology into an unusual team for the opening ceremony of the 2012 Olympics: the human Jumbotron.
-                  <br/>
+                  <p>
+                    On Friday night, London sought to distinguish itself from Beijing's 2008 spectacular by joining spectators
+                    and technology into an unusual team for the opening ceremony of the 2012 Olympics: the human Jumbotron.
+                    <br/>
                     周五晚上，为了显示出自己有别于2008年北京奥运会盛大开幕式的独具一格的一面，2012年伦敦奥运会开幕式罕见地将现场观众和现代科技融为一体，由真人元素构成了一面超大屏幕。</p>
                   <button type="button" class="btn btn-success btn-lg">大按钮</button>
                 </div>
@@ -1753,9 +1752,9 @@
             </h2>
             <p class="lead">通过缩略图组件扩展 YY UI 的 <a href="global.htmlrid">栅格系统</a>，可以很容易地展示栅格样式的图像、视频、文本等内容。</p>
             <p>如果你想实现一个瀑布流，你需要使用一个第三方插件，比如
-            <a href="http://masonry.desandro.com">Masonry</a>、<a href="http://isotope.metafizzy.co">Isotope</a> 或
-            <a href="http://salvattore.com">Salvattore</a>。
-          </p>
+              <a href="http://masonry.desandro.com">Masonry</a>、<a href="http://isotope.metafizzy.co">Isotope</a> 或
+              <a href="http://salvattore.com">Salvattore</a>。
+            </p>
 
             <h3 id="thumbnail_example">实例</h3>
             <p><code>.thumbnail</code>中的图片宽度始终是<span class="text-danger">100%</span>。可以在<code>&lt;img></code>外面包裹<code>&lt;a></code>
@@ -1801,8 +1800,9 @@
                       </a>
                       <div class="caption">
                         <h4>奇幻森林</h4>
-                        <p>毛克利（尼尔·塞西 Neel Sethi 饰）是一个由狼群养大的人类男孩，影片围绕他的森林冒险徐徐展开。谢利·可汗，一只受过人类伤害的老虎（伊德里斯·艾尔巴 Idris Elba 配音），
-                        发誓要将毛克利铲除。</p>
+                        <p>
+                          毛克利（尼尔·塞西 Neel Sethi 饰）是一个由狼群养大的人类男孩，影片围绕他的森林冒险徐徐展开。谢利·可汗，一只受过人类伤害的老虎（伊德里斯·艾尔巴 Idris Elba 配音），
+                          发誓要将毛克利铲除。</p>
                       </div>
                     </div>
                   </div>
@@ -2707,3 +2707,14 @@
     </div>
   </div>
 </template>
+
+<script>
+  import masthead from './common/masthead'
+
+  export default {
+    name: 'components',
+    components: {
+      'masthead-component': masthead
+    }
+  }
+</script>
