@@ -12,8 +12,10 @@
   import navbar from './components/navbar.vue'
   import main from './components/main.vue'
   import footer from './components/footer.vue'
-  import router from './route/index'
   import MainComponent from './components/main'
+
+  import router from './route/index'
+  import store from './store/index'
 
   export default {
     name: 'app',
@@ -23,6 +25,7 @@
       'main-component': main,
       'footer-component': footer
     },
-    router
+    router,
+    store
   }
 </script>
