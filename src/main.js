@@ -8,6 +8,7 @@ import './assets/css/sidebar-scrollspy.scss'
 import './assets/css/yyui-site.scss'
 
 import 'jquery'
+import 'jquery.easing'
 import '../lib/yyui/js/yyui-1.1.2'
 import './assets/js/scrollspy'
 

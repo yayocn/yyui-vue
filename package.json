@@ -31,6 +31,7 @@
     "file-loader": "^0.11.2",
     "html-webpack-plugin": "^2.29.0",
     "jquery": "^1.12.4",
+    "jquery.easing": "^1.4.1",
     "lodash": "^4.17.4",
     "node-sass": "^4.5.3",
     "sass-loader": "^6.0.6",

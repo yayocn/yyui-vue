@@ -18,8 +18,8 @@
 
             <h3 id="grid_introduce">简介</h3>
             <p>栅格系统用于通过一系列的行（row）与列（column）的组合来创建页面布局，你的内容就可以放入这些创建好的布局中。
-            下面就介绍一下 YY UI 栅格系统的工作原理：
-          </p>
+              下面就介绍一下 YY UI 栅格系统的工作原理：
+            </p>
             <ul>
               <li>“行（row）”必须包含在 <code>.container</code>（固定宽度）或<code>.container-fluid</code>（100% 宽度）中，以便为其赋予合适的排列（aligment）和内补（padding）。
 
@@ -31,7 +31,7 @@
               <li>栅格系统中的列是通过指定1到12的值来表示其跨越的范围。例如，三个等宽的列可以使用三个 <code>.col-xs-4</code> 来创建。</li>
               <li>如果一“行（row）”中包含了的“列（column）”大于 12，多余的“列（column）”所在的元素将被作为一个整体另起一行排列。</li>
               <li>栅格类适用于与屏幕宽度大于或等于分界点大小的设备 ， 并且针对小屏幕设备覆盖栅格类。 因此，在元素上应用任何 <code>.col-md-*</code> 栅格类适用于
-              与屏幕宽度大于或等于分界点大小的设备 ， 并且针对小屏幕设备覆盖栅格类。 因此，在元素上应用任何 <code>.col-lg-*</code> 不存在， 也影响大屏幕设备。
+                与屏幕宽度大于或等于分界点大小的设备 ， 并且针对小屏幕设备覆盖栅格类。 因此，在元素上应用任何 <code>.col-lg-*</code> 不存在， 也影响大屏幕设备。
 
               </li>
             </ul>
@@ -48,7 +48,7 @@
               </li>
               <li><code>.col-*-*</code>类有<span
                   class="text-info">15px</span>的 <code>padding</code>值，这样<code>.col-*-*</code>有相当于一个新的<code>.container</code>，
-              里面可以继续放<code>.row</code>。
+                里面可以继续放<code>.row</code>。
 
               </li>
             </ul>
@@ -222,7 +222,7 @@
 
             <h3 id="type_address">地址</h3>
             <p><code>&lt;address></code>定义文档或文章的yayo/拥有者的联系信息。如果它位于<code>&lt;body></code>元素内，则它表示文档联系信息。
-            如果它位于<code>&lt;article></code>元素内，则它表示文章的联系信息。</p>
+              如果它位于<code>&lt;article></code>元素内，则它表示文章的联系信息。</p>
             <div class="yyui-docs-example">
               <div class="yyui-docs-surface">
                 <address>
@@ -249,7 +249,7 @@
 
             <h3 id="type_blockquote">引用</h3>
             <p><code>&lt;blockquote></code>定义块引用。它之间的所有文本都会从常规文本中分离出来，经常会在左、右两边进行缩进（增加外边距），
-            而且有时会使用斜体。也就是说，块引用拥有它们自己的空间。</p>
+              而且有时会使用斜体。也就是说，块引用拥有它们自己的空间。</p>
             <div class="yyui-docs-example">
               <div class="yyui-docs-surface">
                 <blockquote>
@@ -302,8 +302,8 @@
               <p>有没有一种日了狗的感觉？</p>
               <p>
                 最后决定在<span class="text-danger"> 空间 </span>上的相反用reverse，比如这里的反向引用，左右位置的互换。至于inverse，它和数学的关系更加接近，
-              比如反函数，反比等等，适合抽象的相反。
-            </p>
+                比如反函数，反比等等，适合抽象的相反。
+              </p>
             </div>
 
             <h3 id="type_dl">描述</h3>
@@ -443,9 +443,9 @@
 
             <div class="yyui-docs-note">
               为什么要用<code>&lt;br/>、&amp;nbsp;</code>来换行和缩进呢，<code>&lt;pre></code>不是所见即所得的吗？
-            <br/>
+              <br/>
               这里yayo为<code>&lt;pre></code>添加了下面的样式：
-            <p><span class="text-primary">white-space</span>: <span class="text-warning">nowrap;</span></p>
+              <p><span class="text-primary">white-space</span>: <span class="text-warning">nowrap;</span></p>
               原因：<br/>
               <p><code>&lt;pre></code>在没有进行样式重写前的确是所见即所得，但是你写的html代码存在被压缩的可能，这就把里面的空格，换行全给kill掉了。因此，为了维护世界和平，还是显示的写出来吧。
               </p>
@@ -1018,7 +1018,8 @@
                   class="attr"> placeholder=</span><span class="value">"..."</span><span class="label">/></span><br/>
                 <span class="label">&lt;/fieldset></span><br/>
                 <br/>
-                <span class="label">&lt;fieldset</span><span class="attr"> class=</span><span class="value">"form-group"</span><span
+                <span class="label">&lt;fieldset</span><span class="attr"> class=</span><span
+                  class="value">"form-group"</span><span
                   class="label">&gt;</span><br/>
                 &nbsp;&nbsp;<span class="label">&lt;label></span>Default<span class="label">&lt;/label></span><br/>
                 &nbsp;&nbsp;<span class="label">&lt;input</span><span class="attr"> type=</span><span class="value">"text"</span><span
@@ -2265,7 +2266,7 @@
                 <p class="text-right">右对齐</p>
                 <div class="divider-sm"></div>
                 <p class="text-justify">值 justify 可以使文本的两端都对齐。在两端对齐文本中，文本行的左右两端都放在父元素的内边界上。然后，调整单词和字母间的
-                间隔，使各行的长度恰好相等。您也许已经注意到了，两端对齐文本在打印领域很常见。不过在 CSS 中，还需要多做些考虑。<br/>
+                  间隔，使各行的长度恰好相等。您也许已经注意到了，两端对齐文本在打印领域很常见。不过在 CSS 中，还需要多做些考虑。<br/>
                   要由用户代理（而不是 CSS）来确定两端对齐文本如何拉伸，以填满父元素左右边界之间的空间。例如，有些浏览器可能只在单词之间增加额外的空间，
                   而另外一些浏览器可能会平均分布字母间的额外空间（不过 CSS 规范特别指出，如果 letter-spacing 属性指定为一个长度值，“用户代理不能进一步增加或
                   减少字符间的空间”）。还有一些用户代理可能会减少某些行的空间，使文本挤得更紧密。所有这些做法都会影响元素的外观，甚至改变其高度，这取决于用户代理
@@ -2308,15 +2309,15 @@
             <div class="yyui-docs-example">
               <div class="yyui-docs-surface">
                 <p class="text-indent">值 justify 可以使文本的两端都对齐。在两端对齐文本中，文本行的左右两端都放在父元素的内边界上。然后，调整单词和字母间的
-                间隔，使各行的长度恰好相等。您也许已经注意到了，两端对齐文本在打印领域很常见。不过在 CSS 中，还需要多做些考虑。</p>
+                  间隔，使各行的长度恰好相等。您也许已经注意到了，两端对齐文本在打印领域很常见。不过在 CSS 中，还需要多做些考虑。</p>
                 <p class="text-indent">要由用户代理（而不是 CSS）来确定两端对齐文本如何拉伸，以填满父元素左右边界之间的空间。例如，有些浏览器可能只在单词之间增加额外的空间，
-                而另外一些浏览器可能会平均分布字母间的额外空间（不过 CSS 规范特别指出，如果 letter-spacing 属性指定为一个长度值，“用户代理不能进一步增加或
-                减少字符间的空间”）。还有一些用户代理可能会减少某些行的空间，使文本挤得更紧密。所有这些做法都会影响元素的外观，甚至改变其高度，这取决于用户代理
-                的对齐选择影响了多少文本行。</p>
+                  而另外一些浏览器可能会平均分布字母间的额外空间（不过 CSS 规范特别指出，如果 letter-spacing 属性指定为一个长度值，“用户代理不能进一步增加或
+                  减少字符间的空间”）。还有一些用户代理可能会减少某些行的空间，使文本挤得更紧密。所有这些做法都会影响元素的外观，甚至改变其高度，这取决于用户代理
+                  的对齐选择影响了多少文本行。</p>
                 <p class="text-indent">CSS 也没有指定应当如何处理连字符。大多数两端对齐文本都使用连字符将长单词分开放在两行上，从而缩小单词之间的间隔，改善文本行的外观。不过，由于 CSS
-                没有定义连字符行为，用户代理不太可能自动加连字符。因此，在 CSS 中，两端对齐文本看上去没有打印出来好看，特别是元素可能太窄，以至于每行只能放下几个
-                单词。当然，使用窄设计元素是可以的，不过要当心相应的缺点。
-              </p>
+                  没有定义连字符行为，用户代理不太可能自动加连字符。因此，在 CSS 中，两端对齐文本看上去没有打印出来好看，特别是元素可能太窄，以至于每行只能放下几个
+                  单词。当然，使用窄设计元素是可以的，不过要当心相应的缺点。
+                </p>
               </div>
               <div class="yyui-docs-code">
               <pre>
@@ -2690,97 +2691,98 @@
           <div class="sidebar" id="sidebar">
             <ul class="nav nav-vt">
               <li>
-                <a class="nav-link" href="#grid">栅格系统</a>
+                <a class="nav-link" @click.stop.prevent="toAnchor('grid')" href="#grid">栅格系统</a>
                 <ul class="nav">
-                  <li><a class="nav-link" href="#grid_introduce">简介</a></li>
-                  <li><a class="nav-link" href="#grid_options">参数</a></li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('grid_introduce')" href="#grid_introduce">简介</a></li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('grid_options')" href="#grid_options">参数</a></li>
                 </ul>
               </li>
               <li>
-                <a class="nav-link" href="#type">调整</a>
+                <a class="nav-link" @click.stop.prevent="toAnchor('type')" href="#type">调整</a>
                 <ul class="nav">
-                  <li><a class="nav-link" href="#type_head">标题</a></li>
-                  <li><a class="nav-link" href="#type_mark">突出文本</a></li>
-                  <li><a class="nav-link" href="#type_del_ins">更新和修正</a></li>
-                  <li><a class="nav-link" href="#type_abbr">缩写</a></li>
-                  <li><a class="nav-link" href="#type_address">地址</a></li>
-                  <li><a class="nav-link" href="#type_blockquote">引用</a></li>
-                  <li><a class="nav-link" href="#type_dl">描述</a></li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('type_head')" href="#type_head">标题</a></li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('type_mark')" href="#type_mark">突出文本</a></li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('type_del_ins')" href="#type_del_ins">更新和修正</a></li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('type_abbr')" href="#type_abbr">缩写</a></li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('type_address')" href="#type_address">地址</a></li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('type_blockquote')" href="#type_blockquote">引用</a></li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('type_dl')" href="#type_dl">描述</a></li>
                 </ul>
               </li>
               <li>
-                <a class="nav-link" href="#code">代码</a>
+                <a class="nav-link" @click.stop.prevent="toAnchor('code')" href="#code">代码</a>
                 <ul class="nav">
-                  <li><a class="nav-link" href="#code_code">内联代码</a></li>
-                  <li><a class="nav-link" href="#code_kbd">键盘文本</a></li>
-                  <li><a class="nav-link" href="#code_pre">键盘文本</a></li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('code_code')" href="#code_code">内联代码</a></li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('code_kbd')" href="#code_kbd">键盘文本</a></li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('code_pre')" href="#code_pre">键盘文本</a></li>
                 </ul>
               </li>
               <li>
-                <a class="nav-link" href="#table">表格</a>
+                <a class="nav-link" @click.stop.prevent="toAnchor('table')" href="#table">表格</a>
                 <ul class="nav">
-                  <li><a class="nav-link" href="#table_default">默认表格</a></li>
-                  <li><a class="nav-link" href="#table_responsive">响应式表格</a></li>
-                  <li><a class="nav-link" href="#table_sm">紧凑型表格</a></li>
-                  <li><a class="nav-link" href="#table_striped">带条纹表格</a></li>
-                  <li><a class="nav-link" href="#table_border">带边框表格</a></li>
-                  <li><a class="nav-link" href="#table_row_status">表格行状态</a></li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('table_default')" href="#table_default">默认表格</a></li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('table_responsive')" href="#table_responsive">响应式表格</a></li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('table_sm')" href="#table_sm">紧凑型表格</a></li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('table_striped')" href="#table_striped">带条纹表格</a></li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('table_border')" href="#table_border">带边框表格</a></li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('table_row_status')" href="#table_row_status">表格行状态</a></li>
                 </ul>
               </li>
               <li>
-                <a class="nav-link" href="#form">表单</a>
+                <a class="nav-link" @click.stop.prevent="toAnchor('form')" href="#form">表单</a>
                 <ul class="nav">
-                  <li><a class="nav-link" href="#form_example">基本实例</a></li>
-                  <li><a class="nav-link" href="#form_size">尺寸</a></li>
-                  <li><a class="nav-link" href="#form_hz">水平排列表单</a></li>
-                  <li><a class="nav-link" href="#form_inline">内联表单</a></li>
-                  <li><a class="nav-link" href="#form_validate">验证</a></li>
-                  <li><a class="nav-link" href="#form_select">select</a></li>
-                  <li><a class="nav-link" href="#form_checkbox">checkbox</a></li>
-                  <li><a class="nav-link" href="#form_switch">switch</a></li>
-                  <li><a class="nav-link" href="#form_radio">radio</a></li>
-                  <li><a class="nav-link" href="#form_file">文件上传</a></li>
-                  <li><a class="nav-link" href="#form_control">form-control</a></li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('form_example')" href="#form_example">基本实例</a></li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('form_size')" href="#form_size">尺寸</a></li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('form_hz')" href="#form_hz">水平排列表单</a></li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('form_inline')" href="#form_inline">内联表单</a></li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('form_validate')" href="#form_validate">验证</a></li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('form_select')" href="#form_select">select</a></li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('form_checkbox')" href="#form_checkbox">checkbox</a></li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('form_switch')" href="#form_switch">switch</a></li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('form_radio')" href="#form_radio">radio</a></li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('form_file')" href="#form_file">文件上传</a></li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('form_control')" href="#form_control">form-control</a></li>
                 </ul>
               </li>
               <li>
-                <a class="nav-link" href="#button">按钮</a>
+                <a class="nav-link" @click.stop.prevent="toAnchor('button')" href="#button">按钮</a>
                 <ul class="nav">
-                  <li><a class="nav-link" href="#button_brand">默认按钮</a></li>
-                  <li><a class="nav-link" href="#button_outline">轮廓按钮</a></li>
-                  <li><a class="nav-link" href="#button_link">链接按钮</a></li>
-                  <li><a class="nav-link" href="#button_assist">增强样式</a></li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('button_brand')" href="#button_brand">默认按钮</a></li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('button_outline')" href="#button_outline">轮廓按钮</a></li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('button_link')" href="#button_link">链接按钮</a></li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('button_assist')" href="#button_assist">增强样式</a></li>
                 </ul>
               </li>
               <li>
-                <a class="nav-link" href="#image">图片</a>
+                <a class="nav-link" @click.stop.prevent="toAnchor('image')" href="#image">图片</a>
                 <ul class="nav">
-                  <li><a class="nav-link" href="#image_responsive">响应式图片</a></li>
-                  <li><a class="nav-link" href="#image_style">图片样式</a></li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('image_responsive')" href="#image_responsive">响应式图片</a></li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('image_style')" href="#image_style">图片样式</a></li>
                 </ul>
               </li>
               <li>
-                <a class="nav-link" href="#assist">辅助类</a>
+                <a class="nav-link" @click.stop.prevent="toAnchor('assist')" href="#assist">辅助类</a>
                 <ul class="nav">
-                  <li><a class="nav-link" href="#assist_font_size">文字大小</a></li>
-                  <li><a class="nav-link" href="#assist_text_alignment">排列方式</a></li>
-                  <li><a class="nav-link" href="#assist_text_indent">文本缩进</a></li>
-                  <li><a class="nav-link" href="#assist_text_case">大小写转换</a></li>
-                  <li><a class="nav-link" href="#assist_text_color">文本颜色</a></li>
-                  <li><a class="nav-link" href="#assist_border">边框</a></li>
-                  <li><a class="nav-link" href="#assist_bg">背景</a></li>
-                  <li><a class="nav-link" href="#assist_list">列表</a></li>
-                  <li><a class="nav-link" href="#assist_float">浮动</a></li>
-                  <li><a class="nav-link" href="#assist_position">定位方式</a></li>
-                  <li><a class="nav-link" href="#assist_close">关闭按钮</a></li>
-                  <li><a class="nav-link" href="#assist_triangle">三角</a></li>
-                  <li><a class="nav-link" href="#assist_margin">外边距</a></li>
-                  <li><a class="nav-link" href="#assist_padding">内边距</a></li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('assist_font_size')" href="#assist_font_size">文字大小</a></li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('assist_text_alignment')" href="#assist_text_alignment">排列方式</a></li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('assist_text_indent')" href="#assist_text_indent">文本缩进</a></li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('assist_text_indent')" href="#assist_text_case">大小写转换</a></li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('assist_text_color')" href="#assist_text_color">文本颜色</a></li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('assist_text_color')" href="#assist_text_family">文本字体</a></li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('assist_text_color')" href="#assist_border">边框</a></li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('assist_text_color')" href="#assist_bg">背景</a></li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('assist_list')" href="#assist_list">列表</a></li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('assist_float')" href="#assist_float">浮动</a></li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('assist_position')" href="#assist_position">定位方式</a></li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('assist_close')" href="#assist_close">关闭按钮</a></li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('assist_triangle')" href="#assist_triangle">三角</a></li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('assist_margin')" href="#assist_margin">外边距</a></li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('assist_padding')" href="#assist_padding">内边距</a></li>
                 </ul>
               </li>
             </ul>
             <div class="back-to-top">
-              <a class="border-none" href="#top">&#10140;</a>
+              <a class="border-none" @click.stop.prevent="toAnchor('top')" href="#top">&#10140;</a>
             </div>
           </div>
         </div>
@@ -2791,11 +2793,15 @@
 
 <script>
   import masthead from './common/masthead'
+  import common from '../assets/js/common'
 
   export default {
     name: 'global',
     components: {
       'masthead-component': masthead
-    }
+    },
+    methods: {
+      toAnchor: common.toAnchor
+    },
   }
 </script>

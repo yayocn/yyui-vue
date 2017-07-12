@@ -3,6 +3,7 @@
 .sidebar {
   width: 100%;
   max-width: 320px;
+  transition: all .5s ease;
 
   .nav>li {
     float: none;
@@ -18,6 +19,7 @@
     float: none;
     position: relative;
     padding: 0;
+    transition: all .5s ease;
 
     &.active,
     &:hover,
@@ -39,6 +41,7 @@
     display: inline-block !important;
     position: relative;
     color: $gray;
+    transition: all .5s ease;
 
     &:hover,
     &:focus {

@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="top">
     <header>
       <navbar-component></navbar-component>
     </header>
