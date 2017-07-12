@@ -5,6 +5,7 @@
       <p class="lead">设置CSS全局样式；对HTML元素的样式进行重置并可以通过Class进行增强；还有不可缺少的栅格系统等。</p>
     </masthead-component>
 
+
     <div class="container">
       <div id="sidebar_top_marker"></div>
       <div class="row">
@@ -298,7 +299,7 @@
               它哥俩的解释分别是：<br/>
               <p><span class="text-danger"> inverse </span>：反面，相反的事物；反向的；倒数，反选。</p>
               <p><span class="text-danger"> reverse </span>：反面，背面，倒退；颠倒，倒车，撤销；相反的，反面的。</p>
-              有没有一种日了狗的感觉？</p>
+              <p>有没有一种日了狗的感觉？</p>
               <p>
                 最后决定在<span class="text-danger"> 空间 </span>上的相反用reverse，比如这里的反向引用，左右位置的互换。至于inverse，它和数学的关系更加接近，
               比如反函数，反比等等，适合抽象的相反。
@@ -898,9 +899,8 @@
               <div class="yyui-docs-code">
                 <!--<i class="fa fa-file-code-o yyui-docs-copy"></i>-->
                 <pre>
-                <span class="label">&lt;form></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;fieldset</span></span><span class="attr"> class=</span><span
-                    class="value">"form-group"</span><span class="label">&gt;</span><br/>
+                &lt;form><br/>
+                &nbsp;&nbsp;&lt;fieldset class="form-group"&gt;<br/>
                 &nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;label></span>Input<span class="label">&lt;/label></span><br/>
                 &nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;input</span><span class="attr"> type=</span><span
                     class="value">"text"</span><span class="attr"> class=</span><span
@@ -908,7 +908,7 @@
                     class="value">"..."</span><span class="label">/></span><br/>
                 &nbsp;&nbsp;<span class="label">&lt;/fieldset></span><br/>
                 <br/>
-                &nbsp;&nbsp;<span class="label">&lt;fieldset</span></span><span class="attr"> class=</span><span
+                &nbsp;&nbsp;<span class="label">&lt;fieldset</span><span class="attr"> class=</span><span
                     class="value">"form-group"</span><span class="label">&gt;</span><br/>
                 &nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;label></span>Textarea<span
                     class="label">&lt;/label></span><br/>
@@ -918,7 +918,7 @@
                     class="label">&gt;&lt;/textarea></span><br/>
                 &nbsp;&nbsp;<span class="label">&lt;/fieldset></span><br/>
                 <br/>
-                &nbsp;&nbsp;<span class="label">&lt;fieldset</span></span><span class="attr"> class=</span><span
+                &nbsp;&nbsp;<span class="label">&lt;fieldset</span><span class="attr"> class=</span><span
                     class="value">"form-group"</span><span class="label">&gt;</span><br/>
                 &nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;label></span>Select<span
                     class="label">&lt;/label></span><br/>
@@ -942,7 +942,7 @@
                 &nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;/div></span><br/>
                 &nbsp;&nbsp;<span class="label">&lt;/fieldset></span><br/>
                 <br/>
-                &nbsp;&nbsp;<span class="label">&lt;fieldset</span></span><span class="attr"> class=</span><span
+                &nbsp;&nbsp;<span class="label">&lt;fieldset</span><span class="attr"> class=</span><span
                     class="value">"form-group"</span><span class="label">&gt;</span><br/>
                 &nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;label></span>Checkbox<span
                     class="label">&lt;/label></span><br/>
@@ -957,7 +957,7 @@
                 &nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;/div></span><br/>
                 &nbsp;&nbsp;<span class="label">&lt;/fieldset></span><br/>
                 <br/>
-                &nbsp;&nbsp;<span class="label">&lt;fieldset</span></span><span class="attr"> class=</span><span
+                &nbsp;&nbsp;<span class="label">&lt;fieldset</span><span class="attr"> class=</span><span
                     class="value">"form-group"</span><span class="label">&gt;</span><br/>
                 &nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;label></span>Radio<span class="label">&lt;/label></span><br/>
                 &nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;div</span><span class="attr"> class=</span><span
@@ -971,7 +971,7 @@
                 &nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;/div></span><br/>
                 &nbsp;&nbsp;<span class="label">&lt;/fieldset></span><br/>
                 <br/>
-                &nbsp;&nbsp;<span class="label">&lt;fieldset</span></span><span class="attr"> class=</span><span
+                &nbsp;&nbsp;<span class="label">&lt;fieldset</span><span class="attr"> class=</span><span
                     class="value">"form-group"</span><span class="label">&gt;</span><br/>
                 &nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;label></span>Input File<span
                     class="label">&lt;/label></span><br/>
@@ -1010,7 +1010,7 @@
               </div>
               <div class="yyui-docs-code">
               <pre>
-                <span class="label">&lt;fieldset</span></span><span class="attr"> class=</span><span class="value">"form-group form-group-lg"</span><span
+                <span class="label">&lt;fieldset</span><span class="attr"> class=</span><span class="value">"form-group form-group-lg"</span><span
                   class="label">&gt;</span><br/>
                 &nbsp;&nbsp;<span class="label">&lt;label></span>Large<span class="label">&lt;/label></span><br/>
                 &nbsp;&nbsp;<span class="label">&lt;input</span><span class="attr"> type=</span><span class="value">"text"</span><span
@@ -1018,7 +1018,7 @@
                   class="attr"> placeholder=</span><span class="value">"..."</span><span class="label">/></span><br/>
                 <span class="label">&lt;/fieldset></span><br/>
                 <br/>
-                <span class="label">&lt;fieldset</span></span><span class="attr"> class=</span><span class="value">"form-group"</span><span
+                <span class="label">&lt;fieldset</span><span class="attr"> class=</span><span class="value">"form-group"</span><span
                   class="label">&gt;</span><br/>
                 &nbsp;&nbsp;<span class="label">&lt;label></span>Default<span class="label">&lt;/label></span><br/>
                 &nbsp;&nbsp;<span class="label">&lt;input</span><span class="attr"> type=</span><span class="value">"text"</span><span
@@ -1026,7 +1026,7 @@
                   class="attr"> placeholder=</span><span class="value">"..."</span><span class="label">/></span><br/>
                 <span class="label">&lt;/fieldset></span><br/>
                 <br/>
-                <span class="label">&lt;fieldset</span></span><span class="attr"> class=</span><span class="value">"form-group form-group-sm"</span><span
+                <span class="label">&lt;fieldset</span><span class="attr"> class=</span><span class="value">"form-group form-group-sm"</span><span
                   class="label">&gt;</span><br/>
                 &nbsp;&nbsp;<span class="label">&lt;label></span>Small<span class="label">&lt;/label></span><br/>
                 &nbsp;&nbsp;<span class="label">&lt;input</span><span class="attr"> type=</span><span class="value">"text"</span><span
@@ -1062,7 +1062,7 @@
                 <pre>
                 <span class="label">&lt;form</span><span class="attr"> class=</span><span class="value">"form-hz"</span><span
                     class="label">&gt;</span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;fieldset</span></span><span class="attr"> class=</span><span
+                &nbsp;&nbsp;<span class="label">&lt;fieldset</span><span class="attr"> class=</span><span
                     class="value">"form-group"</span><span class="label">&gt;</span><br/>
                 &nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;label</span><span class="attr"> class=</span><span
                     class="value">"col-xs-3 form-control-label"</span><span class="label">&gt;</span>Input<span
@@ -1076,7 +1076,7 @@
                 &nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;/div></span><br/>
                 &nbsp;&nbsp;<span class="label">&lt;/fieldset></span><br/>
                 <br/>
-                 &nbsp;&nbsp;<span class="label">&lt;fieldset</span></span><span class="attr"> class=</span><span
+                 &nbsp;&nbsp;<span class="label">&lt;fieldset</span><span class="attr"> class=</span><span
                     class="value">"form-group"</span><span class="label">&gt;</span><br/>
                 &nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;label</span><span class="attr"> class=</span><span
                     class="value">"col-xs-3 form-control-label"</span><span class="label">&gt;</span>Input<span
@@ -1117,7 +1117,7 @@
                 <pre>
                 <span class="label">&lt;form</span><span class="attr"> class=</span><span
                     class="value">"form-inline"</span><span class="label">&gt;</span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;fieldset</span></span><span class="attr"> class=</span><span
+                &nbsp;&nbsp;<span class="label">&lt;fieldset</span><span class="attr"> class=</span><span
                     class="value">"form-group"</span><span class="label">&gt;</span><br/>
                 &nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;label></span>Name<span
                     class="label">&lt;/label></span><br/>
@@ -1127,7 +1127,7 @@
                     class="value">"..."</span><span class="label">/></span><br/>
                 &nbsp;&nbsp;<span class="label">&lt;/fieldset></span><br/>
                 <br/>
-                &nbsp;&nbsp;<span class="label">&lt;fieldset</span></span><span class="attr"> class=</span><span
+                &nbsp;&nbsp;<span class="label">&lt;fieldset</span><span class="attr"> class=</span><span
                     class="value">"form-group"</span><span class="label">&gt;</span><br/>
                 &nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;label></span>Pwd<span
                     class="label">&lt;/label></span><br/>
@@ -1170,7 +1170,7 @@
               </div>
               <div class="yyui-docs-code">
               <pre>
-                <span class="label">&lt;fieldset</span></span><span class="attr"> class=</span><span class="value">"form-group form-group-success"</span><span
+                <span class="label">&lt;fieldset</span><span class="attr"> class=</span><span class="value">"form-group form-group-success"</span><span
                   class="label">&gt;</span><br/>
                 &nbsp;&nbsp;<span class="label">&lt;label></span>Name<span class="label">&lt;/label></span><br/>
                 &nbsp;&nbsp;<span class="label">&lt;input</span><span class="attr"> type=</span><span class="value">"text"</span><span
@@ -1178,7 +1178,7 @@
                   class="attr"> placeholder=</span><span class="value">"..."</span><span class="label">/></span><br/>
                 <span class="label">&lt;/fieldset></span><br/>
                 <br/>
-                <span class="label">&lt;fieldset</span></span><span class="attr"> class=</span><span class="value">"form-group form-group-warning"</span><span
+                <span class="label">&lt;fieldset</span><span class="attr"> class=</span><span class="value">"form-group form-group-warning"</span><span
                   class="label">&gt;</span><br/>
                 &nbsp;&nbsp;<span class="label">&lt;label></span>Pwd<span class="label">&lt;/label></span><br/>
                 &nbsp;&nbsp;<span class="label">&lt;input</span><span class="attr"> type=</span><span class="value">"text"</span><span
@@ -1188,7 +1188,7 @@
                   class="label">&gt;</span>...<span class="label">&lt;/span></span><br/>
                 <span class="label">&lt;/fieldset></span><br/>
                 <br/>
-                <span class="label">&lt;fieldset</span></span><span class="attr"> class=</span><span class="value">"form-group form-group-error"</span><span
+                <span class="label">&lt;fieldset</span><span class="attr"> class=</span><span class="value">"form-group form-group-error"</span><span
                   class="label">&gt;</span><br/>
                 &nbsp;&nbsp;<span class="label">&lt;label></span>Pwd<span class="label">&lt;/label></span><br/>
                 &nbsp;&nbsp;<span class="label">&lt;input</span><span class="attr"> type=</span><span class="value">"text"</span><span
