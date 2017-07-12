@@ -11,7 +11,6 @@
         <div class="col-md-9">
           <section class="yyui-docs-section" id="grid">
             <h2 class="m-b-6">栅格系统
-
               <small><code>_grid.scss</code></small>
             </h2>
             <p class="lead">栅格系统对于布局尤其是响应式来说至关重要，它随着屏幕或者窗口视口的大小自动布局。</p>
@@ -160,8 +159,7 @@
               <div class="yyui-docs-code">
                 <!--<i class="fa fa-file-code-o yyui-docs-copy"></i>-->
                 <pre>
-                <span class="label">&lt;h1></span>h1. YY UI heading<span class="label">&lt;small></span>font-size: 2.5rem<span
-                    class="label">&lt;/small></span><span class="label">&lt;/h1></span>
+                  &lt;h1>h1. YY UI heading&lt;small>font-size: 2.5rem&lt;/small>&lt;/h1>
               </pre>
               </div>
             </div>
@@ -180,7 +178,7 @@
               <div class="yyui-docs-code">
                 <!--<i class="fa fa-file-code-o yyui-docs-copy"></i>-->
                 <pre>
-                如果能从来，我要选<span class="label">&lt;mark></span>李白<span class="label">&lt;/mark></span>。
+                如果能从来，我要选&lt;mark>李白&lt;/mark>。
               </pre>
               </div>
             </div>
@@ -200,8 +198,7 @@
               <div class="yyui-docs-code">
                 <!--<i class="fa fa-file-code-o yyui-docs-copy"></i>-->
                 <pre>
-                如果能从来，我要选<span class="label">&lt;del></span>杜甫<span class="label">&lt;/del></span><span class="label">&lt;ins></span>李白<span
-                    class="label">&lt;/ins></span>。
+                如果能从来，我要选&lt;del>杜甫&lt;/del>&lt;ins>李白&lt;/ins>。
               </pre>
               </div>
             </div>
@@ -217,8 +214,7 @@
               <div class="yyui-docs-code">
                 <!--<i class="fa fa-file-code-o yyui-docs-copy"></i>-->
                 <pre>
-                <span class="label">&lt;abbr</span><span class="attr"> title=</span><span
-                    class="value">"World Wide Web"</span><span class="label">&gt;</span>WWW<span class="label">&lt;/abbr></span>是环球信息网的缩写，中文名字为“万维网”，“环球网”等，常简称为Web。
+                &lt;abbr title="World Wide Web"&gt;WWW&lt;/abbr>是环球信息网的缩写，中文名字为“万维网”，“环球网”等，常简称为Web。
               </pre>
               </div>
             </div>
@@ -240,14 +236,12 @@
               <div class="yyui-docs-code">
                 <!--<i class="fa fa-file-code-o yyui-docs-copy"></i>-->
                 <pre>
-                <span class="label">&lt;address></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;strong></span>YY UI, Inc.<span
-                    class="label">&lt;/strong></span><span class="label">&lt;br/></span><br/>
-                &nbsp;&nbsp;天府大道，中段<span class="label">&lt;br/></span><br/>
-                &nbsp;&nbsp;中国，四川，成都<span class="label">&lt;br/></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;abbr</span><span class="attr"> title=</span><span class="value">"电话号码"</span><span
-                    class="label">&gt;</span>P:<span class="label">&lt;/abbr></span>(028) 909-0950 <br/>
-                <span class="label">&lt;/address></span>
+                &lt;address><br/>
+                &nbsp;&nbsp;&lt;strong>YY UI, Inc.&lt;/strong>&lt;br/><br/>
+                &nbsp;&nbsp;天府大道，中段&lt;br/><br/>
+                &nbsp;&nbsp;中国，四川，成都&lt;br/><br/>
+                &nbsp;&nbsp;&lt;abbr title="电话号码"&gt;P:&lt;/abbr>(028) 909-0950 <br/>
+                &lt;/address>
               </pre>
               </div>
             </div>
@@ -2395,6 +2389,23 @@
               </div>
             </div>
 
+            <h3 id="assist_text_family">文本字体</h3>
+            <p>为标签添加<code>.text-*</code>类，设置文本字体。</p>
+            <div class="yyui-docs-example">
+              <div class="yyui-docs-surface">
+                <p class="text-web m-b-0">网页字体，web typeface</p>
+                <p class="text-paper m-b-0">印刷字体，paper print typeface</p>
+                <p class="text-letter m-b-0">字母，letter</p>
+              </div>
+              <div class="yyui-docs-code">
+              <pre>
+                &lt;p class="text-web m-b-0">网页字体，web typeface&lt;/p> <br>
+                &lt;p class="text-paper m-b-0">印刷字体，paper print typeface&lt;/p> <br>
+                &lt;p class="text-letter m-b-0">字母，letter&lt;/p>
+              </pre>
+              </div>
+            </div>
+
             <h3 id="assist_border">边框</h3>
             <p>为标签添加<code>.border-*</code>类，设置盒子边框样式。预设了4种样式。</p>
             <ul>
@@ -2769,7 +2780,7 @@
               </li>
             </ul>
             <div class="back-to-top">
-              <a class="border-none" href="#top"><i class="fa fa-arrow-up"></i></a>
+              <a class="border-none" href="#top">&#10140;</a>
             </div>
           </div>
         </div>

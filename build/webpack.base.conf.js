@@ -20,8 +20,7 @@ module.exports = {
   resolve: {
     extensions: [' ', '.js', '.vue'],
     alias: {
-      'Vue': 'vue/dist/vue.js',
-      'jquery': '../src/assets/js/jquery-vendor.js'
+      'Vue': 'vue/dist/vue.js'
     }
   },
   module: {
@@ -29,13 +28,7 @@ module.exports = {
     rules: [
       {
         test: require.resolve('jquery'),
-        use: [{
-          loader: 'expose-loader',
-          options: 'jQuery'
-        }, {
-          loader: 'expose-loader',
-          options: '$'
-        }]
+        loader: 'expose-loader?jQuery!expose-loader?$'
       },
       {
         test: /\.vue$/,
@@ -47,15 +40,6 @@ module.exports = {
         exclude: [
           /node_modules/
         ]
-      },
-      {
-        test: /\.(woff|woff2|eot|ttf|otf)$/,
-        use: [{
-          loader: 'file-loader',
-          query: {
-            name: 'fonts/[name].[hash].[ext]'
-          }
-        }]
       },
       {
         test: /\.(png|jpg|gif|svg)$/,

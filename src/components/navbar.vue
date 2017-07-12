@@ -2,7 +2,7 @@
   <nav class="navbar navbar-yyui-site">
     <div class="container">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nav_bar">
-        <i class="fa fa-bars"></i>
+        &#8645;
       </button>
 
       <router-link to="/" class="navbar-brand">YY UI</router-link>

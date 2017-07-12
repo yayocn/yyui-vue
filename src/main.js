@@ -7,7 +7,7 @@ import './assets/css/docs.scss'
 import './assets/css/sidebar-scrollspy.scss'
 import './assets/css/yyui-site.scss'
 
-import $ from './assets/js/jquery-vendor'
+import 'jquery'
 import '../lib/yyui/js/yyui-1.1.2'
 import './assets/js/scrollspy'
 

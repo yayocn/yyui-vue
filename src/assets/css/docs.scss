@@ -11,7 +11,7 @@
   color: #fff;
 
   h1 {
-    font-size: 80px;
+    font-size: 50px;
   }
 
   .yyui-docs-log {
@@ -28,7 +28,7 @@
 
   .lead {
     margin: 0 auto 50px;
-    font-size: 40px;
+    font-size: 30px;
   }
 
   &.text-center .lead {
@@ -58,7 +58,7 @@
 
 .yyui-docs-title {
   color: #333;
-  font-size: 40px;
+  font-size: 30px;
 }
 
 .yyui-docs-example {
@@ -227,20 +227,13 @@
     overflow: hidden;
     background: none;
     color: $brand-theme-color;
-    i {
-      display: inline-block;
-      font-size: 28px;
-    }
+    font-size: 28px;
+    text-decoration: none;
+    transform: rotate(-90deg);
 
     &:focus,
     &:hover {
       outline: none;
-    }
-
-    &:hover {
-      i {
-        animation: up 1s linear infinite;
-      }
     }
   }
 }

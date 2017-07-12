@@ -1,4 +1,3 @@
-import $ from './jquery-vendor'
 (function () {
   // BEGIN: 通过滚动距离设置侧边导航的position
   //
@@ -27,7 +26,7 @@ import $ from './jquery-vendor'
     if (window.pageYOffset) {
       scrollPos = window.pageYOffset
     }
-    else if (document.compatMode && document.compatMode != 'BackCompat') {
+    else if (document.compatMode && document.compatMode !== 'BackCompat') {
       scrollPos = document.documentElement.scrollTop
     }
     else if (document.body) {
