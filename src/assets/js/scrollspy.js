@@ -10,7 +10,7 @@
     var referenceTop = $('#sidebar_top_marker').offset().top
 
     if (yheight >= referenceTop) {
-      $('.sidebar').css({'position': 'fixed', 'top': '0', 'padding-top': '20px'})
+      $('.sidebar').css({'position': 'fixed', 'top': '0', 'padding-top': '60px'})
     } else {
       $('.sidebar').css({'position': 'static'})
     }

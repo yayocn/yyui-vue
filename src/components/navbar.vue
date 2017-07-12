@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar navbar-yyui-site">
+  <nav class="navbar navbar-yyui-site navbar-fixed-top">
     <div class="container">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nav_bar">
         &#8645;

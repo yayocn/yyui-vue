@@ -9,14 +9,6 @@
       <div id="sidebar_top_marker"></div>
       <div class="row">
         <div class="col-md-9">
-          <section class="yyui-docs-section" id="fonticon">
-            <h2 class="m-b-6">字体图标
-
-              <small><code>_fonts.scss</code></small>
-            </h2>
-            <p class="lead">YY UI 内置了 Font Awesome 字体图标，请移步<a href="http://fontawesome.dashgame.com/" target="_blank">Font Awesome</a>进行查看。
-            </p>
-          </section>
 
           <section class="yyui-docs-section" id="dropdown">
             <h2 class="m-b-6">下拉菜单
@@ -2569,137 +2561,134 @@
           <div class="sidebar" id="sidebar">
             <ul class="nav nav-vt">
               <li>
-                <a class="nav-link" href="#fonticon">字体图标</a>
-              </li>
-              <li>
-                <a class="nav-link" href="#dropdown">下拉菜单</a>
+                <a class="nav-link" @click.stop.prevent="toAnchor('dropdown')" href="#dropdown">下拉菜单</a>
                 <ul class="nav">
-                  <li><a class="nav-link" href="#dropdown_default">默认下拉菜单</a></li>
-                  <li><a class="nav-link" href="#dropdown_up">上拉菜单</a></li>
-                  <li><a class="nav-link" href="#dropdown_header">子菜单标题</a></li>
-                  <li><a class="nav-link" href="#dropdown_divider">分割线</a></li>
-                  <li><a class="nav-link" href="#dropdown_disabled">禁用子菜单</a></li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('dropdown_default')" href="#dropdown_default">默认下拉菜单</a></li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('dropdown_up')" href="#dropdown_up">上拉菜单</a></li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('dropdown_header')" href="#dropdown_header">子菜单标题</a></li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('dropdown_divider')" href="#dropdown_divider">分割线</a></li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('dropdown_disabled')" href="#dropdown_disabled">禁用子菜单</a></li>
                 </ul>
               </li>
               <li>
-                <a class="nav-link" href="#btn_group">按钮组</a>
+                <a class="nav-link" @click.stop.prevent="toAnchor('btn_group')" href="#btn_group">按钮组</a>
                 <ul class="nav">
-                  <li><a class="nav-link" href="#btn_group_example">实例</a></li>
-                  <li><a class="nav-link" href="#btn_group_size">尺寸</a></li>
-                  <li><a class="nav-link" href="#btn_group_block">块组</a></li>
-                  <li><a class="nav-link" href="#btn_group_vt">垂直组</a></li>
-                  <li><a class="nav-link" href="#btn_group_dropdown">带下拉框的按钮组</a></li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('btn_group_example')" href="#btn_group_example">实例</a></li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('btn_group_size')" href="#btn_group_size">尺寸</a></li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('btn_group_block')" href="#btn_group_block">块组</a></li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('btn_group_vt')" href="#btn_group_vt">垂直组</a></li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('btn_group_dropdown')" href="#btn_group_dropdown">带下拉框的按钮组</a></li>
                 </ul>
               </li>
               <li>
-                <a class="nav-link" href="#input_group">输入框组</a>
+                <a class="nav-link" @click.stop.prevent="toAnchor('input_group')" href="#input_group">输入框组</a>
                 <ul class="nav">
-                  <li><a class="nav-link" href="#input_group_example">实例</a></li>
-                  <li><a class="nav-link" href="#input_group_size">尺寸</a></li>
-                  <li><a class="nav-link" href="#input_group_btn">按钮输入框组</a></li>
-                  <li><a class="nav-link" href="#input_group_situations">情境</a></li>
-                  <li><a class="nav-link" href="#input_group_dropdown">含下拉框的输入框组</a></li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('input_group_example')" href="#input_group_example">实例</a></li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('input_group_size')" href="#input_group_size">尺寸</a></li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('input_group_btn')" href="#input_group_btn">按钮输入框组</a></li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('input_group_situations')" href="#input_group_situations">情境</a></li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('input_group_dropdown')" href="#input_group_dropdown">含下拉框的输入框组</a></li>
                 </ul>
               </li>
               <li>
-                <a class="nav-link" href="#nav">导航</a>
+                <a class="nav-link" @click.stop.prevent="toAnchor('nav')" href="#nav">导航</a>
                 <ul class="nav">
-                  <li><a class="nav-link" href="#nav_example">实例</a></li>
-                  <li><a class="nav-link" href="#nav_pills">胶囊式导航</a></li>
-                  <li><a class="nav-link" href="#nav_dropdown">带下拉框的导航</a></li>
-                  <li><a class="nav-link" href="#nav_vt">垂直导航</a></li>
-                  <li><a class="nav-link" href="#nav_tabs">标签页导航</a></li>
-                  <li><a class="nav-link" href="#nav_tabs_vt">垂直标签导航</a></li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('nav_example')" href="#nav_example">实例</a></li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('nav_pills')" href="#nav_pills">胶囊式导航</a></li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('nav_dropdown')" href="#nav_dropdown">带下拉框的导航</a></li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('nav_vt')" href="#nav_vt">垂直导航</a></li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('nav_tabs')" href="#nav_tabs">标签页导航</a></li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('nav_tabs_vt')" href="#nav_tabs_vt">垂直标签导航</a></li>
                 </ul>
               </li>
               <li>
-                <a class="nav-link" href="#navbar">导航条</a>
+                <a class="nav-link" @click.stop.prevent="toAnchor('navbar')" href="#navbar">导航条</a>
                 <ul class="nav">
-                  <li><a class="nav-link" href="#navbar_default">默认导航条</a></li>
-                  <li><a class="nav-link" href="#navbar_fixed">固定位置</a></li>
-                  <li><a class="nav-link" href="#navbar_dark">黑色导航条</a></li>
-                  <li><a class="nav-link" href="#navbar_theme">主题导航条</a></li>
-                  <li><a class="nav-link" href="#navbar_perspective">透明导航条</a></li>
-                  <li><a class="nav-link" href="#navbar_college">折叠</a></li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('navbar_default')" href="#navbar_default">默认导航条</a></li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('navbar_default')" href="#navbar_fixed">固定位置</a></li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('navbar_dark')" href="#navbar_dark">黑色导航条</a></li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('navbar_theme')" href="#navbar_theme">主题导航条</a></li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('navbar_perspective')" href="#navbar_perspective">透明导航条</a></li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('navbar_college')" href="#navbar_college">折叠</a></li>
                 </ul>
               </li>
               <li>
-                <a class="nav-link" href="#nav_path">路径导航</a>
+                <a class="nav-link" @click.stop.prevent="toAnchor('nav_path')" href="#nav_path">路径导航</a>
               </li>
               <li>
-                <a class="nav-link" href="#pagination">分页</a>
+                <a class="nav-link" @click.stop.prevent="toAnchor('pagination')" href="#pagination">分页</a>
                 <ul class="nav">
-                  <li><a class="nav-link" href="#pagination_default">默认分页</a></li>
-                  <li><a class="nav-link" href="#pagination_border">带边框的分页</a></li>
-                  <li><a class="nav-link" href="#pagination_status">激活和禁用状态</a></li>
-                  <li><a class="nav-link" href="#pagination_size">尺寸</a></li>
-                  <li><a class="nav-link" href="#pagination_pager">翻页</a></li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('pagination_default')" href="#pagination_default">默认分页</a></li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('pagination_border')" href="#pagination_border">带边框的分页</a></li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('pagination_status')" href="#pagination_status">激活和禁用状态</a></li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('pagination_size')" href="#pagination_size">尺寸</a></li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('pagination_pager')" href="#pagination_pager">翻页</a></li>
                 </ul>
               </li>
               <li>
-                <a class="nav-link" href="#label">标签</a>
+                <a class="nav-link" @click.stop.prevent="toAnchor('label')" href="#label">标签</a>
                 <ul class="nav">
-                  <li><a class="nav-link" href="#label_style">样式</a></li>
-                  <li><a class="nav-link" href="#label_badge">徽章</a></li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('label_style')" href="#label_style">样式</a></li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('label_badge')" href="#label_badge">徽章</a></li>
                 </ul>
               </li>
               <li>
-                <a class="nav-link" href="#jumbotron">巨幕</a>
+                <a class="nav-link" @click.stop.prevent="toAnchor('jumbotron')" href="#jumbotron">巨幕</a>
                 <ul class="nav">
-                  <li><a class="nav-link" href="#jumbotron_example">实例</a></li>
-                  <li><a class="nav-link" href="#jumbotron_hr">分隔符</a></li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('jumbotron_example')" href="#jumbotron_example">实例</a></li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('jumbotron_hr')" href="#jumbotron_hr">分隔符</a></li>
                 </ul>
               </li>
               <li>
-                <a class="nav-link" href="#thumbnail">缩略图</a>
+                <a class="nav-link" @click.stop.prevent="toAnchor('thumbnail')" href="#thumbnail">缩略图</a>
                 <ul class="nav">
-                  <li><a class="nav-link" href="#thumbnail_example">实例</a></li>
-                  <li><a class="nav-link" href="#thumbnail_caption">名片</a></li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('thumbnail_example')" href="#thumbnail_example">实例</a></li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('thumbnail_caption')" href="#thumbnail_caption">名片</a></li>
                 </ul>
               </li>
               <li>
-                <a class="nav-link" href="#alert">警告框</a>
+                <a class="nav-link" @click.stop.prevent="toAnchor('alert')" href="#alert">警告框</a>
                 <ul class="nav">
-                  <li><a class="nav-link" href="#alert_example">实例</a></li>
-                  <li><a class="nav-link" href="#alert_size">尺寸</a></li>
-                  <li><a class="nav-link" href="#alert_dismissible">可关闭的警告框</a></li>
-                  <li><a class="nav-link" href="#alert_link">链接</a></li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('alert_example')" href="#alert_example">实例</a></li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('alert_example')" href="#alert_size">尺寸</a></li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('alert_dismissible')" href="#alert_dismissible">可关闭的警告框</a></li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('alert_dismissible')" href="#alert_link">链接</a></li>
                 </ul>
               </li>
               <li>
-                <a class="nav-link" href="#progress">进度条</a>
+                <a class="nav-link" @click.stop.prevent="toAnchor('progress')" href="#progress">进度条</a>
                 <ul class="nav">
-                  <li><a class="nav-link" href="#progress_default">默认进度条</a></li>
-                  <li><a class="nav-link" href="#progress_situation">情境</a></li>
-                  <li><a class="nav-link" href="#progress_striped">条纹</a></li>
-                  <li><a class="nav-link" href="#progress_shutdown">高兼容性进度条</a></li>
-                  <li><a class="nav-link" href="#progress_animated">动画</a></li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('progress_default')" href="#progress_default">默认进度条</a></li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('progress_situation')" href="#progress_situation">情境</a></li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('progress_striped')" href="#progress_striped">条纹</a></li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('progress_shutdown')" href="#progress_shutdown">高兼容性进度条</a></li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('progress_animated')" href="#progress_animated">动画</a></li>
                 </ul>
               </li>
               <li>
-                <a class="nav-link" href="#list_group">列表组</a>
+                <a class="nav-link" @click.stop.prevent="toAnchor('list_group')" href="#list_group">列表组</a>
                 <ul class="nav">
-                  <li><a class="nav-link" href="#list_group_default">默认列表</a></li>
-                  <li><a class="nav-link" href="#list_group_flush">无左右边框的列表</a></li>
-                  <li><a class="nav-link" href="#list_group_noborder">无边框的列表</a></li>
-                  <li><a class="nav-link" href="#list_group_link">链接</a></li>
-                  <li><a class="nav-link" href="#list_group_status">激活禁用状态</a></li>
-                  <li><a class="nav-link" href="#list_group_situation">情境</a></li>
-                  <li><a class="nav-link" href="#list_group_row">行状态</a></li>
-                  <li><a class="nav-link" href="#list_group_content">详细列表</a></li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('list_group_default')" href="#list_group_default">默认列表</a></li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('list_group_flush')" href="#list_group_flush">无左右边框的列表</a></li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('list_group_noborder')" href="#list_group_noborder">无边框的列表</a></li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('list_group_link')" href="#list_group_link">链接</a></li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('list_group_status')" href="#list_group_status">激活禁用状态</a></li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('list_group_situation')" href="#list_group_situation">情境</a></li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('list_group_row')" href="#list_group_row">行状态</a></li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('list_group_content')" href="#list_group_content">详细列表</a></li>
                 </ul>
               </li>
               <li>
-                <a class="nav-link" href="#media">媒体对象</a>
+                <a class="nav-link" @click.stop.prevent="toAnchor('media')" href="#media">媒体对象</a>
                 <ul class="nav">
-                  <li><a class="nav-link" href="#media_example">实例</a></li>
-                  <li><a class="nav-link" href="#media_right">头像在右侧</a></li>
-                  <li><a class="nav-link" href="#media_mixin">嵌套</a></li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('media_example')" href="#media_example">实例</a></li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('media_right')" href="#media_right">头像在右侧</a></li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('media_mixin')" href="#media_mixin">嵌套</a></li>
                 </ul>
               </li>
             </ul>
             <div class="back-to-top">
-              <a class="border-none" href="#top"><i class="fa fa-arrow-up"></i></a>
+              <a class="border-none" @click.stop.prevent="toAnchor('top')" href="#top">&#10140;</a>
             </div>
           </div>
         </div>
@@ -2710,11 +2699,15 @@
 
 <script>
   import masthead from './common/masthead'
+  import common from '../assets/js/common'
 
   export default {
     name: 'components',
     components: {
       'masthead-component': masthead
+    },
+    methods: {
+      toAnchor: common.toAnchor
     }
   }
 </script>

@@ -2802,6 +2802,6 @@
     },
     methods: {
       toAnchor: common.toAnchor
-    },
+    }
   }
 </script>

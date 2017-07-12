@@ -411,10 +411,10 @@
                   </div>
 
                   <a class="left carousel-control" href="#carousel_1" data-slide="prev">
-                    <span class="fa fa-chevron-left icon-prev"></span>
+                    <span class="icon-prev">&#139;</span>
                   </a>
                   <a class="right carousel-control" href="#carousel_1" data-slide="next">
-                    <span class="fa fa-chevron-right icon-next"></span>
+                    <span class="icon-next">&#155;</span>
                   </a>
                 </div>
               </div>
@@ -577,51 +577,51 @@
           <div class="sidebar" id="sidebar">
             <ul class="nav nav-vt">
               <li>
-                <a class="nav-link" href="#dropdown">下拉菜单</a>
+                <a class="nav-link" @click.stop.prevent="toAnchor('dropdown')" href="#dropdown">下拉菜单</a>
                 <ul class="nav">
-                  <li><a class="nav-link" href="#dropdown_example">实例</a></li>
-                  <li><a class="nav-link" href="#dropdown_usage">用法</a></li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('dropdown_example')" href="#dropdown_example">实例</a></li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('dropdown_usage')" href="#dropdown_usage">用法</a></li>
                 </ul>
               </li>
               <li>
-                <a class="nav-link" href="#modal">模态框</a>
+                <a class="nav-link" @click.stop.prevent="toAnchor('modal')" href="#modal">模态框</a>
                 <ul class="nav">
-                  <li><a class="nav-link" href="#modal_example">实例</a></li>
-                  <li><a class="nav-link" href="#modal_usage">用法</a></li>
-                  <li><a class="nav-link" href="#modal_size">尺寸</a></li>
-                  <li><a class="nav-link" href="#modal_function">方法</a></li>
-                  <li><a class="nav-link" href="#modal_event">事件</a></li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('modal_example')" href="#modal_example">实例</a></li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('modal_usage')" href="#modal_usage">用法</a></li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('modal_size')" href="#modal_size">尺寸</a></li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('modal_function')" href="#modal_function">方法</a></li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('modal_event')" href="#modal_event">事件</a></li>
                 </ul>
               </li>
               <li>
-                <a class="nav-link" href="#scrollspy">滚动监听</a>
+                <a class="nav-link" @click.stop.prevent="toAnchor('scrollspy')" href="#scrollspy">滚动监听</a>
               </li>
               <li>
-                <a class="nav-link" href="#tab">标签页</a>
+                <a class="nav-link" @click.stop.prevent="toAnchor('tab')" href="#tab">标签页</a>
                 <ul class="nav">
-                  <li><a class="nav-link" href="#tab_example">实例</a></li>
-                  <li><a class="nav-link" href="#tab_usage">用法</a></li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('tab_example')" href="#tab_example">实例</a></li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('tab_usage')" href="#tab_usage">用法</a></li>
                 </ul>
               </li>
               <li>
-                <a class="nav-link" href="#alert">警告框</a>
+                <a class="nav-link" @click.stop.prevent="toAnchor('alert')" href="#alert">警告框</a>
                 <ul class="nav">
-                  <li><a class="nav-link" href="#alert_example">实例</a></li>
-                  <li><a class="nav-link" href="#alert_usage">用法</a></li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('alert_example')" href="#alert_example">实例</a></li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('alert_usage')" href="#alert_usage">用法</a></li>
                 </ul>
               </li>
               <li>
-                <a class="nav-link" href="#carousel">轮播</a>
+                <a class="nav-link" @click.stop.prevent="toAnchor('carousel')" href="#carousel">轮播</a>
                 <ul class="nav">
-                  <li><a class="nav-link" href="#carousel_example">实例</a></li>
-                  <li><a class="nav-link" href="#carousel_usage">用法</a></li>
-                  <li><a class="nav-link" href="#carousel_function">方法</a></li>
-                  <li><a class="nav-link" href="#carousel_event">事件</a></li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('carousel_example')" href="#carousel_example">实例</a></li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('carousel_usage')" href="#carousel_usage">用法</a></li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('carousel_function')" href="#carousel_function">方法</a></li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('carousel_event')" href="#carousel_event">事件</a></li>
                 </ul>
               </li>
             </ul>
             <div class="back-to-top">
-              <a class="border-none" href="#top"><i class="fa fa-arrow-up"></i></a>
+              <a class="border-none" @click.stop.prevent="toAnchor('top')" href="#top">&#10140;</a>
             </div>
           </div>
         </div>
@@ -632,11 +632,15 @@
 
 <script>
   import masthead from './common/masthead'
+  import common from '../assets/js/common'
 
   export default {
     name: 'plugins',
     components: {
       'masthead-component': masthead
+    },
+    methods: {
+      toAnchor: common.toAnchor
     }
   }
 </script>
