@@ -466,14 +466,14 @@
                     class="attr"> data-slide=</span><span class="value">"prev"</span><span
                     class="label">&gt;</span><br/>
                 &nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;span</span><span class="attr"> class=</span><span
-                    class="value">"fa fa-chevron-left icon-prev"</span><span class="label">&gt;&lt;/span></span><br/>
+                    class="value">"fa fa-chevron-left icon-prev"</span><span class="label">&gt;&amp;#139;&lt;/span></span><br/>
                 &nbsp;&nbsp;<span class="label">&lt;/a></span><br/>
                 &nbsp;&nbsp;<span class="label">&lt;a</span><span class="attr"> class=</span><span class="value">"right carousel-control"</span><span
                     class="attr"> href=</span><span class="value">"#carousel_1"</span><span
                     class="attr"> data-slide=</span><span class="value">"next"</span><span
                     class="label">&gt;</span><br/>
                 &nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;span</span><span class="attr"> class=</span><span
-                    class="value">"fa fa-chevron-right icon-next"</span><span class="label">&gt;&lt;/span></span><br/>
+                    class="value">"icon-next"</span><span class="label">&gt;&amp;#155;&lt;/span></span><br/>
                 &nbsp;&nbsp;<span class="label">&lt;/a></span><br/>
                 <span class="label">&lt;/div></span>
               </pre>
