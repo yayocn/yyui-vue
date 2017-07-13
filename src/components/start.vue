@@ -30,8 +30,10 @@
         <h4>引用css文件</h4>
         <div class="yyui-docs-example">
           <div class="yyui-docs-code">
-          <pre>
-            &lt;link href="路径/yyui.css" rel="stylesheet"/>
+          <pre v-hljs>
+            <code class="html">
+              &lt;link href="yyui.css" rel="stylesheet"/>
+            </code>
           </pre>
           </div>
         </div>
@@ -40,9 +42,11 @@
         <p class="text-danger">yyui.js 依赖 jquery，推荐 <a target="_blank" href="https://code.jquery.com/">jquery1.12.4</a>。</p>
         <div class="yyui-docs-example">
           <div class="yyui-docs-code">
-          <pre>
-            &lt;script src="路径/jquery.min.js"&lt;/script><br/>
-            &lt;script src="路径/yyui.min.js"&lt;/script>
+          <pre v-hljs>
+            <code class="html">
+              &lt;script src="jquery.min.js"&lt;/script>
+              &lt;script src="yyui.min.js"&lt;/script>
+            </code>
           </pre>
           </div>
         </div>

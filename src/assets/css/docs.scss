@@ -69,8 +69,6 @@
   .yyui-docs-code {
     position: relative;
     width: 100%;
-    padding: $space-base * 3;
-    border: 1px solid #ddd;
     @if $enable-round {
       border-radius: $border-radius;
     }
@@ -83,6 +81,7 @@
   }
 
   .yyui-docs-surface {
+    padding: $space-base * 3;
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
     &:before {
@@ -116,7 +115,10 @@
     }
 
     pre {
-      border: 0;
+      code {
+        margin-top: -40px;
+        margin-bottom: -40px;
+      }
     }
   }
 

@@ -16,6 +16,7 @@
 
   import router from './route/index'
   import store from './store/index'
+  import './directives/highlight'
 
   export default {
     name: 'app',
