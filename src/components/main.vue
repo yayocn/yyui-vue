@@ -1,31 +1,27 @@
 <template>
   <main>
-    <transition :name="transitionName">
-      <router-view keep-alive></router-view>
+    <transition :duration="600" name="custom-transition" :leave-active-class="outClass">
+      <router-view></router-view>
     </transition>
   </main>
 </template>
 
 <script>
   import masthead from './common/masthead.vue'
-  import 'animate.css'
 
-  const animatesIn = ['bounceIn', 'bounceInDown', 'fadeIn', 'fadeInDown', 'flipInX', 'zoomIn', 'rollIn']
-  const animatesOut = ['bounceOut', 'bounceInDown', 'fadeOut', 'fadeInDown', 'flipOutX', 'zoomOut', 'rollOut']
+  const animatesOut = ['bounceOutDown', 'fadeOut', 'lightSpeedOut', 'zoomOut', 'rollOut']
 
   export default {
     name: 'main',
     data () {
       return {
-        transitionName: 'fade'
+        outClass: 'animated bounceOutDown'
       }
     },
     watch: {
-      $route () {
-//        let classIndex = Math.floor((Math.random() * animatesIn.length));
-//        this.inClass = animatesIn[classIndex];
-//        this.outClass = animatesOut[classIndex];
-        this.transitionName = 'bounce';
+      '$route' () {
+        let classIndex = Math.floor((Math.random() * animatesOut.length));
+        this.outClass = `animated ${animatesOut[classIndex]}`;
       }
     }
   }

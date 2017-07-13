@@ -6,6 +6,7 @@ import './assets/css/common.scss'
 import './assets/css/docs.scss'
 import './assets/css/sidebar-scrollspy.scss'
 import './assets/css/yyui-site.scss'
+import 'animate.css'
 
 import 'jquery'
 import 'jquery.easing'
