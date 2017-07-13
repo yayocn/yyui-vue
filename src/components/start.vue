@@ -18,7 +18,8 @@
           <div class="col-sm-4">
             <h4>源码</h4>
             <p>yayo的所有开发源码，包括sass、JavaScript 和 字体文件、文档、工具等。</p>
-            <a class="btn btn-theme-outline m-b-2 text-capitalize" target="_blank" href="https://github.com/yayocn/yyui">on github</a>
+            <a class="btn btn-theme-outline m-b-2 text-capitalize" target="_blank"
+               href="https://github.com/yayocn/yyui">on github</a>
           </div>
         </div>
 
@@ -30,24 +31,21 @@
         <h4>引用css文件</h4>
         <div class="yyui-docs-example">
           <div class="yyui-docs-code">
-          <pre v-hljs>
-            <code class="html">
-              &lt;link href="yyui.css" rel="stylesheet"/>
-            </code>
-          </pre>
+          <pre v-hljs><code class="html">
+    &lt;link href="yyui.css" rel="stylesheet"/>
+          </code></pre>
           </div>
         </div>
 
         <h4>引用js文件</h4>
-        <p class="text-danger">yyui.js 依赖 jquery，推荐 <a target="_blank" href="https://code.jquery.com/">jquery1.12.4</a>。</p>
+        <p class="text-danger">yyui.js 依赖 jquery，推荐 <a target="_blank" href="https://code.jquery.com/">jquery1.12.4</a>。
+        </p>
         <div class="yyui-docs-example">
           <div class="yyui-docs-code">
-          <pre v-hljs>
-            <code class="html">
-              &lt;script src="jquery.min.js"&lt;/script>
-              &lt;script src="yyui.min.js"&lt;/script>
-            </code>
-          </pre>
+          <pre v-hljs><code class="html">
+    &lt;script src="jquery.min.js"&lt;/script>
+    &lt;script src="yyui.min.js"&lt;/script>
+            </code></pre>
           </div>
         </div>
 

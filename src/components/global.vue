@@ -159,9 +159,9 @@
               </div>
               <div class="yyui-docs-code">
                 <!--<i class="fa fa-file-code-o yyui-docs-copy"></i>-->
-                <pre>
-                  &lt;h1>h1. YY UI heading&lt;small>font-size: 2.5rem&lt;/small>&lt;/h1>
-              </pre>
+                <pre v-hljs><code class="html">
+    &lt;h1>h1. YY UI heading&lt;small>font-size: 2.5rem&lt;/small>&lt;/h1>
+                </code></pre>
               </div>
             </div>
 
@@ -170,17 +170,14 @@
             <div class="yyui-docs-example">
               <div class="yyui-docs-surface">
                 如果能从来，我要选
-
                 <mark>李白</mark>
                 。
-
-
               </div>
               <div class="yyui-docs-code">
                 <!--<i class="fa fa-file-code-o yyui-docs-copy"></i>-->
-                <pre>
-                如果能从来，我要选&lt;mark>李白&lt;/mark>。
-              </pre>
+                <pre v-hljs><code class="html">
+    如果能从来，我要选&lt;mark>李白&lt;/mark>。
+                </code></pre>
               </div>
             </div>
 
@@ -189,18 +186,15 @@
             <div class="yyui-docs-example">
               <div class="yyui-docs-surface">
                 如果能从来，我要选
-
                 <del>杜甫</del>
                 <ins>李白</ins>
                 。
-
-
               </div>
               <div class="yyui-docs-code">
                 <!--<i class="fa fa-file-code-o yyui-docs-copy"></i>-->
-                <pre>
-                如果能从来，我要选&lt;del>杜甫&lt;/del>&lt;ins>李白&lt;/ins>。
-              </pre>
+                <pre v-hljs><code class="html">
+    如果能从来，我要选&lt;del>杜甫&lt;/del>&lt;ins>李白&lt;/ins>。
+                </code></pre>
               </div>
             </div>
 
@@ -209,14 +203,12 @@
             <div class="yyui-docs-example">
               <div class="yyui-docs-surface">
                 <abbr title="World Wide Web">WWW</abbr>是环球信息网的缩写，中文名字为“万维网”，“环球网”等，常简称为Web。
-
-
               </div>
               <div class="yyui-docs-code">
                 <!--<i class="fa fa-file-code-o yyui-docs-copy"></i>-->
-                <pre>
-                &lt;abbr title="World Wide Web"&gt;WWW&lt;/abbr>是环球信息网的缩写，中文名字为“万维网”，“环球网”等，常简称为Web。
-              </pre>
+                <pre v-hljs><code class="html">
+    &lt;abbr title="World Wide Web"&gt;WWW&lt;/abbr>是环球信息网的缩写，中文名字为“万维网”，“环球网”等，常简称为Web。
+                </code></pre>
               </div>
             </div>
 
@@ -230,20 +222,18 @@
                   天府大道，中段<br>
                   中国，四川，成都<br>
                   <abbr title="电话号码">P:</abbr> (028) 909-0950
-
-
                 </address>
               </div>
               <div class="yyui-docs-code">
                 <!--<i class="fa fa-file-code-o yyui-docs-copy"></i>-->
-                <pre>
-                &lt;address><br/>
-                &nbsp;&nbsp;&lt;strong>YY UI, Inc.&lt;/strong>&lt;br/><br/>
-                &nbsp;&nbsp;天府大道，中段&lt;br/><br/>
-                &nbsp;&nbsp;中国，四川，成都&lt;br/><br/>
-                &nbsp;&nbsp;&lt;abbr title="电话号码"&gt;P:&lt;/abbr>(028) 909-0950 <br/>
-                &lt;/address>
-              </pre>
+                <pre v-hljs><code class="html">
+    &lt;address>
+      &lt;strong>YY UI, Inc.&lt;/strong>&lt;br/>
+      天府大道，中段&lt;br/>
+      中国，四川，成都&lt;br/>
+      &lt;abbr title="电话号码"&gt;P:&lt;/abbr>(028) 909-0950
+    &lt;/address>
+                </code></pre>
               </div>
             </div>
 
@@ -259,14 +249,12 @@
               </div>
               <div class="yyui-docs-code">
                 <!--<i class="fa fa-file-code-o yyui-docs-copy"></i>-->
-                <pre>
-                <span class="label">&lt;bloclquote></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;p></span>爱生活，爱老婆。<span class="label">&lt;/p></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;footer></span>出自<span class="label">&lt;cite</span><span
-                    class="attr"> title=</span><span class="value">"Source Title"</span><span class="label">&gt;</span>杨氏语录<span
-                    class="label">&lt;/cite></span><span class="label">&lt;/footer></span><br/>
-                <span class="label">&lt;/blockquote></span>
-              </pre>
+                <pre v-hljs><code class="html">
+    &lt;blockquote>
+      &lt;p>爱生活，爱老婆。&lt;/p>
+      &lt;footer>出自 &lt;cite title="Source Title">杨氏语录&lt;/cite>&lt;/footer>
+    &lt;/blockquote>
+                </code></pre>
               </div>
             </div>
 
@@ -281,15 +269,12 @@
               </div>
               <div class="yyui-docs-code">
                 <!--<i class="fa fa-file-code-o yyui-docs-copy"></i>-->
-                <pre>
-                <span class="label">&lt;blockquote</span><span class="attr"> class=</span><span class="value">"blockquote-reverse"</span><span
-                    class="label">&gt;</span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;p></span>爱生活，爱老婆。<span class="label">&lt;/p></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;footer></span>出自<span class="label">&lt;cite></span><span
-                    class="attr"> title=</span><span class="value">"Source Title"</span><span class="label">&gt;</span>杨氏语录<span
-                    class="label">&lt;/cite></span><span class="label">&lt;/footer</span><br/>
-                <span class="label">&lt;/blockquote></span>
-              </pre>
+                <pre v-hljs><code class="html">
+    &lt;blockquote class="blockquote-reverse">
+      &lt;p>爱生活，爱老婆。&lt;/p>
+      &lt;footer>出自 &lt;cite title="Source Title">杨氏语录&lt;/cite>&lt;/footer>
+    &lt;/blockquote>
+                </code></pre>
               </div>
             </div>
 
@@ -321,15 +306,15 @@
               </div>
               <div class="yyui-docs-code">
                 <!--<i class="fa fa-file-code-o yyui-docs-copy"></i>-->
-                <pre>
-                <span class="label">&lt;dl></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;dt></span>描述列表<span class="label">&lt;/dt></span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;dd></span>描述列表适合用来定义。<span class="label">&lt;/dd></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;dt></span>打烊<span class="label">&lt;/dt></span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;dd></span>商店晚上关门停止营业。<span class="label">&lt;/dd></span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;dd></span>引申为歇业。<span class="label">&lt;/dd></span><br/>
-                <span class="label">&lt;/dl></span>
-              </pre>
+                <pre v-hljs><code class="html">
+    &lt;dl>
+      &lt;dt>描述列表&lt;/dt>
+      &lt;dd>描述列表适合用来定义&lt;/dd>
+      &lt;dt>打烊&lt;/dt>
+      &lt;dd>商店晚上关门停止营业。&lt;/dd>
+      &lt;dd>引申为歇业。&lt;/dd>
+    &lt;/dl>
+                </code></pre>
               </div>
             </div>
             <h4>水平描述</h4>
@@ -346,23 +331,21 @@
               </div>
               <div class="yyui-docs-code">
                 <!--<i class="fa fa-file-code-o yyui-docs-copy"></i>-->
-                <pre>
-                <span class="label">&lt;dl<span class="attr"> class=</span><span class="value">"dl-hz"</span><span
-                    class="label">&gt;</span></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;dt></span>描述列表<span class="label">&lt;/dt></span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;dd></span>描述列表适合用来定义。<span class="label">&lt;/dd></span><br/>
-                &nbsp;&nbsp;<span class="label">dt></span>打烊<span class="label">/dt></span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;dd></span>商店晚上关门停止营业。<span class="label">&lt;/dd></span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;dd></span>引申为歇业。<span class="label">&lt;/dd></span><br/>
-                <span class="label">&lt;/dl></span>
-              </pre>
+                <pre v-hljs><code class="html">
+    &lt;dl class="dl-hz">
+      &lt;dt>描述列表 160px&lt;/dt>
+      &lt;dd>描述列表适合用来定义&lt;/dd>
+      &lt;dt>打烊&lt;/dt>
+      &lt;dd>商店晚上关门停止营业。&lt;/dd>
+      &lt;dd>引申为歇业。&lt;/dd>
+    &lt;/dl>
+                </code></pre>
               </div>
             </div>
           </section>
 
           <section class="yyui-docs-section" id="code">
             <h2 class="m-b-6">代码
-
               <small><code>_code.scss</code></small>
             </h2>
 
@@ -374,9 +357,9 @@
               </div>
               <div class="yyui-docs-code">
                 <!--<i class="fa fa-file-code-o yyui-docs-copy"></i>-->
-                <pre>
-                 <span class="label">&lt;code></span>var a = 1234;<span class="label">&lt;/code></span>
-              </pre>
+                <pre v-hljs><code class="html">
+    &lt;code>var a = 1234;&lt;/code>
+                </code></pre>
               </div>
             </div>
 
@@ -385,83 +368,18 @@
             <div class="yyui-docs-example">
               <div class="yyui-docs-surface">
                 同时按住 <kbd>Alt</kbd> + <kbd>Print Screen</kbd>，我们可以截取当前运行窗口。
-
-
               </div>
               <div class="yyui-docs-code">
                 <!--<i class="fa fa-file-code-o yyui-docs-copy"></i>-->
-                <pre>
-                 同时按住 <span class="label">&lt;kbd></span>Alt<span class="label">&lt;/kbd></span> +
-                <span class="label">&lt;kbd></span>Print Screen<span class="label">&lt;/kbd></span>，我们可以截取当前运行窗口。
-              </pre>
+                <pre v-hljs><code class="html">
+    同时按住 &lt;kbd>Alt&lt;/kbd> + &lt;kbd>Print Screen&lt;/kbd>，我们可以截取当前运行窗口。
+                </code></pre>
               </div>
-            </div>
-
-            <h3 id="code_pre">代码块</h3>
-            <p>YY UI 用<code>&lt;pre></code> 来展示代码块的内容。</p>
-            <ul>
-              <li><code>.note：</code>用于注释。</li>
-              <li><code>.label：</code>用于标签名</li>
-              <li><code>.attr：</code>用于属性名称。</li>
-              <li><code>.value：</code>用于属性值。</li>
-              <li>代码中的换行和空格需要使用<code>&lt;br/>、&amp;nbsp;</code>实现。</li>
-            </ul>
-            <div class="yyui-docs-example">
-              <div class="yyui-docs-surface">
-              <pre>
-                <span class="note">&lt;!-- 要用&lt;br/>换行 --></span>
-                <br/>
-                <span class="label">&lt;ul></span>
-                <br/>
-                &nbsp;&nbsp;<span class="label">&lt;li</span><span class="attr"> class=</span><span class="value">"active"</span><span
-                  class="label">&gt;</span>爱生活，爱老婆。<span class="label">&lt;/li></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;li></span>爱生活，爱老婆。<span class="label">&lt;/li></span><br/>
-                <span class="label">&lt;/ul></span>
-              </pre>
-              </div>
-              <div class="yyui-docs-code">
-                <!--<i class="fa fa-file-code-o yyui-docs-copy"></i>-->
-                <pre>
-                <span class="label">&lt;pre></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;span</span><span class="attr"> class=</span><span class="value">"note"</span><span
-                    class="label">&gt;</span>&lt;!-- 要用&amp;lt;br/>换行 --><span class="label">&lt;/span></span><span
-                    class="label">&lt;br/></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;span</span><span class="attr"> class=</span><span class="value">"label"</span><span
-                    class="label">&gt;</span>&lt;ul><span class="label">&lt;/span></span><span
-                    class="label">&lt;br/></span><br/>
-                &nbsp;&nbsp;&amp;nbsp;&amp;nbsp;<span class="label">&lt;span</span><span
-                    class="attr"> class=</span><span class="value">"label"</span><span
-                    class="label">&gt;</span>&lt;li<span class="label">&lt;/span>&lt;span</span><span class="attr"> class=</span><span
-                    class="value">"attr"</span><span class="label">&gt;</span>class<span class="label">&lt;/span>&lt;span</span><span
-                    class="attr"> class=</span><span class="value">"value"</span><span
-                    class="label">&gt;</span>active<span class="label">/span></span><br/>
-                &nbsp;&nbsp;...<br/>
-                <span class="label">/pre></span>
-              </pre>
-              </div>
-            </div>
-
-            <div class="yyui-docs-note">
-              为什么要用<code>&lt;br/>、&amp;nbsp;</code>来换行和缩进呢，<code>&lt;pre></code>不是所见即所得的吗？
-              <br/>
-              这里yayo为<code>&lt;pre></code>添加了下面的样式：
-              <p><span class="text-primary">white-space</span>: <span class="text-warning">nowrap;</span></p>
-              原因：<br/>
-              <p><code>&lt;pre></code>在没有进行样式重写前的确是所见即所得，但是你写的html代码存在被压缩的可能，这就把里面的空格，换行全给kill掉了。因此，为了维护世界和平，还是显示的写出来吧。
-              </p>
-              <br/>
-              <p>这里解释一下为什么yayo不用<code>:before, :after</code>伪类的<code>content</code>属性将<code>"、&lt;、空格、= 等</code>这些字符默认添加了呢，原因是，坑爹的无法用鼠标拖动进行选中啊！！！
-              </p>
-              <br/>
-              ps：这里的<code>&lt;pre></code>里的代码样式是我在webstorm里使用的代码风格。
-
-
             </div>
           </section>
 
           <section class="yyui-docs-section" id="table">
             <h2 class="m-b-6">表格
-
               <small><code>_tables.scss</code></small>
             </h2>
             <p class="lead">想要和栗子保持一致，就别偷懒把<code>&lt;thead>、&lt;tbody></code>这些元素给落下了哦。</p>
@@ -504,12 +422,28 @@
               </div>
               <div class="yyui-docs-code">
                 <!--<i class="fa fa-file-code-o yyui-docs-copy"></i>-->
-                <pre>
-                <span class="label">&lt;table</span><span class="attr"> class=</span><span
-                    class="value">"table"</span><span class="label">&gt;</span><br/>
-                ··· <br/>
-                <span class="label">&lt;/table></span>
-              </pre>
+                <pre v-hljs><code class="html">
+    &lt;table class="table">
+      &lt;caption>默认样式表格&lt;/caption>
+      &lt;thead>
+        &lt;tr>
+          &lt;th>#&lt;/th>
+          &lt;th>First&lt;/th>
+          &lt;th>Second&lt;/th>
+          &lt;th>Third&lt;/th>
+        &lt;/tr>
+      &lt;/thead>
+
+      &lt;tbody>
+        &lt;tr>
+          &lt;th scope="row">First&lt;/th>
+          &lt;td>first&lt;/td>
+          &lt;td>second&lt;/td>
+          &lt;td>third&lt;/td>
+        &lt;/tr>
+      &lt;/tbody>
+    &lt;/table>
+                </code></pre>
               </div>
             </div>
 
@@ -565,15 +499,12 @@
               </div>
               <div class="yyui-docs-code">
                 <!--<i class="fa fa-file-code-o yyui-docs-copy"></i>-->
-                <pre>
-                <span class="label">&lt;div</span><span class="attr"> class=</span><span class="value">"table-responsice"</span><span
-                    class="label">&gt;</span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;table</span><span class="attr"> class=</span><span class="value">"table"</span><span
-                    class="label">&gt;</span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;··· <br/>
-                &nbsp;&nbsp;<span class="label">&lt;/table></span><br/>
-                <span class="label">&lt;/div></span>
-              </pre>
+                <pre v-hljs><code class="html">
+    &lt;div class="table-responsive">
+      &lt;table class="table">
+      &lt;/table>
+    &lt;/div>
+                </code></pre>
               </div>
             </div>
 
@@ -623,12 +554,11 @@
               </div>
               <div class="yyui-docs-code">
                 <!--<i class="fa fa-file-code-o yyui-docs-copy"></i>-->
-                <pre>
-                <span class="label">&lt;table</span><span class="attr"> class=</span><span class="value">"table table-sm"</span><span
-                    class="label">&gt;</span><br/>
-                &nbsp;&nbsp;··· <br/>
-                <span class="label">&lt;/table></span><br/>
-              </pre>
+                <pre v-hljs><code class="html">
+    &lt;table class="table table-sm">
+      
+    &lt;/table>
+                </code></pre>
               </div>
             </div>
 
@@ -679,12 +609,11 @@
               </div>
               <div class="yyui-docs-code">
                 <!--<i class="fa fa-file-code-o yyui-docs-copy"></i>-->
-                <pre>
-                <span class="label">&lt;table</span><span class="attr"> class=</span><span class="value">"table table-striped"</span><span
-                    class="label">&gt;</span><br/>
-                &nbsp;&nbsp;···<br/>
-                <span class="label">&lt;/table></span><br/>
-              </pre>
+                <pre v-hljs><code class="html">
+    &lt;table class="table table-striped">
+      
+    &lt;/table>
+                </code></pre>
               </div>
             </div>
 
@@ -734,12 +663,11 @@
               </div>
               <div class="yyui-docs-code">
                 <!--<i class="fa fa-file-code-o yyui-docs-copy"></i>-->
-                <pre>
-                <span class="label">&lt;table</span><span class="attr"> class=</span><span class="value">"table table-border"</span><span
-                    class="label">&gt;</span><br/>
-                &nbsp;&nbsp;···<br/>
-                <span class="label">&lt;/table></span><br/>
-              </pre>
+                <pre v-hljs><code class="html">
+    &lt;table class="table table-border">
+      
+    &lt;/table>
+                </code></pre>
               </div>
             </div>
 
@@ -805,25 +733,64 @@
               </div>
               <div class="yyui-docs-code">
                 <!--<i class="fa fa-file-code-o yyui-docs-copy"></i>-->
-                <pre>
-                <span class="label">&lt;table</span><span class="attr"> class=</span><span
-                    class="value">"table"</span><span class="label">&gt;</span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;tr</span><span class="attr"> class=</span><span class="value">"row-bg-active"</span><span
-                    class="label">&gt;</span>···<span class="label">&lt;/tr></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;tr</span><span class="attr"> class=</span><span class="value">"row-bg-primary"</span><span
-                    class="label">&gt;</span>···<span class="label">&lt;/tr></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;tr</span><span class="attr"> class=</span><span class="value">"row-bg-secondary"</span><span
-                    class="label">&gt;</span>···<span class="label">&lt;/tr></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;tr</span><span class="attr"> class=</span><span class="value">"row-bg-success"</span><span
-                    class="label">&gt;</span>···<span class="label">&lt;v/tr></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;tr</span><span class="attr"> class=</span><span class="value">"row-bg-info"</span><span
-                    class="label">&gt;</span>···<span class="label">&lt;/tr></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;tr</span><span class="attr"> class=</span><span class="value">"row-bg-warning"</span><span
-                    class="label">&gt;</span>···<span class="label">&lt;/tr></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;tr</span><span class="attr"> class=</span><span class="value">"row-bg-danger"</span><span
-                    class="label">&gt;</span>···<span class="label">&lt;/tr></span><br/>
-                <span class="label">&lt;/table></span><br/>
-              </pre>
+                <pre v-hljs><code class="html">
+    &lt;table class="table">
+      &lt;caption>This is border tables&lt;/caption>
+      &lt;thead>
+        &lt;tr>
+          &lt;th>#&lt;/th>
+          &lt;th>First&lt;/th>
+          &lt;th>Second&lt;/th>
+          &lt;th>Third&lt;/th>
+        &lt;/tr>
+      &lt;/thead>
+                  
+      &lt;tbody>
+        &lt;tr class="row-bg-active">
+          &lt;th scope="row">First&lt;/th>
+          &lt;td>first&lt;/td>
+          &lt;td>second&lt;/td>
+          &lt;td>third&lt;/td>
+        &lt;/tr>
+        &lt;tr class="row-bg-primary">
+          &lt;th scope="row">First&lt;/th>
+          &lt;td>first&lt;/td>
+          &lt;td>second&lt;/td>
+          &lt;td>third&lt;/td>
+        &lt;/tr>
+        &lt;tr class="row-bg-secondary">
+          &lt;th scope="row">First&lt;/th>
+          &lt;td>first&lt;/td>
+          &lt;td>second&lt;/td>
+          &lt;td>third&lt;/td>
+        &lt;/tr>
+        &lt;tr class="row-bg-success">
+          &lt;th scope="row">First&lt;/th>
+          &lt;td>first&lt;/td>
+          &lt;td>second&lt;/td>
+          &lt;td>third&lt;/td>
+        &lt;/tr>
+        &lt;tr class="row-bg-info">
+          &lt;th scope="row">First&lt;/th>
+          &lt;td>first&lt;/td>
+          &lt;td>second&lt;/td>
+          &lt;td>third&lt;/td>
+        &lt;/tr>
+        &lt;tr class="row-bg-warning">
+          &lt;th scope="row">First&lt;/th>
+          &lt;td>first&lt;/td>
+          &lt;td>second&lt;/td>
+          &lt;td>third&lt;/td>
+        &lt;/tr>
+        &lt;tr class="row-bg-danger">
+          &lt;th scope="row">First&lt;/th>
+          &lt;td>first&lt;/td>
+          &lt;td>second&lt;/td>
+          &lt;td>third&lt;/td>
+        &lt;/tr>
+      &lt;/tbody>
+    &lt;/table>
+                </code></pre>
               </div>
             </div>
 
@@ -832,7 +799,6 @@
 
           <section class="yyui-docs-section" id="form">
             <h2 class="m-b-6">表单
-
               <small><code>_forms.scss</code></small>
             </h2>
             <p class="lead">
@@ -898,96 +864,60 @@
               </div>
               <div class="yyui-docs-code">
                 <!--<i class="fa fa-file-code-o yyui-docs-copy"></i>-->
-                <pre>
-                &lt;form><br/>
-                &nbsp;&nbsp;&lt;fieldset class="form-group"&gt;<br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;label></span>Input<span class="label">&lt;/label></span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;input</span><span class="attr"> type=</span><span
-                    class="value">"text"</span><span class="attr"> class=</span><span
-                    class="value">"form-control"</span><span class="attr"> placeholder=</span><span
-                    class="value">"..."</span><span class="label">/></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;/fieldset></span><br/>
-                <br/>
-                &nbsp;&nbsp;<span class="label">&lt;fieldset</span><span class="attr"> class=</span><span
-                    class="value">"form-group"</span><span class="label">&gt;</span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;label></span>Textarea<span
-                    class="label">&lt;/label></span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;textarea</span><span class="attr"> class=</span><span
-                    class="value">"form-control"</span><span class="attr"> rows=</span><span
-                    class="value">"5"</span><span class="attr"> placeholder=</span><span class="value">"..."</span><span
-                    class="label">&gt;&lt;/textarea></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;/fieldset></span><br/>
-                <br/>
-                &nbsp;&nbsp;<span class="label">&lt;fieldset</span><span class="attr"> class=</span><span
-                    class="value">"form-group"</span><span class="label">&gt;</span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;label></span>Select<span
-                    class="label">&lt;/label></span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;div</span><span class="attr"> class=</span><span
-                    class="value">"select"</span><span class="label">&gt;</span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;select</span><span
-                    class="attr"> class=</span><span class="value">"form-control"</span><span
-                    class="label">&gt;</span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;option</span><span class="attr"> value=</span><span
-                    class="value">"..."</span><span class="label">&gt;</span>...<span
-                    class="label">&lt;/option></span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;option</span><span class="attr"> value=</span><span
-                    class="value">"..."</span><span class="label">&gt;</span>...<span
-                    class="label">&lt;/option></span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;option</span><span class="attr"> value=</span><span
-                    class="value">"..."</span><span class="label">&gt;</span>...<span
-                    class="label">&lt;/option></span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;/select></span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;div</span><span
-                    class="attr"> class=</span><span class="value">"triangle-down"</span><span class="label">&gt;&lt;/div></span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;/div></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;/fieldset></span><br/>
-                <br/>
-                &nbsp;&nbsp;<span class="label">&lt;fieldset</span><span class="attr"> class=</span><span
-                    class="value">"form-group"</span><span class="label">&gt;</span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;label></span>Checkbox<span
-                    class="label">&lt;/label></span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;div</span><span class="attr"> class=</span><span
-                    class="value">"checkbox"</span><span class="label">&gt;</span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;input</span><span class="attr"> type=</span><span
-                    class="value">"checkbox"</span><span class="attr"> id=</span><span class="value">"..."</span><span
-                    class="attr"> name=</span><span class="value">"..."</span><span class="label">/></span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;label</span><span
-                    class="attr"> for=</span><span class="value">"..."</span><span class="label">&gt;</span>复选框<span
-                    class="label">&lt;/label></span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;/div></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;/fieldset></span><br/>
-                <br/>
-                &nbsp;&nbsp;<span class="label">&lt;fieldset</span><span class="attr"> class=</span><span
-                    class="value">"form-group"</span><span class="label">&gt;</span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;label></span>Radio<span class="label">&lt;/label></span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;div</span><span class="attr"> class=</span><span
-                    class="value">"radio"</span><span class="label">&gt;</span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;input</span><span class="attr"> type=</span><span
-                    class="value">"radio"</span><span class="attr"> id=</span><span class="value">"..."</span><span
-                    class="attr"> name=</span><span class="value">"..."</span><span class="label">/></span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;label</span><span
-                    class="attr"> for=</span><span class="value">"..."</span><span class="label">&gt;</span>单选框<span
-                    class="label">&lt;/label></span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;/div></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;/fieldset></span><br/>
-                <br/>
-                &nbsp;&nbsp;<span class="label">&lt;fieldset</span><span class="attr"> class=</span><span
-                    class="value">"form-group"</span><span class="label">&gt;</span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;label></span>Input File<span
-                    class="label">&lt;/label></span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;div</span><span class="attr"> class=</span><span
-                    class="value">"form-file"</span><span class="label">&gt;</span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;input</span><span class="attr"> type=</span><span
-                    class="value">"file"</span><span class="attr"> class=</span><span
-                    class="value">"form-control"</span><span class="attr"> name=</span><span
-                    class="value">"..."</span><span class="label">/></span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;label</span><span
-                    class="attr"> class=</span><span class="value">"file-surface"</span><span class="label">&gt;</span>文件上传<span
-                    class="label">&lt;/label></span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;/div></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;/fieldset></span><br/>
-                <span class="label">&lt;/form></span><br/>
-              </pre>
+                <pre v-hljs><code class="html">
+    &lt;form>
+      &lt;fieldset class="form-group">
+        &lt;label>Input&lt;/label>
+        &lt;input type="text" class="form-control" placeholder="user name"/>
+      &lt;/fieldset>
+
+      &lt;fieldset class="form-group">
+        &lt;label>Textarea&lt;/label>
+        &lt;textarea class="form-control" rows="5">&lt;/textarea>
+      &lt;/fieldset>
+
+      &lt;fieldset class="form-group">
+        &lt;label>Select&lt;/label>
+        &lt;div class="select">
+          &lt;select class="form-control">
+            &lt;option value="">1&lt;/option>
+            &lt;option value="">2&lt;/option>
+            &lt;option value="">3&lt;/option>
+          &lt;/select>
+          &lt;div class="triangle-down">&lt;/div>
+        &lt;/div>
+      &lt;/fieldset>
+
+      &lt;fieldset class="form-group">
+        &lt;label>Checkbox&lt;/label>
+        &lt;div class="checkbox">
+          &lt;input id="checkbox_example" type="checkbox" name="checkboxExample"/>
+          &lt;label for="checkbox_example">复选框&lt;/label>
+        &lt;/div>
+      &lt;/fieldset>
+
+      &lt;fieldset class="form-group">
+        &lt;label>Radio&lt;/label>
+        &lt;br/>
+        &lt;div class="radio radio-inline">
+          &lt;input id="radio_example_1" type="radio" name="radioExample"/>
+          &lt;label for="radio_example_1">单选框&lt;/label>
+        &lt;/div>
+        &lt;div class="radio radio-inline">
+          &lt;input id="radio_example_2" type="radio" name="radioExample"/>
+          &lt;label for="radio_example_2">单选框&lt;/label>
+        &lt;/div>
+      &lt;/fieldset>
+
+      &lt;fieldset class="form-group">
+        &lt;label>Input File&lt;/label>
+        &lt;div class="form-file">
+          &lt;input type="file" class="form-control" name="upload"/>
+          &lt;label class="file-surface">点击上传&lt;/label>
+        &lt;/div>
+      &lt;/fieldset>
+    &lt;/form>
+                </code></pre>
               </div>
             </div>
 
@@ -1009,32 +939,22 @@
                 </fieldset>
               </div>
               <div class="yyui-docs-code">
-              <pre>
-                <span class="label">&lt;fieldset</span><span class="attr"> class=</span><span class="value">"form-group form-group-lg"</span><span
-                  class="label">&gt;</span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;label></span>Large<span class="label">&lt;/label></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;input</span><span class="attr"> type=</span><span class="value">"text"</span><span
-                  class="attr"> class=</span><span class="value">"form-control"</span><span
-                  class="attr"> placeholder=</span><span class="value">"..."</span><span class="label">/></span><br/>
-                <span class="label">&lt;/fieldset></span><br/>
-                <br/>
-                <span class="label">&lt;fieldset</span><span class="attr"> class=</span><span
-                  class="value">"form-group"</span><span
-                  class="label">&gt;</span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;label></span>Default<span class="label">&lt;/label></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;input</span><span class="attr"> type=</span><span class="value">"text"</span><span
-                  class="attr"> class=</span><span class="value">"form-control"</span><span
-                  class="attr"> placeholder=</span><span class="value">"..."</span><span class="label">/></span><br/>
-                <span class="label">&lt;/fieldset></span><br/>
-                <br/>
-                <span class="label">&lt;fieldset</span><span class="attr"> class=</span><span class="value">"form-group form-group-sm"</span><span
-                  class="label">&gt;</span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;label></span>Small<span class="label">&lt;/label></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;input</span><span class="attr"> type=</span><span class="value">"text"</span><span
-                  class="attr"> class=</span><span class="value">"form-control"</span><span
-                  class="attr"> placeholder=</span><span class="value">"..."</span><span class="label">/></span><br/>
-                <span class="label">&lt;/fieldset></span><br/>
-              </pre>
+              <pre v-hljs><code class="html">
+    &lt;fieldset class="form-group form-group-lg">
+      &lt;label>Large&lt;/label>
+      &lt;input type="text" class="form-control" placeholder="user name"/>
+    &lt;/fieldset>
+
+    &lt;fieldset class="form-group">
+      &lt;label>Default&lt;/label>
+      &lt;input type="text" class="form-control" placeholder="user name"/>
+    &lt;/fieldset>
+                
+    &lt;fieldset class="form-group form-group-sm">
+      &lt;label>Small&lt;/label>
+      &lt;input type="text" class="form-control" placeholder="user name"/>
+    &lt;/fieldset>
+              </code></pre>
               </div>
             </div>
 
@@ -1060,38 +980,23 @@
               </div>
               <div class="yyui-docs-code">
                 <!--<i class="fa fa-file-code-o yyui-docs-copy"></i>-->
-                <pre>
-                <span class="label">&lt;form</span><span class="attr"> class=</span><span class="value">"form-hz"</span><span
-                    class="label">&gt;</span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;fieldset</span><span class="attr"> class=</span><span
-                    class="value">"form-group"</span><span class="label">&gt;</span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;label</span><span class="attr"> class=</span><span
-                    class="value">"col-xs-3 form-control-label"</span><span class="label">&gt;</span>Input<span
-                    class="label">&lt;/label></span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;div</span><span class="attr"> class=</span><span
-                    class="value">"col-xs-9"</span><span class="label">&gt;</span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;input</span><span class="attr"> type=</span><span
-                    class="value">"text"</span><span class="attr"> class=</span><span
-                    class="value">"form-control"</span><span class="attr"> placeholder=</span><span
-                    class="value">"..."</span><span class="label">/></span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;/div></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;/fieldset></span><br/>
-                <br/>
-                 &nbsp;&nbsp;<span class="label">&lt;fieldset</span><span class="attr"> class=</span><span
-                    class="value">"form-group"</span><span class="label">&gt;</span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;label</span><span class="attr"> class=</span><span
-                    class="value">"col-xs-3 form-control-label"</span><span class="label">&gt;</span>Input<span
-                    class="label">&lt;/label></span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;div</span><span class="attr"> class=</span><span
-                    class="value">"col-xs-9"</span><span class="label">&gt;</span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;input</span><span class="attr"> type=</span><span
-                    class="value">"password"</span><span class="attr"> class=</span><span
-                    class="value">"form-control"</span><span class="attr"> placeholder=</span><span
-                    class="value">"..."</span><span class="label">/></span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;/div></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;/fieldset></span><br/>
-                <span class="label">&lt;/form></span><br/>
-              </pre>
+                <pre v-hljs><code class="html">
+    &lt;form class="form-hz">
+      &lt;fieldset class="form-group">
+        &lt;label class="col-xs-3 form-control-label">User Name&lt;/label>
+        &lt;div class="col-xs-9">
+          &lt;input type="text" class="form-control" placeholder="enter user name"/>
+        &lt;/div>
+      &lt;/fieldset>
+                  
+      &lt;fieldset class="form-group">
+        &lt;label class="col-xs-3 form-control-label">password&lt;/label>
+        &lt;div class="col-xs-9">
+          &lt;input type="password" class="form-control" placeholder="enter password"/>
+        &lt;/div>
+      &lt;/fieldset>
+    &lt;/form>
+                </code></pre>
               </div>
             </div>
 
@@ -1110,35 +1015,27 @@
                     <label>Pwd</label>
                     <input type="password" class="form-control" placeholder="password"/>
                   </fieldset>
+                  
                   <button class="btn btn-default" type="button">submit</button>
                 </form>
               </div>
               <div class="yyui-docs-code">
                 <!--<i class="fa fa-file-code-o yyui-docs-copy"></i>-->
-                <pre>
-                <span class="label">&lt;form</span><span class="attr"> class=</span><span
-                    class="value">"form-inline"</span><span class="label">&gt;</span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;fieldset</span><span class="attr"> class=</span><span
-                    class="value">"form-group"</span><span class="label">&gt;</span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;label></span>Name<span
-                    class="label">&lt;/label></span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;input</span><span class="attr"> type=</span><span
-                    class="value">"text"</span><span class="attr"> class=</span><span
-                    class="value">"form-control"</span><span class="attr"> placeholder=</span><span
-                    class="value">"..."</span><span class="label">/></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;/fieldset></span><br/>
-                <br/>
-                &nbsp;&nbsp;<span class="label">&lt;fieldset</span><span class="attr"> class=</span><span
-                    class="value">"form-group"</span><span class="label">&gt;</span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;label></span>Pwd<span
-                    class="label">&lt;/label></span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;input</span><span class="attr"> type=</span><span
-                    class="value">"password"</span><span class="attr"> class=</span><span
-                    class="value">"form-control"</span><span class="attr"> placeholder=</span><span
-                    class="value">"..."</span><span class="label">/></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;/fieldset></span><br/>
-                <span class="label">&lt;/form></span><br/>
-              </pre>
+                <pre v-hljs><code class="html">
+    &lt;form class="form-inline">
+      &lt;fieldset class="form-group">
+        &lt;label>Name&lt;/label>
+        &lt;input type="text" class="form-control" placeholder="user name"/>
+      &lt;/fieldset>
+
+      &lt;fieldset class="form-group">
+        &lt;label>Pwd&lt;/label>
+        &lt;input type="password" class="form-control" placeholder="password"/>
+      &lt;/fieldset>
+                  
+      &lt;button class="btn btn-default" type="button">submit&lt;/button>
+    &lt;/form>
+                </code></pre>
               </div>
             </div>
 
@@ -1156,49 +1053,34 @@
                 <fieldset class="form-group form-group-warning">
                   <label>warning</label>
                   <input type="text" class="form-control" placeholder="user name"/>
-                  <span class="form-control-feedback">
-                  给你一个小小的警告
-                </span>
+                  <span class="form-control-feedback">给你一个小小的警告</span>
                 </fieldset>
 
                 <fieldset class="form-group form-group-error">
                   <label>error</label>
                   <input type="text" class="form-control" placeholder="user name"/>
-                  <span class="form-control-feedback">
-                  这里输入有错哦
-                </span>
+                  <span class="form-control-feedback">这里输入有错哦</span>
                 </fieldset>
               </div>
               <div class="yyui-docs-code">
-              <pre>
-                <span class="label">&lt;fieldset</span><span class="attr"> class=</span><span class="value">"form-group form-group-success"</span><span
-                  class="label">&gt;</span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;label></span>Name<span class="label">&lt;/label></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;input</span><span class="attr"> type=</span><span class="value">"text"</span><span
-                  class="attr"> class=</span><span class="value">"form-control"</span><span
-                  class="attr"> placeholder=</span><span class="value">"..."</span><span class="label">/></span><br/>
-                <span class="label">&lt;/fieldset></span><br/>
-                <br/>
-                <span class="label">&lt;fieldset</span><span class="attr"> class=</span><span class="value">"form-group form-group-warning"</span><span
-                  class="label">&gt;</span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;label></span>Pwd<span class="label">&lt;/label></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;input</span><span class="attr"> type=</span><span class="value">"text"</span><span
-                  class="attr"> class=</span><span class="value">"form-control"</span><span
-                  class="attr"> placeholder=</span><span class="value">"..."</span><span class="label">/></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;span</span><span class="attr"> class=</span><span class="value">"form-control-feedback"</span><span
-                  class="label">&gt;</span>...<span class="label">&lt;/span></span><br/>
-                <span class="label">&lt;/fieldset></span><br/>
-                <br/>
-                <span class="label">&lt;fieldset</span><span class="attr"> class=</span><span class="value">"form-group form-group-error"</span><span
-                  class="label">&gt;</span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;label></span>Pwd<span class="label">&lt;/label></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;input</span><span class="attr"> type=</span><span class="value">"text"</span><span
-                  class="attr"> class=</span><span class="value">"form-control"</span><span
-                  class="attr"> placeholder=</span><span class="value">"..."</span><span class="label">/></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;span</span><span class="attr"> class=</span><span class="value">"form-control-feedback"</span><span
-                  class="label">&gt;</span>...<span class="label">&lt;/span></span><br/>
-                <span class="label">&lt;/fieldset></span><br/>
-              </pre>
+              <pre v-hljs><code class="html">
+    &lt;fieldset class="form-group form-group-success">
+      &lt;label>success&lt;/label>
+      &lt;input type="text" class="form-control" placeholder="user name"/>
+    &lt;/fieldset>
+
+    &lt;fieldset class="form-group form-group-warning">
+      &lt;label>warning&lt;/label>
+      &lt;input type="text" class="form-control" placeholder="user name"/>
+      &lt;span class="form-control-feedback">给你一个小小的警告&lt;/span>
+    &lt;/fieldset>
+
+    &lt;fieldset class="form-group form-group-error">
+      &lt;label>error&lt;/label>
+      &lt;input type="text" class="form-control" placeholder="user name"/>
+      &lt;span class="form-control-feedback">这里输入有错哦&lt;/span>
+    &lt;/fieldset>
+              </code></pre>
               </div>
             </div>
 
@@ -1222,25 +1104,19 @@
               </div>
               <div class="yyui-docs-code">
                 <!--<i class="fa fa-file-code-o yyui-docs-copy"></i>-->
-                <pre>
-                <span class="label">&lt;div</span><span class="attr"> class=</span><span
-                    class="value">"select"</span><span class="label">&gt;</span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;select</span><span class="attr"> class=</span><span class="value">"form-control"</span><span
-                    class="label">&gt;</span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;option</span><span class="attr"> value=</span><span
-                    class="value">"..."</span><span class="label">&gt;</span>...<span
-                    class="label">&lt;/option></span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;option</span><span class="attr"> value=</span><span
-                    class="value">"..."</span><span class="label">&gt;</span>...<span
-                    class="label">&lt;/option></span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;option</span><span class="attr"> value=</span><span
-                    class="value">"..."</span><span class="label">&gt;</span>...<span
-                    class="label">&lt;/option></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;/select></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;div</span><span class="attr"> class=</span><span class="value">"triangle-down"</span><span
-                    class="label">&gt;&lt;/div></span><br/>
-                <span class="label">&lt;/div></span><br/>
-              </pre>
+                <pre v-hljs><code class="html">
+    &lt;fieldset class="form-group">
+      &lt;label>Select&lt;/label>
+      &lt;div class="select">
+        &lt;select class="form-control" name="" id="33">
+          &lt;option value="">1&lt;/option>
+          &lt;option value="">2&lt;/option>
+          &lt;option value="">3&lt;/option>
+        &lt;/select>
+        &lt;div class="triangle-down">&lt;/div>
+      &lt;/div>
+    &lt;/fieldset>
+                </code></pre>
               </div>
             </div>
 
@@ -1255,17 +1131,12 @@
               </div>
               <div class="yyui-docs-code">
                 <!--<i class="fa fa-file-code-o yyui-docs-copy"></i>-->
-                <pre>
-                <span class="label">&lt;div</span><span class="attr"> class=</span><span class="value">"checkbox"</span><span
-                    class="label">&gt;</span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;input</span><span class="attr"> type=</span><span class="value">"checkbox"</span><span
-                    class="attr"> id=</span><span class="value">"..."</span><span class="attr"> name=</span><span
-                    class="value">"..."</span><span class="label">/></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;label</span><span class="attr"> for=</span><span
-                    class="value">"..."</span><span class="label">&gt;</span>复选框<span
-                    class="label">&lt;/label></span><br/>
-                <span class="label">&lt;/div></span><br/>
-              </pre>
+                <pre v-hljs><code class="html">
+    &lt;div class="checkbox">
+      &lt;input id="checkbox_1_1" type="checkbox" name="checkbox1"/>
+      &lt;label for="checkbox_1_1">复选框&lt;/label>
+    &lt;/div>
+                </code></pre>
               </div>
             </div>
 
@@ -1280,17 +1151,12 @@
               </div>
               <div class="yyui-docs-code">
                 <!--<i class="fa fa-file-code-o yyui-docs-copy"></i>-->
-                <pre>
-                <span class="label">&lt;div</span><span class="attr"> class=</span><span class="value">"checkbox"</span><span
-                    class="label">&gt;</span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;input</span><span class="attr"> type=</span><span class="value">"checkbox"</span><span
-                    class="attr"> id=</span><span class="value">"..."</span><span class="attr"> name=</span><span
-                    class="value">"..."</span><span class="label">/></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;label</span><span class="attr"> for=</span><span
-                    class="value">"..."</span><span class="label">&gt;</span>复选框<span
-                    class="label">&lt;/label></span><br/>
-                <span class="label">&lt;/div></span><br/>
-              </pre>
+                <pre v-hljs><code class="html">
+    &lt;div class="checkbox">
+      &lt;input id="checkbox_2_1" type="checkbox" name="checkbox1" checked/>
+      &lt;label for="checkbox_2_1">复选框&lt;/label>
+    &lt;/div>
+                </code></pre>
               </div>
             </div>
 
@@ -1306,17 +1172,12 @@
               </div>
               <div class="yyui-docs-code">
                 <!--<i class="fa fa-file-code-o yyui-docs-copy"></i>-->
-                <pre>
-                <span class="label">&lt;div</span><span class="attr"> class=</span><span class="value">"checkbox disabled"</span><span
-                    class="label">&gt;</span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;input</span><span class="attr"> type=</span><span class="value">"checkbox"</span><span
-                    class="attr"> id=</span><span class="value">"..."</span><span class="attr"> name=</span><span
-                    class="value">"..."</span><span class="attr"> disabled</span><span class="label">/></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;label</span><span class="attr"> for=</span><span
-                    class="value">"..."</span><span class="label">&gt;</span>复选框<span
-                    class="label">&lt;/label></span><br/>
-                <span class="label">&lt;/div></span><br/>
-              </pre>
+                <pre v-hljs><code class="html">
+    &lt;div class="checkbox disabled">
+      &lt;input id="checkbox_3_1" type="checkbox" name="checkbox1" disabled/>
+      &lt;label for="checkbox_3_1">复选框&lt;/label>
+    &lt;/div>
+                </code></pre>
               </div>
             </div>
 
@@ -1335,27 +1196,17 @@
               </div>
               <div class="yyui-docs-code">
                 <!--<i class="fa fa-file-code-o yyui-docs-copy"></i>-->
-                <pre>
-                <span class="label">&lt;div</span><span class="attr"> class=</span><span
-                    class="value">"checkbox-inline"</span><span class="label">&gt;</span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;input</span><span class="attr"> type=</span><span class="value">"checkbox"</span><span
-                    class="attr"> id=</span><span class="value">"..."</span><span class="attr"> name=</span><span
-                    class="value">"..."</span><span class="attr"> disabled</span><span class="label">/></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;label</span><span class="attr"> for=</span><span
-                    class="value">"..."</span><span class="label">&gt;</span>复选框<span
-                    class="label">&lt;/label></span><br/>
-                <span class="label">&lt;/div></span><br/>
-                <br/>
-                <span class="label">&lt;div</span><span class="attr"> class=</span><span
-                    class="value">"checkbox-inline"</span><span class="label">&gt;</span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;input</span><span class="attr"> type=</span><span class="value">"checkbox"</span><span
-                    class="attr"> id=</span><span class="value">"..."</span><span class="attr"> name=</span><span
-                    class="value">"..."</span><span class="attr"> disabled</span><span class="label">/></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;label</span><span class="attr"> for=</span><span
-                    class="value">"..."</span><span class="label">&gt;</span>复选框<span
-                    class="label">&lt;/label></span><br/>
-                <span class="label">&lt;/div></span><br/>
-              </pre>
+                <pre v-hljs><code class="html">
+    &lt;div class="checkbox-inline">
+      &lt;input id="checkbox_4_1" type="checkbox" name="checkbox2" checked/>
+      &lt;label for="checkbox_4_1">默认checkbox&lt;/label>
+    &lt;/div>
+                  
+    &lt;div class="checkbox-inline">
+      &lt;input id="checkbox_4_2" type="checkbox" name="checkbox2"/>
+      &lt;label for="checkbox_4_2">默认checkbox&lt;/label>
+    &lt;/div>
+                </code></pre>
               </div>
             </div>
 
@@ -1389,67 +1240,37 @@
                 </div>
               </div>
               <div class="yyui-docs-code">
-              <pre>
-                <span class="label">&lt;div</span><span class="attr"> class=</span><span class="value">"checkbox checkbox-primary"</span><span
-                  class="label">&gt;</span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;input</span><span class="attr"> type=</span><span class="value">"checkbox"</span><span
-                  class="attr"> id=</span><span class="value">"..."</span><span class="attr"> name=</span><span
-                  class="value">"..."</span><span class="label">/></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;label</span><span class="attr"> for=</span><span
-                  class="value">"..."</span><span class="label">&gt;</span>复选框<span
-                  class="label">&lt;/label></span><br/>
-                <span class="label">&lt;/div></span><br/>
-                <br/>
-                <span class="label">&lt;div</span><span class="attr"> class=</span><span class="value">"checkbox checkbox-secondary"</span><span
-                  class="label">&gt;</span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;input</span><span class="attr"> type=</span><span class="value">"checkbox"</span><span
-                  class="attr"> id=</span><span class="value">"..."</span><span class="attr"> name=</span><span
-                  class="value">"..."</span><span class="label">/></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;label</span><span class="attr"> for=</span><span
-                  class="value">"..."</span><span class="label">&gt;</span>复选框<span
-                  class="label">&lt;/label></span><br/>
-                <span class="label">&lt;/div></span><br/>
-                <br/>
-                <span class="label">&lt;div</span><span class="attr"> class=</span><span class="value">"checkbox checkbox-success"</span><span
-                  class="label">&gt;</span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;input</span><span class="attr"> type=</span><span class="value">"checkbox"</span><span
-                  class="attr"> id=</span><span class="value">"..."</span><span class="attr"> name=</span><span
-                  class="value">"..."</span><span class="label">/></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;label</span><span class="attr"> for=</span><span
-                  class="value">"..."</span><span class="label">&gt;</span>复选框<span
-                  class="label">&lt;/label></span><br/>
-                <span class="label">&lt;/div></span><br/>
-                <br/>
-                <span class="label">&lt;div</span><span class="attr"> class=</span><span class="value">"checkbox checkbox-info"</span><span
-                  class="label">&gt;</span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;input</span><span class="attr"> type=</span><span class="value">"checkbox"</span><span
-                  class="attr"> id=</span><span class="value">"..."</span><span class="attr"> name=</span><span
-                  class="value">"..."</span><span class="label">/></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;label</span><span class="attr"> for=</span><span
-                  class="value">"..."</span><span class="label">&gt;</span>复选框<span
-                  class="label">&lt;/label></span><br/>
-                <span class="label">&lt;/div></span><br/>
-                <br/>
-                <span class="label">&lt;div</span><span class="attr"> class=</span><span class="value">"checkbox checkbox-warning"</span><span
-                  class="label">&gt;</span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;input</span><span class="attr"> type=</span><span class="value">"checkbox"</span><span
-                  class="attr"> id=</span><span class="value">"..."</span><span class="attr"> name=</span><span
-                  class="value">"..."</span><span class="label">/></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;label</span><span class="attr"> for=</span><span
-                  class="value">"..."</span><span class="label">&gt;</span>复选框<span
-                  class="label">&lt;/label></span><br/>
-                <span class="label">&lt;/div></span><br/>
-                <br/>
-                <span class="label">&lt;div</span><span class="attr"> class=</span><span class="value">"checkbox checkbox-danger"</span><span
-                  class="label">&gt;</span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;input</span><span class="attr"> type=</span><span class="value">"checkbox"</span><span
-                  class="attr"> id=</span><span class="value">"..."</span><span class="attr"> name=</span><span
-                  class="value">"..."</span><span class="label">/></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;label</span><span class="attr"> for=</span><span
-                  class="value">"..."</span><span class="label">&gt;</span>复选框<span
-                  class="label">&lt;/label></span><br/>
-                <span class="label">&lt;/div></span><br/>
-              </pre>
+              <pre v-hljs><code class="html">
+    &lt;div class="checkbox checkbox-primary">
+      &lt;input id="checkbox_5_1" type="checkbox" name="checkbox1" checked/>
+      &lt;label for="checkbox_5_1">复选框&lt;/label>
+    &lt;/div>
+                
+    &lt;div class="checkbox checkbox-secondary">
+      &lt;input id="checkbox_5_2" type="checkbox" name="checkbox1" checked/>
+      &lt;label for="checkbox_5_2">复选框&lt;/label>
+    &lt;/div>
+
+    &lt;div class="checkbox checkbox-success">
+      &lt;input id="checkbox_5_3" type="checkbox" name="checkbox1" checked/>
+      &lt;label for="checkbox_5_3">复选框&lt;/label>
+    &lt;/div>
+
+    &lt;div class="checkbox checkbox-info">
+      &lt;input id="checkbox_5_4" type="checkbox" name="checkbox1" checked/>
+      &lt;label for="checkbox_5_4">复选框&lt;/label>
+    &lt;/div>
+
+    &lt;div class="checkbox checkbox-warning">
+      &lt;input id="checkbox_5_5" type="checkbox" name="checkbox1" checked/>
+      &lt;label for="checkbox_5_5">复选框&lt;/label>
+    &lt;/div>
+
+    &lt;div class="checkbox checkbox-danger">
+      &lt;input id="checkbox_5_6" type="checkbox" name="checkbox1" checked/>
+      &lt;label for="checkbox_5_6">复选框&lt;/label>
+    &lt;/div>
+              </code></pre>
               </div>
             </div>
 
@@ -1464,16 +1285,12 @@
               </div>
               <div class="yyui-docs-code">
                 <!--<i class="fa fa-file-code-o yyui-docs-copy"></i>-->
-                <pre>
-                <span class="label">&lt;div</span><span class="attr"> class=</span><span
-                    class="value">"checkbox-switch"</span><span class="label">&gt;</span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;input</span><span class="attr"> type=</span><span class="value">"checkbox"</span><span
-                    class="attr"> id=</span><span class="value">"..."</span><span class="attr"> name=</span><span
-                    class="value">"..."</span><span class="label">/></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;label</span><span class="attr"> for=</span><span
-                    class="value">"..."</span><span class="label">&gt;</span><span class="label">&lt;/label></span><br/>
-                <span class="label">&lt;/div></span><br/>
-              </pre>
+                <pre v-hljs><code class="html">
+    &lt;div class="checkbox-switch">
+      &lt;input id="checkbox_switch_1_1" type="checkbox">
+      &lt;label for="checkbox_switch_1_1">&lt;/label>
+    &lt;/div>
+                </code></pre>
               </div>
             </div>
 
@@ -1488,16 +1305,12 @@
               </div>
               <div class="yyui-docs-code">
                 <!--<i class="fa fa-file-code-o yyui-docs-copy"></i>-->
-                <pre>
-                <span class="label">&lt;div</span><span class="attr"> class=</span><span
-                    class="value">"checkbox-switch"</span><span class="label">&gt;</span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;input</span><span class="attr"> type=</span><span class="value">"checkbox"</span><span
-                    class="attr"> id=</span><span class="value">"..."</span><span class="attr"> name=</span><span
-                    class="value">"..."</span><span class="attr"> checked</span><span class="label">/></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;label</span><span class="attr"> for=</span><span
-                    class="value">"..."</span><span class="label">&gt;</span><span class="label">&lt;/label></span><br/>
-                <span class="label">&lt;/div></span><br/>
-              </pre>
+                <pre v-hljs><code class="html">
+    &lt;div class="checkbox-switch">
+      &lt;input id="checkbox_switch_2_1" type="checkbox" checked>
+      &lt;label for="checkbox_switch_2_1">&lt;/label>
+    &lt;/div>
+                </code></pre>
               </div>
             </div>
 
@@ -1513,16 +1326,12 @@
               </div>
               <div class="yyui-docs-code">
                 <!--<i class="fa fa-file-code-o yyui-docs-copy"></i>-->
-                <pre>
-                <span class="label">&lt;div</span><span class="attr"> class=</span><span class="value">"checkbox-switch disabled"</span><span
-                    class="label">&gt;</span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;input</span><span class="attr"> type=</span><span class="value">"checkbox"</span><span
-                    class="attr"> id=</span><span class="value">"..."</span><span class="attr"> name=</span><span
-                    class="value">"..."</span><span class="attr"> disabled</span><span class="label">/></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;label</span><span class="attr"> for=</span><span
-                    class="value">"..."</span><span class="label">&gt;</span><span class="label">&lt;/label></span><br/>
-                <span class="label">&lt;/div></span><br/>
-              </pre>
+                <pre v-hljs><code class="html">
+    &lt;div class="checkbox-switch disabled">
+      &lt;input id="checkbox_switch_3_1" type="checkbox" disabled>
+      &lt;label for="checkbox_switch_3_1">&lt;/label>
+    &lt;/div>
+                </code></pre>
               </div>
             </div>
 
@@ -1545,34 +1354,22 @@
                 </div>
               </div>
               <div class="yyui-docs-code">
-              <pre>
-                <span class="label">&lt;div</span><span class="attr"> class=</span><span class="value">"checkbox-switch checkbox-switch-lg"</span><span
-                  class="label">&gt;</span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;input</span><span class="attr"> type=</span><span class="value">"checkbox"</span><span
-                  class="attr"> id=</span><span class="value">"..."</span><span class="attr"> name=</span><span
-                  class="value">"..."</span><span class="attr"> checked</span><span class="label">/></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;label</span><span class="attr"> for=</span><span
-                  class="value">"..."</span><span class="label">&gt;</span><span class="label">&lt;/label></span><br/>
-                <span class="label">&lt;/div></span><br/>
-                <br/>
-                <span class="label">&lt;div</span><span class="attr"> class=</span><span class="value">"checkbox-switch checkbox-switch"</span><span
-                  class="label">&gt;</span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;input</span><span class="attr"> type=</span><span class="value">"checkbox"</span><span
-                  class="attr"> id=</span><span class="value">"..."</span><span class="attr"> name=</span><span
-                  class="value">"..."</span><span class="attr"> checked</span><span class="label">/></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;label</span><span class="attr"> for=</span><span
-                  class="value">"..."</span><span class="label">&gt;</span><span class="label">&lt;/label></span><br/>
-                <span class="label">&lt;/div></span><br/>
-                <br/>
-                <span class="label">&lt;div</span><span class="attr"> class=</span><span class="value">"checkbox-switch checkbox-switch-sm"</span><span
-                  class="label">&gt;</span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;input</span><span class="attr"> type=</span><span class="value">"checkbox"</span><span
-                  class="attr"> id=</span><span class="value">"..."</span><span class="attr"> name=</span><span
-                  class="value">"..."</span><span class="attr"> checked</span><span class="label">/></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;label</span><span class="attr"> for=</span><span
-                  class="value">"..."</span><span class="label">&gt;</span><span class="label">&lt;/label></span><br/>
-                <span class="label">&lt;/div></span><br/>
-              </pre>
+              <pre v-hljs><code class="html">
+    &lt;div class="checkbox-switch checkbox-switch-lg">
+      &lt;input id="checkbox_switch_4_1" type="checkbox" checked>
+      &lt;label for="checkbox_switch_4_1">&lt;/label>
+    &lt;/div>
+
+    &lt;div class="checkbox-switch">
+      &lt;input id="checkbox_switch_4_2" type="checkbox" checked>
+      &lt;label for="checkbox_switch_4_2">&lt;/label>
+    &lt;/div>
+
+    &lt;div class="checkbox-switch checkbox-switch-sm">
+      &lt;input id="checkbox_switch_4_3" type="checkbox" checked>
+      &lt;label for="checkbox_switch_4_3">&lt;/label>
+    &lt;/div>
+              </code></pre>
               </div>
             </div>
 
@@ -1610,62 +1407,37 @@
                 </div>
               </div>
               <div class="yyui-docs-code">
-              <pre>
-                <span class="label">&lt;div</span><span class="attr"> class=</span><span
-                  class="value">"checkbox-switch"</span><span class="label">&gt;</span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;input</span><span class="attr"> type=</span><span class="value">"checkbox"</span><span
-                  class="attr"> id=</span><span class="value">"..."</span><span class="attr"> name=</span><span
-                  class="value">"..."</span><span class="attr"> checked</span><span class="label">/></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;label</span><span class="attr"> for=</span><span
-                  class="value">"..."</span><span class="label">&gt;</span><span class="label">&lt;/label></span><br/>
-                <span class="label">&lt;/div></span><br/>
-                <br/>
-                <span class="label">&lt;div</span><span class="attr"> class=</span><span class="value">"checkbox-switch checkbox-switch-secondary"</span><span
-                  class="label">&gt;</span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;input</span><span class="attr"> type=</span><span class="value">"checkbox"</span><span
-                  class="attr"> id=</span><span class="value">"..."</span><span class="attr"> name=</span><span
-                  class="value">"..."</span><span class="attr"> checked</span><span class="label">/></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;label</span><span class="attr"> for=</span><span
-                  class="value">"..."</span><span class="label">&gt;</span><span class="label">&lt;/label></span><br/>
-                <span class="label">&lt;/div></span><br/>
-                <br/>
-                <span class="label">&lt;div</span><span class="attr"> class=</span><span class="value">"checkbox-switch checkbox-switch-success"</span><span
-                  class="label">&gt;</span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;input</span><span class="attr"> type=</span><span class="value">"checkbox"</span><span
-                  class="attr"> id=</span><span class="value">"..."</span><span class="attr"> name=</span><span
-                  class="value">"..."</span><span class="attr"> checked</span><span class="label">/></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;label</span><span class="attr"> for=</span><span
-                  class="value">"..."</span><span class="label">&gt;</span><span class="label">&lt;/label></span><br/>
-                <span class="label">&lt;/div></span><br/>
-                <br/>
-                <span class="label">&lt;div</span><span class="attr"> class=</span><span class="value">"checkbox-switch checkbox-switch-info"</span><span
-                  class="label">&gt;</span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;input</span><span class="attr"> type=</span><span class="value">"checkbox"</span><span
-                  class="attr"> id=</span><span class="value">"..."</span><span class="attr"> name=</span><span
-                  class="value">"..."</span><span class="attr"> checked</span><span class="label">/></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;label</span><span class="attr"> for=</span><span
-                  class="value">"..."</span><span class="label">&gt;</span><span class="label">&lt;/label></span><br/>
-                <span class="label">&lt;/div></span><br/>
-                <br/>
-                <span class="label">&lt;div</span><span class="attr"> class=</span><span class="value">"checkbox-switch checkbox-switch-warning"</span><span
-                  class="label">&gt;</span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;input</span><span class="attr"> type=</span><span class="value">"checkbox"</span><span
-                  class="attr"> id=</span><span class="value">"..."</span><span class="attr"> name=</span><span
-                  class="value">"..."</span><span class="attr"> checked</span><span class="label">/></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;label</span><span class="attr"> for=</span><span
-                  class="value">"..."</span><span class="label">&gt;</span><span class="label">&lt;/label></span><br/>
-                <span class="label">&lt;/div></span><br/>
-                <br/>
-                <span class="label">&lt;div</span><span class="attr"> class=</span><span class="value">"checkbox-switch checkbox-switch-danger"</span><span
-                  class="label">&gt;</span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;input</span><span class="attr"> type=</span><span class="value">"checkbox"</span><span
-                  class="attr"> id=</span><span class="value">"..."</span><span class="attr"> name=</span><span
-                  class="value">"..."</span><span class="attr"> checked</span><span class="label">/></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;label</span><span class="attr"> for=</span><span
-                  class="value">"..."</span><span class="label">&gt;</span><span class="label">&lt;/label></span><br/>
-                <span class="label">&lt;/div></span><br/>
-                <br/>
-              </pre>
+              <pre v-hljs><code class="html">
+    &lt;div class="checkbox-switch">
+      &lt;input id="checkbox_switch_5_1" type="checkbox" checked>
+      &lt;label for="checkbox_switch_5_1">&lt;/label>
+    &lt;/div>
+
+    &lt;div class="checkbox-switch checkbox-switch-secondary">
+      &lt;input id="checkbox_switch_5_2" type="checkbox" checked>
+      &lt;label for="checkbox_switch_5_2">&lt;/label>
+    &lt;/div>
+
+    &lt;div class="checkbox-switch checkbox-switch-success">
+      &lt;input id="checkbox_switch_5_3" type="checkbox" checked>
+      &lt;label for="checkbox_switch_5_3">&lt;/label>
+    &lt;/div>
+
+    &lt;div class="checkbox-switch checkbox-switch-info">
+      &lt;input id="checkbox_switch_5_4" type="checkbox" checked>
+      &lt;label for="checkbox_switch_5_4">&lt;/label>
+    &lt;/div>
+
+    &lt;div class="checkbox-switch checkbox-switch-warning">
+      &lt;input id="checkbox_switch_5_5" type="checkbox" checked>
+      &lt;label for="checkbox_switch_5_5">&lt;/label>
+    &lt;/div>
+    
+    &lt;div class="checkbox-switch checkbox-switch-danger">
+      &lt;input id="checkbox_switch_5_6" type="checkbox" checked>
+      &lt;label for="checkbox_switch_5_6">&lt;/label>
+    &lt;/div>
+              </code></pre>
               </div>
             </div>
 
@@ -1680,17 +1452,12 @@
               </div>
               <div class="yyui-docs-code">
                 <!--<i class="fa fa-file-code-o yyui-docs-copy"></i>-->
-                <pre>
-                <span class="label">&lt;div</span><span class="attr"> class=</span><span
-                    class="value">"radio"</span><span class="label">&gt;</span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;input</span><span class="attr"> type=</span><span class="value">"radio"</span><span
-                    class="attr"> id=</span><span class="value">"..."</span><span class="attr"> name=</span><span
-                    class="value">"..."</span><span class="label">/></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;label</span><span class="attr"> for=</span><span
-                    class="value">"..."</span><span class="label">&gt;</span>单选框<span
-                    class="label">&lt;/label></span><br/>
-                <span class="label">&lt;/div></span><br/>
-              </pre>
+                <pre v-hljs><code class="html">
+    &lt;div class="radio">
+      &lt;input id="radio_1_1" type="radio" name="radio1"/>
+      &lt;label for="radio_1_1">单选框&lt;/label>
+    &lt;/div>
+                </code></pre>
               </div>
             </div>
 
@@ -1705,17 +1472,12 @@
               </div>
               <div class="yyui-docs-code">
                 <!--<i class="fa fa-file-code-o yyui-docs-copy"></i>-->
-                <pre>
-                <span class="label">&lt;div</span><span class="attr"> class=</span><span
-                    class="value">"radio"</span><span class="label">&gt;</span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;input</span><span class="attr"> type=</span><span class="value">"radio"</span><span
-                    class="attr"> id=</span><span class="value">"..."</span><span class="attr"> name=</span><span
-                    class="value">"..."</span><span class="attr"> checked</span><span class="label">/></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;label</span><span class="attr"> for=</span><span
-                    class="value">"..."</span><span class="label">&gt;</span>单选框<span
-                    class="label">&lt;/label></span><br/>
-                <span class="label">&lt;/div></span><br/>
-              </pre>
+                <pre v-hljs><code class="html">
+    &lt;div class="radio">
+      &lt;input id="radio_2_1" type="radio" checked>
+      &lt;label for="radio_2_1">单选框&lt;/label>
+    &lt;/div>
+                </code></pre>
               </div>
             </div>
 
@@ -1734,27 +1496,17 @@
                 </div>
               </div>
               <div class="yyui-docs-code">
-              <pre>
-                <span class="label">&lt;div</span><span class="attr"> class=</span><span
-                  class="value">"radio-switch"</span><span class="label">&gt;</span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;input</span><span class="attr"> type=</span><span class="value">"radio"</span><span
-                  class="attr"> id=</span><span class="value">"..."</span><span class="attr"> name=</span><span
-                  class="value">"..."</span><span class="attr"> disabled</span><span class="label">/></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;label</span><span class="attr"> for=</span><span
-                  class="value">"..."</span><span class="label">&gt;</span>单选框<span
-                  class="label">&lt;/label></span><br/>
-                <span class="label">&lt;/div></span><br/>
-                <br/>
-                <span class="label">&lt;div</span><span class="attr"> class=</span><span class="value">"radio-switch disabled"</span><span
-                  class="label">&gt;</span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;input</span><span class="attr"> type=</span><span class="value">"radio"</span><span
-                  class="attr"> id=</span><span class="value">"..."</span><span class="attr"> name=</span><span
-                  class="value">"..."</span><span class="attr"> disabled</span><span class="label">/></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;label</span><span class="attr"> for=</span><span
-                  class="value">"..."</span><span class="label">&gt;</span>单选框<span
-                  class="label">&lt;/label></span><br/>
-                <span class="label">&lt;/div></span><br/>
-              </pre>
+              <pre v-hljs><code class="html">
+    &lt;div class="radio">
+      &lt;input id="radio_3_1" type="radio" disabled>
+      &lt;label for="radio_3_1">单选框&lt;/label>
+    &lt;/div>
+
+    &lt;div class="radio disabled">
+      &lt;input id="radio_3_2" type="radio" disabled>
+      &lt;label for="radio_3_2">单选框&lt;/label>
+    &lt;/div>
+              </code></pre>
               </div>
             </div>
 
@@ -1773,27 +1525,17 @@
               </div>
               <div class="yyui-docs-code">
                 <!--<i class="fa fa-file-code-o yyui-docs-copy"></i>-->
-                <pre>
-                <span class="label">&lt;div</span><span class="attr"> class=</span><span
-                    class="value">"radio-inline"</span><span class="label">&gt;</span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;input</span><span class="attr"> type=</span><span class="value">"radio"</span><span
-                    class="attr"> id=</span><span class="value">"..."</span><span class="attr"> name=</span><span
-                    class="value">"..."</span><span class="attr"> checked</span><span class="label">/></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;label</span><span class="attr"> for=</span><span
-                    class="value">"..."</span><span class="label">&gt;</span>单选框<span
-                    class="label">&lt;/label></span><br/>
-                <span class="label">&lt;/div></span><br/>
-                <br/>
-                <span class="label">&lt;div</span><span class="attr"> class=</span><span
-                    class="value">"radio-inline"</span><span class="label">&gt;</span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;input</span><span class="attr"> type=</span><span class="value">"radio"</span><span
-                    class="attr"> id=</span><span class="value">"..."</span><span class="attr"> name=</span><span
-                    class="value">"..."</span><span class="attr"></span><span class="label">/></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;label</span><span class="attr"> for=</span><span
-                    class="value">"..."</span><span class="label">&gt;</span>单选框<span
-                    class="label">&lt;/label></span><br/>
-                <span class="label">&lt;/div></span><br/>
-              </pre>
+                <pre v-hljs><code class="html">
+    &lt;div class="radio-inline">
+      &lt;input id="radio_4_1" type="radio" name="radio2" checked/>
+      &lt;label for="radio_4_1">单选框&lt;/label>
+    &lt;/div>
+                  
+    &lt;div class="radio-inline">
+      &lt;input id="radio_4_2" type="radio" name="radio2"/>
+      &lt;label for="radio_4_2">单选框&lt;/label>
+    &lt;/div>
+                </code></pre>
               </div>
             </div>
 
@@ -1827,67 +1569,37 @@
                 </div>
               </div>
               <div class="yyui-docs-code">
-              <pre>
-                <span class="label">&lt;div</span><span class="attr"> class=</span><span class="value">"radio radio-primary"</span><span
-                  class="label">&gt;</span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;input</span><span class="attr"> type=</span><span class="value">"radio"</span><span
-                  class="attr"> id=</span><span class="value">"..."</span><span class="attr"> name=</span><span
-                  class="value">"..."</span><span class="label">/></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;label</span><span class="attr"> for=</span><span
-                  class="value">"..."</span><span class="label">&gt;</span>单选框<span
-                  class="label">&lt;/label></span><br/>
-                <span class="label">&lt;/div></span><br/>
-                <br/>
-                <span class="label">&lt;div</span><span class="attr"> class=</span><span class="value">"radio radio-secondary"</span><span
-                  class="label">&gt;</span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;input</span><span class="attr"> type=</span><span class="value">"radio"</span><span
-                  class="attr"> id=</span><span class="value">"..."</span><span class="attr"> name=</span><span
-                  class="value">"..."</span><span class="label">/></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;label</span><span class="attr"> for=</span><span
-                  class="value">"..."</span><span class="label">&gt;</span>单选框<span
-                  class="label">&lt;/label></span><br/>
-                <span class="label">&lt;/div></span><br/>
-                <br/>
-                <span class="label">&lt;div</span><span class="attr"> class=</span><span class="value">"radio radio-success"</span><span
-                  class="label">&gt;</span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;input</span><span class="attr"> type=</span><span class="value">"radio"</span><span
-                  class="attr"> id=</span><span class="value">"..."</span><span class="attr"> name=</span><span
-                  class="value">"..."</span><span class="label">/></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;label</span><span class="attr"> for=</span><span
-                  class="value">"..."</span><span class="label">&gt;</span>单选框<span
-                  class="label">&lt;/label></span><br/>
-                <span class="label">&lt;/div></span><br/>
-                <br/>
-                <span class="label">&lt;div</span><span class="attr"> class=</span><span class="value">"radio radio-info"</span><span
-                  class="label">&gt;</span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;input</span><span class="attr"> type=</span><span class="value">"radio"</span><span
-                  class="attr"> id=</span><span class="value">"..."</span><span class="attr"> name=</span><span
-                  class="value">"..."</span><span class="label">/></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;label</span><span class="attr"> for=</span><span
-                  class="value">"..."</span><span class="label">&gt;</span>单选框<span
-                  class="label">&lt;/label></span><br/>
-                <span class="label">&lt;/div></span><br/>
-                <br/>
-                <span class="label">&lt;div</span><span class="attr"> class=</span><span class="value">"radio radio-warning"</span><span
-                  class="label">&gt;</span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;input</span><span class="attr"> type=</span><span class="value">"radio"</span><span
-                  class="attr"> id=</span><span class="value">"..."</span><span class="attr"> name=</span><span
-                  class="value">"..."</span><span class="label">/></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;label</span><span class="attr"> for=</span><span
-                  class="value">"..."</span><span class="label">&gt;</span>单选框<span
-                  class="label">&lt;/label></span><br/>
-                <span class="label">&lt;/div></span><br/>
-                <br/>
-                <span class="label">&lt;div</span><span class="attr"> class=</span><span class="value">"radio radio-danger"</span><span
-                  class="label">&gt;</span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;input</span><span class="attr"> type=</span><span class="value">"radio"</span><span
-                  class="attr"> id=</span><span class="value">"..."</span><span class="attr"> name=</span><span
-                  class="value">"..."</span><span class="label">/></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;label</span><span class="attr"> for=</span><span
-                  class="value">"..."</span><span class="label">&gt;</span>单选框<span
-                  class="label">&lt;/label></span><br/>
-                <span class="label">&lt;/div></span><br/>
-              </pre>
+              <pre v-hljs><code class="html">
+    &lt;div class="radio radio-primary">
+      &lt;input id="radio_5_1" type="radio" name="radio1" checked/>
+      &lt;label for="radio_5_1">单选框&lt;/label>
+    &lt;/div>
+
+    &lt;div class="radio radio-secondary">
+      &lt;input id="radio_5_2" type="radio" name="radio2" checked/>
+      &lt;label for="radio_5_2">单选框&lt;/label>
+    &lt;/div>
+
+    &lt;div class="radio radio-success">
+      &lt;input id="radio_5_3" type="radio" name="radio3" checked/>
+      &lt;label for="radio_5_3">单选框&lt;/label>
+    &lt;/div>
+
+    &lt;div class="radio radio-info">
+      &lt;input id="radio_5_4" type="radio" name="radio4" checked/>
+      &lt;label for="radio_5_4">单选框&lt;/label>
+    &lt;/div>
+
+    &lt;div class="radio radio-warning">
+      &lt;input id="radio_5_5" type="radio" name="radio5" checked/>
+      &lt;label for="radio_5_5">单选框&lt;/label>
+    &lt;/div>
+                
+    &lt;div class="radio radio-danger">
+      &lt;input id="radio_5_6" type="radio" name="radio6" checked/>
+      &lt;label for="radio_5_6">单选框&lt;/label>
+    &lt;/div>
+              </code></pre>
               </div>
             </div>
 
@@ -1902,16 +1614,12 @@
               </div>
               <div class="yyui-docs-code">
                 <!--<i class="fa fa-file-code-o yyui-docs-copy"></i>-->
-                <pre>
-                <span class="label">&lt;div</span><span class="attr"> class=</span><span
-                    class="value">"form-file"</span><span class="label">&gt;</span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;input</span><span class="attr"> type=</span><span class="value">"file"</span><span
-                    class="attr"> class=</span><span class="value">"form-control"</span><span class="attr"> name=</span><span
-                    class="value">"..."</span><span class="label">/></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;label</span><span class="attr"> class=</span><span class="value">"file-surface"</span><span
-                    class="label">&gt;</span>文件上传<span class="label">&lt;/label></span><br/>
-                <span class="label">&lt;/div></span><br/>
-              </pre>
+                <pre v-hljs><code class="html">
+    &lt;div class="form-file">
+      &lt;input type="file" class="form-control" name="upload"/>
+      &lt;label class="file-surface">点击上传&lt;/label>
+    &lt;/div>
+                </code></pre>
               </div>
             </div>
 
@@ -1925,12 +1633,9 @@
               </div>
               <div class="yyui-docs-code">
                 <!--<i class="fa fa-file-code-o yyui-docs-copy"></i>-->
-                <pre>
-                <span class="label">&lt;input</span><span class="attr"> type=</span><span
-                    class="value">"text"</span><span class="attr"> class=</span><span
-                    class="value">"form-control"</span><span class="attr"> placeholder=</span><span
-                    class="value">"..."</span><span class="label">/></span><br/>
-              </pre>
+                <pre v-hljs><code class="html">
+    &lt;input type="text" class="form-control" placeholder="user name"/>
+                </code></pre>
               </div>
             </div>
 
@@ -1945,20 +1650,13 @@
                 <input type="text" class="form-control form-control-sm" placeholder="form-control-sm"/>
               </div>
               <div class="yyui-docs-code">
-              <pre>
-                <span class="label">&lt;input</span><span class="attr"> type=</span><span
-                  class="value">"text"</span><span class="attr"> class=</span><span class="value">"form-control form-control-lg"</span><span
-                  class="attr"> placeholder=</span><span class="value">"..."</span><span class="label">/></span><br/>
-                <br/>
-                <span class="label">&lt;input</span><span class="attr"> type=</span><span
-                  class="value">"text"</span><span class="attr"> class=</span><span
-                  class="value">"form-control"</span><span class="attr"> placeholder=</span><span
-                  class="value">"..."</span><span class="label">/></span><br/>
-                <br/>
-                <span class="label">&lt;input</span><span class="attr"> type=</span><span
-                  class="value">"text"</span><span class="attr"> class=</span><span class="value">"form-control form-control-sm"</span><span
-                  class="attr"> placeholder=</span><span class="value">"..."</span><span class="label">/></span><br/>
-              </pre>
+              <pre v-hljs><code class="html">
+    &lt;input type="text" class="form-control form-control-lg" placeholder="form-control-lg"/>
+
+    &lt;input type="text" class="form-control" placeholder="default"/>
+
+    &lt;input type="text" class="form-control form-control-sm" placeholder="form-control-sm"/>
+              </code></pre>
               </div>
             </div>
 
@@ -1975,19 +1673,13 @@
                 <input type="text" class="form-control form-control-error" placeholder="form-control-error"/>
               </div>
               <div class="yyui-docs-code">
-              <pre>
-                <span class="label">&lt;input</span><span class="attr"> type=</span><span
-                  class="value">"text"</span><span class="attr"> class=</span><span class="value">"form-control form-control-success"</span><span
-                  class="attr"> placeholder=</span><span class="value">"..."</span><span class="label">/></span><br/>
-                <br/>
-                <span class="label">&lt;input</span><span class="attr"> type=</span><span
-                  class="value">"text"</span><span class="attr"> class=</span><span class="value">"form-control form-control-warning"</span><span
-                  class="attr"> placeholder=</span><span class="value">"..."</span><span class="label">/></span><br/>
-                <br/>
-                <span class="label">&lt;input</span><span class="attr"> type=</span><span
-                  class="value">"text"</span><span class="attr"> class=</span><span class="value">"form-control form-control-error"</span><span
-                  class="attr"> placeholder=</span><span class="value">"..."</span><span class="label">/></span><br/>
-              </pre>
+              <pre v-hljs><code class="html">
+    &lt;input type="text" class="form-control form-control-success" placeholder="form-control-success"/>
+  
+    &lt;input type="text" class="form-control form-control-warning" placeholder="form-control-warning"/>
+
+    &lt;input type="text" class="form-control form-control-error" placeholder="form-control-error"/>
+              </code></pre>
               </div>
             </div>
           </section>
@@ -2012,23 +1704,21 @@
               </div>
               <div class="yyui-docs-code">
                 <!--<i class="fa fa-file-code-o yyui-docs-copy"></i>-->
-                <pre>
-                <span class="label">&lt;button</span><span class="attr"> type=</span><span class="value">"button"</span><span
-                    class="attr"> class=</span><span class="value">"btn btn-default"</span><span class="label">&lt;/button></span><br/>
-                <span class="label">&lt;button</span><span class="attr"> type=</span><span class="value">"button"</span><span
-                    class="attr"> class=</span><span class="value">"btn btn-primary"</span><span class="label">&lt;/button></span><br/>
-                <span class="label">&lt;button</span><span class="attr"> type=</span><span class="value">"button"</span><span
-                    class="attr"> class=</span><span class="value">"btn btn-secondary"</span><span class="label">&lt;/button></span><br/>
-                <span class="label">&lt;button</span><span class="attr"> type=</span><span class="value">"button"</span><span
-                    class="attr"> class=</span><span class="value">"btn btn-info"</span><span
-                    class="label">&lt;/button></span><br/>
-                <span class="label">&lt;button</span><span class="attr"> type=</span><span class="value">"button"</span><span
-                    class="attr"> class=</span><span class="value">"btn btn-success"</span><span class="label">&lt;/button></span><br/>
-                <span class="label">&lt;button</span><span class="attr"> type=</span><span class="value">"button"</span><span
-                    class="attr"> class=</span><span class="value">"btn btn-warning"</span><span class="label">&lt;/button></span><br/>
-                <span class="label">&lt;button</span><span class="attr"> type=</span><span class="value">"button"</span><span
-                    class="attr"> class=</span><span class="value">"btn btn-danger"</span><span class="label">&lt;/button></span><br/>
-              </pre>
+                <pre v-hljs><code class="html">
+    &lt;button type="button" class="btn btn-default">Default&lt;/button>
+
+    &lt;button type="button" class="btn btn-primary">Primary&lt;/button>
+
+    &lt;button type="button" class="btn btn-secondary">Secondary&lt;/button>
+
+    &lt;button type="button" class="btn btn-info">Info&lt;/button>
+
+    &lt;button type="button" class="btn btn-success">Success&lt;/button>
+
+    &lt;button type="button" class="btn btn-warning">Warning&lt;/button>
+                  
+    &lt;button type="button" class="btn btn-danger">Danger&lt;/button>
+                </code></pre>
               </div>
             </div>
 
@@ -2045,23 +1735,21 @@
               </div>
               <div class="yyui-docs-code">
                 <!--<i class="fa fa-file-code-o yyui-docs-copy"></i>-->
-                <pre>
-                <span class="label">&lt;button</span><span class="attr"> type=</span><span class="value">"button"</span><span
-                    class="attr"> class=</span><span class="value">"btn btn-default-outline"</span><span class="label">&lt;/button></span><br/>
-                <span class="label">&lt;button</span><span class="attr"> type=</span><span class="value">"button"</span><span
-                    class="attr"> class=</span><span class="value">"btn btn-primary-outline"</span><span class="label">&lt;/button></span><br/>
-                <span class="label">&lt;button</span><span class="attr"> type=</span><span class="value">"button"</span><span
-                    class="attr"> class=</span><span class="value">"btn btn-secondary-outline"</span><span
-                    class="label">&lt;/button></span><br/>
-                <span class="label">&lt;button</span><span class="attr"> type=</span><span class="value">"button"</span><span
-                    class="attr"> class=</span><span class="value">"btn btn-info-outline"</span><span class="label">&lt;/button></span><br/>
-                <span class="label">&lt;button</span><span class="attr"> type=</span><span class="value">"button"</span><span
-                    class="attr"> class=</span><span class="value">"btn btn-success-outline"</span><span class="label">&lt;/button></span><br/>
-                <span class="label">&lt;button</span><span class="attr"> type=</span><span class="value">"button"</span><span
-                    class="attr"> class=</span><span class="value">"btn btn-warning-outline"</span><span class="label">&lt;/button></span><br/>
-                <span class="label">&lt;button</span><span class="attr"> type=</span><span class="value">"button"</span><span
-                    class="attr"> class=</span><span class="value">"btn btn-danger-outline"</span><span class="label">&lt;/button></span><br/>
-              </pre>
+                <pre v-hljs><code class="html">
+    &lt;button type="button" class="btn btn-default-outline">Default&lt;/button>
+                  
+    &lt;button type="button" class="btn btn-primary-outline">Primary&lt;/button>
+                  
+    &lt;button type="button" class="btn btn-secondary-outline">Secondary&lt;/button>
+                  
+    &lt;button type="button" class="btn btn-info-outline">Info&lt;/button>
+                  
+    &lt;button type="button" class="btn btn-success-outline">Success&lt;/button>
+                  
+    &lt;button type="button" class="btn btn-warning-outline">Warning&lt;/button>
+                  
+    &lt;button type="button" class="btn btn-danger-outline">Danger&lt;/button>
+                </code></pre>
               </div>
             </div>
 
@@ -2072,11 +1760,9 @@
               </div>
               <div class="yyui-docs-code">
                 <!--<i class="fa fa-file-code-o yyui-docs-copy"></i>-->
-                <pre>
-                <span class="label">&lt;button</span><span class="attr"> type=</span><span class="value">"button"</span><span
-                    class="attr"> class=</span><span class="value">"btn btn-link"</span><span class="label">&gt;</span>link<span
-                    class="label">&lt;/button></span><br/>
-              </pre>
+                <pre v-hljs><code class="html">
+    &lt;button type="button" class="btn btn-link">link&lt;/button>
+                </code></pre>
               </div>
             </div>
 
@@ -2091,20 +1777,15 @@
               </div>
               <div class="yyui-docs-code">
                 <!--<i class="fa fa-file-code-o yyui-docs-copy"></i>-->
-                <pre>
-                <span class="label">&lt;button</span><span class="attr"> type=</span><span class="value">"button"</span><span
-                    class="attr"> class=</span><span class="value">"btn btn-primary btn-xs"</span><span class="label">&gt;</span>极小<span
-                    class="label">&lt;/button></span><br/>
-                <span class="label">&lt;button</span><span class="attr"> type=</span><span class="value">"button"</span><span
-                    class="attr"> class=</span><span class="value">"btn btn-info btn-sm"</span><span
-                    class="label">&gt;</span>小<span class="label">&lt;/button></span><br/>
-                <span class="label">&lt;button</span><span class="attr"> type=</span><span class="value">"button"</span><span
-                    class="attr"> class=</span><span class="value">"btn btn-success"</span><span
-                    class="label">&gt;</span>默认大小<span class="label">&lt;/button></span><br/>
-                <span class="label">&lt;button</span><span class="attr"> type=</span><span class="value">"button"</span><span
-                    class="attr"> class=</span><span class="value">"btn btn-warning btn-lg"</span><span class="label">&gt;</span>大按钮<span
-                    class="label">&lt;/button></span><br/>
-              </pre>
+                <pre v-hljs><code class="html">
+    &lt;button type="button" class="btn btn-primary btn-xs">极小&lt;/button>
+
+    &lt;button type="button" class="btn btn-info btn-sm">小&lt;/button>
+
+    &lt;button type="button" class="btn btn-success">默认大小&lt;/button>
+
+    &lt;button type="button" class="btn btn-warning btn-lg">大按钮&lt;/button>
+                </code></pre>
               </div>
             </div>
 
@@ -2116,14 +1797,11 @@
               </div>
               <div class="yyui-docs-code">
                 <!--<i class="fa fa-file-code-o yyui-docs-copy"></i>-->
-                <pre>
-                <span class="label">&lt;button</span><span class="attr"> type=</span><span class="value">"button"</span><span
-                    class="attr"> class=</span><span class="value">"btn btn-primary btn-round"</span><span
-                    class="label">&gt;</span>小圆角按钮<span class="label">&lt;/button></span><br/>
-                <span class="label">&lt;button</span><span class="attr"> type=</span><span class="value">"button"</span><span
-                    class="attr"> class=</span><span class="value">"btn btn-info btn-circle"</span><span class="label">&gt;</span>圆形按钮<span
-                    class="label">&lt;/button></span><br/>
-              </pre>
+                <pre v-hljs><code class="html">
+    &lt;button type="button" class="btn btn-primary btn-round">小圆角按钮&lt;/button>
+                  
+    &lt;button type="button" class="btn btn-info btn-circle">圆形按钮&lt;/button>
+                </code></pre>
               </div>
             </div>
 
@@ -2135,18 +1813,15 @@
               </div>
               <div class="yyui-docs-code">
                 <!--<i class="fa fa-file-code-o yyui-docs-copy"></i>-->
-                <pre>
-                <span class="label">&lt;button</span><span class="attr"> type=</span><span class="value">"button"</span><span
-                    class="attr"> class=</span><span class="value">"btn btn-primary btn-block"</span><span
-                    class="label">&gt;</span>块级按钮<span class="label">&lt;/button></span><br/>
-              </pre>
+                <pre v-hljs><code class="html">
+    &lt;button type="button" class="btn btn-primary btn-block">块级按钮&lt;/button>
+                </code></pre>
               </div>
             </div>
           </section>
 
           <section class="yyui-docs-section" id="image">
             <h2 class="m-b-6">图片
-
               <small><code>_images.scss</code></small>
             </h2>
 
@@ -2160,10 +1835,9 @@
               </div>
               <div class="yyui-docs-code">
                 <!--<i class="fa fa-file-code-o yyui-docs-copy"></i>-->
-                <pre>
-                <span class="label">&lt;img</span><span class="attr"> class=</span><span
-                    class="value">"img-responsive"</span><span class="label">/></span><br/>
-              </pre>
+                <pre v-hljs><code class="html">
+    &lt;img class="img-responsive" src="..." alt=""/>
+                </code></pre>
               </div>
             </div>
 
@@ -2176,19 +1850,13 @@
               </div>
               <div class="yyui-docs-code">
                 <!--<i class="fa fa-file-code-o yyui-docs-copy"></i>-->
-                <pre>
-                <span class="label">&lt;img</span><span class="attr"> class=</span><span
-                    class="value">"img-round"</span><span class="attr"> src=</span><span class="value">"···"</span><span
-                    class="attr"> alt=</span><span class="value">"···"</span><span class="label">/></span><br/>
-                <span class="label">&lt;img</span><span class="attr"> class=</span><span
-                    class="value">"img-circle"</span><span class="attr"> src=</span><span
-                    class="value">"···"</span><span class="attr"> alt=</span><span class="value">"···"</span><span
-                    class="label">/></span><br/>
-                <span class="label">&lt;img</span><span class="attr"> class=</span><span
-                    class="value">"img-thumbnail"</span><span class="attr"> src=</span><span
-                    class="value">"···"</span><span class="attr"> alt=</span><span class="value">"···"</span><span
-                    class="label">/></span><br/>
-              </pre>
+                <pre v-hljs><code class="html">
+    &lt;img class="img-round" src="..." alt=""/>
+
+    &lt;img class="img-circle" src="..." alt=""/>
+
+    &lt;img class="img-thumbnail" src="..." alt=""/>
+                </code></pre>
               </div>
             </div>
           </section>
@@ -2223,35 +1891,25 @@
                 <p class="font-12">快速设置文字大小</p>
               </div>
               <div class="yyui-docs-code">
-              <pre>
-                <span class="label">&lt;p</span><span class="attr"> class=</span><span
-                  class="value">"font-20"</span><span class="label">&gt;</span>...<span
-                  class="label">&lt;/p></span><br/>
-                <span class="label">&lt;p</span><span class="attr"> class=</span><span
-                  class="value">"font-19"</span><span class="label">&gt;</span>...<span
-                  class="label">&lt;/p></span><br/>
-                <span class="label">&lt;p</span><span class="attr"> class=</span><span
-                  class="value">"font-18"</span><span class="label">&gt;</span>...<span
-                  class="label">&lt;/p></span><br/>
-                <span class="label">&lt;p</span><span class="attr"> class=</span><span
-                  class="value">"font-17"</span><span class="label">&gt;</span>...<span
-                  class="label">&lt;/p></span><br/>
-                <span class="label">&lt;p</span><span class="attr"> class=</span><span
-                  class="value">"font-16"</span><span class="label">&gt;</span>...<span
-                  class="label">&lt;/p></span><br/>
-                <span class="label">&lt;p</span><span class="attr"> class=</span><span
-                  class="value">"font-15"</span><span class="label">&gt;</span>...<span
-                  class="label">&lt;/p></span><br/>
-                <span class="label">&lt;p</span><span class="attr"> class=</span><span
-                  class="value">"font-14"</span><span class="label">&gt;</span>...<span
-                  class="label">&lt;/p></span><br/>
-                <span class="label">&lt;p</span><span class="attr"> class=</span><span
-                  class="value">"font-13"</span><span class="label">&gt;</span>...<span
-                  class="label">&lt;/p></span><br/>
-                <span class="label">&lt;p</span><span class="attr"> class=</span><span
-                  class="value">"font-12"</span><span class="label">&gt;</span>...<span
-                  class="label">&lt;/p></span><br/>
-              </pre>
+              <pre v-hljs><code class="html">
+    &lt;p class="font-20">快速设置文字大小&lt;/p>
+
+    &lt;p class="font-19">快速设置文字大小&lt;/p>
+
+    &lt;p class="font-18">快速设置文字大小&lt;/p>
+
+    &lt;p class="font-17">快速设置文字大小&lt;/p>
+
+    &lt;p class="font-16">快速设置文字大小&lt;/p>
+
+    &lt;p class="font-15">快速设置文字大小&lt;/p>
+
+    &lt;p class="font-14">快速设置文字大小&lt;/p>
+
+    &lt;p class="font-13">快速设置文字大小&lt;/p>
+
+    &lt;p class="font-12">快速设置文字大小&lt;/p>
+              </code></pre>
               </div>
             </div>
 
@@ -2282,25 +1940,19 @@
                 <p class="text-truncate" style="width: 100px;">超出了截断文本的宽度会用省略号显示。</p>
               </div>
               <div class="yyui-docs-code">
-              <pre>
-                <span class="label">&lt;p</span><span class="attr"> class=</span><span
-                  class="value">"text-left"</span><span class="label">&gt;</span>左对齐<span
-                  class="label">&lt;/p></span><br/>
-                <span class="label">&lt;p</span><span class="attr"> class=</span><span
-                  class="value">"text-center"</span><span class="label">&gt;</span>居中<span
-                  class="label">&lt;/p></span><br/>
-                <span class="label">&lt;p</span><span class="attr"> class=</span><span class="value">"text-right"</span><span
-                  class="label">&gt;</span>右对齐<span class="label">&lt;/p></span><br/>
-                <span class="label">&lt;p</span><span class="attr"> class=</span><span
-                  class="value">"text-justify"</span><span class="label">&gt;</span>两端对齐<span
-                  class="label">&lt;/p></span><br/>
-                <span class="label">&lt;p</span><span class="attr"> class=</span><span
-                  class="value">"text-nowrap"</span><span class="label">&gt;</span>整行文本<span
-                  class="label">&lt;/p></span><br/>
-                <span class="label">&lt;p</span><span class="attr"> class=</span><span
-                  class="value">"text-truncate"</span><span class="label">&gt;</span>超出了截断文本的宽度会用省略号显示<span
-                  class="label">&lt;/p></span><br/>
-              </pre>
+              <pre v-hljs><code class="html">
+    &lt;p class="text-left">&lt;/p>
+
+    &lt;p class="text-center">&lt;/p>
+
+    &lt;p class="text-right">&lt;/p>
+
+    &lt;p class="text-justify">&lt;/p>
+
+    &lt;p class="text-nowrap">&lt;/p>
+
+    &lt;p class="text-truncate">&lt;/p>
+              </code></pre>
               </div>
             </div>
 
@@ -2320,10 +1972,9 @@
                 </p>
               </div>
               <div class="yyui-docs-code">
-              <pre>
-                <span class="label">&lt;p</span><span class="attr"> class=</span><span
-                  class="value">"text-indent"</span><span class="label">&gt;</span>...<span class="label">&lt;/p></span><br/>
-              </pre>
+              <pre v-hljs><code class="html">
+    &lt;p class="text-indent">&lt;/p>
+              </code></pre>
               </div>
             </div>
 
@@ -2335,17 +1986,13 @@
                 <p class="text-capitalize">It will switch the first letter of everyone words to uppper case.</p>
               </div>
               <div class="yyui-docs-code">
-              <pre>
-                <span class="label">&lt;p</span><span class="attr"> class=</span><span
-                  class="value">"text-uppercase"</span><span class="label">&gt;</span>大写转换<span
-                  class="label">&lt;/p></span><br/>
-                <span class="label">&lt;p</span><span class="attr"> class=</span><span
-                  class="value">"text-lowercase"</span><span class="label">&gt;</span>小写转换<span
-                  class="label">&lt;/p></span><br/>
-                <span class="label">&lt;p</span><span class="attr"> class=</span><span
-                  class="value">"text-capitalize"</span><span class="label">&gt;</span>首字母大写<span
-                  class="label">&lt;/p></span>
-              </pre>
+              <pre v-hljs><code class="html">
+    &lt;p class="text-uppercase"> &lt;/p>
+
+    &lt;p class="text-lowercase"> &lt;/p>
+
+    &lt;p class="text-capitalize"> &lt;/p>
+              </code></pre>
               </div>
             </div>
 
@@ -2363,30 +2010,23 @@
                 <p class="text-light bg-dark">light</p>
               </div>
               <div class="yyui-docs-code">
-              <pre>
-                <span class="label">&lt;p</span><span class="attr"> class=</span><span
-                  class="value">"text-primary"</span><span class="label">&gt;</span>primary<span
-                  class="label">&lt;/p></span><br/>
-                <span class="label">&lt;p</span><span class="attr"> class=</span><span
-                  class="value">"text-secondary"</span><span class="label">&gt;</span>secondary<span class="label">&lt;/p></span><br/>
-                <span class="label">&lt;p</span><span class="attr"> class=</span><span
-                  class="value">"text-info"</span><span class="label">&gt;</span>info<span
-                  class="label">&lt;/p></span><br/>
-                <span class="label">&lt;p</span><span class="attr"> class=</span><span
-                  class="value">"text-success"</span><span class="label">&gt;</span>success<span
-                  class="label">&lt;/p></span><br/>
-                <span class="label">&lt;p</span><span class="attr"> class=</span><span
-                  class="value">"text-warning"</span><span class="label">&gt;</span>warning<span
-                  class="label">&lt;/p></span><br/>
-                <span class="label">&lt;p</span><span class="attr"> class=</span><span
-                  class="value">"text-danger"</span><span class="label">&gt;</span>danger<span
-                  class="label">&lt;/p></span><br/>
-                <span class="label">&lt;p</span><span class="attr"> class=</span><span
-                  class="value">"text-dark"</span><span class="label">&gt;</span>dark<span
-                  class="label">&lt;/p></span><br/>
-                <span class="label">&lt;p</span><span class="attr"> class=</span><span class="value">"text-light"</span><span
-                  class="label">&gt;</span>light<span class="label">&lt;/p></span><br/>
-              </pre>
+              <pre v-hljs><code class="html">
+    &lt;p class="text-primary">primary&lt;/p>
+
+    &lt;p class="text-secondary">secondary&lt;/p>
+
+    &lt;p class="text-info">info&lt;/p>
+
+    &lt;p class="text-success">success&lt;/p>
+
+    &lt;p class="text-warning">warning&lt;/p>
+
+    &lt;p class="text-danger">danger&lt;/p>
+
+    &lt;p class="text-dark">dark&lt;/p>
+
+    &lt;p class="text-light">light&lt;/p>
+              </code></pre>
               </div>
             </div>
 
@@ -2399,11 +2039,13 @@
                 <p class="text-letter m-b-0">字母，letter</p>
               </div>
               <div class="yyui-docs-code">
-              <pre>
-                &lt;p class="text-web m-b-0">网页字体，web typeface&lt;/p> <br>
-                &lt;p class="text-paper m-b-0">印刷字体，paper print typeface&lt;/p> <br>
-                &lt;p class="text-letter m-b-0">字母，letter&lt;/p>
-              </pre>
+              <pre v-hljs><code class="html">
+    &lt;p class="text-web"> &lt;/p>
+
+    &lt;p class="text-paper"> &lt;/p>
+
+    &lt;p class="text-letter"> &lt;/p>
+              </code></pre>
               </div>
             </div>
 
@@ -2434,20 +2076,15 @@
                 </div>
               </div>
               <div class="yyui-docs-code">
-              <pre>
-                <span class="label">&lt;div</span><span class="attr"> class=</span><span
-                  class="value">"border-none"</span><span class="label">&gt;</span>...<span
-                  class="label">&lt;/div></span><br/>
-                <span class="label">&lt;div</span><span class="attr"> class=</span><span
-                  class="value">"border-square"</span><span class="label">&gt;</span>...<span
-                  class="label">&lt;/div></span><br/>
-                <span class="label">&lt;div</span><span class="attr"> class=</span><span
-                  class="value">"border-round"</span><span class="label">&gt;</span>...<span
-                  class="label">&lt;/div></span><br/>
-                <span class="label">&lt;div</span><span class="attr"> class=</span><span
-                  class="value">"border-circle"</span><span class="label">&gt;</span>...<span
-                  class="label">&lt;/div></span><br/>
-              </pre>
+              <pre v-hljs><code class="html">
+    &lt;div class="border-none"> &lt;/div>
+
+    &lt;div class="border-square"> &lt;/div>
+
+    &lt;div class="border-round"> &lt;/div>
+
+    &lt;div class="border-circle"> &lt;/div>
+              </code></pre>
               </div>
             </div>
 
@@ -2466,31 +2103,25 @@
                 <p class="bg-perspective m-b-2">perspective</p>
               </div>
               <div class="yyui-docs-code">
-              <pre>
-                <span class="label">&lt;p</span><span class="attr"> class=</span><span class="value">"bg-primary"</span><span
-                  class="label">&gt;</span>primary<span class="label">&lt;/p></span><br/>
-                <span class="label">&lt;p</span><span class="attr"> class=</span><span
-                  class="value">"bg-secondary"</span><span class="label">&gt;</span>secondary<span
-                  class="label">&lt;/p></span><br/>
-                <span class="label">&lt;p</span><span class="attr"> class=</span><span
-                  class="value">"bg-info"</span><span class="label">&gt;</span>info<span
-                  class="label">&lt;/p></span><br/>
-                <span class="label">&lt;p</span><span class="attr"> class=</span><span class="value">"bg-success"</span><span
-                  class="label">&gt;</span>success<span class="label">&lt;/p></span><br/>
-                <span class="label">&lt;p</span><span class="attr"> class=</span><span class="value">"bg-warning"</span><span
-                  class="label">&gt;</span>warning<span class="label">&lt;/p></span><br/>
-                <span class="label">&lt;p</span><span class="attr"> class=</span><span
-                  class="value">"bg-danger"</span><span class="label">&gt;</span>danger<span
-                  class="label">&lt;/p></span><br/>
-                <span class="label">&lt;p</span><span class="attr"> class=</span><span
-                  class="value">"bg-dark"</span><span class="label">&gt;</span>dark<span
-                  class="label">&lt;/p></span><br/>
-                <span class="label">&lt;p</span><span class="attr"> class=</span><span
-                  class="value">"bg-light"</span><span class="label">&gt;</span>light<span
-                  class="label">&lt;/p></span><br/>
-                <span class="label">&lt;p</span><span class="attr"> class=</span><span
-                  class="value">"bg-perspective"</span><span class="label">&gt;</span>perspective<span class="label">&lt;/p></span><br/>
-              </pre>
+              <pre v-hljs><code class="html">
+    &lt;p class="bg-primary"> &lt;/p>
+
+    &lt;p class="bg-secondary"> &lt;/p>
+
+    &lt;p class="bg-info"> &lt;/p>
+
+    &lt;p class="bg-success"> &lt;/p>
+
+    &lt;p class="bg-warning"> &lt;/p>
+
+    &lt;p class="bg-danger"> &lt;/p>
+
+    &lt;p class="bg-dark"> &lt;/p>
+
+    &lt;p class="bg-light"> &lt;/p>
+
+    &lt;p class="bg-perspective"> &lt;/p>
+              </code></pre>
               </div>
             </div>
 
@@ -2508,14 +2139,13 @@
               </div>
               <div class="yyui-docs-code">
                 <!--<i class="fa fa-file-code-o yyui-docs-copy"></i>-->
-                <pre>
-                <span class="label">&lt;ul</span><span class="attr"> class=</span><span class="value">"list-none"</span><span
-                    class="label">&gt;</span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;li></span>无样式列表<span class="label">&lt;/li></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;li></span>无样式列表<span class="label">&lt;/li></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;li></span>无样式列表<span class="label">&lt;/li></span><br/>
-                <span class="label">&lt;/ul></span>
-              </pre>
+                <pre v-hljs><code class="html">
+    &lt;ul class="list-none">
+      &lt;li>无样式列表&lt;/li>
+      &lt;li>无样式列表&lt;/li>
+      &lt;li>无样式列表&lt;/li>
+    &lt;/ul>
+                </code></pre>
               </div>
             </div>
 
@@ -2530,14 +2160,13 @@
               </div>
               <div class="yyui-docs-code">
                 <!--<i class="fa fa-file-code-o yyui-docs-copy"></i>-->
-                <pre>
-                <span class="label">&lt;ul</span><span class="attr"> class=</span><span
-                    class="value">"list-inline"</span><span class="label">&gt;</span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;li></span>无样式列表<span class="label">&lt;/li></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;li></span>无样式列表<span class="label">&lt;/li></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;li></span>无样式列表<span class="label">&lt;/li></span><br/>
-                <span class="label">&lt;/ul></span>
-              </pre>
+                <pre v-hljs><code class="html">
+    &lt;ul class="list-inline">
+      &lt;li>内联列表&lt;/li>
+      &lt;li>内联列表&lt;/li>
+      &lt;li>内联列表&lt;/li>
+    &lt;/ul>
+                </code></pre>
               </div>
             </div>
 
@@ -2550,24 +2179,23 @@
                   float 属性定义元素在哪个方向浮动。以往这个属性总应用于图像，使文本围绕在图像周围，不过在 CSS 中，任何元素都可以浮动。浮动元素会生成一个块级框，
                   而不论它本身是何种元素。如果浮动非替换元素，则要指定一个明确的宽度；否则，它们会尽可能地窄。注释：假如在一行之上只有极少的空间可供浮动元素，
                   那么这个元素会跳至下一行，这个过程会持续到某一行拥有足够的空间为止。
-
-
                 </div>
                 <div class="bg-success text-white p-hz-2 p-vt-2 f-r" style="width: 400px;">
                   float 属性定义元素在哪个方向浮动。以往这个属性总应用于图像，使文本围绕在图像周围，不过在 CSS 中，任何元素都可以浮动。浮动元素会生成一个块级框，
                   而不论它本身是何种元素。如果浮动非替换元素，则要指定一个明确的宽度；否则，它们会尽可能地窄。注释：假如在一行之上只有极少的空间可供浮动元素，
                   那么这个元素会跳至下一行，这个过程会持续到某一行拥有足够的空间为止。
-
-
                 </div>
               </div>
               <div class="yyui-docs-code">
-              <pre>
-                <span class="label">&lt;div</span><span class="attr"> class=</span><span class="value">"f-l"</span><span
-                  class="label">&gt;</span>左浮动<span class="label">&lt;/div></span><br/>
-                <span class="label">&lt;div</span><span class="attr"> class=</span><span class="value">"f-r"</span><span
-                  class="label">&gt;</span>右浮动<span class="label">&lt;/div></span><br/>
-              </pre>
+              <pre v-hljs><code class="html">
+    &lt;div class="f-l">
+      左浮动
+    &lt;/div>
+
+    &lt;div class="f-r">
+      右浮动
+    &lt;/div>
+              </code></pre>
               </div>
             </div>
 
@@ -2576,14 +2204,15 @@
             <p>粘性定位，它就像是relative和fixed的合体，当在屏幕中时按常规流排版，当卷动到屏幕外时则表现如fixed。该属性只被高版本的谷歌和火狐浏览器支持。</p>
             <div class="yyui-docs-example">
               <div class="yyui-docs-code">
-              <pre>
-                <span class="label">&lt;div</span><span class="attr"> class=</span><span
-                  class="value">"pt-relative"</span><span class="label">&gt;</span>快速设置相对定位<span
-                  class="label">&lt;/div></span><br/>
-                <span class="label">&lt;div</span><span class="attr"> class=</span><span
-                  class="value">"pt-sticky"</span><span class="label">&gt;</span>快速设置粘性定位<span
-                  class="label">&lt;/div></span><br/>
-              </pre>
+              <pre v-hljs><code class="html">
+    &lt;div class="pt-relative">
+      相对定位
+    &lt;/div>
+
+    &lt;div class="pt-sticky">
+      粘性定位，fixed的升级版
+    &lt;/div>
+              </code></pre>
               </div>
             </div>
 
@@ -2593,21 +2222,7 @@
               <div class="yyui-docs-surface">
                 <div class="bg-success text-white p-hz-2 p-vt-2">
                   子元素含有浮动元素，在父元素上添加<code>.clearfix</code>类
-
-
                 </div>
-              </div>
-              <div class="yyui-docs-code">
-              <pre>
-                <span class="label">&lt;div</span><span class="attr"> class=</span><span class="value">"clearfix"</span><span
-                  class="label">&gt;</span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;div</span><span class="attr"> class=</span><span
-                  class="value">"f-l"</span><span class="label">&gt;</span><span class="label">&lt;/div></span><br/>
-                &nbsp;&nbsp;or<br/>
-                &nbsp;&nbsp;<span class="label">&lt;div</span><span class="attr"> class=</span><span
-                  class="value">"f-r"</span><span class="label">&gt;</span><span class="label">&lt;/div></span><br/>
-                <span class="label">&lt;/div></span>
-              </pre>
               </div>
             </div>
 
@@ -2619,11 +2234,9 @@
                 <button type="button" class="close">&times;</button>
               </div>
               <div class="yyui-docs-code">
-              <pre>
-                <span class="label">&lt;button</span><span class="attr"> type=</span><span class="value">"button"</span><span
-                  class="attr"> class=</span><span class="value">"close"</span><span class="label">&gt;</span>&amp;times;<span
-                  class="label">&lt;/button></span><br/>
-              </pre>
+              <pre v-hljs><code class="html">
+    &lt;button type="button" class="close">&times;&lt;/button>
+              </code></pre>
               </div>
             </div>
 
@@ -2637,20 +2250,15 @@
                 <div class="triangle-right"></div>
               </div>
               <div class="yyui-docs-code">
-              <pre>
-                <span class="label">&lt;div</span><span class="attr"> class=</span><span
-                  class="value">"triangle-up"</span><span class="label">&gt;</span><span
-                  class="label">&lt;/div></span><br/>
-                <span class="label">&lt;div</span><span class="attr"> class=</span><span
-                  class="value">"triangle-down"</span><span class="label">&gt;</span><span
-                  class="label">&lt;/div></span><br/>
-                <span class="label">&lt;div</span><span class="attr"> class=</span><span
-                  class="value">"triangle-left"</span><span class="label">&gt;</span><span
-                  class="label">&lt;/div></span><br/>
-                <span class="label">&lt;div</span><span class="attr"> class=</span><span
-                  class="value">"triangle-right"</span><span class="label">&gt;</span><span
-                  class="label">&lt;/div></span><br/>
-              </pre>&lt;
+              <pre v-hljs><code class="html">
+    &lt;div class="triangle-up">&lt;/div>
+
+    &lt;div class="triangle-down">&lt;/div>
+
+    &lt;div class="triangle-left">&lt;/div>
+
+    &lt;div class="triangle-right">&lt;/div>
+              </code></pre>
               </div>
             </div>
 
@@ -2693,8 +2301,10 @@
               <li>
                 <a class="nav-link" @click.stop.prevent="toAnchor('grid')" href="#grid">栅格系统</a>
                 <ul class="nav">
-                  <li><a class="nav-link" @click.stop.prevent="toAnchor('grid_introduce')" href="#grid_introduce">简介</a></li>
-                  <li><a class="nav-link" @click.stop.prevent="toAnchor('grid_options')" href="#grid_options">参数</a></li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('grid_introduce')" href="#grid_introduce">简介</a>
+                  </li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('grid_options')" href="#grid_options">参数</a>
+                  </li>
                 </ul>
               </li>
               <li>
@@ -2702,10 +2312,13 @@
                 <ul class="nav">
                   <li><a class="nav-link" @click.stop.prevent="toAnchor('type_head')" href="#type_head">标题</a></li>
                   <li><a class="nav-link" @click.stop.prevent="toAnchor('type_mark')" href="#type_mark">突出文本</a></li>
-                  <li><a class="nav-link" @click.stop.prevent="toAnchor('type_del_ins')" href="#type_del_ins">更新和修正</a></li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('type_del_ins')" href="#type_del_ins">更新和修正</a>
+                  </li>
                   <li><a class="nav-link" @click.stop.prevent="toAnchor('type_abbr')" href="#type_abbr">缩写</a></li>
-                  <li><a class="nav-link" @click.stop.prevent="toAnchor('type_address')" href="#type_address">地址</a></li>
-                  <li><a class="nav-link" @click.stop.prevent="toAnchor('type_blockquote')" href="#type_blockquote">引用</a></li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('type_address')" href="#type_address">地址</a>
+                  </li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('type_blockquote')"
+                         href="#type_blockquote">引用</a></li>
                   <li><a class="nav-link" @click.stop.prevent="toAnchor('type_dl')" href="#type_dl">描述</a></li>
                 </ul>
               </li>
@@ -2720,64 +2333,96 @@
               <li>
                 <a class="nav-link" @click.stop.prevent="toAnchor('table')" href="#table">表格</a>
                 <ul class="nav">
-                  <li><a class="nav-link" @click.stop.prevent="toAnchor('table_default')" href="#table_default">默认表格</a></li>
-                  <li><a class="nav-link" @click.stop.prevent="toAnchor('table_responsive')" href="#table_responsive">响应式表格</a></li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('table_default')" href="#table_default">默认表格</a>
+                  </li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('table_responsive')" href="#table_responsive">响应式表格</a>
+                  </li>
                   <li><a class="nav-link" @click.stop.prevent="toAnchor('table_sm')" href="#table_sm">紧凑型表格</a></li>
-                  <li><a class="nav-link" @click.stop.prevent="toAnchor('table_striped')" href="#table_striped">带条纹表格</a></li>
-                  <li><a class="nav-link" @click.stop.prevent="toAnchor('table_border')" href="#table_border">带边框表格</a></li>
-                  <li><a class="nav-link" @click.stop.prevent="toAnchor('table_row_status')" href="#table_row_status">表格行状态</a></li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('table_striped')"
+                         href="#table_striped">带条纹表格</a></li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('table_border')" href="#table_border">带边框表格</a>
+                  </li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('table_row_status')" href="#table_row_status">表格行状态</a>
+                  </li>
                 </ul>
               </li>
               <li>
                 <a class="nav-link" @click.stop.prevent="toAnchor('form')" href="#form">表单</a>
                 <ul class="nav">
-                  <li><a class="nav-link" @click.stop.prevent="toAnchor('form_example')" href="#form_example">基本实例</a></li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('form_example')" href="#form_example">基本实例</a>
+                  </li>
                   <li><a class="nav-link" @click.stop.prevent="toAnchor('form_size')" href="#form_size">尺寸</a></li>
                   <li><a class="nav-link" @click.stop.prevent="toAnchor('form_hz')" href="#form_hz">水平排列表单</a></li>
-                  <li><a class="nav-link" @click.stop.prevent="toAnchor('form_inline')" href="#form_inline">内联表单</a></li>
-                  <li><a class="nav-link" @click.stop.prevent="toAnchor('form_validate')" href="#form_validate">验证</a></li>
-                  <li><a class="nav-link" @click.stop.prevent="toAnchor('form_select')" href="#form_select">select</a></li>
-                  <li><a class="nav-link" @click.stop.prevent="toAnchor('form_checkbox')" href="#form_checkbox">checkbox</a></li>
-                  <li><a class="nav-link" @click.stop.prevent="toAnchor('form_switch')" href="#form_switch">switch</a></li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('form_inline')" href="#form_inline">内联表单</a>
+                  </li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('form_validate')" href="#form_validate">验证</a>
+                  </li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('form_select')" href="#form_select">select</a>
+                  </li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('form_checkbox')"
+                         href="#form_checkbox">checkbox</a></li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('form_switch')" href="#form_switch">switch</a>
+                  </li>
                   <li><a class="nav-link" @click.stop.prevent="toAnchor('form_radio')" href="#form_radio">radio</a></li>
                   <li><a class="nav-link" @click.stop.prevent="toAnchor('form_file')" href="#form_file">文件上传</a></li>
-                  <li><a class="nav-link" @click.stop.prevent="toAnchor('form_control')" href="#form_control">form-control</a></li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('form_control')" href="#form_control">form-control</a>
+                  </li>
                 </ul>
               </li>
               <li>
                 <a class="nav-link" @click.stop.prevent="toAnchor('button')" href="#button">按钮</a>
                 <ul class="nav">
-                  <li><a class="nav-link" @click.stop.prevent="toAnchor('button_brand')" href="#button_brand">默认按钮</a></li>
-                  <li><a class="nav-link" @click.stop.prevent="toAnchor('button_outline')" href="#button_outline">轮廓按钮</a></li>
-                  <li><a class="nav-link" @click.stop.prevent="toAnchor('button_link')" href="#button_link">链接按钮</a></li>
-                  <li><a class="nav-link" @click.stop.prevent="toAnchor('button_assist')" href="#button_assist">增强样式</a></li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('button_brand')" href="#button_brand">默认按钮</a>
+                  </li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('button_outline')"
+                         href="#button_outline">轮廓按钮</a></li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('button_link')" href="#button_link">链接按钮</a>
+                  </li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('button_assist')" href="#button_assist">增强样式</a>
+                  </li>
                 </ul>
               </li>
               <li>
                 <a class="nav-link" @click.stop.prevent="toAnchor('image')" href="#image">图片</a>
                 <ul class="nav">
-                  <li><a class="nav-link" @click.stop.prevent="toAnchor('image_responsive')" href="#image_responsive">响应式图片</a></li>
-                  <li><a class="nav-link" @click.stop.prevent="toAnchor('image_style')" href="#image_style">图片样式</a></li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('image_responsive')" href="#image_responsive">响应式图片</a>
+                  </li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('image_style')" href="#image_style">图片样式</a>
+                  </li>
                 </ul>
               </li>
               <li>
                 <a class="nav-link" @click.stop.prevent="toAnchor('assist')" href="#assist">辅助类</a>
                 <ul class="nav">
-                  <li><a class="nav-link" @click.stop.prevent="toAnchor('assist_font_size')" href="#assist_font_size">文字大小</a></li>
-                  <li><a class="nav-link" @click.stop.prevent="toAnchor('assist_text_alignment')" href="#assist_text_alignment">排列方式</a></li>
-                  <li><a class="nav-link" @click.stop.prevent="toAnchor('assist_text_indent')" href="#assist_text_indent">文本缩进</a></li>
-                  <li><a class="nav-link" @click.stop.prevent="toAnchor('assist_text_indent')" href="#assist_text_case">大小写转换</a></li>
-                  <li><a class="nav-link" @click.stop.prevent="toAnchor('assist_text_color')" href="#assist_text_color">文本颜色</a></li>
-                  <li><a class="nav-link" @click.stop.prevent="toAnchor('assist_text_color')" href="#assist_text_family">文本字体</a></li>
-                  <li><a class="nav-link" @click.stop.prevent="toAnchor('assist_text_color')" href="#assist_border">边框</a></li>
-                  <li><a class="nav-link" @click.stop.prevent="toAnchor('assist_text_color')" href="#assist_bg">背景</a></li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('assist_font_size')" href="#assist_font_size">文字大小</a>
+                  </li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('assist_text_alignment')"
+                         href="#assist_text_alignment">排列方式</a></li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('assist_text_indent')"
+                         href="#assist_text_indent">文本缩进</a></li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('assist_text_indent')" href="#assist_text_case">大小写转换</a>
+                  </li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('assist_text_color')" href="#assist_text_color">文本颜色</a>
+                  </li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('assist_text_color')"
+                         href="#assist_text_family">文本字体</a></li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('assist_text_color')"
+                         href="#assist_border">边框</a></li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('assist_text_color')" href="#assist_bg">背景</a>
+                  </li>
                   <li><a class="nav-link" @click.stop.prevent="toAnchor('assist_list')" href="#assist_list">列表</a></li>
-                  <li><a class="nav-link" @click.stop.prevent="toAnchor('assist_float')" href="#assist_float">浮动</a></li>
-                  <li><a class="nav-link" @click.stop.prevent="toAnchor('assist_position')" href="#assist_position">定位方式</a></li>
-                  <li><a class="nav-link" @click.stop.prevent="toAnchor('assist_close')" href="#assist_close">关闭按钮</a></li>
-                  <li><a class="nav-link" @click.stop.prevent="toAnchor('assist_triangle')" href="#assist_triangle">三角</a></li>
-                  <li><a class="nav-link" @click.stop.prevent="toAnchor('assist_margin')" href="#assist_margin">外边距</a></li>
-                  <li><a class="nav-link" @click.stop.prevent="toAnchor('assist_padding')" href="#assist_padding">内边距</a></li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('assist_float')" href="#assist_float">浮动</a>
+                  </li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('assist_position')"
+                         href="#assist_position">定位方式</a></li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('assist_close')" href="#assist_close">关闭按钮</a>
+                  </li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('assist_triangle')"
+                         href="#assist_triangle">三角</a></li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('assist_margin')" href="#assist_margin">外边距</a>
+                  </li>
+                  <li><a class="nav-link" @click.stop.prevent="toAnchor('assist_padding')"
+                         href="#assist_padding">内边距</a></li>
                 </ul>
               </li>
             </ul>
