@@ -579,17 +579,21 @@
         </div>
       </div>
     </div>
+
+    <slogan-component slogan-bg="slogan-plugin" slogan-text="insight everthing! you are invincible."></slogan-component>
   </div>
 </template>
 
 <script>
-  import masthead from './common/masthead'
+  import masthead from './common/masthead.vue'
+  import slogan from './common/slogan.vue'
   import common from '../assets/js/common'
 
   export default {
     name: 'plugins',
     components: {
-      'masthead-component': masthead
+      'masthead-component': masthead,
+      'slogan-component': slogan
     },
     methods: {
       toAnchor: common.toAnchor

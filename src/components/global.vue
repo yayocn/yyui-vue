@@ -2447,17 +2447,21 @@
         </div>
       </div>
     </div>
+
+    <slogan-component slogan-bg="slogan-global" slogan-text="how fast you can, just go."></slogan-component>
   </div>
 </template>
 
 <script>
   import masthead from './common/masthead'
+  import slogan from './common/slogan.vue'
   import common from '../assets/js/common'
 
   export default {
     name: 'global',
     components: {
-      'masthead-component': masthead
+      'masthead-component': masthead,
+      'slogan-component': slogan
     },
     methods: {
       toAnchor: common.toAnchor

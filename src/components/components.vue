@@ -2195,17 +2195,21 @@
         </div>
       </div>
     </div>
+
+    <slogan-component slogan-bg="slogan-component" slogan-text="shut up, you need to be quiet."></slogan-component>
   </div>
 </template>
 
 <script>
   import masthead from './common/masthead'
+  import slogan from './common/slogan.vue'
   import common from '../assets/js/common'
 
   export default {
     name: 'components',
     components: {
-      'masthead-component': masthead
+      'masthead-component': masthead,
+      'slogan-component': slogan
     },
     methods: {
       toAnchor: common.toAnchor

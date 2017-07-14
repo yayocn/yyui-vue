@@ -55,16 +55,20 @@
         <p>YY UI 使用了大量的h5，css3的特性，建议运用于使用现代浏览器的场景，具体的兼容性yayo还未做测试。</p>
       </div>
     </div>
+
+    <slogan-component slogan-bg="slogan-start" slogan-text="yang `we belong eachother.` leng"></slogan-component>
   </div>
 </template>
 
 <script>
-  import masthead from './common/masthead'
+  import masthead from './common/masthead.vue'
+  import slogan from './common/slogan.vue'
 
   export default {
     name: 'start',
     components: {
-      'masthead-component': masthead
+      'masthead-component': masthead,
+      'slogan-component': slogan
     }
   }
 </script>

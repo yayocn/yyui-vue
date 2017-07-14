@@ -155,46 +155,78 @@
 .yyui-docs-slogan {
   position: relative;
   width: 100%;
-  height: 300px;
-  color: #fff;
+  height: 440px;
   font-size: 80px;
+  font-style: italic;
+  font-family: Papyrus, 梦幻字体;
 
-  .slogan-1,
-  .slogan-2,
-  .slogan-3,
-  .slogan-4,
-  .slogan-5 {
+  .slogan-introduction,
+  .slogan-start,
+  .slogan-global,
+  .slogan-component,
+  .slogan-plugin {
     position: absolute;
     width: 100%;
     height: 100%;
-    opacity: .7;
     z-index: -1;
+    opacity: .8;
     background-repeat: no-repeat;
+    background-size: cover;
   }
 
-  .slogan-1 {
+  .slogan-introduction {
     background-image: url(../image/bg01.jpg);
     background-position: center center;
+
+    + p {
+      position: relative;
+      top: 348px;
+      color: #fefefe;
+      font-size: 50px;
+    }
   }
-  .slogan-2 {
+  .slogan-start {
     background-image: url(../image/bg02.jpg);
     background-position: center center;
+
+    + p {
+      position: relative;
+      top: 340px;
+      font-size: 47px;
+    }
   }
-  .slogan-3 {
+  .slogan-global {
     background-image: url(../image/bg03.jpg);
     background-position: center 70%;
+
+    + p {
+      position: relative;
+      top: 348px;
+      color: #fefefe;
+      font-size: 50px;
+    }
   }
-  .slogan-4 {
+  .slogan-component {
     background-image: url(../image/bg04.jpg);
     background-position: center center;
+
+    + p {
+      position: relative;
+      top: 75px;
+      color: #000;
+      font-size: 50px;
+    }
   }
-  .slogan-5 {
+  .slogan-plugin {
     background-image: url(../image/bg05.jpg);
     background-position: center center;
-  }
 
-  p {
-    line-height: 300px;
+    + p {
+      position: relative;
+      top: 348px;
+      color: #fefefe;
+      font-size: 50px;
+    }
   }
 }
 

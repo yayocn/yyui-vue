@@ -34,17 +34,21 @@
         </div>
       </div>
     </div>
+
+    <slogan-component slogan-bg="slogan-introduction" slogan-text="you are not what you are."></slogan-component>
   </div>
 </template>
 
 <script>
-  import masthead from './common/masthead'
+  import masthead from './common/masthead.vue'
+  import slogan from './common/slogan.vue'
   import { mapState } from 'vuex'
 
   export default {
     name: 'introduction',
     components: {
-      'masthead-component': masthead
+      'masthead-component': masthead,
+      'slogan-component': slogan
     },
     computed: mapState([
       'yyuiVersion'
