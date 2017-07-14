@@ -2,8 +2,8 @@
   <div>
     <masthead-component class="text-center">
       <span class="yyui-docs-log">Y</span>
-      <p class="lead">YY UI，是 YaYo 出于兴趣和学习的目的而形成的一个前端框架。</p>
-      <a class="btn btn-lg btn-theme m-b-2" href="../files/yyui-1.0.0.zip">下载 YY UI</a>
+      <p class="lead">YY UI，是 YaYo 出于兴趣和以学习的目的而形成的一个前端响应式框架。</p>
+      <a class="btn btn-lg btn-theme m-b-2" href="../files/yyui-1.1.2.zip">下载 YY UI</a>
       <p class="font-sm text-light">当前版本: {{ yyuiVersion }}</p>
     </masthead-component>
 
@@ -15,8 +15,8 @@
           <div class="col-sm-4 m-t-10">
             <a href="http://www.w3cplus.com/sassguide/" target="_blank"><img class="img-responsive" src="../assets/image/sass.png" alt=""/></a>
             <h3>预处理器</h3>
-            <p class="text-indent">YY UI 的源码是基于 CSS 预处理脚本之一的 Sass 开发的。你可以采用预编译的 CSS 文件快速开发，也可以从源码定制自己需要的样式。
-            当然你也可以直接使用 YY UI 提供的 CSS 样式表。</p>
+            <p class="text-indent">YY UI 采用CSS预处理器 <a href="https://www.sass.hk/">SASS</a> 开发。
+              SASS是一种CSS的开发工具，提供了许多便利的写法，大大节省了设计者的时间，使得CSS的开发，变得简单和可维护。</p>
           </div>
 
           <div class="col-sm-4 m-t-10">
@@ -29,7 +29,7 @@
           <div class="col-sm-4 m-t-10">
             <img class="img-responsive" src="../assets/image/document.png" alt=""/>
             <h3>五脏俱全</h3>
-            <p class="text-indent">YY UI 能满足前端大部分的需求，而且附带了详细的开发文档，以及 yayo 在写作过程中的心得体会。</p>
+            <p class="text-indent">YY UI 能满足前端大部分的需求，而且附带了详细的开发文档，以及 yayo 在创作过程中的一些体会。</p>
           </div>
         </div>
       </div>

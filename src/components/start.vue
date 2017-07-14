@@ -2,7 +2,7 @@
   <div>
     <masthead-component>
       <h1>开始</h1>
-      <p class="lead">简要的介绍 YY UI，以及下载、使用。</p>
+      <p class="lead">简要的介绍 YY UI 的下载、使用。</p>
     </masthead-component>
 
     <div class="yyui-docs-feature">
@@ -17,7 +17,7 @@
           </div>
           <div class="col-sm-4">
             <h4>源码</h4>
-            <p>yayo的所有开发源码，包括sass、JavaScript 和 字体文件、文档、工具等。</p>
+            <p>yayo 的所有开发源码，包括sass、JavaScript 和 assets 等。</p>
             <a class="btn btn-theme-outline m-b-2 text-capitalize" target="_blank"
                href="https://github.com/yayocn/yyui">on github</a>
           </div>
@@ -26,7 +26,7 @@
         <div class="divider-lg"></div>
 
         <h2 class="yyui-docs-title m-b-6">使用</h2>
-        <h5 class="m-b-6">使用 YY UI 需要引入css、js文件以及字体文件。</h5>
+        <h5 class="m-b-6">使用 YY UI 需要引入框架的 css、js 文件。</h5>
 
         <h4>引用css文件</h4>
         <div class="yyui-docs-example">
@@ -52,7 +52,7 @@
         <div class="divider-lg"></div>
 
         <h2 class="yyui-docs-title m-b-6">兼容性</h2>
-        <p>YY UI 使用了大量的h5，css3的特性，建议运用于使用现代浏览器的场景，具体的兼容性yayo还未做测试。</p>
+        <p>YY UI 使用了大量的 H5，CSS3 的特性，建议运用于使用现代浏览器的场景。</p>
       </div>
     </div>
 

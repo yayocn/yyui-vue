@@ -2,10 +2,9 @@
   <div>
     <masthead-component>
       <h1>全局样式</h1>
-      <p class="lead">设置CSS全局样式；对HTML元素的样式进行重置并可以通过Class进行增强；还有不可缺少的栅格系统等。</p>
+      <p class="lead">设置CSS全局样式；<br>对HTML元素的样式进行重置并可以通过Class进行增强；<br>还有不可缺少的栅格系统等。</p>
     </masthead-component>
-
-
+    
     <div class="container">
       <div id="sidebar_top_marker"></div>
       <div class="row">
@@ -14,15 +13,14 @@
             <h2 class="m-b-6">栅格系统
               <small><code>_grid.scss</code></small>
             </h2>
-            <p class="lead">栅格系统对于布局尤其是响应式来说至关重要，它随着屏幕或者窗口视口的大小自动布局。</p>
+            <p>栅格系统对于布局尤其是响应式来说至关重要，它随着屏幕或者窗口视口的大小自动调整。</p>
 
             <h3 id="grid_introduce">简介</h3>
             <p>栅格系统用于通过一系列的行（row）与列（column）的组合来创建页面布局，你的内容就可以放入这些创建好的布局中。
               下面就介绍一下 YY UI 栅格系统的工作原理：
             </p>
-            <ul>
-              <li>“行（row）”必须包含在 <code>.container</code>（固定宽度）或<code>.container-fluid</code>（100% 宽度）中，以便为其赋予合适的排列（aligment）和内补（padding）。
-
+            <ol>
+              <li>“行（row）”必须包含在 <code>.container</code>（固定宽度）或<code>.container-full</code>（100% 宽度）中，以便为其赋予合适的排列（aligment）和内补（padding）。
               </li>
               <li>通过“行（row）”在水平方向创建一组“列（column）”。</li>
               <li>内容应当放置于“列（column）”内，并且，只有“列（column）”可以作为行（row）”的直接子元素。</li>
@@ -32,22 +30,26 @@
               <li>如果一“行（row）”中包含了的“列（column）”大于 12，多余的“列（column）”所在的元素将被作为一个整体另起一行排列。</li>
               <li>栅格类适用于与屏幕宽度大于或等于分界点大小的设备 ， 并且针对小屏幕设备覆盖栅格类。 因此，在元素上应用任何 <code>.col-md-*</code> 栅格类适用于
                 与屏幕宽度大于或等于分界点大小的设备 ， 并且针对小屏幕设备覆盖栅格类。 因此，在元素上应用任何 <code>.col-lg-*</code> 不存在， 也影响大屏幕设备。
-
               </li>
-            </ul>
+            </ol>
+
+            <div class="yyui-docs-note">
+              <p>针对上面的第一点，其实你不必严格按照格式来，只要你记住：<code>.container, .container-full, .col-*-*</code>有<code>15px</code>的水平内补。
+                而 <code>.row</code> 有 <code>-15px</code> 的水平外间距。
+              </p>
+            </div>
+
             <p class="text-info">yayo在使用了Bootstrap、Foundation、Amaze UI、Semantic UI后，决定使用Bootstrap的栅格结构。原因如下：</p>
             <p>此栅格系统的精巧之处</p>
             <ul>
-              <li>根据工作原理可知此栅格系统是锯齿状，默认的锯齿深度是 <span class="text-info">15px</span>。</li>
-              <li><code>.container</code>和<code>.container-full</code>类有<span class="text-info">15px</span>的 <code>padding</code>值。
+              <li>根据工作原理可知此栅格系统是锯齿状，默认的锯齿深度是 <code>15px</code>。</li>
+              <li><code>.container</code>和<code>.container-full</code>类有<code>15px</code>的 <code>padding</code>值。
 
               </li>
-              <li><code>.row</code>类有<span
-                  class="text-info">-15px</span>的 <code>margin</code>值，抵消掉<code>.container</code>的<code>padding</code>值。
+              <li><code>.row</code>类有<code>-15px</code>的 <code>margin</code>值，抵消掉<code>.container</code>的<code>padding</code>值。
 
               </li>
-              <li><code>.col-*-*</code>类有<span
-                  class="text-info">15px</span>的 <code>padding</code>值，这样<code>.col-*-*</code>有相当于一个新的<code>.container</code>，
+              <li><code>.col-*-*</code>类有<code>15px</code>的 <code>padding</code>值，这样<code>.col-*-*</code>有相当于一个新的<code>.container</code>，
                 里面可以继续放<code>.row</code>。
 
               </li>
@@ -82,18 +84,18 @@
                 <tbody>
                 <tr>
                   <th scope="row"><code>.container</code>最大宽度</th>
-                  <td>auto</td>
-                  <td>720px</td>
-                  <td>960px</td>
-                  <td>1280px</td>
+                  <td><code>auto</code></td>
+                  <td><code>720px</code></td>
+                  <td><code>960px</code></td>
+                  <td><code>1280px</code></td>
                 </tr>
                 <tr>
                   <th scope="row">列数</th>
-                  <td colspan="4">12</td>
+                  <td colspan="4" class="text-center"><code>12</code></td>
                 </tr>
                 <tr>
                   <th scope="row">间距</th>
-                  <td colspan="4">30px</td>
+                  <td colspan="4" class="text-center"><code>30px</code></td>
                 </tr>
                 <tr>
                   <th scope="row">偏移</th>
@@ -132,37 +134,38 @@
             <h3 id="type_head">标题</h3>
             <p>对HTML中的标题标签<code>&lt;h1> ~ &lt;h6></code>进行了字体大小的调整，并对其内部的 <code>&lt;small></code>标签进行了特殊处理，大小为 <span
                 class="text-info">60%</span>。</p>
+            <p>YY UI 对<code>html</code> 做了一步处理： <code>font-size: 10px;</code>。便于计算。</p>
             <div class="yyui-docs-example">
               <div class="yyui-docs-surface">
                 <h1>h1. YY UI heading
 
-                  <small>font-size: 2.5rem</small>
+                  <small>font-size: 3.4rem</small>
                 </h1>
                 <h2>h2. YY UI heading
 
-                  <small>font-size: 2rem</small>
+                  <small>font-size: 3rem</small>
                 </h2>
                 <h3>h3. YY UI heading
 
-                  <small>font-size: 1.75rem</small>
+                  <small>font-size: 2.6rem</small>
                 </h3>
                 <h4>h4. YY UI heading
 
-                  <small>font-size: 1.5rem</small>
+                  <small>font-size: 2.2rem</small>
                 </h4>
                 <h5>h5. YY UI heading
 
-                  <small>font-size: 1.25rem</small>
+                  <small>font-size: 1.8rem</small>
                 </h5>
                 <h6>h6. YY UI heading
 
-                  <small>font-size: 1rem</small>
+                  <small>font-size: 1.4rem</small>
                 </h6>
               </div>
               <div class="yyui-docs-code">
                 <!--<i class="fa fa-file-code-o yyui-docs-copy"></i>-->
                 <pre v-hljs><code class="html">
-    &lt;h1>h1. YY UI heading&lt;small>font-size: 2.5rem&lt;/small>&lt;/h1>
+    &lt;h1>h1. YY UI heading&lt;small>font-size: 3.4rem&lt;/small>&lt;/h1>
                 </code></pre>
               </div>
             </div>
@@ -388,7 +391,7 @@
             <h2 class="m-b-6">表格
               <small><code>_tables.scss</code></small>
             </h2>
-            <p class="lead">想要和栗子保持一致，就别偷懒把<code>&lt;thead>、&lt;tbody></code>这些元素给落下了哦。</p>
+            <p>想要和栗子保持一致，就别偷懒把<code>&lt;thead>、&lt;tbody></code>这些元素给落下了哦。</p>
 
             <h3 id="table_default">默认表格</h3>
             <p>在<code>&lt;table></code>标签上添加<code>.table</code>类，为其添加默认样式。</p>
@@ -809,7 +812,7 @@
             <h2 class="m-b-6">表单
               <small><code>_forms.scss</code></small>
             </h2>
-            <p class="lead">
+            <p>
               YY UI 对表单进行系列的优化。其中的<code>.form-control</code>是<code>&lt;input>, &lt;textarea>, &lt;select></code>的重要类。
             </p>
 
@@ -967,7 +970,7 @@
             </div>
 
             <h3 id="form_hz">水平排列的表单</h3>
-            <p>为<code>&lt;form></code>标签添加<code>.form-hz</code>类，并结合<a href="#grid">栅格系统</a>，将表单项的标题和内容水平排列。</p>
+            <p>为<code>&lt;form></code>标签添加<code>.form-hz</code>类，并结合<a @click.stop.prevent="toAnchor('grid')" href="#grid">栅格系统</a>，将表单项的标题和内容水平排列。</p>
             <p>标题<code>&lt;label></code>需要添加<code>.form-control-label</code>类。</p>
             <div class="yyui-docs-example">
               <div class="yyui-docs-surface">
@@ -1010,7 +1013,7 @@
 
             <h3 id="form_inline">内联表单</h3>
             <p>为<code>&lt;form></code>标签添加<code>.form-inline</code>类，表单项将水平排列。</p>
-            <p><a href="#form_hz">水平排列表单</a>是针对表单项内部，而内联表单是针对表单项。</p>
+            <p><a @click.stop.prevent="toAnchor('form_hz')" href="#form_hz">水平排列表单</a>是针对表单项内部，而内联表单是针对表单项。</p>
             <div class="yyui-docs-example">
               <div class="yyui-docs-surface">
                 <form class="form-inline">
@@ -1129,7 +1132,7 @@
             </div>
 
             <h3 id="form_checkbox">Checkbox</h3>
-            <p><code>.checkbox</code>的结构要求比较严格。</p>
+            <p><code>.checkbox</code>的结构要求比较严格。不要轻易增加、删除、更改元素。</p>
             <div class="yyui-docs-example">
               <div class="yyui-docs-surface">
                 <div class="checkbox">
@@ -1283,7 +1286,7 @@
             </div>
 
             <h3 id="form_switch">Switch</h3>
-            <p class="lead">将<code>.checkbox</code>变为<code>.checkbox-switch</code>。</p>
+            <p>将<code>.checkbox</code>变为<code>.checkbox-switch</code>。</p>
             <div class="yyui-docs-example">
               <div class="yyui-docs-surface">
                 <div class="checkbox-switch">
@@ -1612,7 +1615,7 @@
             </div>
 
             <h3 id="form_file">文件上传</h3>
-            <p class="lead">在<code>file</code>外面包裹一层<code>.form-file</code>，实现样式优化。</p>
+            <p>在<code>file</code>外面包裹一层<code>.form-file</code>，实现样式优化。</p>
             <div class="yyui-docs-example">
               <div class="yyui-docs-surface">
                 <div class="form-file">
@@ -1699,7 +1702,7 @@
 
               <small><code>_buttons.scss</code></small>
             </h2>
-            <p class="lead">可以为<code>&lt;a>、&lt;button>、&lt;input></code>添加样式。所有按钮都要添加<code>.btn</code>基类。</p>
+            <p>可以为<code>&lt;a>、&lt;button>、&lt;input></code>添加样式。所有按钮都要添加<code>.btn</code>基类。</p>
 
             <h3 id="button_brand">基本按钮</h3>
             <div class="yyui-docs-example">
@@ -1877,7 +1880,7 @@
 
           <section class="yyui-docs-section" id="assist">
             <h2 class="m-b-6">辅助类</h2>
-            <p class="lead">辅助类设定了一些在任何地方都可以使用的类。</p>
+            <p>辅助类设定了一些在任何地方都可以使用的类。</p>
 
             <h3 id="assist_font_size">文字大小</h3>
             <p>YY UI 可以快速设置9种大小的文字。</p>
