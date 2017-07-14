@@ -32,32 +32,16 @@
               </div>
               <div class="yyui-docs-code">
                 <!--<i class="fa fa-file-code-o yyui-docs-copy"></i>-->
-                <pre>
-                <span class="label">&lt;div</span><span class="attr"> class=</span><span class="value">"dropdown"</span><span
-                    class="label">&gt;</span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;button</span><span class="attr"> type=</span><span class="value">"button"</span><span
-                    class="attr"> class=</span><span class="value">"btn btn-default dropdown-toggle"</span><span
-                    class="label">&gt;</span>dropdown<span class="label">&lt;/button></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;ul</span><span class="attr"> class=</span><span class="value">"dropdown-menu"</span><span
-                    class="label">&gt;</span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;li</span><span class="attr"> class=</span><span
-                    class="value">"dropdown-item"</span><span class="label">&gt;</span><span
-                    class="label">&lt;a</span><span class="attr"> href=</span><span
-                    class="value">"javascript:;"</span><span class="label">&gt;</span>Action<span class="label">&lt;/a>&lt;/li></span></span>
-                  <br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;li</span><span class="attr"> class=</span><span
-                    class="value">"dropdown-item"</span><span class="label">&gt;</span><span
-                    class="label">&lt;a</span><span class="attr"> href=</span><span
-                    class="value">"javascript:;"</span><span class="label">&gt;</span>Action<span class="label">&lt;/a>&lt;/li></span></span>
-                  <br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;li</span><span class="attr"> class=</span><span
-                    class="value">"dropdown-item"</span><span class="label">&gt;</span><span
-                    class="label">&lt;a</span><span class="attr"> href=</span><span
-                    class="value">"javascript:;"</span><span class="label">&gt;</span>Action<span class="label">&lt;/a>&lt;/li></span></span>
-                  <br/>
-                &nbsp;&nbsp;<span class="label">&lt;/ul></span><br/>
-                <span class="label">&lt;/div></span>
-              </pre>
+                <pre v-hljs><code class="html">
+    &lt;div class="dropdown">
+      &lt;button type="button" class="btn btn-default dropdown-toggle">dropdown&lt;/button>
+      &lt;ul class="dropdown-menu">
+        &lt;li class="dropdown-item">&lt;a href="javascript:;">action&lt;/a>&lt;/li>
+        &lt;li class="dropdown-item">&lt;a href="javascript:;">Another action&lt;/a>&lt;/li>
+        &lt;li class="dropdown-item">&lt;a href="javascript:;">Another action&lt;/a>&lt;/li>
+      &lt;/ul>
+    &lt;/div>
+                </code></pre>
               </div>
             </div>
 
@@ -76,32 +60,16 @@
               </div>
               <div class="yyui-docs-code">
                 <!--<i class="fa fa-file-code-o yyui-docs-copy"></i>-->
-                <pre>
-                <span class="label">&lt;div</span><span class="attr"> class=</span><span
-                    class="value">"dropdown up"</span><span class="label">&gt;</span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;button</span><span class="attr"> type=</span><span class="value">"button"</span><span
-                    class="attr"> class=</span><span class="value">"btn btn-default dropdown-toggle"</span><span
-                    class="label">&gt;</span>dropdown<span class="label">&lt;/button></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;ul</span><span class="attr"> class=</span><span class="value">"dropdown-menu"</span><span
-                    class="label">&gt;</span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;li</span><span class="attr"> class=</span><span
-                    class="value">"dropdown-item"</span><span class="label">&gt;</span><span
-                    class="label">&lt;a</span><span class="attr"> href=</span><span
-                    class="value">"javascript:;"</span><span class="label">&gt;</span>Action<span class="label">&lt;/a>&lt;/li></span></span>
-                  <br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;li</span><span class="attr"> class=</span><span
-                    class="value">"dropdown-item"</span><span class="label">&gt;</span><span
-                    class="label">&lt;a</span><span class="attr"> href=</span><span
-                    class="value">"javascript:;"</span><span class="label">&gt;</span>Action<span class="label">&lt;/a>&lt;/li></span></span>
-                  <br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;li</span><span class="attr"> class=</span><span
-                    class="value">"dropdown-item"</span><span class="label">&gt;</span><span
-                    class="label">&lt;a</span><span class="attr"> href=</span><span
-                    class="value">"javascript:;"</span><span class="label">&gt;</span>Action<span class="label">&lt;/a>&lt;/li></span></span>
-                  <br/>
-                &nbsp;&nbsp;<span class="label">&lt;/ul></span><br/>
-                <span class="label">&lt;/div></span>
-              </pre>
+                <pre v-hljs><code class="html">
+    &lt;div class="dropdown up">
+      &lt;button type="button" class="btn btn-default dropdown-toggle">dropdown&lt;/button>
+      &lt;ul class="dropdown-menu">
+        &lt;li class="dropdown-item">&lt;a href="javascript:;">action&lt;/a>&lt;/li>
+        &lt;li class="dropdown-item">&lt;a href="javascript:;">Another action&lt;/a>&lt;/li>
+        &lt;li class="dropdown-item">&lt;a href="javascript:;">Another action&lt;/a>&lt;/li>
+      &lt;/ul>
+    &lt;/div>
+                </code></pre>
               </div>
             </div>
 
@@ -123,42 +91,19 @@
               </div>
               <div class="yyui-docs-code">
                 <!--<i class="fa fa-file-code-o yyui-docs-copy"></i>-->
-                <pre>
-                <span class="label">&lt;div</span><span class="attr"> class=</span><span class="value">"dropdown"</span><span
-                    class="label">&gt;</span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;button</span><span class="attr"> type=</span><span class="value">"button"</span><span
-                    class="attr"> class=</span><span class="value">"btn btn-default dropdown-toggle"</span><span
-                    class="label">&gt;</span>dropdown<span class="label">&lt;/button></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;ul</span><span class="attr"> class=</span><span class="value">"dropdown-menu"</span><span
-                    class="label">&gt;</span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;li</span><span class="attr"> class=</span><span
-                    class="value">"dropdown-header"</span><span class="label">&gt;</span>section1<span class="label">&lt;/li></span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;li</span><span class="attr"> class=</span><span
-                    class="value">"dropdown-item"</span><span class="label">&gt;</span><span
-                    class="label">&lt;a</span><span class="attr"> href=</span><span
-                    class="value">"javascript:;"</span><span class="label">&gt;</span>Action<span class="label">&lt;/a>&lt;/li></span></span>
-                  <br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;li</span><span class="attr"> class=</span><span
-                    class="value">"dropdown-item"</span><span class="label">&gt;</span><span
-                    class="label">&lt;a</span><span class="attr"> href=</span><span
-                    class="value">"javascript:;"</span><span class="label">&gt;</span>Action<span class="label">&lt;/a>&lt;/li></span></span>
-                  <br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;li</span><span class="attr"> class=</span><span
-                    class="value">"dropdown-header"</span><span class="label">&gt;</span>section2<span class="label">&lt;/li></span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;li</span><span class="attr"> class=</span><span
-                    class="value">"dropdown-item"</span><span class="label">&gt;</span><span
-                    class="label">&lt;a</span><span class="attr"> href=</span><span
-                    class="value">"javascript:;"</span><span class="label">&gt;</span>Action<span class="label">&lt;/a>&lt;/li></span></span>
-                  <br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;li</span><span class="attr"> class=</span><span
-                    class="value">"dropdown-item"</span><span class="label">&gt;</span><span
-                    class="label">&lt;a</span><span class="attr"> href=</span><span
-                    class="value">"javascript:;"</span><span class="label">&gt;</span>Action<span class="label">&lt;/a>&lt;/li></span></span>
-                  <br/>
-
-                &nbsp;&nbsp;<span class="label">&lt;/ul></span><br/>
-                <span class="label">&lt;/div></span>
-              </pre>
+                <pre v-hljs><code class="html">
+    &lt;div class="dropdown">
+      &lt;button type="button" class="btn btn-default dropdown-toggle">dropdown&lt;/button>
+      &lt;ul class="dropdown-menu">
+        &lt;li class="dropdown-header">section1&lt;/li>
+        &lt;li class="dropdown-item">&lt;a href="javascript:;">action&lt;/a>&lt;/li>
+        &lt;li class="dropdown-item">&lt;a href="javascript:;">Another action&lt;/a>&lt;/li>
+        &lt;li class="dropdown-header">section2&lt;/li>
+        &lt;li class="dropdown-item">&lt;a href="javascript:;">action&lt;/a>&lt;/li>
+        &lt;li class="dropdown-item">&lt;a href="javascript:;">Another action&lt;/a>&lt;/li>
+      &lt;/ul>
+    &lt;/div>
+                </code></pre>
               </div>
             </div>
 
@@ -179,41 +124,18 @@
               </div>
               <div class="yyui-docs-code">
                 <!--<i class="fa fa-file-code-o yyui-docs-copy"></i>-->
-                <pre>
-                <span class="label">&lt;div</span><span class="attr"> class=</span><span class="value">"dropdown"</span><span
-                    class="label">&gt;</span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;button</span><span class="attr"> type=</span><span class="value">"button"</span><span
-                    class="attr"> class=</span><span class="value">"btn btn-default dropdown-toggle"</span><span
-                    class="label">&gt;</span>dropdown<span class="label">&lt;/button></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;ul</span><span class="attr"> class=</span><span class="value">"dropdown-menu"</span><span
-                    class="label">&gt;</span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;li</span><span class="attr"> class=</span><span
-                    class="value">"dropdown-item"</span><span class="label">&gt;</span><span
-                    class="label">&lt;a</span><span class="attr"> href=</span><span
-                    class="value">"javascript:;"</span><span class="label">&gt;</span>Action<span class="label">&lt;/a>&lt;/li></span></span>
-                  <br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;li</span><span class="attr"> class=</span><span
-                    class="value">"dropdown-item"</span><span class="label">&gt;</span><span
-                    class="label">&lt;a</span><span class="attr"> href=</span><span
-                    class="value">"javascript:;"</span><span class="label">&gt;</span>Action<span class="label">&lt;/a>&lt;/li></span></span>
-                  <br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;li</span><span class="attr"> class=</span><span
-                    class="value">"dropdown-divider"</span><span class="label">&gt;</span><span
-                    class="label">&lt;/li></span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;li</span><span class="attr"> class=</span><span
-                    class="value">"dropdown-item"</span><span class="label">&gt;</span><span
-                    class="label">&lt;a</span><span class="attr"> href=</span><span
-                    class="value">"javascript:;"</span><span class="label">&gt;</span>Action<span class="label">&lt;/a>&lt;/li></span></span>
-                  <br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;li</span><span class="attr"> class=</span><span
-                    class="value">"dropdown-item"</span><span class="label">&gt;</span><span
-                    class="label">&lt;a</span><span class="attr"> href=</span><span
-                    class="value">"javascript:;"</span><span class="label">&gt;</span>Action<span class="label">&lt;/a>&lt;/li></span></span>
-                  <br/>
-
-                &nbsp;&nbsp;<span class="label">&lt;/ul></span><br/>
-                <span class="label">&lt;/div></span>
-              </pre>
+                <pre v-hljs><code class="html">
+    &lt;div class="dropdown">
+      &lt;button type="button" class="btn btn-default dropdown-toggle">dropdown&lt;/button>
+      &lt;ul class="dropdown-menu">
+        &lt;li class="dropdown-item">&lt;a href="javascript:;">action&lt;/a>&lt;/li>
+        &lt;li class="dropdown-item">&lt;a href="javascript:;">Another action&lt;/a>&lt;/li>
+        &lt;li class="dropdown-divider">&lt;/li>
+        &lt;li class="dropdown-item">&lt;a href="javascript:;">action&lt;/a>&lt;/li>
+        &lt;li class="dropdown-item">&lt;a href="javascript:;">Another action&lt;/a>&lt;/li>
+      &lt;/ul>
+    &lt;/div>
+                </code></pre>
               </div>
             </div>
 
@@ -232,31 +154,16 @@
               </div>
               <div class="yyui-docs-code">
                 <!--<i class="fa fa-file-code-o yyui-docs-copy"></i>-->
-                <pre>
-                <span class="label">&lt;div</span><span class="attr"> class=</span><span class="value">"dropdown"</span><span
-                    class="label">&gt;</span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;button</span><span class="attr"> type=</span><span class="value">"button"</span><span
-                    class="attr"> class=</span><span class="value">"btn btn-default dropdown-toggle"</span><span
-                    class="label">&gt;</span>dropdown<span class="label">&lt;/button></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;ul</span><span class="attr"> class=</span><span class="value">"dropdown-menu"</span><span
-                    class="label">&gt;</span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;li</span><span class="attr"> class=</span><span
-                    class="value">"dropdown-item disabled"</span><span class="label">&gt;</span><span class="label">&lt;a</span><span
-                    class="attr"> href=</span><span class="value">"javascript:;"</span><span class="label">&gt;</span>Action<span
-                    class="label">&lt;/a>&lt;/li></span></span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;li</span><span class="attr"> class=</span><span
-                    class="value">"dropdown-item"</span><span class="label">&gt;</span><span
-                    class="label">&lt;a</span><span class="attr"> href=</span><span
-                    class="value">"javascript:;"</span><span class="label">&gt;</span>Action<span class="label">&lt;/a>&lt;/li></span></span>
-                  <br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;li</span><span class="attr"> class=</span><span
-                    class="value">"dropdown-item"</span><span class="label">&gt;</span><span
-                    class="label">&lt;a</span><span class="attr"> href=</span><span
-                    class="value">"javascript:;"</span><span class="label">&gt;</span>Action<span class="label">&lt;/a>&lt;/li></span></span>
-                  <br/>
-                &nbsp;&nbsp;<span class="label">&lt;/ul></span><br/>
-                <span class="label">&lt;/div></span>
-              </pre>
+                <pre v-hljs><code class="html">
+    &lt;div class="dropdown">
+      &lt;button type="button" class="btn btn-default dropdown-toggle">dropdown&lt;/button>
+      &lt;ul class="dropdown-menu">
+        &lt;li class="dropdown-item disabled">&lt;a href="javascript:;">action&lt;/a>&lt;/li>
+        &lt;li class="dropdown-item">&lt;a href="javascript:;">Another action&lt;/a>&lt;/li>
+        &lt;li class="dropdown-item">&lt;a href="javascript:;">Another action&lt;/a>&lt;/li>
+      &lt;/ul>
+    &lt;/div>
+                </code></pre>
               </div>
             </div>
 
@@ -265,7 +172,6 @@
 
           <section id="btn_group">
             <h2 class="m-b-6">按钮组
-
               <small><code>_button-group.scss</code></small>
             </h2>
             <p class="lead">通过按钮组容器把一组按钮放在同一行里。按钮组中的<code>button</code>的样式可以随意组合。</p>
@@ -282,20 +188,13 @@
               </div>
               <div class="yyui-docs-code">
                 <!--<i class="fa fa-file-code-o yyui-docs-copy"></i>-->
-                <pre>
-                <span class="label">&lt;div</span><span class="attr"> class=</span><span
-                    class="value">"btn-group"</span><span class="label">&gt;</span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;button</span><span class="attr"> type=</span><span class="value">"button"</span><span
-                    class="attr"> class=</span><span class="value">"btn btn-default"</span><span
-                    class="label">&gt;</span>left<span class="label">&lt;/button></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;button</span><span class="attr"> type=</span><span class="value">"button"</span><span
-                    class="attr"> class=</span><span class="value">"btn btn-default"</span><span
-                    class="label">&gt;</span>center<span class="label">&lt;/button></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;button</span><span class="attr"> type=</span><span class="value">"button"</span><span
-                    class="attr"> class=</span><span class="value">"btn btn-default"</span><span
-                    class="label">&gt;</span>right<span class="label">&lt;/button></span><br/>
-                <span class="label">&lt;/div</span>
-              </pre>
+                <pre v-hljs><code class="html">
+    &lt;div class="btn-group">
+      &lt;button type="button" class="btn btn-default">left&lt;/button>
+      &lt;button type="button" class="btn btn-default">center&lt;/button>
+      &lt;button type="button" class="btn btn-default">right&lt;/button>
+    &lt;/div>
+                </code></pre>
               </div>
             </div>
 
@@ -330,59 +229,31 @@
               </div>
               <div class="yyui-docs-code">
                 <!--<i class="fa fa-file-code-o yyui-docs-copy"></i>-->
-                <pre>
-                <span class="label">&lt;div</span><span class="attr"> class=</span><span class="value">"btn-group btn-lg"</span><span
-                    class="label">&gt;</span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;button</span><span class="attr"> type=</span><span class="value">"button"</span><span
-                    class="attr"> class=</span><span class="value">"btn btn-primary"</span><span
-                    class="label">&gt;</span>left<span class="label">&lt;/button></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;button</span><span class="attr"> type=</span><span class="value">"button"</span><span
-                    class="attr"> class=</span><span class="value">"btn btn-primary"</span><span
-                    class="label">&gt;</span>center<span class="label">&lt;/button></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;button</span><span class="attr"> type=</span><span class="value">"button"</span><span
-                    class="attr"> class=</span><span class="value">"btn btn-primary"</span><span
-                    class="label">&gt;</span>right<span class="label">&lt;/button></span><br/>
-                <span class="label">&lt;/div</span><br/><br/>
+                <pre v-hljs><code class="html">
+    &lt;div class="btn-group btn-group-lg">
+      &lt;button type="button" class="btn btn-primary">left&lt;/button>
+      &lt;button type="button" class="btn btn-primary">center&lt;/button>
+      &lt;button type="button" class="btn btn-primary">right&lt;/button>
+    &lt;/div>
 
-                <span class="label">&lt;div</span><span class="attr"> class=</span><span
-                    class="value">"btn-group"</span><span class="label">&gt;</span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;button</span><span class="attr"> type=</span><span class="value">"button"</span><span
-                    class="attr"> class=</span><span class="value">"btn btn-success"</span><span
-                    class="label">&gt;</span>left<span class="label">&lt;/button></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;button</span><span class="attr"> type=</span><span class="value">"button"</span><span
-                    class="attr"> class=</span><span class="value">"btn btn-success"</span><span
-                    class="label">&gt;</span>center<span class="label">&lt;/button></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;button</span><span class="attr"> type=</span><span class="value">"button"</span><span
-                    class="attr"> class=</span><span class="value">"btn btn-success"</span><span
-                    class="label">&gt;</span>right<span class="label">&lt;/button></span><br/>
-                <span class="label">&lt;/div</span><br/><br/>
+    &lt;div class="btn-group">
+      &lt;button type="button" class="btn btn-success">left&lt;/button>
+      &lt;button type="button" class="btn btn-success">center&lt;/button>
+      &lt;button type="button" class="btn btn-success">right&lt;/button>
+    &lt;/div>
 
-                <span class="label">&lt;div</span><span class="attr"> class=</span><span class="value">"btn-group btn-sm"</span><span
-                    class="label">&gt;</span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;button</span><span class="attr"> type=</span><span class="value">"button"</span><span
-                    class="attr"> class=</span><span class="value">"btn btn-warning-outline"</span><span class="label">&gt;</span>left<span
-                    class="label">&lt;/button></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;button</span><span class="attr"> type=</span><span class="value">"button"</span><span
-                    class="attr"> class=</span><span class="value">"btn btn-warning-outline"</span><span class="label">&gt;</span>center<span
-                    class="label">&lt;/button></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;button</span><span class="attr"> type=</span><span class="value">"button"</span><span
-                    class="attr"> class=</span><span class="value">"btn btn-warning-outline"</span><span class="label">&gt;</span>right<span
-                    class="label">&lt;/button></span><br/>
-                <span class="label">&lt;/div</span><br/><br/>
+    &lt;div class="btn-group btn-group-sm">
+      &lt;button type="button" class="btn btn-warning-outline">left&lt;/button>
+      &lt;button type="button" class="btn btn-warning-outline">center&lt;/button>
+      &lt;button type="button" class="btn btn-warning-outline">right&lt;/button>
+    &lt;/div>
 
-                <span class="label">&lt;div</span><span class="attr"> class=</span><span
-                    class="value">"btn-group"</span><span class="label">&gt;</span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;button</span><span class="attr"> type=</span><span class="value">"button"</span><span
-                    class="attr"> class=</span><span class="value">"btn btn-danger btn-xs"</span><span class="label">&gt;</span>left<span
-                    class="label">&lt;/button></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;button</span><span class="attr"> type=</span><span class="value">"button"</span><span
-                    class="attr"> class=</span><span class="value">"btn btn-danger btn-xs"</span><span class="label">&gt;</span>center<span
-                    class="label">&lt;/button></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;button</span><span class="attr"> type=</span><span class="value">"button"</span><span
-                    class="attr"> class=</span><span class="value">"btn btn-danger btn-xs"</span><span class="label">&gt;</span>right<span
-                    class="label">&lt;/button></span><br/>
-                <span class="label">&lt;/div</span>
-              </pre>
+    &lt;div class="btn-group">
+      &lt;button type="button" class="btn btn-danger btn-xs">left&lt;/button>
+      &lt;button type="button" class="btn btn-danger btn-xs">center&lt;/button>
+      &lt;button type="button" class="btn btn-danger btn-xs">right&lt;/button>
+    &lt;/div>
+                </code></pre>
               </div>
             </div>
 
@@ -398,20 +269,13 @@
               </div>
               <div class="yyui-docs-code">
                 <!--<i class="fa fa-file-code-o yyui-docs-copy"></i>-->
-                <pre>
-                <span class="label">&lt;div</span><span class="attr"> class=</span><span class="value">"btn-group btn-group-block"</span><span
-                    class="label">&gt;</span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;button</span><span class="attr"> type=</span><span class="value">"button"</span><span
-                    class="attr"> class=</span><span class="value">"btn btn-default"</span><span
-                    class="label">&gt;</span>left<span class="label">&lt;/button></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;button</span><span class="attr"> type=</span><span class="value">"button"</span><span
-                    class="attr"> class=</span><span class="value">"btn btn-default"</span><span
-                    class="label">&gt;</span>center<span class="label">&lt;/button></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;button</span><span class="attr"> type=</span><span class="value">"button"</span><span
-                    class="attr"> class=</span><span class="value">"btn btn-default"</span><span
-                    class="label">&gt;</span>right<span class="label">&lt;/button></span><br/>
-                <span class="label">&lt;/div</span>
-              </pre>
+                <pre v-hljs><code class="html">
+    &lt;div class="btn-group btn-group-block">
+      &lt;button type="button" class="btn btn-default">left&lt;/button>
+      &lt;button type="button" class="btn btn-default">center&lt;/button>
+      &lt;button type="button" class="btn btn-default">right&lt;/button>
+    &lt;/div>
+                </code></pre>
               </div>
             </div>
 
@@ -427,20 +291,13 @@
               </div>
               <div class="yyui-docs-code">
                 <!--<i class="fa fa-file-code-o yyui-docs-copy"></i>-->
-                <pre>
-                <span class="label">&lt;div</span><span class="attr"> class=</span><span class="value">"btn-group btn-group-vt"</span><span
-                    class="label">&gt;</span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;button</span><span class="attr"> type=</span><span class="value">"button"</span><span
-                    class="attr"> class=</span><span class="value">"btn btn-default"</span><span
-                    class="label">&gt;</span>top<span class="label">&lt;/button></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;button</span><span class="attr"> type=</span><span class="value">"button"</span><span
-                    class="attr"> class=</span><span class="value">"btn btn-default"</span><span
-                    class="label">&gt;</span>middle<span class="label">&lt;/button></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;button</span><span class="attr"> type=</span><span class="value">"button"</span><span
-                    class="attr"> class=</span><span class="value">"btn btn-default"</span><span
-                    class="label">&gt;</span>bottom<span class="label">&lt;/button></span><br/>
-                <span class="label">&lt;/div</span>
-              </pre>
+                <pre v-hljs><code class="html">
+    &lt;div class="btn-group btn-group-vt">
+      &lt;button type="button" class="btn btn-default">top&lt;/button>
+      &lt;button type="button" class="btn btn-default">middle&lt;/button>
+      &lt;button type="button" class="btn btn-default">bottom&lt;/button>
+    &lt;/div>
+                </code></pre>
               </div>
             </div>
 
@@ -462,43 +319,25 @@
               </div>
               <div class="yyui-docs-code">
                 <!--<i class="fa fa-file-code-o yyui-docs-copy"></i>-->
-                <pre>
-                <span class="label">&lt;div</span><span class="attr"> class=</span><span
-                    class="value">"btn-group"</span><span class="label">&gt;</span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;button</span><span class="attr"> type=</span><span class="value">"button"</span><span
-                    class="attr"> class=</span><span class="value">"btn btn-default"</span><span
-                    class="label">&gt;</span>left<span class="label">&lt;/button></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;button</span><span class="attr"> type=</span><span class="value">"button"</span><span
-                    class="attr"> class=</span><span class="value">"btn btn-default"</span><span
-                    class="label">&gt;</span>center<span class="label">&lt;/button></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;div</span><span class="attr"> class=</span><span class="value">"dropdown"</span><span
-                    class="label">&gt;</span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;button</span><span class="attr"> type=</span><span
-                    class="value">"button"</span><span class="attr"> class=</span><span class="value">"btn btn-default dropdown-toggle"</span><span
-                    class="label">&gt;</span>dropdown<span class="label">&lt;/button></span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;ul</span><span class="attr"> class=</span><span
-                    class="value">"dropdown-menu"</span><span class="label">&gt;</span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;li</span><span
-                    class="attr"> class=</span><span class="value">"dropdown-item"</span><span class="label">&gt;</span><span
-                    class="label">&lt;a</span><span class="attr"> href=</span><span
-                    class="value">"javascript:;"</span><span class="label">&gt;</span>Action<span class="label">&lt;/a>&lt;/li></span></span>
-                  <br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;li</span><span
-                    class="attr"> class=</span><span class="value">"dropdown-item"</span><span class="label">&gt;</span><span
-                    class="label">&lt;a</span><span class="attr"> href=</span><span
-                    class="value">"javascript:;"</span><span class="label">&gt;</span>Action<span class="label">&lt;/a>&lt;/li></span></span>
-                  <br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;/ul></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;/div></span><br/>
-                <span class="label">&lt;/div</span>
-              </pre>
+                <pre v-hljs><code class="html">
+    &lt;div class="btn-group">
+      &lt;button type="button" class="btn btn-default">left&lt;/button>
+      &lt;button type="button" class="btn btn-default">center&lt;/button>
+      &lt;div class="dropdown">
+        &lt;button type="button" class="btn btn-default dropdown-toggle">right&lt;/button>
+        &lt;ul class="dropdown-menu">
+          &lt;li>&lt;a class="dropdown-item" href="javascript:;">Action&lt;/a>&lt;/li>
+          &lt;li>&lt;a class="dropdown-item" href="javascript:;">Action&lt;/a>&lt;/li>
+        &lt;/ul>
+      &lt;/div>
+    &lt;/div>
+                </code></pre>
               </div>
             </div>
           </section>
 
           <section class="yyui-docs-section" id="input_group">
             <h2 class="m-b-6">输入框组
-
               <small><code>_input-group.scss</code></small>
             </h2>
             <p class="lead">
@@ -517,18 +356,13 @@
               </div>
               <div class="yyui-docs-code">
                 <!--<i class="fa fa-file-code-o yyui-docs-copy"></i>-->
-                <pre>
-                <span class="label">&lt;div</span><span class="attr"> class=</span><span
-                    class="value">"input-group"</span><span class="label">&gt;</span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;span</span><span class="attr"> class=</span><span class="value">"input-group-addon"</span><span
-                    class="label">&gt;</span>$<span class="label">&lt;/span></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;input</span><span class="attr"> type=</span><span class="value">"text"</span><span
-                    class="attr"> class=</span><span class="value">"form-control"</span><span
-                    class="label">/></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;span</span><span class="attr"> class=</span><span class="value">"input-group-addon"</span><span
-                    class="label">&gt;</span>.00<span class="label">&lt;/span></span><br/>
-                <span class="label">&lt;/div></span>
-              </pre>
+                <pre v-hljs><code class="html">
+    &lt;div class="input-group">
+      &lt;span class="input-group-addon">$&lt;/span>
+      &lt;input type="text" class="form-control"/>
+      &lt;span class="input-group-addon">.00&lt;/span>
+    &lt;/div>
+                </code></pre>
               </div>
             </div>
 
@@ -552,29 +386,22 @@
                 </div>
               </div>
               <div class="yyui-docs-code">
-              <pre>
-                <span class="label">&lt;div</span><span class="attr"> class=</span><span class="value">"input-group input-group-lg"</span><span
-                  class="label">&gt;</span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;span</span><span class="attr"> class=</span><span class="value">"input-group-addon"</span><span
-                  class="label">&gt;</span>$<span class="label">&lt;/span></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;input</span><span class="attr"> type=</span><span class="value">"text"</span><span
-                  class="attr"> class=</span><span class="value">"form-control"</span><span class="label">/></span><br/>
-                <span class="label">&lt;/div></span><br/><br/>
-                <span class="label">&lt;div</span><span class="attr"> class=</span><span
-                  class="value">"input-group"</span><span class="label">&gt;</span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;span</span><span class="attr"> class=</span><span class="value">"input-group-addon"</span><span
-                  class="label">&gt;</span>$<span class="label">&lt;/span></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;input</span><span class="attr"> type=</span><span class="value">"text"</span><span
-                  class="attr"> class=</span><span class="value">"form-control"</span><span class="label">/></span><br/>
-                <span class="label">&lt;/div></span><br/><br/>
-                <span class="label">&lt;div</span><span class="attr"> class=</span><span class="value">"input-group input-group-sm"</span><span
-                  class="label">&gt;</span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;span</span><span class="attr"> class=</span><span class="value">"input-group-addon"</span><span
-                  class="label">&gt;</span>$<span class="label">&lt;/span></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;input</span><span class="attr"> type=</span><span class="value">"text"</span><span
-                  class="attr"> class=</span><span class="value">"form-control"</span><span class="label">/></span><br/>
-                <span class="label">&lt;/div></span>
-              </pre>
+              <pre v-hljs><code class="html">
+    &lt;div class="input-group input-group-lg">
+      &lt;span class="input-group-addon">$&lt;/span>
+      &lt;input type="text" class="form-control"/>
+    &lt;/div>
+
+    &lt;div class="input-group">
+      &lt;span class="input-group-addon">$&lt;/span>
+      &lt;input type="text" class="form-control"/>
+    &lt;/div>
+
+    &lt;div class="input-group input-group-sm">
+      &lt;span class="input-group-addon">$&lt;/span>
+      &lt;input type="text" class="form-control"/>
+    &lt;/div>
+              </code></pre>
               </div>
             </div>
 
@@ -591,20 +418,14 @@
               </div>
               <div class="yyui-docs-code">
                 <!--<i class="fa fa-file-code-o yyui-docs-copy"></i>-->
-                <pre>
-                <span class="label">&lt;div</span><span class="attr"> class=</span><span
-                    class="value">"input-group"</span><span class="label">&gt;</span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;input</span><span class="attr"> type=</span><span class="value">"text"</span><span
-                    class="attr"> class=</span><span class="value">"form-control"</span><span
-                    class="label">/></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;div</span><span class="attr"> class=</span><span class="value">"input-group-btn"</span><span
-                    class="label">&gt;</span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;button</span><span class="attr"> type=</span><span
-                    class="value">"button"</span><span class="attr"> class=</span><span
-                    class="value">"btn btn-default"</span><span class="label">&gt;</span>search<span class="label">&lt;/button></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;/div></span><br/>
-                <span class="label">&lt;/div></span><br/>
-              </pre>
+                <pre v-hljs><code class="html">
+    &lt;div class="input-group">
+      &lt;input type="text" class="form-control"/>
+      &lt;div class="input-group-btn">
+        &lt;button type="button" class="btn btn-default">search&lt;/button>
+      &lt;/div>
+    &lt;/div>
+                </code></pre>
               </div>
             </div>
 
@@ -645,55 +466,37 @@
                 </div>
               </div>
               <div class="yyui-docs-code">
-              <pre>
-                <span class="label">&lt;div</span><span class="attr"> class=</span><span class="value">"input-group input-group-primary"</span><span
-                  class="label">&gt;</span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;span</span><span class="attr"> class=</span><span class="value">"input-group-addon"</span><span
-                  class="label">&gt;</span>$<span class="label">&lt;/span></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;input</span><span class="attr"> type=</span><span class="value">"text"</span><span
-                  class="attr"> class=</span><span class="value">"form-control"</span><span class="label">/></span><br/>
-                <span class="label">&lt;/div></span><br/>
-                <br/>
-                <span class="label">&lt;div</span><span class="attr"> class=</span><span class="value">"input-group input-group-secondary"</span><span
-                  class="label">&gt;</span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;span</span><span class="attr"> class=</span><span class="value">"input-group-addon"</span><span
-                  class="label">&gt;</span>$<span class="label">&lt;/span></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;input</span><span class="attr"> type=</span><span class="value">"text"</span><span
-                  class="attr"> class=</span><span class="value">"form-control"</span><span class="label">/></span><br/>
-                <span class="label">&lt;/div></span><br/>
-                <br/>
-                <span class="label">&lt;div</span><span class="attr"> class=</span><span class="value">"input-group input-group-success"</span><span
-                  class="label">&gt;</span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;span</span><span class="attr"> class=</span><span class="value">"input-group-addon"</span><span
-                  class="label">&gt;</span>$<span class="label">&lt;/span></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;input</span><span class="attr"> type=</span><span class="value">"text"</span><span
-                  class="attr"> class=</span><span class="value">"form-control"</span><span class="label">/></span><br/>
-                <span class="label">&lt;/div></span><br/>
-                <br/>
-                <span class="label">&lt;div</span><span class="attr"> class=</span><span class="value">"input-group input-group-info"</span><span
-                  class="label">&gt;</span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;span</span><span class="attr"> class=</span><span class="value">"input-group-addon"</span><span
-                  class="label">&gt;</span>$<span class="label">&lt;/span></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;input</span><span class="attr"> type=</span><span class="value">"text"</span><span
-                  class="attr"> class=</span><span class="value">"form-control"</span><span class="label">/></span><br/>
-                <span class="label">&lt;/div></span><br/>
-                <br/>
-                <span class="label">&lt;div</span><span class="attr"> class=</span><span class="value">"input-group input-group-warning"</span><span
-                  class="label">&gt;</span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;span</span><span class="attr"> class=</span><span class="value">"input-group-addon"</span><span
-                  class="label">&gt;</span>$<span class="label">&lt;/span></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;input</span><span class="attr"> type=</span><span class="value">"text"</span><span
-                  class="attr"> class=</span><span class="value">"form-control"</span><span class="label">/></span><br/>
-                <span class="label">&lt;/div></span><br/>
-                <br/>
-                <span class="label">&lt;div</span><span class="attr"> class=</span><span class="value">"input-group input-group-danger"</span><span
-                  class="label">&gt;</span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;span</span><span class="attr"> class=</span><span class="value">"input-group-addon"</span><span
-                  class="label">&gt;</span>$<span class="label">&lt;/span></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;input</span><span class="attr"> type=</span><span class="value">"text"</span><span
-                  class="attr"> class=</span><span class="value">"form-control"</span><span class="label">/></span><br/>
-                <span class="label">&lt;/div></span><br/>
-              </pre>
+              <pre v-hljs><code class="html">
+    &lt;div class="input-group input-group-primary">
+      &lt;span class="input-group-addon">$&lt;/span>
+      &lt;input type="text" class="form-control"/>
+    &lt;/div>
+
+    &lt;div class="input-group input-group-secondary">
+      &lt;span class="input-group-addon">$&lt;/span>
+      &lt;input type="text" class="form-control"/>
+    &lt;/div>
+
+    &lt;div class="input-group input-group-success">
+      &lt;span class="input-group-addon">$&lt;/span>
+      &lt;input type="text" class="form-control"/>
+    &lt;/div>
+
+    &lt;div class="input-group input-group-info">
+      &lt;span class="input-group-addon">$&lt;/span>
+      &lt;input type="text" class="form-control"/>
+    &lt;/div>
+
+    &lt;div class="input-group input-group-warning">
+      &lt;span class="input-group-addon">$&lt;/span>
+      &lt;input type="text" class="form-control"/>
+    &lt;/div>
+
+    &lt;div class="input-group input-group-danger">
+      &lt;span class="input-group-addon">$&lt;/span>
+      &lt;input type="text" class="form-control"/>
+    &lt;/div>
+              </code></pre>
               </div>
             </div>
 
@@ -704,9 +507,7 @@
                 <div class="input-group">
                   <div class="input-group-btn">
                     <div class="dropdown">
-                      <button type="button" class="btn btn-default dropdown-toggle dropdown-toggle-hover">dropdown
-
-                      </button>
+                      <button type="button" class="btn btn-default dropdown-toggle dropdown-toggle-hover">dropdown</button>
                       <ul class="dropdown-menu">
                         <li><a class="dropdown-item" href="javascript:;">Action</a></li>
                         <li><a class="dropdown-item" href="javascript:;">Action</a></li>
@@ -719,42 +520,21 @@
               </div>
               <div class="yyui-docs-code">
                 <!--<i class="fa fa-file-code-o yyui-docs-copy"></i>-->
-                <pre>
-                <span class="label">&lt;div</span><span class="attr"> class=</span><span
-                    class="value">"input-group"</span><span class="label">&gt;</span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;div</span><span class="attr"> class=</span><span class="value">"input-group-btn"</span><span
-                    class="label">&gt;</span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;div</span><span class="attr"> class=</span><span
-                    class="value">"dropdown"</span><span class="label">&gt;</span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;button</span><span
-                    class="attr"> type=</span><span class="value">"button"</span><span class="attr"> class=</span><span
-                    class="value">"btn btn-default dropdown-toggle"</span><span class="label">&gt;</span>dropdown<span
-                    class="label">&lt;/button></span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;ul</span><span
-                    class="attr"> class=</span><span class="value">"dropdown-menu"</span><span class="label">&gt;</span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;li</span><span class="attr"> class=</span><span
-                    class="value">"dropdown-item"</span><span class="label">&gt;</span><span
-                    class="label">&lt;a</span><span class="attr"> href=</span><span
-                    class="value">"javascript:;"</span><span class="label">&gt;</span>Action<span class="label">&lt;/a>&lt;/li></span></span>
-                  <br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;li</span><span class="attr"> class=</span><span
-                    class="value">"dropdown-item"</span><span class="label">&gt;</span><span
-                    class="label">&lt;a</span><span class="attr"> href=</span><span
-                    class="value">"javascript:;"</span><span class="label">&gt;</span>Action<span class="label">&lt;/a>&lt;/li></span></span>
-                  <br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;li</span><span class="attr"> class=</span><span
-                    class="value">"dropdown-item"</span><span class="label">&gt;</span><span
-                    class="label">&lt;a</span><span class="attr"> href=</span><span
-                    class="value">"javascript:;"</span><span class="label">&gt;</span>Action<span class="label">&lt;/a>&lt;/li></span></span>
-                  <br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;/ul></span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;/div></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;/div></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;input</span><span class="attr"> type=</span><span class="value">"text"</span><span
-                    class="attr"> class=</span><span class="value">"form-control"</span><span
-                    class="label">/></span><br/>
-                <span class="label">&lt;/div></span><br/>
-              </pre>
+                <pre v-hljs><code class="html">
+    &lt;div class="input-group">
+      &lt;div class="input-group-btn">
+        &lt;div class="dropdown">
+          &lt;button type="button" class="btn btn-default dropdown-toggle dropdown-toggle-hover">dropdown&lt;/button>
+          &lt;ul class="dropdown-menu">
+            &lt;li>&lt;a class="dropdown-item" href="javascript:;">Action&lt;/a>&lt;/li>
+            &lt;li>&lt;a class="dropdown-item" href="javascript:;">Action&lt;/a>&lt;/li>
+            &lt;li>&lt;a class="dropdown-item" href="javascript:;">Action&lt;/a>&lt;/li>
+          &lt;/ul>
+        &lt;/div>
+      &lt;/div>
+      &lt;input type="text" class="form-control"/>
+    &lt;/div>
+                </code></pre>
               </div>
             </div>
 
@@ -765,75 +545,53 @@
                 <div class="input-group input-group-underline">
                   <input type="text" class="form-control"/>
                   <div class="input-group-btn">
-                    <button type="button" class="btn btn-default-outline"><i class="fa fa-search"></i></button>
+                    <button type="button" class="btn btn-default-outline">search</button>
                   </div>
                 </div>
                 <br/>
                 <div class="input-group input-group-round">
                   <input type="text" class="form-control"/>
                   <div class="input-group-btn">
-                    <button type="button" class="btn btn-default"><i class="fa fa-search"></i></button>
+                    <button type="button" class="btn btn-default">search</button>
                   </div>
                 </div>
                 <br/>
                 <div class="input-group input-group-circle">
                   <input type="text" class="form-control"/>
                   <div class="input-group-btn">
-                    <button type="button" class="btn btn-default"><i class="fa fa-search"></i></button>
+                    <button type="button" class="btn btn-default">search</button>
                   </div>
                 </div>
               </div>
               <div class="yyui-docs-code">
-              <pre>
-                <span class="label">&lt;div</span><span class="attr"> class=</span><span class="value">"input-group input-group-underline"</span><span
-                  class="label">&gt;</span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;input</span><span class="attr"> type=</span><span class="value">"text"</span><span
-                  class="attr"> class=</span><span class="value">"form-control"</span><span class="label">/></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;div</span><span class="attr"> class=</span><span class="value">"input-group-btn"</span><span
-                  class="label">&gt;</span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;button</span><span class="attr"> type=</span><span
-                  class="value">"button"</span><span class="attr"> class=</span><span
-                  class="value">"btn btn-default"</span><span class="label">&gt;</span><span
-                  class="label">&lt;i</span><span class="attr"> class=</span><span
-                  class="value">"fa fa-search"</span><span class="label">&gt;&lt/i></span><span class="label">&lt;/button></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;/div></span><br/>
-                <span class="label">&lt;/div></span><br/>
-                <br/>
-                <span class="label">&lt;div</span><span class="attr"> class=</span><span class="value">"input-group input-group-round"</span><span
-                  class="label">&gt;</span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;input</span><span class="attr"> type=</span><span class="value">"text"</span><span
-                  class="attr"> class=</span><span class="value">"form-control"</span><span class="label">/></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;div</span><span class="attr"> class=</span><span class="value">"input-group-btn"</span><span
-                  class="label">&gt;</span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;button</span><span class="attr"> type=</span><span
-                  class="value">"button"</span><span class="attr"> class=</span><span
-                  class="value">"btn btn-default"</span><span class="label">&gt;</span><span
-                  class="label">&lt;i</span><span class="attr"> class=</span><span
-                  class="value">"fa fa-search"</span><span class="label">&gt;&lt/i></span><span class="label">&lt;/button></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;/div></span><br/>
-                <span class="label">&lt;/div></span><br/>
-                <br/>
-                <span class="label">&lt;div</span><span class="attr"> class=</span><span class="value">"input-group input-group-circle"</span><span
-                  class="label">&gt;</span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;input</span><span class="attr"> type=</span><span class="value">"text"</span><span
-                  class="attr"> class=</span><span class="value">"form-control"</span><span class="label">/></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;div</span><span class="attr"> class=</span><span class="value">"input-group-btn"</span><span
-                  class="label">&gt;</span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;button</span><span class="attr"> type=</span><span
-                  class="value">"button"</span><span class="attr"> class=</span><span
-                  class="value">"btn btn-default"</span><span class="label">&gt;</span><span
-                  class="label">&lt;i</span><span class="attr"> class=</span><span
-                  class="value">"fa fa-search"</span><span class="label">&gt;&lt/i></span><span class="label">&lt;/button></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;/div></span><br/>
-                <span class="label">&lt;/div></span><br/>
-              </pre>
+              <pre v-hljs><code class="html">
+    &lt;div class="input-group input-group-underline">
+      &lt;input type="text" class="form-control"/>
+      &lt;div class="input-group-btn">
+        &lt;button type="button" class="btn btn-default-outline">search&lt;/button>
+      &lt;/div>
+    &lt;/div>
+
+    &lt;div class="input-group input-group-round">
+      &lt;input type="text" class="form-control"/>
+      &lt;div class="input-group-btn">
+        &lt;button type="button" class="btn btn-default">search&lt;/button>
+      &lt;/div>
+    &lt;/div>
+
+    &lt;div class="input-group input-group-circle">
+      &lt;input type="text" class="form-control"/>
+      &lt;div class="input-group-btn">
+        &lt;button type="button" class="btn btn-default">search&lt;/button>
+      &lt;/div>
+    &lt;/div>
+              </code></pre>
               </div>
             </div>
           </section>
 
           <section class="yyui-docs-section" id="nav">
             <h2 class="m-b-6">导航
-
               <small><code>_nav.scss</code></small>
             </h2>
             <p class="lead">导航组件都依赖<code>.nav</code>类。</p>
@@ -851,23 +609,14 @@
               </div>
               <div class="yyui-docs-code">
                 <!--<i class="fa fa-file-code-o yyui-docs-copy"></i>-->
-                <pre>
-                <span class="label">&lt;ul</span><span class="attr"> class=</span><span class="value">"nav"</span><span
-                    class="label">&gt;</span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;li</span><span class="attr"> class=</span><span class="value">"active"</span><span
-                    class="label">&gt;</span><span class="label">&lt;a</span><span class="attr"> href=</span><span
-                    class="value">"javascript:;"</span><span class="label">&gt;</span>item<span class="label">&lt;/a>&lt;/li></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;li</span><span class="attr"> class=</span><span class="value">"disabled"</span><span
-                    class="label">&gt;</span><span class="label">&lt;a</span><span class="attr"> href=</span><span
-                    class="value">"javascript:;"</span><span class="label">&gt;</span>item<span class="label">&lt;/a>&lt;/li></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;li></span><span class="label">&lt;a</span><span
-                    class="attr"> href=</span><span class="value">"javascript:;"</span><span class="label">&gt;</span>item<span
-                    class="label">&lt;/a>&lt;/li></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;li></span><span class="label">&lt;a</span><span
-                    class="attr"> href=</span><span class="value">"javascript:;"</span><span class="label">&gt;</span>item<span
-                    class="label">&lt;/a>&lt;/li></span><br/>
-                <span class="label">&lt;/ul></span><br/>
-              </pre>
+                <pre v-hljs><code class="html">
+    &lt;ul class="nav">
+      &lt;li class="active">&lt;a href="javascript:;">Item&lt;/a>&lt;/li>
+      &lt;li class="disabled">&lt;a href="javascript:;">Item&lt;/a>&lt;/li>
+      &lt;li>&lt;a href="javascript:;">Item&lt;/a>&lt;/li>
+      &lt;li>&lt;a href="javascript:;">Item&lt;/a>&lt;/li>
+    &lt;/ul>
+                </code></pre>
               </div>
             </div>
 
@@ -884,23 +633,14 @@
               </div>
               <div class="yyui-docs-code">
                 <!--<i class="fa fa-file-code-o yyui-docs-copy"></i>-->
-                <pre>
-                <span class="label">&lt;ul</span><span class="attr"> class=</span><span
-                    class="value">"nav nav-pills"</span><span class="label">&gt;</span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;li</span><span class="attr"> class=</span><span class="value">"active"</span><span
-                    class="label">&gt;</span><span class="label">&lt;a</span><span class="attr"> href=</span><span
-                    class="value">"javascript:;"</span><span class="label">&gt;</span>item<span class="label">&lt;/a>&lt;/li></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;li</span><span class="attr"> class=</span><span class="value">"disabled"</span><span
-                    class="label">&gt;</span><span class="label">&lt;a</span><span class="attr"> href=</span><span
-                    class="value">"javascript:;"</span><span class="label">&gt;</span>item<span class="label">&lt;/a>&lt;/li></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;li></span><span class="label">&lt;a</span><span
-                    class="attr"> href=</span><span class="value">"javascript:;"</span><span class="label">&gt;</span>item<span
-                    class="label">&lt;/a>&lt;/li></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;li></span><span class="label">&lt;a</span><span
-                    class="attr"> href=</span><span class="value">"javascript:;"</span><span class="label">&gt;</span>item<span
-                    class="label">&lt;/a>&lt;/li></span><br/>
-                <span class="label">&lt;/ul></span><br/>
-              </pre>
+                <pre v-hljs><code class="html">
+    &lt;ul class="nav nav-pills">
+      &lt;li class="active">&lt;a href="javascript:;">Item&lt;/a>&lt;/li>
+      &lt;li class="disabled">&lt;a href="javascript:;">Item&lt;/a>&lt;/li>
+      &lt;li>&lt;a href="javascript:;">Item&lt;/a>&lt;/li>
+      &lt;li>&lt;a href="javascript:;">Item&lt;/a>&lt;/li>
+    &lt;/ul>
+                </code></pre>
               </div>
             </div>
 
@@ -924,44 +664,21 @@
               </div>
               <div class="yyui-docs-code">
                 <!--<i class="fa fa-file-code-o yyui-docs-copy"></i>-->
-                <pre>
-                <span class="label">&lt;ul</span><span class="attr"> class=</span><span class="value">"nav"</span><span
-                    class="label">&gt;</span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;li></span><span class="label">&lt;a</span><span
-                    class="attr"> href=</span><span class="value">"javascript:;"</span><span class="label">&gt;</span>item<span
-                    class="label">&lt;/a>&lt;/li></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;li></span><span class="label">&lt;a</span><span
-                    class="attr"> href=</span><span class="value">"javascript:;"</span><span class="label">&gt;</span>item<span
-                    class="label">&lt;/a>&lt;/li></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;li></span><span class="label">&lt;a</span><span
-                    class="attr"> href=</span><span class="value">"javascript:;"</span><span class="label">&gt;</span>item<span
-                    class="label">&lt;/a>&lt;/li></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;li</span><span class="attr"> class=</span><span class="value">"dropdown"</span><span
-                    class="label">&gt;</span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;a</span><span class="attr"> class=</span><span
-                    class="value">"btn dropdown-toggle"</span><span class="attr"> href=</span><span class="value">"javascript"</span><span
-                    class="label">&gt;</span>dropdown<span class="label">&lt;/a></span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;ul</span><span class="attr"> class=</span><span
-                    class="value">"dropdown-menu"</span><span class="label">&gt;</span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;li</span><span
-                    class="attr"> class=</span><span class="value">"dropdown-item"</span><span class="label">&gt;</span><span
-                    class="label">&lt;a</span><span class="attr"> href=</span><span
-                    class="value">"javascript:;"</span><span class="label">&gt;</span>Action<span class="label">&lt;/a>&lt;/li></span></span>
-                  <br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;li</span><span
-                    class="attr"> class=</span><span class="value">"dropdown-item"</span><span class="label">&gt;</span><span
-                    class="label">&lt;a</span><span class="attr"> href=</span><span
-                    class="value">"javascript:;"</span><span class="label">&gt;</span>Action<span class="label">&lt;/a>&lt;/li></span></span>
-                  <br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;li</span><span
-                    class="attr"> class=</span><span class="value">"dropdown-item"</span><span class="label">&gt;</span><span
-                    class="label">&lt;a</span><span class="attr"> href=</span><span
-                    class="value">"javascript:;"</span><span class="label">&gt;</span>Action<span class="label">&lt;/a>&lt;/li></span></span>
-                  <br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;/ul></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;/li></span><br/>
-                <span class="label">&lt;/ul></span><br/>
-              </pre>
+                <pre v-hljs><code class="html">
+    &lt;ul class="nav">
+      &lt;li>&lt;a href="javascript:;">Item&lt;/a>&lt;/li>
+      &lt;li>&lt;a href="javascript:;">Item&lt;/a>&lt;/li>
+      &lt;li>&lt;a href="javascript:;">Item&lt;/a>&lt;/li>
+      &lt;li class="dropdown">
+        &lt;a class="btn dropdown-toggle" href="javascript:;">dropdown&lt;/a>
+        &lt;ul class="dropdown-menu">
+          &lt;li class="dropdown-item">&lt;a href="javascript:;">item&lt;/a>&lt;/li>
+          &lt;li class="dropdown-item">&lt;a href="javascript:;">item&lt;/a>&lt;/li>
+          &lt;li class="dropdown-item">&lt;a href="javascript:;">item&lt;/a>&lt;/li>
+        &lt;/ul>
+      &lt;/li>
+    &lt;/ul>
+                </code></pre>
               </div>
             </div>
 
@@ -978,23 +695,14 @@
               </div>
               <div class="yyui-docs-code">
                 <!--<i class="fa fa-file-code-o yyui-docs-copy"></i>-->
-                <pre>
-                <span class="label">&lt;ul</span><span class="attr"> class=</span><span
-                    class="value">"nav nav-vt"</span><span class="label">&gt;</span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;li></span><span class="label">&lt;a</span><span
-                    class="attr"> href=</span><span class="value">"javascript:;"</span><span class="label">&gt;</span>item<span
-                    class="label">&lt;/a>&lt;/li></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;li></span><span class="label">&lt;a</span><span
-                    class="attr"> href=</span><span class="value">"javascript:;"</span><span class="label">&gt;</span>item<span
-                    class="label">&lt;/a>&lt;/li></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;li></span><span class="label">&lt;a</span><span
-                    class="attr"> href=</span><span class="value">"javascript:;"</span><span class="label">&gt;</span>item<span
-                    class="label">&lt;/a>&lt;/li></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;li></span><span class="label">&lt;a</span><span
-                    class="attr"> href=</span><span class="value">"javascript:;"</span><span class="label">&gt;</span>item<span
-                    class="label">&lt;/a>&lt;/li></span><br/>
-                <span class="label">&lt;/ul></span><br/>
-              </pre>
+                <pre v-hljs><code class="html">
+    &lt;ul class="nav nav-vt">
+      &lt;li>&lt;a href="javascript:;">Item&lt;/a>&lt;/li>
+      &lt;li>&lt;a href="javascript:;">Item&lt;/a>&lt;/li>
+      &lt;li>&lt;a href="javascript:;">Item&lt;/a>&lt;/li>
+      &lt;li>&lt;a href="javascript:;">Item&lt;/a>&lt;/li>
+    &lt;/ul>
+                </code></pre>
               </div>
             </div>
 
@@ -1031,34 +739,30 @@
               </div>
               <div class="yyui-docs-code">
                 <!--<i class="fa fa-file-code-o yyui-docs-copy"></i>-->
-                <pre>
-                <span class="label">&lt;ul</span><span class="attr"> class=</span><span
-                    class="value">"nav nav-tabs"</span><span class="label">&gt;</span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;li</span><span class="attr"> class=</span><span class="value">"active"</span><span
-                    class="label">&gt;&lt;a</span><span class="attr"> href=</span><span
-                    class="value">"#baidu1"</span><span class="attr"> data-toggle=</span><span
-                    class="value">"tab"</span><span class="label">&gt;</span>百度<span
-                    class="label">&lt;/a>&lt;/li></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;li>&lt;a</span><span class="attr"> href=</span><span class="value">"#ali1"</span><span
-                    class="attr"> data-toggle=</span><span class="value">"tab"</span><span
-                    class="label">&gt;</span>阿里<span class="label">&lt;/a>&lt;/li></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;li>&lt;a</span><span class="attr"> href=</span><span class="value">"#tengxun1"</span><span
-                    class="attr"> data-toggle=</span><span class="value">"tab"</span><span
-                    class="label">&gt;</span>腾讯<span class="label">&lt;/a>&lt;/li></span><br/>
-                <span class="label">&lt;/ul></span><br/>
-                <span class="label">&lt;div</span><span class="attr"> class=</span><span
-                    class="value">"tab-content"</span><span class="label">&gt;</span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;div</span><span class="attr"> class=</span><span class="value">"tab-pane active"</span><span
-                    class="attr"> id=</span><span class="value">"baidu1"</span><span class="label">&gt;</span>...<span
-                    class="label">&lt;/div></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;div</span><span class="attr"> class=</span><span class="value">"tab-pane"</span><span
-                    class="attr"> id=</span><span class="value">"ali1"</span><span class="label">&gt;</span>...<span
-                    class="label">&lt;/div></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;div</span><span class="attr"> class=</span><span class="value">"tab-pane"</span><span
-                    class="attr"> id=</span><span class="value">"tengxun1"</span><span class="label">&gt;</span>...<span
-                    class="label">&lt;/div></span><br/>
-                <span class="label">&lt;/div></span><br/>
-              </pre>
+                <pre v-hljs><code class="html">
+    &lt;ul class="nav nav-tabs">
+      &lt;li class="active">&lt;a href="#baidu1" data-toggle="tab">百度&lt;/a>&lt;/li>
+      &lt;li>&lt;a href="#ali1" data-toggle="tab">阿里&lt;/a>&lt;/li>
+      &lt;li>&lt;a href="#tengxun1" data-toggle="tab">腾讯&lt;/a>&lt;/li>
+    &lt;/ul>
+    &lt;div class="tab-content">
+      &lt;div class="tab-pane active" id="baidu1">
+        &lt;p>
+          百度（Nasdaq：BIDU）是全球最大的中文搜索引擎、最大的中文网站。
+        &lt;/p>
+      &lt;/div>
+      &lt;div class="tab-pane" id="ali1">
+        &lt;p>
+          阿里巴巴网络技术有限公司（简称：阿里巴巴集团）是以曾担任英语教师的马云为首的18人，于1999年在中国杭州创立。&lt;/p>
+        &lt;/p>
+      &lt;/div>
+      &lt;div class="tab-pane" id="tengxun1">
+        &lt;p>
+          深圳市腾讯计算机系统有限公司成立于1998年11月，由马化腾、张志东、许晨晔、陈一丹、曾李青五位创始人共同创立。&lt;/p>
+        &lt;/p>
+      &lt;/div>
+    &lt;/div>
+                </code></pre>
               </div>
             </div>
 
@@ -1099,56 +803,42 @@
               </div>
               <div class="yyui-docs-code">
                 <!--<i class="fa fa-file-code-o yyui-docs-copy"></i>-->
-                <pre>
-                <span class="label">&lt;div</span><span class="attr"> class=</span><span class="value">"row"</span><span
-                    class="label">&gt;</span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;div</span><span class="attr"> class=</span><span class="value">"col-sm-3"</span><span
-                    class="label">&gt;</span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;ul</span><span class="attr"> class=</span><span
-                    class="value">"nav nav-tabs nav-vt"</span><span class="label">&gt;</span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;li</span><span
-                    class="attr"> class=</span><span class="value">"active"</span><span
-                    class="label">&gt;&lt;a</span><span class="attr"> href=</span><span
-                    class="value">"#baidu1"</span><span class="attr"> data-toggle=</span><span
-                    class="value">"tab"</span><span class="label">&gt;</span>百度<span
-                    class="label">&lt;/a>&lt;/li></span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;li>&lt;a</span><span
-                    class="attr"> href=</span><span class="value">"#ali1"</span><span
-                    class="attr"> data-toggle=</span><span class="value">"tab"</span><span
-                    class="label">&gt;</span>阿里<span class="label">&lt;/a>&lt;/li></span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;li>&lt;a</span><span
-                    class="attr"> href=</span><span class="value">"#tengxun1"</span><span
-                    class="attr"> data-toggle=</span><span class="value">"tab"</span><span
-                    class="label">&gt;</span>腾讯<span class="label">&lt;/a>&lt;/li></span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;/ul></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;/div></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;div</span><span class="attr"> class=</span><span class="value">"col-sm-9"</span><span
-                    class="label">&gt;</span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;div</span><span class="attr"> class=</span><span
-                    class="value">"tab-content"</span><span class="label">&gt;</span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;div</span><span
-                    class="attr"> class=</span><span class="value">"tab-pane active"</span><span
-                    class="attr"> id=</span><span class="value">"baidu1"</span><span class="label">&gt;</span>...<span
-                    class="label">&lt;/div></span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;div</span><span
-                    class="attr"> class=</span><span class="value">"tab-pane"</span><span class="attr"> id=</span><span
-                    class="value">"ali1"</span><span class="label">&gt;</span>...<span
-                    class="label">&lt;/div></span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;div</span><span
-                    class="attr"> class=</span><span class="value">"tab-pane"</span><span class="attr"> id=</span><span
-                    class="value">"tengxun1"</span><span class="label">&gt;</span>...<span
-                    class="label">&lt;/div></span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;/div></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;/div></span><br/>
-                <span class="label">&lt;/div></span><br/>
-              </pre>
+                <pre v-hljs><code class="html">
+    &lt;div class="row">
+      &lt;div class="col-sm-3">
+        &lt;ul class="nav nav-tabs nav-vt">
+          &lt;li class="active">&lt;a href="#baidu2" data-toggle="tab">百度&lt;/a>&lt;/li>
+          &lt;li>&lt;a href="#ali2" data-toggle="tab">阿里&lt;/a>&lt;/li>
+          &lt;li>&lt;a href="#tengxun2" data-toggle="tab">腾讯&lt;/a>&lt;/li>
+        &lt;/ul>
+      &lt;/div>
+      &lt;div class="col-sm-9">
+        &lt;div class="tab-content">
+          &lt;div class="tab-pane active" id="baidu2">
+            &lt;p>
+              百度（Nasdaq：BIDU）是全球最大的中文搜索引擎、最大的中文网站。
+            &lt;/p>
+          &lt;/div>
+          &lt;div class="tab-pane" id="ali2">
+            &lt;p>
+              阿里巴巴网络技术有限公司（简称：阿里巴巴集团）是以曾担任英语教师的马云为首的18人，于1999年在中国杭州创立。
+            &lt;/p>
+          &lt;/div>
+          &lt;div class="tab-pane" id="tengxun2">
+            &lt;p>
+              深圳市腾讯计算机系统有限公司成立于1998年11月，由马化腾、张志东、许晨晔、陈一丹、曾李青五位创始人共同创立。&lt;/p>
+            &lt;p>
+          &lt;/div>
+        &lt;/div>
+      &lt;/div>
+    &lt;/div>
+                </code></pre>
               </div>
             </div>
           </section>
 
           <section class="yyui-docs-section" id="navbar">
             <h2 class="m-b-6">导航条
-
               <small><code>_navbar.scss</code></small>
             </h2>
             <p class="lead">导航条是在您的应用或网站中作为导航页头的响应式基础组件。它们在移动设备上可以折叠（并且可开可关），且在视口（viewport）宽度增加时逐渐变为水平展开模式。</p>
@@ -1165,7 +855,7 @@
                     </button>
                     <a class="navbar-brand" href="javascript:;">商标</a>
                     <div class="navbar-collapse collapse" id="navbar1">
-                      <ul class="nav navbar-nav right">
+                      <ul class="nav navbar-nav f-r">
                         <li><a href="javascript:;">项目</a></li>
                         <li><a href="javascript:;">项目</a></li>
                         <li><a href="javascript:;">项目</a></li>
@@ -1180,8 +870,8 @@
                           </ul>
                         </li>
                       </ul>
-                      <div class="right">
-                        <input class="form-control left" type="text" placeholder="搜索..."/>
+                      <div class="f-r">
+                        <input class="form-control f-l" type="text" placeholder="搜索..."/>
                       </div>
                     </div>
                   </div>
@@ -1189,86 +879,36 @@
               </div>
               <div class="yyui-docs-code">
                 <!--<i class="fa fa-file-code-o yyui-docs-copy"></i>-->
-                <pre>
-                <span class="label">&lt;nav</span><span class="attr"> class=</span><span
-                    class="value">"navbar"</span><span class="label">&gt;</span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;div</span><span class="attr"> class=</span><span class="value">"container"</span><span
-                    class="label">&gt;</span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;button</span><span class="attr"> type=</span><span
-                    class="value">"button"</span><span class="attr"> class=</span><span class="value">"navbar-toggle collapse"</span><span
-                    class="attr"> data-toggle=</span><span class="value">"collapse"</span><span class="attr"> data-target=</span><span
-                    class="value">"#navbar1"</span><span class="label">&gt;</span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;i</span><span
-                    class="attr"> class=</span><span class="value">"fa fa-bars"</span><span
-                    class="label">&gt;&lt;i></span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;/button></span><br/>
-                <br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;a</span><span class="attr"> class=</span><span
-                    class="value">"navbar-brand"</span><span class="attr"> href=</span><span class="value">"javascript:;"</span><span
-                    class="label">&gt;</span>商标<span class="label">&lt;/a></span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;div</span><span class="attr"> class=</span><span
-                    class="value">"navbar-collapse collapse"</span><span class="attr"> id=</span><span class="value">"navbar1"</span><span
-                    class="label">&gt;</span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;ul</span><span
-                    class="attr"> class</span><span class="value">"nav navbar-nav right"</span><span
-                    class="label">&gt;</span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;li></span><span class="label">&lt;a</span><span
-                    class="attr"> href=</span><span class="value">"javascript:;"</span><span class="label">&gt;</span>项目<span
-                    class="label">&lt;/a></span><span class="label">&lt;/li></span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;li></span><span class="label">&lt;a</span><span
-                    class="attr"> href=</span><span class="value">"javascript:;"</span><span class="label">&gt;</span>项目<span
-                    class="label">&lt;/a></span><span class="label">&lt;/li></span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;li></span><span class="label">&lt;a</span><span
-                    class="attr"> href=</span><span class="value">"javascript:;"</span><span class="label">&gt;</span>项目<span
-                    class="label">&lt;/a></span><span class="label">&lt;/li></span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;li></span><span class="label">&lt;a</span><span
-                    class="attr"> href=</span><span class="value">"javascript:;"</span><span class="label">&gt;</span>项目<span
-                    class="label">&lt;/a></span><span class="label">&lt;/li></span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;li></span><span class="label">&lt;a</span><span
-                    class="attr"> href=</span><span class="value">"javascript:;"</span><span class="label">&gt;</span>项目<span
-                    class="label">&lt;/a></span><span class="label">&lt;/li></span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;li</span><span class="attr"> class=</span><span
-                    class="value">"dropdown"</span><span class="label">&gt;</span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;a</span><span
-                    class="attr"> class=</span><span class="value">"dropdown-toggle"</span><span
-                    class="attr"> href=</span><span class="value">"javascript:;"</span><span class="label">&gt;</span>项目<span
-                    class="label">&lt;/a></span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;ul</span><span
-                    class="attr"> class=</span><span class="value">"dropdown-menu"</span><span class="label">&gt;</span>项目<span
-                    class="label">&lt;/a></span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span
-                    class="label">&lt;li</span><span class="attr"> class=</span><span
-                    class="value">"dropdown-item"</span><span class="label">&gt;</span><span
-                    class="label">&lt;a</span><span class="attr"> href=</span><span
-                    class="value">"javascript:;"</span><span class="label">&gt;</span>项目<span class="label">&lt;/a>&lt;/li></span></span>
-                  <br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span
-                    class="label">&lt;li</span><span class="attr"> class=</span><span
-                    class="value">"dropdown-item"</span><span class="label">&gt;</span><span
-                    class="label">&lt;a</span><span class="attr"> href=</span><span
-                    class="value">"javascript:;"</span><span class="label">&gt;</span>项目<span class="label">&lt;/a>&lt;/li></span></span>
-                  <br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span
-                    class="label">&lt;li</span><span class="attr"> class=</span><span
-                    class="value">"dropdown-item"</span><span class="label">&gt;</span><span
-                    class="label">&lt;a</span><span class="attr"> href=</span><span
-                    class="value">"javascript:;"</span><span class="label">&gt;</span>项目<span class="label">&lt;/a>&lt;/li></span></span>
-                  <br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;/ul</span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;/li></span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;/ul></span><br/>
-                <br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;div</span><span
-                    class="attr"> class=</span><span class="value">"right"</span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;input</span><span class="attr"> class=</span><span
-                    class="value">"form-control right"</span><span class="attr"> type=</span><span
-                    class="value">"text"</span><span class="attr"> placeholder=</span><span class="value">"搜索..."</span><span
-                    class="label">/></span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;/div></span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;/div></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;/div></span><br/>
-                <span class="label">&lt;/nav></span><br/>
-              </pre>
+                <pre v-hljs><code class="html">
+    &lt;nav class="navbar">
+      &lt;div class="container">
+        &lt;button type="button" class="navbar-toggle collapse" data-toggle="collapse" data-target="#navbar1">
+          &lt;i class="fa fa-bars">&lt;/i>
+        &lt;/button>
+        &lt;a class="navbar-brand" href="javascript:;">商标&lt;/a>
+        &lt;div class="navbar-collapse collapse" id="navbar1">
+          &lt;ul class="nav navbar-nav f-r">
+            &lt;li>&lt;a href="javascript:;">项目&lt;/a>&lt;/li>
+            &lt;li>&lt;a href="javascript:;">项目&lt;/a>&lt;/li>
+            &lt;li>&lt;a href="javascript:;">项目&lt;/a>&lt;/li>
+            &lt;li>&lt;a href="javascript:;">项目&lt;/a>&lt;/li>
+            &lt;li>&lt;a href="javascript:;">项目&lt;/a>&lt;/li>
+            &lt;li class="dropdown">
+              &lt;a class="dropdown-toggle" href="javascript:;">项目&lt;/a>
+              &lt;ul class="dropdown-menu">
+                &lt;li class="dropdown-item">&lt;a href="javascript:;">项目&lt;/a>&lt;/li>
+                &lt;li class="dropdown-item">&lt;a href="javascript:;">项目&lt;/a>&lt;/li>
+                &lt;li class="dropdown-item">&lt;a href="javascript:;">项目&lt;/a>&lt;/li>
+              &lt;/ul>
+            &lt;/li>
+          &lt;/ul>
+          &lt;div class="f-r">
+            &lt;input class="form-control f-l" type="text" placeholder="搜索..."/>
+          &lt;/div>
+        &lt;/div>
+      &lt;/div>
+    &lt;/nav>
+                </code></pre>
               </div>
             </div>
 
@@ -1282,22 +922,13 @@
             </ul>
             <div class="yyui-docs-example">
               <div class="yyui-docs-code">
-              <pre>
-                <span class="label">&lt;nav</span><span class="attr"> class=</span><span class="value">"navbar navbar-fixed-top"</span><span
-                  class="label">&gt;</span><br/>
-                ... <br/>
-                <span class="label">&lt;/nav></span><br/>
-                <br/>
-                <span class="label">&lt;nav</span><span class="attr"> class=</span><span class="value">"navbar navbar-fixed-bottom"</span><span
-                  class="label">&gt;</span><br/>
-                ... <br/>
-                <span class="label">&lt;/nav></span><br/>
-                <br/>
-                <span class="label">&lt;nav</span><span class="attr"> class=</span><span class="value">"navbar navbar-sticky-top"</span><span
-                  class="label">&gt;</span><br/>
-                ... <br/>
-                <span class="label">&lt;/nav></span><br/>
-              </pre>
+              <pre v-hljs><code class="html">
+    &lt;nav class="navbar navbar-fixed-top">&lt;/nav>
+                
+    &lt;nav class="navbar navbar-fixed-bottom">&lt;/nav>
+                
+    &lt;nav class="navbar navbar-sticky-top">&lt;/nav>
+              </code></pre>
               </div>
             </div>
 
@@ -1305,12 +936,9 @@
             <p>通过添加<code>.navbar-dark</code>将导航条外观变为黑色系。</p>
             <div class="yyui-docs-example">
               <div class="yyui-docs-code">
-              <pre>
-                <span class="label">&lt;nav</span><span class="attr"> class=</span><span class="value">"navbar navbar-dark"</span><span
-                  class="label">&gt;</span><br/>
-                ... <br/>
-                <span class="label">&lt;/nav></span><br/>
-              </pre>
+              <pre v-hljs><code class="html">
+    &lt;nav class="navbar navbar-dark">&lt;/nav>
+              </code></pre>
               </div>
             </div>
 
@@ -1325,12 +953,9 @@
             </ul>
             <div class="yyui-docs-example">
               <div class="yyui-docs-code">
-              <pre>
-                <span class="label">&lt;nav</span><span class="attr"> class=</span><span class="value">"navbar navbar-theme"</span><span
-                  class="label">&gt;</span><br/>
-                ... <br/>
-                <span class="label">&lt;/nav></span><br/>
-              </pre>
+              <pre v-hljs><code class="html">
+    &lt;nav class="navbar navbar-theme">&lt;/nav>
+              </code></pre>
               </div>
             </div>
 
@@ -1338,12 +963,9 @@
             <p>通过添加<code>.navbar-perspective</code>类设置透明导航条。透明导航条的背景是透明色。</p>
             <div class="yyui-docs-example">
               <div class="yyui-docs-code">
-              <pre>
-                <span class="label">&lt;nav</span><span class="attr"> class=</span><span class="value">"navbar navbar-perspective"</span><span
-                  class="label">&gt;</span><br/>
-                ... <br/>
-                <span class="label">&lt;/nav></span><br/>
-              </pre>
+              <pre v-hljs><code class="html">
+    &lt;nav class="navbar navbar-perspective">&lt;/nav>
+              </code></pre>
               </div>
             </div>
 
@@ -1353,27 +975,33 @@
             </p>
             <div class="yyui-docs-example">
               <div class="yyui-docs-code">
-              <pre>
-                <span class="label">&lt;button</span><span class="attr"> type=</span><span class="value">"button"</span><span
-                  class="attr"> class=</span><span class="value">"navbar-toggle collapse"</span><span class="attr"> data-toggle=</span><span
-                  class="value">"collapse"</span><span class="attr"> data-target=</span><span
-                  class="value">"#navbar1"</span><span class="label">&gt;</span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;i</span><span class="attr"> class=</span><span class="value">"fa fa-bars"</span><span
-                  class="label">&gt;&lt;i></span><br/>
-                <span class="label">&lt;/button></span><br/>
-                <br/>
-                <span class="label">&lt;div</span><span class="attr"> class=</span><span class="value">"navbar-collapse collapse"</span><span
-                  class="attr"> id=</span><span class="value">"navbar1"</span><span class="label">&gt;</span><br/>
-                ... <br/>
-                <span class="label">&lt;/div></span><br/>
-              </pre>
+              <pre v-hljs><code class="html">
+    &lt;nav class="navbar">
+    &lt;div class="container">
+      &lt;button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nav_bar">
+        &#8645;
+      &lt;/button>
+
+      &lt;li class="navbar-brand">YY UI&lt;/li>
+
+      &lt;div id="nav_bar" class="navbar-collapse collapse">
+        &lt;ul class="nav navbar-nav">
+          &lt;li>&lt;a>简介&lt;/a>&lt;/li>
+          &lt;li>&lt;a>开始&lt;/a>&lt;/li>
+          &lt;li>&lt;a>全局样式&lt;/a>&lt;/li>
+          &lt;li>&lt;a>组件&lt;/a>&lt;/li>
+          &lt;li>&lt;a>插件&lt;/a>&lt;/li>
+        &lt;/ul>
+      &lt;/div>
+    &lt;/div>
+  &lt;/nav>            
+              </code></pre>
               </div>
             </div>
           </section>
 
           <section class="yyui-docs-section" id="nav_path">
             <h2 class="m-b-6">路径导航
-
               <small><code>_breadcrumb.scss</code></small>
             </h2>
             <p class="lead">在一个带有层次的导航结构中标明当前页面的位置。</p>
@@ -1388,20 +1016,13 @@
               </div>
               <div class="yyui-docs-code">
                 <!--<i class="fa fa-file-code-o yyui-docs-copy"></i>-->
-                <pre>
-                <span class="label">&lt;ol</span><span class="attr"> class=</span><span
-                    class="value">"breadcrumb"</span><span class="label">&gt;</span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;li></span><span class="label">&lt;a</span><span
-                    class="attr"> href=</span><span class="value">"javascript:;"</span><span class="label">&gt;</span>item<span
-                    class="label">&lt;/a></span><span class="label">&lt;/li></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;li></span><span class="label">&lt;a</span><span
-                    class="attr"> href=</span><span class="value">"javascript:;"</span><span class="label">&gt;</span>item<span
-                    class="label">&lt;/a></span><span class="label">&lt;/li></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;li></span><span class="label">&lt;a</span><span
-                    class="attr"> href=</span><span class="value">"javascript:;"</span><span class="label">&gt;</span>item<span
-                    class="label">&lt;/a></span><span class="label">&lt;/li></span><br/>
-                <span class="label">&lt;/ol></span><br/>
-              </pre>
+                <pre v-hljs><code class="html">
+    &lt;ol class="breadcrumb">
+      &lt;li>&lt;a href="javascript:;">item&lt;/a>&lt;/li>
+      &lt;li>&lt;a href="javascript:;">item&lt;/a>&lt;/li>
+      &lt;li>&lt;a href="javascript:;">item&lt;/a>&lt;/li>
+    &lt;/ol>
+                </code></pre>
               </div>
             </div>
             <div class="yyui-docs-note">
@@ -1413,7 +1034,6 @@
 
           <section class="yyui-docs-section" id="pagination">
             <h2 class="m-b-6">分页
-
               <small><code>_paginations.scss</code></small>
             </h2>
             <p class="lead">提供带有展示页码的分页组件和翻页组件。</p>
@@ -1436,29 +1056,16 @@
               </div>
               <div class="yyui-docs-code">
                 <!--<i class="fa fa-file-code-o yyui-docs-copy"></i>-->
-                <pre>
-                <span class="label">&lt;ul</span><span class="attr"> class=</span><span
-                    class="value">"pagination"</span><span class="label">&gt;</span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;li></span><span class="label">&lt;a</span><span
-                    class="attr"> href=</span><span class="value">"javascript:;"</span><span class="label">&gt;</span>&amp;laquo;<span
-                    class="label">&lt;/a></span><span class="label">&lt;/li></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;li></span><span class="label">&lt;a</span><span
-                    class="attr"> href=</span><span class="value">"javascript:;"</span><span
-                    class="label">&gt;</span>1<span class="label">&lt;/a></span><span class="label">&lt;/li></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;li></span><span class="label">&lt;a</span><span
-                    class="attr"> href=</span><span class="value">"javascript:;"</span><span
-                    class="label">&gt;</span>2<span class="label">&lt;/a></span><span class="label">&lt;/li></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;li></span><span class="label">&lt;a</span><span
-                    class="attr"> href=</span><span class="value">"javascript:;"</span><span
-                    class="label">&gt;</span>3<span class="label">&lt;/a></span><span class="label">&lt;/li></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;li></span><span class="label">&lt;a</span><span
-                    class="attr"> href=</span><span class="value">"javascript:;"</span><span
-                    class="label">&gt;</span>4<span class="label">&lt;/a></span><span class="label">&lt;/li></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;li></span><span class="label">&lt;a</span><span
-                    class="attr"> href=</span><span class="value">"javascript:;"</span><span class="label">&gt;</span>&amp;raquo;<span
-                    class="label">&lt;/a></span><span class="label">&lt;/li></span><br/>
-                <span class="label">&lt;/ul></span><br/>
-              </pre>
+                <pre v-hljs><code class="html">
+    &lt;ul class="pagination">
+      &lt;li>&lt;a href="javascript:;">&laquo;&lt;/a>&lt;/li>
+      &lt;li>&lt;a href="javascript:;">1&lt;/a>&lt;/li>
+      &lt;li>&lt;a href="javascript:;">2&lt;/a>&lt;/li>
+      &lt;li>&lt;a href="javascript:;">3&lt;/a>&lt;/li>
+      &lt;li>&lt;a href="javascript:;">4&lt;/a>&lt;/li>
+      &lt;li>&lt;a href="javascript:;">&raquo;&lt;/a>&lt;/li>
+    &lt;/ul>
+                </code></pre>
               </div>
             </div>
 
@@ -1477,12 +1084,11 @@
               </div>
               <div class="yyui-docs-code">
                 <!--<i class="fa fa-file-code-o yyui-docs-copy"></i>-->
-                <pre>
-                <span class="label">&lt;ul</span><span class="attr"> class=</span><span class="value">"pagination pagination-border"</span><span
-                    class="label">&gt;</span><br/>
-                &nbsp;&nbsp;... <br/>
-                <span class="label">&lt;/ul></span><br/>
-              </pre>
+                <pre v-hljs><code class="html">
+    &lt;ul class="pagination pagination-border">
+      
+    &lt;/ul>
+                </code></pre>
               </div>
             </div>
 
@@ -1501,23 +1107,16 @@
               </div>
               <div class="yyui-docs-code">
                 <!--<i class="fa fa-file-code-o yyui-docs-copy"></i>-->
-                <pre>
-                <span class="label">&lt;ul</span><span class="attr"> class=</span><span
-                    class="value">"pagination"</span><span class="label">&gt;</span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;li</span><span class="attr"> class=</span><span class="value">"disabled"</span><span
-                    class="label">&gt;</span><span class="label">&lt;a</span><span class="attr"> href=</span><span
-                    class="value">"javascript:;"</span><span class="label">&gt;</span>&amp;laquo;<span class="label">&lt;/a></span><span
-                    class="label">&lt;/li></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;li</span><span class="attr"> class=</span><span class="value">"active"</span><span
-                    class="label">&gt;</span><span class="label">&lt;a</span><span class="attr"> href=</span><span
-                    class="value">"javascript:;"</span><span class="label">&gt;</span>1<span
-                    class="label">&lt;/a></span><span class="label">&lt;/li></span><br/>
-                &nbsp;&nbsp;... <br/>
-                &nbsp;&nbsp;<span class="label">&lt;li></span><span class="label">&lt;a</span><span
-                    class="attr"> href=</span><span class="value">"javascript:;"</span><span class="label">&gt;</span>&amp;raquo;<span
-                    class="label">&lt;/a></span><span class="label">&lt;/li></span><br/>
-                <span class="label">&lt;/ul></span><br/>
-              </pre>
+                <pre v-hljs><code class="html">
+    &lt;ul class="pagination">
+      &lt;li class="disabled">&lt;a href="javascript:;">&laquo;&lt;/a>&lt;/li>
+      &lt;li class="active">&lt;a href="javascript:;">1&lt;/a>&lt;/li>
+      &lt;li>&lt;a href="javascript:;">2&lt;/a>&lt;/li>
+      &lt;li>&lt;a href="javascript:;">3&lt;/a>&lt;/li>
+      &lt;li>&lt;a href="javascript:;">4&lt;/a>&lt;/li>
+      &lt;li>&lt;a href="javascript:;">&raquo;&lt;/a>&lt;/li>
+    &lt;/ul>
+                </code></pre>
               </div>
             </div>
 
@@ -1554,22 +1153,19 @@
               </div>
               <div class="yyui-docs-code">
                 <!--<i class="fa fa-file-code-o yyui-docs-copy"></i>-->
-                <pre>
-                <span class="label">&lt;ul</span><span class="attr"> class=</span><span class="value">"pagination pagination-lg"</span><span
-                    class="label">&gt;</span><br/>
-                &nbsp;&nbsp;... <br/>
-                <span class="label">&lt;/ul></span><br/>
-                <br/>
-                <span class="label">&lt;ul</span><span class="attr"> class=</span><span
-                    class="value">"pagination"</span><span class="label">&gt;</span><br/>
-                &nbsp;&nbsp;... <br/>
-                <span class="label">&lt;/ul></span><br/>
-                <br/>
-                <span class="label">&lt;ul</span><span class="attr"> class=</span><span class="value">"pagination pagination-sm"</span><span
-                    class="label">&gt;</span><br/>
-                &nbsp;&nbsp;... <br/>
-                <span class="label">&lt;/ul></span><br/>
-              </pre>
+                <pre v-hljs><code class="html">
+    &lt;ul class="pagination pagination-lg">
+
+    &lt;/ul>
+
+    &lt;ul class="pagination">
+
+    &lt;/ul>
+
+    &lt;ul class="pagination pagination-sm">
+
+    &lt;/ul>
+                </code></pre>
               </div>
             </div>
 
@@ -1588,38 +1184,23 @@
               </div>
               <div class="yyui-docs-code">
                 <!--<i class="fa fa-file-code-o yyui-docs-copy"></i>-->
-                <pre>
-                <span class="label">&lt;ol</span><span class="attr"> class=</span><span
-                    class="value">"pager"</span><span class="label">&gt;</span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;li></span><span class="label">&gt;</span><span
-                    class="label">&lt;a</span><span class="attr"> href=</span><span
-                    class="value">"javascript:;"</span><span class="label">&gt;</span>prev<span
-                    class="label">&lt;/a></span><span class="label">&lt;/li></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;li></span><span class="label">&gt;</span><span
-                    class="label">&lt;a</span><span class="attr"> href=</span><span
-                    class="value">"javascript:;"</span><span class="label">&gt;</span>next<span
-                    class="label">&lt;/a></span><span class="label">&lt;/li></span><br/>
-                <span class="label">&lt;/ol></span><br/>
-                <br/>
-                <span class="label">&lt;ol</span><span class="attr"> class=</span><span
-                    class="value">"pager"</span><span class="label">&gt;</span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;li</span><span class="attr"> class=</span><span class="value">"pager-prev disabled"</span><span
-                    class="label">&gt;</span><span class="label">&lt;a</span><span class="attr"> href=</span><span
-                    class="value">"javascript:;"</span><span class="label">&gt;</span>prev<span
-                    class="label">&lt;/a></span><span class="label">&lt;/li></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;li</span><span class="attr"> class=</span><span class="value">"pager-next"</span><span
-                    class="label">&gt;</span><span class="label">&lt;a</span><span class="attr"> href=</span><span
-                    class="value">"javascript:;"</span><span class="label">&gt;</span>next<span
-                    class="label">&lt;/a></span><span class="label">&lt;/li></span><br/>
-                <span class="label">&lt;/ol></span><br/>
-              </pre>
+                <pre v-hljs><code class="html">
+    &lt;ol class="pager">
+      &lt;li>&lt;a href="javascript:;">prev&lt;/a>&lt;/li>
+      &lt;li>&lt;a href="javascript:;">next&lt;/a>&lt;/li>
+    &lt;/ol>
+                  
+    &lt;ol class="pager">
+      &lt;li class="pager-prev disabled">&lt;a href="javascript:;">prev&lt;/a>&lt;/li>
+      &lt;li class="pager-next">&lt;a href="javascript:;">next&lt;/a>&lt;/li>
+    &lt;/ol>
+                </code></pre>
               </div>
             </div>
           </section>
 
           <section class="yyui-docs-section" id="label">
             <h2 class="m-b-6">标签
-
               <small><code>_labels.scss</code></small>
             </h2>
             <p class="lead">标签的字体大小为父元素的75%;</p>
@@ -1637,22 +1218,21 @@
               </div>
               <div class="yyui-docs-code">
                 <!--<i class="fa fa-file-code-o yyui-docs-copy"></i>-->
-                <pre>
-                <span class="label">&lt;span</span><span class="attr"> class=</span><span class="value">"label label-default"</span><span
-                    class="label">&gt;</span>default<span class="label">&lt;/span></span><br/>
-                <span class="label">&lt;span</span><span class="attr"> class=</span><span class="value">"label label-primary"</span><span
-                    class="label">&gt;</span>primary<span class="label">&lt;/span></span><br/>
-                <span class="label">&lt;span</span><span class="attr"> class=</span><span class="value">"label label-secondary"</span><span
-                    class="label">&gt;</span>secondary<span class="label">&lt;/span></span><br/>
-                <span class="label">&lt;span</span><span class="attr"> class=</span><span class="value">"label label-success"</span><span
-                    class="label">&gt;</span>success<span class="label">&lt;/span></span><br/>
-                <span class="label">&lt;span</span><span class="attr"> class=</span><span class="value">"label label-info"</span><span
-                    class="label">&gt;</span>info<span class="label">&lt;/span></span><br/>
-                <span class="label">&lt;span</span><span class="attr"> class=</span><span class="value">"label label-warning"</span><span
-                    class="label">&gt;</span>warning<span class="label">&lt;/span></span><br/>
-                <span class="label">&lt;span</span><span class="attr"> class=</span><span class="value">"label label-danger"</span><span
-                    class="label">&gt;</span>danger<span class="label">&lt;/span></span><br/>
-              </pre>
+                <pre v-hljs><code class="html">
+    &lt;span class="label label-default">default&lt;/span>
+                  
+    &lt;span class="label label-primary">primary&lt;/span>
+                  
+    &lt;span class="label label-secondary">secondary&lt;/span>
+                  
+    &lt;span class="label label-success">success&lt;/span>
+                  
+    &lt;span class="label label-info">info&lt;/span>
+                  
+    &lt;span class="label label-warning">warning&lt;/span>
+                  
+    &lt;span class="label label-danger">danger&lt;/span>
+                </code></pre>
               </div>
             </div>
 
@@ -1663,17 +1243,15 @@
               </div>
               <div class="yyui-docs-code">
                 <!--<i class="fa fa-file-code-o yyui-docs-copy"></i>-->
-                <pre>
-                <span class="label">&lt;span</span><span class="attr"> class=</span><span class="value">"label label-default label-badge"</span><span
-                    class="label">&gt;</span>徽章<span class="label">&lt;/span></span><br/>
-              </pre>
+                <pre v-hljs><code class="html">
+    &lt;span class="label label-default label-badge">徽章&lt;/span>
+                </code></pre>
               </div>
             </div>
           </section>
 
           <section class="yyui-docs-section" id="jumbotron">
             <h2 class="m-b-6">巨幕
-
               <small><code>_jumbotron.scss</code></small>
             </h2>
             <p class="lead">这是一个轻量、灵活的组件，它能延伸至整个浏览器视口来展示网站上的关键内容。</p>
@@ -1693,16 +1271,17 @@
               </div>
               <div class="yyui-docs-code">
                 <!--<i class="fa fa-file-code-o yyui-docs-copy"></i>-->
-                <pre>
-                <span class="label">&lt;div</span><span class="attr"> class=</span><span
-                    class="value">"jumbotron"</span><span class="label">&gt;</span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;h1></span>大巨幕<span class="label">&lt;/h1></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;p></span>...<span class="label">&lt;/p></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;button</span><span class="attr"> type=</span><span class="value">"button"</span><span
-                    class="attr"> class=</span><span class="value">"btn btn-success btn-lg"</span><span class="label">&gt;</span>大按钮<span
-                    class="label">&lt;/button></span><br/>
-                <span class="label">&lt;/div></span>
-              </pre>
+                <pre v-hljs><code class="html">
+    &lt;div class="jumbotron">
+      &lt;h1>这是超大巨幕&lt;/h1>
+      &lt;p>
+        On Friday night, London sought to distinguish itself from Beijing's 2008 spectacular by joining spectators
+        and technology into an unusual team for the opening ceremony of the 2012 Olympics: the human Jumbotron.
+        &lt;br/>
+        周五晚上，为了显示出自己有别于2008年北京奥运会盛大开幕式的独具一格的一面。&lt;/p>
+      &lt;button type="button" class="btn btn-success btn-lg">大按钮&lt;/button>
+    &lt;/div>
+                </code></pre>
               </div>
             </div>
 
@@ -1719,27 +1298,20 @@
               </div>
               <div class="yyui-docs-code">
                 <!--<i class="fa fa-file-code-o yyui-docs-copy"></i>-->
-                <pre>
-                <span class="label">&lt;div</span><span class="attr"> class=</span><span
-                    class="value">"jumbotron"</span><span class="label">&gt;</span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;h1></span>大巨幕<span class="label">&lt;/h1></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;p></span>On Friday night, London sought to distinguish itself from Beijing's 2008 spectacular.<span
-                    class="label">&lt;/p></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;div</span><span class="attr"> class=</span><span class="value">"jumbotron-hr"</span><span
-                    class="label">&gt;&lt;/div></span>
-                <br/>
-                &nbsp;&nbsp;<span class="label">&lt;button</span><span class="attr"> type=</span><span class="value">"button"</span><span
-                    class="attr"> class=</span><span class="value">"btn btn-success btn-lg"</span><span class="label">&gt;</span>大按钮<span
-                    class="label">&lt;/button></span><br/>
-                <span class="label">&lt;/div></span>
-              </pre>
+                <pre v-hljs><code class="html">
+    &lt;div class="jumbotron">
+      &lt;h1>这是超大巨幕&lt;/h1>
+      &lt;p>On Friday night, London sought to distinguish itself from Beijing's 2008 spectacular.&lt;/p>
+      &lt;div class="jumbotron-hr">&lt;/div>
+      &lt;button type="button" class="btn btn-success btn-lg">大按钮&lt;/button>
+    &lt;/div>
+                </code></pre>
               </div>
             </div>
           </section>
 
           <section class="yyui-docs-section" id="thumbnail">
             <h2 class="m-b-6">缩略图
-
               <small><code>_thumbnail.scss</code></small>
             </h2>
             <p class="lead">通过缩略图组件扩展 YY UI 的 <a href="global.htmlrid">栅格系统</a>，可以很容易地展示栅格样式的图像、视频、文本等内容。</p>
@@ -1763,20 +1335,11 @@
               </div>
               <div class="yyui-docs-code">
                 <!--<i class="fa fa-file-code-o yyui-docs-copy"></i>-->
-                <pre>
-                <span class="label">&lt;div</span><span class="attr"> class=</span><span class="value">"row"</span><span
-                    class="label">&gt;</span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;div</span><span class="attr"> class=</span><span class="value">"col-sm-3"</span><span
-                    class="label">&gt;</span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;div</span><span class="attr"> class=</span><span
-                    class="value">"thumbnail"</span><span class="label">&gt;</span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;img</span><span
-                    class="attr"> src=</span><span class="value">"..."</span><span class="attr"> alt=</span><span
-                    class="value">"..."</span><span class="label">/&gt;</span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;/div></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;/div></span><br/>
-                <span class="label">&lt;/div></span><br/>
-              </pre>
+                <pre v-hljs><code class="html">
+    &lt;div class="thumbnail">
+      &lt;img src="..." alt=""/>
+    &lt;/div>
+                </code></pre>
               </div>
             </div>
 
@@ -1802,37 +1365,25 @@
               </div>
               <div class="yyui-docs-code">
                 <!--<i class="fa fa-file-code-o yyui-docs-copy"></i>-->
-                <pre>
-                <span class="label">&lt;div</span><span class="attr"> class=</span><span class="value">"row"</span><span
-                    class="label">&gt;</span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;div</span><span class="attr"> class=</span><span class="value">"col-sm-3"</span><span
-                    class="label">&gt;</span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;div</span><span class="attr"> class=</span><span
-                    class="value">"thumbnail"</span><span class="label">&gt;</span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;a</span><span
-                    class="attr"> href=</span><span class="value">"javascript:;"</span><span
-                    class="label">&gt;</span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;img</span><span class="attr"> src=</span><span
-                    class="value">"..."</span><span class="attr"> alt=</span><span class="value">"..."</span><span
-                    class="label">/&gt;</span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;/a></span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;div</span><span
-                    class="attr"> class=</span><span class="value">"caption"</span><span class="label">&gt;</span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;h4></span>...<span
-                    class="label">&lt;/h4></span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;p></span>...<span class="label">&lt;/p></span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;/div></span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;/div></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;/div></span><br/>
-                <span class="label">&lt;/div></span><br/>
-              </pre>
+                <pre v-hljs><code class="html">
+    &lt;div class="thumbnail">
+      &lt;a href="javascript:;">
+        &lt;img src="../assets/image/tl.png" alt=""/>
+      &lt;/a>
+      &lt;div class="caption">
+        &lt;h4>奇幻森林&lt;/h4>
+        &lt;p>
+          毛克利（尼尔·塞西 Neel Sethi 饰）是一个由狼群养大的人类男孩，影片围绕他的森林冒险徐徐展开。谢利·可汗，一只受过人类伤害的老虎（伊德里斯·艾尔巴 Idris Elba 配音），
+          发誓要将毛克利铲除。&lt;/p>
+      &lt;/div>
+    &lt;/div>
+                </code></pre>
               </div>
             </div>
           </section>
 
           <section class="yyui-docs-section" id="alert">
             <h2 class="m-b-6">警告框
-
               <small><code>_alert.scss</code></small>
             </h2>
             <p class="lead">警告框组件通过提供一些灵活的预定义消息，为常见的用户动作提供反馈消息。警告框中的消息一般比较重要，自带背景醒目。</p>
@@ -1848,16 +1399,15 @@
               </div>
               <div class="yyui-docs-code">
                 <!--<i class="fa fa-file-code-o yyui-docs-copy"></i>-->
-                <pre>
-                <span class="label">&lt;div</span><span class="attr"> class=</span><span class="value">"alert alert-success"</span><span
-                    class="label">&gt;</span>...<span class="label">&lt;/div></span><br/>
-                <span class="label">&lt;div</span><span class="attr"> class=</span><span class="value">"alert alert-info"</span><span
-                    class="label">&gt;</span>...<span class="label">&lt;/div></span><br/>
-                <span class="label">&lt;div</span><span class="attr"> class=</span><span class="value">"alert alert-warning"</span><span
-                    class="label">&gt;</span>...<span class="label">&lt;/div></span><br/>
-                <span class="label">&lt;div</span><span class="attr"> class=</span><span class="value">"alert alert-danger"</span><span
-                    class="label">&gt;</span>...<span class="label">&lt;/div></span><br/>
-              </pre>
+                <pre v-hljs><code class="html">
+    &lt;div class="alert alert-success">这是警告框，只有四种状态&lt;/div>
+                  
+    &lt;div class="alert alert-info">这是警告框，只有四种状态&lt;/div>
+                  
+    &lt;div class="alert alert-warning">这是警告框，只有四种状态&lt;/div>
+                  
+    &lt;div class="alert alert-danger">这是警告框，只有四种状态&lt;/div>
+                </code></pre>
               </div>
             </div>
 
@@ -1871,14 +1421,13 @@
               </div>
               <div class="yyui-docs-code">
                 <!--<i class="fa fa-file-code-o yyui-docs-copy"></i>-->
-                <pre>
-                <span class="label">&lt;div</span><span class="attr"> class=</span><span class="value">"alert alert-info alert-lg"</span><span
-                    class="label">&gt;</span>...<span class="label">&lt;/div></span><br/>
-                <span class="label">&lt;div</span><span class="attr"> class=</span><span class="value">"alert alert-info"</span><span
-                    class="label">&gt;</span>...<span class="label">&lt;/div></span><br/>
-                <span class="label">&lt;div</span><span class="attr"> class=</span><span class="value">"alert alert-info alert-sm"</span><span
-                    class="label">&gt;</span>...<span class="label">&lt;/div></span><br/>
-              </pre>
+                <pre v-hljs><code class="html">
+    &lt;div class="alert alert-info alert-lg">大警告框&lt;/div>
+
+    &lt;div class="alert alert-info">默认警告框&lt;/div>
+
+    &lt;div class="alert alert-info alert-sm">小警告框&lt;/div>
+                </code></pre>
               </div>
             </div>
 
@@ -1889,23 +1438,17 @@
               <div class="yyui-docs-surface">
                 <div class="alert alert-info alert-dismissible">
                   这是警告框，只有四种状态
-
-
                   <button type="button" class="close" data-dismiss="alert">×</button>
                 </div>
               </div>
               <div class="yyui-docs-code">
                 <!--<i class="fa fa-file-code-o yyui-docs-copy"></i>-->
-                <pre>
-                <span class="label">&lt;div</span><span class="attr"> class=</span><span class="value">"alert alert-info alert-dismissible"</span><span
-                    class="label">&gt;</span><br/>
-                &nbsp;&nbsp;... <br/>
-                &nbsp;&nbsp;<span class="label">&lt;button</span><span class="attr"> type=</span><span class="value">"button"</span><span
-                    class="attr"> class=</span><span class="value">"close"</span><span
-                    class="attr"> data-dismiss=</span><span class="value">"alert"</span><span class="label">&gt;</span>&times;<span
-                    class="label">&lt;/button></span><br/>
-                <span class="label">&lt;/div></span><br/>
-              </pre>
+                <pre v-hljs><code class="html">
+    &lt;div class="alert alert-info alert-dismissible">
+      这是警告框，只有四种状态
+      &lt;button type="button" class="close" data-dismiss="alert">×&lt;/button>
+    &lt;/div>
+                </code></pre>
               </div>
             </div>
 
@@ -1919,22 +1462,17 @@
               </div>
               <div class="yyui-docs-code">
                 <!--<i class="fa fa-file-code-o yyui-docs-copy"></i>-->
-                <pre>
-                <span class="label">&lt;div</span><span class="attr"> class=</span><span class="value">"alert alert-info alert-dismissible"</span><span
-                    class="label">&gt;</span><br/>
-                &nbsp;&nbsp;... <br/>
-                &nbsp;&nbsp;<span class="label">&lt;a</span><span class="attr"> class=</span><span class="value">"alert-link"</span><span
-                    class="attr"> href=</span><span class="value">"..."</span><span class="label">&gt;</span>链接<span
-                    class="label">&lt;/a></span><br/>
-                <span class="label">&lt;/div></span><br/>
-              </pre>
+                <pre v-hljs><code class="html">
+    &lt;div class="alert alert-success">
+      这是警告框，只有四种状态,&lt;a class="alert-link" href="javascript:;">链接&lt;/a>
+    &lt;/div>
+                </code></pre>
               </div>
             </div>
           </section>
 
           <section class="yyui-docs-section" id="progress">
             <h2 class="m-b-6">进度条
-
               <small><code>_progress.scss</code></small>
             </h2>
             <p class="lead">通过这些简单、灵活的进度条，为当前工作流程或动作提供实时反馈。</p>
@@ -1949,11 +1487,9 @@
               </div>
               <div class="yyui-docs-code">
                 <!--<i class="fa fa-file-code-o yyui-docs-copy"></i>-->
-                <pre>
-                <span class="label">&lt;progress</span><span class="attr"> value=</span><span
-                    class="value">"10"</span><span class="attr"> max=</span><span class="value">"100"</span><span
-                    class="label">>&lt;/progress></span>
-              </pre>
+                <pre v-hljs><code class="html">
+    &lt;progress value="10" max="100">&lt;/progress>
+                </code></pre>
               </div>
             </div>
 
@@ -1971,29 +1507,21 @@
               </div>
               <div class="yyui-docs-code">
                 <!--<i class="fa fa-file-code-o yyui-docs-copy"></i>-->
-                <pre>
-                <span class="label">&lt;progress</span><span class="attr"> value=</span><span
-                    class="value">"10"</span><span class="attr"> max=</span><span class="value">"100"</span><span
-                    class="label">>&lt;/progress></span><br/>
-                <span class="label">&lt;progress</span><span class="attr"> class=</span><span class="value">"progress-secondary"</span><span
-                    class="attr"> value=</span><span class="value">"10"</span><span class="attr"> max=</span><span
-                    class="value">"100"</span><span class="label">>&lt;/progress></span><br/>
-                <span class="label">&lt;progress</span><span class="attr"> class=</span><span class="value">"progress-gray"</span><span
-                    class="attr"> value=</span><span class="value">"10"</span><span class="attr"> max=</span><span
-                    class="value">"100"</span><span class="label">>&lt;/progress></span><br/>
-                <span class="label">&lt;progress</span><span class="attr"> class=</span><span class="value">"progress-success"</span><span
-                    class="attr"> value=</span><span class="value">"10"</span><span class="attr"> max=</span><span
-                    class="value">"100"</span><span class="label">>&lt;/progress></span><br/>
-                <span class="label">&lt;progress</span><span class="attr"> class=</span><span class="value">"progress-info"</span><span
-                    class="attr"> value=</span><span class="value">"10"</span><span class="attr"> max=</span><span
-                    class="value">"100"</span><span class="label">>&lt;/progress></span><br/>
-                <span class="label">&lt;progress</span><span class="attr"> class=</span><span class="value">"progress-warning"</span><span
-                    class="attr"> value=</span><span class="value">"10"</span><span class="attr"> max=</span><span
-                    class="value">"100"</span><span class="label">>&lt;/progress></span><br/>
-                <span class="label">&lt;progress</span><span class="attr"> class=</span><span class="value">"progress-danger"</span><span
-                    class="attr"> value=</span><span class="value">"10"</span><span class="attr"> max=</span><span
-                    class="value">"100"</span><span class="label">>&lt;/progress></span><br/>
-              </pre>
+                <pre v-hljs><code class="html">
+    &lt;progress value="10" max="100">&lt;/progress>
+
+    &lt;progress class="progress-secondary" value="20" max="100">&lt;/progress>
+
+    &lt;progress class="progress-gray" value="30" max="100">&lt;/progress>
+
+    &lt;progress class="progress-success" value="40" max="100">&lt;/progress>
+
+    &lt;progress class="progress-info" value="50" max="100">&lt;/progress>
+
+    &lt;progress class="progress-warning" value="60" max="100">&lt;/progress>
+                  
+    &lt;progress class="progress-danger" value="70" max="100">&lt;/progress>
+                </code></pre>
               </div>
             </div>
 
@@ -2005,11 +1533,9 @@
               </div>
               <div class="yyui-docs-code">
                 <!--<i class="fa fa-file-code-o yyui-docs-copy"></i>-->
-                <pre>
-                <span class="label">&lt;progress</span><span class="attr"> class=</span><span class="value">"progress-striped"</span><span
-                    class="attr"> value=</span><span class="value">"10"</span><span class="attr"> max=</span><span
-                    class="value">"100"</span><span class="label">>&lt;/progress></span><br/>
-              </pre>
+                <pre v-hljs><code class="html">
+    &lt;progress class="progress-striped" value="10" max="100">&lt;/progress>
+                </code></pre>
               </div>
             </div>
 
@@ -2025,14 +1551,11 @@
               </div>
               <div class="yyui-docs-code">
                 <!--<i class="fa fa-file-code-o yyui-docs-copy"></i>-->
-                <pre>
-                <span class="label">&lt;div</span><span class="attr"> class=</span><span class="value">"progress"</span><span
-                    class="label">&gt;</span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;div</span><span class="attr"> class=</span><span class="value">"progress-value"</span><span
-                    class="attr"> style=</span><span class="value">"width: 10%;"</span><span class="label">&gt;</span>10%<span
-                    class="label">&lt;/div></span><br/>
-                <span class="label">&lt;/div></span>
-              </pre>
+                <pre v-hljs><code class="html">
+    &lt;div class="progress">
+      &lt;div class="progress-value" style="width: 10%;">10%&lt;/div>
+    &lt;/div>
+                </code></pre>
               </div>
             </div>
 
@@ -2046,21 +1569,17 @@
               </div>
               <div class="yyui-docs-code">
                 <!--<i class="fa fa-file-code-o yyui-docs-copy"></i>-->
-                <pre>
-                <span class="label">&lt;div</span><span class="attr"> class=</span><span class="value">"progress progress-striped progress-animated"</span><span
-                    class="label">&gt;</span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;div</span><span class="attr"> class=</span><span class="value">"progress-value"</span><span
-                    class="attr"> style=</span><span class="value">"width: 20%;"</span><span class="label">&gt;</span>20%<span
-                    class="label">&lt;/div></span><br/>
-                <span class="label">&lt;/div></span>
-              </pre>
+                <pre v-hljs><code class="html">
+    &lt;div class="progress progress-striped progress-animated">
+      &lt;div class="progress-value" style="width: 20%;">20%&lt;/div>
+    &lt;/div>
+                </code></pre>
               </div>
             </div>
           </section>
 
           <section class="yyui-docs-section" id="list_group">
             <h2 class="m-b-6">列表组
-
               <small><code>_list-group.scss</code></small>
             </h2>
             <p class="lead">列表组能用于显示一组简单的元素，还能用于复杂的定制的内容。</p>
@@ -2077,17 +1596,13 @@
               </div>
               <div class="yyui-docs-code">
                 <!--<i class="fa fa-file-code-o yyui-docs-copy"></i>-->
-                <pre>
-                <span class="label">&lt;ul</span><span class="attr"> class=</span><span
-                    class="value">"list-group"</span><span class="label">&gt;</span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;li</span><span class="attr"> class=</span><span class="value">"list-group-item"</span><span
-                    class="label">&gt;</span>百度<span class="label">&lt;/li></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;li</span><span class="attr"> class=</span><span class="value">"list-group-item"</span><span
-                    class="label">&gt;</span>阿里<span class="label">&lt;/li></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;li</span><span class="attr"> class=</span><span class="value">"list-group-item"</span><span
-                    class="label">&gt;</span>腾讯<span class="label">&lt;/li></span><br/>
-                <span class="label">&lt;/ul></span>
-              </pre>
+                <pre v-hljs><code class="html">
+    &lt;ul class="list-group">
+      &lt;li class="list-group-item">百度&lt;/li>
+      &lt;li class="list-group-item">阿里&lt;/li>
+      &lt;li class="list-group-item">腾讯&lt;/li>
+    &lt;/ul>
+                </code></pre>
               </div>
             </div>
 
@@ -2103,17 +1618,13 @@
               </div>
               <div class="yyui-docs-code">
                 <!--<i class="fa fa-file-code-o yyui-docs-copy"></i>-->
-                <pre>
-                <span class="label">&lt;ul</span><span class="attr"> class=</span><span class="value">"list-group list-group-flush"</span><span
-                    class="label">&gt;</span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;li</span><span class="attr"> class=</span><span class="value">"list-group-item"</span><span
-                    class="label">&gt;</span>百度<span class="label">&lt;/li></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;li</span><span class="attr"> class=</span><span class="value">"list-group-item"</span><span
-                    class="label">&gt;</span>阿里<span class="label">&lt;/li></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;li</span><span class="attr"> class=</span><span class="value">"list-group-item"</span><span
-                    class="label">&gt;</span>腾讯<span class="label">&lt;/li></span><br/>
-                <span class="label">&lt;/ul></span>
-              </pre>
+                <pre v-hljs><code class="html">
+    &lt;ul class="list-group list-group-flush">
+      &lt;li class="list-group-item">百度&lt;/li>
+      &lt;li class="list-group-item">阿里&lt;/li>
+      &lt;li class="list-group-item">腾讯&lt;/li>
+    &lt;/ul>
+                </code></pre>
               </div>
             </div>
 
@@ -2129,17 +1640,13 @@
               </div>
               <div class="yyui-docs-code">
                 <!--<i class="fa fa-file-code-o yyui-docs-copy"></i>-->
-                <pre>
-                <span class="label">&lt;ul</span><span class="attr"> class=</span><span class="value">"list-group list-group-noborder"</span><span
-                    class="label">&gt;</span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;li</span><span class="attr"> class=</span><span class="value">"list-group-item"</span><span
-                    class="label">&gt;</span>百度<span class="label">&lt;/li></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;li</span><span class="attr"> class=</span><span class="value">"list-group-item"</span><span
-                    class="label">&gt;</span>阿里<span class="label">&lt;/li></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;li</span><span class="attr"> class=</span><span class="value">"list-group-item"</span><span
-                    class="label">&gt;</span>腾讯<span class="label">&lt;/li></span><br/>
-                <span class="label">&lt;/ul></span>
-              </pre>
+                <pre v-hljs><code class="html">
+    &lt;ul class="list-group list-group-noborder">
+      &lt;li class="list-group-item">百度&lt;/li>
+      &lt;li class="list-group-item">阿里&lt;/li>
+      &lt;li class="list-group-item">腾讯&lt;/li>
+    &lt;/ul>
+                </code></pre>
               </div>
             </div>
 
@@ -2155,20 +1662,13 @@
               </div>
               <div class="yyui-docs-code">
                 <!--<i class="fa fa-file-code-o yyui-docs-copy"></i>-->
-                <pre>
-                <span class="label">&lt;ul</span><span class="attr"> class=</span><span class="value">"list-group list-group-link"</span><span
-                    class="label">&gt;</span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;li</span><span class="attr"> class=</span><span class="value">"list-group-item"</span><span
-                    class="label">&gt;</span><span class="label">&lt;a</span><span class="attr"> href=</span><span
-                    class="value">"javascript:;"</span><span class="label">&gt;</span>百度<span class="label">&lt;/a>&lt;/li></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;li</span><span class="attr"> class=</span><span class="value">"list-group-item"</span><span
-                    class="label">&gt;</span><span class="label">&lt;a</span><span class="attr"> href=</span><span
-                    class="value">"javascript:;"</span><span class="label">&gt;</span>阿里<span class="label">&lt;/a>&lt;/li></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;li</span><span class="attr"> class=</span><span class="value">"list-group-item"</span><span
-                    class="label">&gt;</span><span class="label">&lt;a</span><span class="attr"> href=</span><span
-                    class="value">"javascript:;"</span><span class="label">&gt;</span>腾讯<span class="label">&lt;/a>&lt;/li></span><br/>
-                <span class="label">&lt;/ul></span>
-              </pre>
+                <pre v-hljs><code class="html">
+    &lt;ul class="list-group list-group-link">
+      &lt;li class="list-group-item">&lt;a href="javascript:;">百度&lt;/a>&lt;/li>
+      &lt;li class="list-group-item">&lt;a href="javascript:;">阿里&lt;/a>&lt;/li>
+      &lt;li class="list-group-item">&lt;a href="javascript:;">腾讯&lt;/a>&lt;/li>
+    &lt;/ul>
+                </code></pre>
               </div>
             </div>
 
@@ -2184,17 +1684,13 @@
               </div>
               <div class="yyui-docs-code">
                 <!--<i class="fa fa-file-code-o yyui-docs-copy"></i>-->
-                <pre>
-                <span class="label">&lt;ul</span><span class="attr"> class=</span><span
-                    class="value">"list-group"</span><span class="label">&gt;</span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;li</span><span class="attr"> class=</span><span class="value">"list-group-item active"</span><span
-                    class="label">&gt;</span>百度<span class="label">&lt;/li></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;li</span><span class="attr"> class=</span><span class="value">"list-group-item disabled"</span><span
-                    class="label">&gt;</span>阿里<span class="label">&lt;/li></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;li</span><span class="attr"> class=</span><span class="value">"list-group-item"</span><span
-                    class="label">&gt;</span>腾讯<span class="label">&lt;/li></span><br/>
-                <span class="label">&lt;/ul></span>
-              </pre>
+                <pre v-hljs><code class="html">
+    &lt;ul class="list-group">
+      &lt;li class="list-group-item active">百度&lt;/li>
+      &lt;li class="list-group-item disabled">阿里&lt;/li>
+      &lt;li class="list-group-item">腾讯&lt;/li>
+    &lt;/ul>
+                </code></pre>
               </div>
             </div>
 
@@ -2248,62 +1744,43 @@
                 </div>
               </div>
               <div class="yyui-docs-code">
-              <pre>
-                <span class="label">&lt;ul</span><span class="attr"> class=</span><span class="value">"list-group list-group-primary"</span><span
-                  class="label">&gt;</span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;li</span><span class="attr"> class=</span><span class="value">"list-group-item active"</span><span
-                  class="label">&gt;</span>百度<span class="label">&lt;/li></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;li</span><span class="attr"> class=</span><span class="value">"list-group-item disabled"</span><span
-                  class="label">&gt;</span>阿里<span class="label">&lt;/li></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;li</span><span class="attr"> class=</span><span class="value">"list-group-item"</span><span
-                  class="label">&gt;</span>腾讯<span class="label">&lt;/li></span><br/>
-                <span class="label">&lt;/ul></span><br/><br/>
-                <span class="label">&lt;ul</span><span class="attr"> class=</span><span class="value">"list-group list-group-secondary"</span><span
-                  class="label">&gt;</span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;li</span><span class="attr"> class=</span><span class="value">"list-group-item active"</span><span
-                  class="label">&gt;</span>百度<span class="label">&lt;/li></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;li</span><span class="attr"> class=</span><span class="value">"list-group-item disabled"</span><span
-                  class="label">&gt;</span>阿里<span class="label">&lt;/li></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;li</span><span class="attr"> class=</span><span class="value">"list-group-item"</span><span
-                  class="label">&gt;</span>腾讯<span class="label">&lt;/li></span><br/>
-                <span class="label">&lt;/ul></span><br/><br/>
-                <span class="label">&lt;ul</span><span class="attr"> class=</span><span class="value">"list-group list-group-success"</span><span
-                  class="label">&gt;</span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;li</span><span class="attr"> class=</span><span class="value">"list-group-item active"</span><span
-                  class="label">&gt;</span>百度<span class="label">&lt;/li></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;li</span><span class="attr"> class=</span><span class="value">"list-group-item disabled"</span><span
-                  class="label">&gt;</span>阿里<span class="label">&lt;/li></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;li</span><span class="attr"> class=</span><span class="value">"list-group-item"</span><span
-                  class="label">&gt;</span>腾讯<span class="label">&lt;/li></span><br/>
-                <span class="label">&lt;/ul></span><br/><br/>
-                <span class="label">&lt;ul</span><span class="attr"> class=</span><span class="value">"list-group list-group-info"</span><span
-                  class="label">&gt;</span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;li</span><span class="attr"> class=</span><span class="value">"list-group-item active"</span><span
-                  class="label">&gt;</span>百度<span class="label">&lt;/li></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;li</span><span class="attr"> class=</span><span class="value">"list-group-item disabled"</span><span
-                  class="label">&gt;</span>阿里<span class="label">&lt;/li></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;li</span><span class="attr"> class=</span><span class="value">"list-group-item"</span><span
-                  class="label">&gt;</span>腾讯<span class="label">&lt;/li></span><br/>
-                <span class="label">&lt;/ul></span><br/><br/>
-                <span class="label">&lt;ul</span><span class="attr"> class=</span><span class="value">"list-group list-group-warning"</span><span
-                  class="label">&gt;</span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;li</span><span class="attr"> class=</span><span class="value">"list-group-item active"</span><span
-                  class="label">&gt;</span>百度<span class="label">&lt;/li></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;li</span><span class="attr"> class=</span><span class="value">"list-group-item disabled"</span><span
-                  class="label">&gt;</span>阿里<span class="label">&lt;/li></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;li</span><span class="attr"> class=</span><span class="value">"list-group-item"</span><span
-                  class="label">&gt;</span>腾讯<span class="label">&lt;/li></span><br/>
-                <span class="label">&lt;/ul></span><br/><br/>
-                <span class="label">&lt;ul</span><span class="attr"> class=</span><span class="value">"list-group list-group-danger"</span><span
-                  class="label">&gt;</span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;li</span><span class="attr"> class=</span><span class="value">"list-group-item active"</span><span
-                  class="label">&gt;</span>百度<span class="label">&lt;/li></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;li</span><span class="attr"> class=</span><span class="value">"list-group-item disabled"</span><span
-                  class="label">&gt;</span>阿里<span class="label">&lt;/li></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;li</span><span class="attr"> class=</span><span class="value">"list-group-item"</span><span
-                  class="label">&gt;</span>腾讯<span class="label">&lt;/li></span><br/>
-                <span class="label">&lt;/ul></span><br/><br/>
-              </pre>
+              <pre v-hljs><code class="html">
+    &lt;ul class="list-group list-group-primary">
+      &lt;li class="list-group-item active">百度&lt;/li>
+      &lt;li class="list-group-item disabled">阿里&lt;/li>
+      &lt;li class="list-group-item">腾讯&lt;/li>
+    &lt;/ul>
+
+    &lt;ul class="list-group list-group-secondary">
+      &lt;li class="list-group-item active">百度&lt;/li>
+      &lt;li class="list-group-item disabled">阿里&lt;/li>
+      &lt;li class="list-group-item">腾讯&lt;/li>
+    &lt;/ul>
+
+    &lt;ul class="list-group list-group-success">
+      &lt;li class="list-group-item active">百度&lt;/li>
+      &lt;li class="list-group-item disabled">阿里&lt;/li>
+      &lt;li class="list-group-item">腾讯&lt;/li>
+    &lt;/ul>
+
+    &lt;ul class="list-group list-group-info">
+      &lt;li class="list-group-item active">百度&lt;/li>
+      &lt;li class="list-group-item disabled">阿里&lt;/li>
+      &lt;li class="list-group-item">腾讯&lt;/li>
+    &lt;/ul>
+
+    &lt;ul class="list-group list-group-warning">
+      &lt;li class="list-group-item active">百度&lt;/li>
+      &lt;li class="list-group-item disabled">阿里&lt;/li>
+      &lt;li class="list-group-item">腾讯&lt;/li>
+    &lt;/ul>
+
+    &lt;ul class="list-group list-group-danger">
+      &lt;li class="list-group-item active">百度&lt;/li>
+      &lt;li class="list-group-item disabled">阿里&lt;/li>
+      &lt;li class="list-group-item">腾讯&lt;/li>
+    &lt;/ul>
+              </code></pre>
               </div>
             </div>
 
@@ -2322,23 +1799,16 @@
               </div>
               <div class="yyui-docs-code">
                 <!--<i class="fa fa-file-code-o yyui-docs-copy"></i>-->
-                <pre>
-                <span class="label">&lt;ul</span><span class="attr"> class=</span><span
-                    class="value">"list-group"</span><span class="label">&gt;</span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;li</span><span class="attr"> class=</span><span class="value">"list-group-item list-group-item-primary"</span><span
-                    class="label">&gt;</span>百度<span class="label">&lt;/li></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;li</span><span class="attr"> class=</span><span class="value">"list-group-item list-group-item-secondary"</span><span
-                    class="label">&gt;</span>阿里<span class="label">&lt;/li></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;li</span><span class="attr"> class=</span><span class="value">"list-group-item list-group-item-success"</span><span
-                    class="label">&gt;</span>腾讯<span class="label">&lt;/li></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;li</span><span class="attr"> class=</span><span class="value">"list-group-item list-group-item-info"</span><span
-                    class="label">&gt;</span>盛大<span class="label">&lt;/li></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;li</span><span class="attr"> class=</span><span class="value">"list-group-item list-group-item-warning"</span><span
-                    class="label">&gt;</span>新浪<span class="label">&lt;/li></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;li</span><span class="attr"> class=</span><span class="value">"list-group-item list-group-item-danger"</span><span
-                    class="label">&gt;</span>人人<span class="label">&lt;/li></span><br/>
-                <span class="label">&lt;/ul></span>
-              </pre>
+                <pre v-hljs><code class="html">
+    &lt;ul class="list-group">
+      &lt;li class="list-group-item list-group-item-primary">百度&lt;/li>
+      &lt;li class="list-group-item list-group-item-secondary">阿里&lt;/li>
+      &lt;li class="list-group-item list-group-item-success">腾讯&lt;/li>
+      &lt;li class="list-group-item list-group-item-info">盛大&lt;/li>
+      &lt;li class="list-group-item list-group-item-warning">新浪&lt;/li>
+      &lt;li class="list-group-item list-group-item-danger">人人&lt;/li>
+    &lt;/ul>
+                </code></pre>
               </div>
             </div>
 
@@ -2374,27 +1844,38 @@
                 </ul>
               </div>
               <div class="yyui-docs-code">
-                <i class="fa fa-file-code-o yyui-docs-copy"></i>
-                <pre>
-                <span class="label">&lt;ul</span><span class="attr"> class=</span><span
-                    class="value">"list-group"</span><span class="label">&gt;</span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;a</span><span class="attr"> class=</span><span class="value">"list-group-item"</span><span
-                    class="attr"> href=</span><span class="value">"javascript:;"</span><span
-                    class="label">&gt;</span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;h4</span><span class="attr"> class=</span><span
-                    class="value">"list-group-item-heading"</span><span class="label">&gt;</span>...<span class="label">&lt;h4></span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;p</span><span class="attr"> class=</span><span
-                    class="value">"list-group-item-text"</span><span class="label">&gt;</span>...<span class="label">&lt;p></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;/a></span><br/>
-                <span class="label">&lt;/ul></span>
-              </pre>
+                <!--<i class="fa fa-file-code-o yyui-docs-copy"></i>-->
+                <pre v-hljs><code class="html">
+    &lt;ul class="list-group">
+      &lt;li class="list-group-item active">
+        &lt;a href="javascript:;">
+          &lt;h4 class="list-group-item-heading">百度&lt;/h4>
+          &lt;p class="list-group-item-text">
+            百度（Nasdaq：BIDU）是全球最大的中文搜索引擎、最大的中文网站。&lt;/p>
+        &lt;/a>
+      &lt;/li>
+      &lt;li class="list-group-item disabled">
+        &lt;a href="javascript:;">
+          &lt;h4 class="list-group-item-heading">阿里&lt;/h4>
+          &lt;p class="list-group-item-text">
+            阿里巴巴网络技术有限公司（简称：阿里巴巴集团）是以曾担任英语教师的马云为首的18人，于1999年在中国杭州创立。&lt;/p>
+        &lt;/a>
+      &lt;/li>
+      &lt;li class="list-group-item">
+        &lt;a href="javascript:;">
+          &lt;h4 class="list-group-item-heading">腾讯&lt;/h4>
+          &lt;p class="list-group-item-text">
+            深圳市腾讯计算机系统有限公司成立于1998年11月，由马化腾、张志东、许晨晔、陈一丹、曾李青五位创始人共同创立。&lt;/p>
+        &lt;/a>
+      &lt;/li>
+    &lt;/ul>
+                </code></pre>
               </div>
             </div>
           </section>
 
           <section class="yyui-docs-section" id="media">
             <h2 class="m-b-6">媒体对象
-
               <small><code>_media.scss</code></small>
             </h2>
             <p class="lead">媒体对像主要用于评论等互动模块。</p>
@@ -2408,7 +1889,7 @@
                   </div>
                   <div class="media-body">
                     <h5 class="media-heading"><a href="javascript:;">海绵宝宝</a>
-                      <small class="right">2016-4-4</small>
+                      <small class="f-r">2016-4-4</small>
                     </h5>
                     <p>
                       这是一个抽象的样式，用以构建不同类型的组件，这些组件都具有在文本内容的左或右侧对齐的图片（就像博客评论或 Twitter 消息等）。
@@ -2418,27 +1899,22 @@
                 </div>
               </div>
               <div class="yyui-docs-code">
-                <i class="fa fa-file-code-o yyui-docs-copy"></i>
-                <pre>
-                <span class="label">&lt;div</span><span class="attr"> class=</span><span
-                    class="value">"media"</span><span class="label">&gt;</span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;div</span><span class="attr"> class=</span><span class="value">"media-left"</span><span
-                    class="label">&gt;</span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;img</span><span class="attr"> src=</span><span
-                    class="value">"..."</span><span class="attr"> alt=</span><span class="value">"..."</span><span
-                    class="label">/></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;/div></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;div</span><span class="attr"> class=</span><span class="value">"media-body"</span><span
-                    class="label">&gt;</span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;h5</span><span class="attr"> class=</span><span
-                    class="value">"media-heading"</span><span class="label">&gt;&lt;a</span><span
-                    class="attr"> href=</span><span class="value">"javascript:;"</span><span class="label">&gt;</span>...<span
-                    class="label">&lt;/a>&lt;small</span><span class="attr"> class=</span><span
-                    class="value">"right"</span><span class="label">&gt;</span>2016-4-4<span class="label">&lt;/small>&lt;/h5></span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;p></span>...<span class="label">&lt;/p></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;/div></span><br/>
-                <span class="label">&lt;/div></span><br/>
-              </pre>
+                <!--<i class="fa fa-file-code-o yyui-docs-copy"></i>-->
+                <pre v-hljs><code class="html">
+    &lt;div class="media">
+      &lt;div class="media-left">
+        &lt;img src="../assets/image/haimian.jpg" alt="..."/>
+      &lt;/div>
+      &lt;div class="media-body">
+        &lt;h5 class="media-heading">&lt;a href="javascript:;">海绵宝宝&lt;/a>
+          &lt;small class="f-r">2016-4-4&lt;/small>
+        &lt;/h5>
+        &lt;p>
+          这是一个抽象的样式，用以构建不同类型的组件。
+        &lt;/p>
+      &lt;/div>
+    &lt;/div>
+                </code></pre>
               </div>
             </div>
 
@@ -2451,7 +1927,7 @@
                 <div class="media">
                   <div class="media-body">
                     <h5 class="media-heading"><a href="javascript:;">海绵宝宝</a>
-                      <small class="right">2016-4-4</small>
+                      <small class="f-r">2016-4-4</small>
                     </h5>
                     <p>
                       这是一个抽象的样式，用以构建不同类型的组件，这些组件都具有在文本内容的左或右侧对齐的图片（就像博客评论或 Twitter 消息等）。
@@ -2465,27 +1941,23 @@
                 </div>
               </div>
               <div class="yyui-docs-code">
-                <i class="fa fa-file-code-o yyui-docs-copy"></i>
-                <pre>
-                <span class="label">&lt;div</span><span class="attr"> class=</span><span
-                    class="value">"media"</span><span class="label">&gt;</span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;div</span><span class="attr"> class=</span><span class="value">"media-body"</span><span
-                    class="label">&gt;</span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;h5</span><span class="attr"> class=</span><span
-                    class="value">"media-heading"</span><span class="label">&gt;&lt;a</span><span
-                    class="attr"> href=</span><span class="value">"javascript:;"</span><span class="label">&gt;</span>...<span
-                    class="label">&lt;/a>&lt;small</span><span class="attr"> class=</span><span
-                    class="value">"right"</span><span class="label">&gt;</span>2016-4-4<span class="label">&lt;/small>&lt;/h5></span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;p></span>...<span class="label">&lt;/p></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;/div></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;div</span><span class="attr"> class=</span><span class="value">"media-right"</span><span
-                    class="label">&gt;</span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;img</span><span class="attr"> src=</span><span
-                    class="value">"..."</span><span class="attr"> alt=</span><span class="value">"..."</span><span
-                    class="label">/></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;/div></span><br/>
-                <span class="label">&lt;/div></span><br/>
-              </pre>
+                <!--<i class="fa fa-file-code-o yyui-docs-copy"></i>-->
+                <pre v-hljs><code class="html">
+    &lt;div class="media">
+      &lt;div class="media-body">
+        &lt;h5 class="media-heading">&lt;a href="javascript:;">海绵宝宝&lt;/a>
+          &lt;small class="f-r">2016-4-4&lt;/small>
+        &lt;/h5>
+        &lt;p>
+          这是一个抽象的样式，用以构建不同类型的组件。
+        &lt;/p>
+      &lt;/div>
+
+      &lt;div class="media-right">
+        &lt;img src="..." alt="..."/>
+      &lt;/div>
+    &lt;/div>
+                </code></pre>
               </div>
             </div>
 
@@ -2499,7 +1971,7 @@
                   </div>
                   <div class="media-body">
                     <h5 class="media-heading"><a href="javascript:;">海绵宝宝</a>
-                      <small class="right">2016-4-4</small>
+                      <small class="f-r">2016-4-4</small>
                     </h5>
                     <p>
                       这是一个抽象的样式，用以构建不同类型的组件，这些组件都具有在文本内容的左或右侧对齐的图片（就像博客评论或 Twitter 消息等）。
@@ -2512,7 +1984,7 @@
                       </div>
                       <div class="media-body">
                         <h5 class="media-heading"><a href="javascript:;">海绵宝宝</a>
-                          <small class="right">2016-4-4</small>
+                          <small class="f-r">2016-4-4</small>
                         </h5>
                         <p>
                           这是一个抽象的样式，用以构建不同类型的组件，这些组件都具有在文本内容的左或右侧对齐的图片（就像博客评论或 Twitter 消息等）。
@@ -2524,32 +1996,36 @@
                 </div>
               </div>
               <div class="yyui-docs-code">
-                <i class="fa fa-file-code-o yyui-docs-copy"></i>
-                <pre>
-                <span class="label">&lt;div</span><span class="attr"> class=</span><span
-                    class="value">"media"</span><span class="label">&gt;</span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;div</span><span class="attr"> class=</span><span class="value">"media-left"</span><span
-                    class="label">&gt;</span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;img</span><span class="attr"> src=</span><span
-                    class="value">"..."</span><span class="attr"> alt=</span><span class="value">"..."</span><span
-                    class="label">/></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;/div></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;div</span><span class="attr"> class=</span><span class="value">"media-body"</span><span
-                    class="label">&gt;</span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;h5</span><span class="attr"> class=</span><span
-                    class="value">"media-heading"</span><span class="label">&gt;&lt;a</span><span
-                    class="attr"> href=</span><span class="value">"javascript:;"</span><span class="label">&gt;</span>...<span
-                    class="label">&lt;/a>&lt;small</span><span class="attr"> class=</span><span
-                    class="value">"right"</span><span class="label">&gt;</span>2016-4-4<span class="label">&lt;/small>&lt;/h5></span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;p></span>...<span class="label">&lt;/p></span><br/>
-                <br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;div</span><span class="attr"> class=</span><span
-                    class="value">"media"</span><span class="label">&gt;</span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;...<br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;/div></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;/div></span><br/>
-                <span class="label">&lt;/div></span><br/>
-              </pre>
+                <!--<i class="fa fa-file-code-o yyui-docs-copy"></i>-->
+                <pre v-hljs><code class="html">
+    &lt;div class="media">
+      &lt;div class="media-left">
+        &lt;img src="..." alt="..."/>
+      &lt;/div>
+      &lt;div class="media-body">
+        &lt;h5 class="media-heading">&lt;a href="javascript:;">海绵宝宝&lt;/a>
+          &lt;small class="f-r">2016-4-4&lt;/small>
+        &lt;/h5>
+        &lt;p>
+          这是一个抽象的样式，用以构建不同类型的组件。
+        &lt;/p>
+
+        &lt;div class="media">
+          &lt;div class="media-left">
+            &lt;img src="..." alt="..."/>
+          &lt;/div>
+          &lt;div class="media-body">
+            &lt;h5 class="media-heading">&lt;a href="javascript:;">海绵宝宝&lt;/a>
+              &lt;small class="f-r">2016-4-4&lt;/small>
+            &lt;/h5>
+            &lt;p>
+              这是一个抽象的样式，用以构建不同类型的组件。
+            &lt;/p>
+          &lt;/div>
+        &lt;/div>
+      &lt;/div>
+    &lt;/div>
+                </code></pre>
               </div>
             </div>
             <p class="text-info">头像是使用的<code>&lt;img></code>元素，因此，你可以为其设置<code>&lt;img></code>的<a
