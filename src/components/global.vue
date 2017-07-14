@@ -121,6 +121,8 @@
             </div>
           </section>
 
+          <div class="divider-lg"></div>
+
           <section class="yyui-docs-section" id="type">
             <h2 class="m-b-6">调整
 
@@ -344,6 +346,8 @@
             </div>
           </section>
 
+          <div class="divider-lg"></div>
+
           <section class="yyui-docs-section" id="code">
             <h2 class="m-b-6">代码
               <small><code>_code.scss</code></small>
@@ -377,6 +381,8 @@
               </div>
             </div>
           </section>
+
+          <div class="divider-lg"></div>
 
           <section class="yyui-docs-section" id="table">
             <h2 class="m-b-6">表格
@@ -796,6 +802,8 @@
 
             <p class="text-info">当然，你也可以把上面集中样式搭配使用，只要在<code>&lt;table></code>标签上添加相应的类即可。</p>
           </section>
+
+          <div class="divider-lg"></div>
 
           <section class="yyui-docs-section" id="form">
             <h2 class="m-b-6">表单
@@ -1684,6 +1692,8 @@
             </div>
           </section>
 
+          <div class="divider-lg"></div>
+
           <section class="yyui-docs-section" id="button">
             <h2 class="m-b-6">按钮
 
@@ -1820,6 +1830,8 @@
             </div>
           </section>
 
+          <div class="divider-lg"></div>
+
           <section class="yyui-docs-section" id="image">
             <h2 class="m-b-6">图片
               <small><code>_images.scss</code></small>
@@ -1860,6 +1872,8 @@
               </div>
             </div>
           </section>
+
+          <div class="divider-lg"></div>
 
           <section class="yyui-docs-section" id="assist">
             <h2 class="m-b-6">辅助类</h2>

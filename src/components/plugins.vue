@@ -48,6 +48,8 @@
             </p>
           </section>
 
+          <div class="divider-lg"></div>
+
           <section class="yyui-docs-section" id="modal">
             <h2 class="m-b-6">模态框
               <small><code>modal.js</code></small>
@@ -197,6 +199,8 @@
             </div>
           </section>
 
+          <div class="divider-lg"></div>
+
           <section class="yyui-docs-section" id="scrollspy">
             <h2 class="m-b-6">滚动监听
               <small><code>scrollspy.js</code></small>
@@ -210,6 +214,8 @@
             </ul>
             <p>被监听元素中的每一个ID必须与导航中的ID一一对应。</p>
           </section>
+
+          <div class="divider-lg"></div>
 
           <section class="yyui-docs-section" id="tab">
             <h2 class="m-b-6">标签页
@@ -280,6 +286,8 @@
             <p><code>&lt;a></code>还需要设置<code>data-toggle="tab"</code>来标明标签。</p>
           </section>
 
+          <div class="divider-lg"></div>
+
           <section class="yyui-docs-section" id="alert">
             <h2 class="m-b-6">警告框
               <small><code>alert.js</code></small>
@@ -310,6 +318,8 @@
             <p>为警告框<code>.alert</code>添加<code>.alert-dismissible</code>类。</p>
             <p>在警告框内部添加关闭按钮。并且为关闭按钮添加<code>data-dismiss="alert"</code>属性。</p>
           </section>
+
+          <div class="divider-lg"></div>
 
           <section class="yyui-docs-section" id="carousel">
             <h2 class="m-b-6">轮播

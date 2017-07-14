@@ -9,7 +9,6 @@
       <div id="sidebar_top_marker"></div>
       <div class="row">
         <div class="col-md-9">
-
           <section class="yyui-docs-section" id="dropdown">
             <h2 class="m-b-6">下拉菜单
 
@@ -169,6 +168,8 @@
 
             <p class="text-info"><code>.dropdown-toggle</code>是按钮，可以使用所有和按钮相关的类。</p>
           </section>
+
+          <div class="divider-lg"></div>
 
           <section id="btn_group">
             <h2 class="m-b-6">按钮组
@@ -335,6 +336,8 @@
               </div>
             </div>
           </section>
+
+          <div class="divider-lg"></div>
 
           <section class="yyui-docs-section" id="input_group">
             <h2 class="m-b-6">输入框组
@@ -590,6 +593,8 @@
             </div>
           </section>
 
+          <div class="divider-lg"></div>
+
           <section class="yyui-docs-section" id="nav">
             <h2 class="m-b-6">导航
               <small><code>_nav.scss</code></small>
@@ -837,6 +842,8 @@
             </div>
           </section>
 
+          <div class="divider-lg"></div>
+
           <section class="yyui-docs-section" id="navbar">
             <h2 class="m-b-6">导航条
               <small><code>_navbar.scss</code></small>
@@ -1000,6 +1007,8 @@
             </div>
           </section>
 
+          <div class="divider-lg"></div>
+
           <section class="yyui-docs-section" id="nav_path">
             <h2 class="m-b-6">路径导航
               <small><code>_breadcrumb.scss</code></small>
@@ -1031,6 +1040,8 @@
               <p>歪果仁们喜欢用有象征意义的名字，breadcrumb 的意思是面包屑。想想大家吃的切片面包，再看看导航路径的样式，嘿嘿嘿。。。</p>
             </div>
           </section>
+
+          <div class="divider-lg"></div>
 
           <section class="yyui-docs-section" id="pagination">
             <h2 class="m-b-6">分页
@@ -1199,6 +1210,8 @@
             </div>
           </section>
 
+          <div class="divider-lg"></div>
+
           <section class="yyui-docs-section" id="label">
             <h2 class="m-b-6">标签
               <small><code>_labels.scss</code></small>
@@ -1249,6 +1262,8 @@
               </div>
             </div>
           </section>
+
+          <div class="divider-lg"></div>
 
           <section class="yyui-docs-section" id="jumbotron">
             <h2 class="m-b-6">巨幕
@@ -1309,6 +1324,8 @@
               </div>
             </div>
           </section>
+
+          <div class="divider-lg"></div>
 
           <section class="yyui-docs-section" id="thumbnail">
             <h2 class="m-b-6">缩略图
@@ -1381,6 +1398,8 @@
               </div>
             </div>
           </section>
+
+          <div class="divider-lg"></div>
 
           <section class="yyui-docs-section" id="alert">
             <h2 class="m-b-6">警告框
@@ -1470,6 +1489,8 @@
               </div>
             </div>
           </section>
+
+          <div class="divider-lg"></div>
 
           <section class="yyui-docs-section" id="progress">
             <h2 class="m-b-6">进度条
@@ -1577,6 +1598,8 @@
               </div>
             </div>
           </section>
+
+          <div class="divider-lg"></div>
 
           <section class="yyui-docs-section" id="list_group">
             <h2 class="m-b-6">列表组
@@ -1873,6 +1896,8 @@
               </div>
             </div>
           </section>
+
+          <div class="divider-lg"></div>
 
           <section class="yyui-docs-section" id="media">
             <h2 class="m-b-6">媒体对象
