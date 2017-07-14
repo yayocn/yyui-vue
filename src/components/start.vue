@@ -2,7 +2,7 @@
   <div>
     <masthead-component>
       <h1>开始</h1>
-      <p class="lead">简要的介绍 YY UI 的下载、使用。</p>
+      <h4>简要的介绍 YY UI 的下载、使用。</h4>
     </masthead-component>
 
     <div class="yyui-docs-feature">

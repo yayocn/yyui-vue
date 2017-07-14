@@ -2,9 +2,9 @@
   <div>
     <masthead-component>
       <h1>全局样式</h1>
-      <p class="lead">设置CSS全局样式；<br>对HTML元素的样式进行重置并可以通过Class进行增强；<br>还有不可缺少的栅格系统等。</p>
+      <h4>设置CSS全局样式；<br>对HTML元素的样式进行重置并可以通过Class进行增强；<br>还有不可缺少的栅格系统等。</h4>
     </masthead-component>
-    
+
     <div class="container">
       <div id="sidebar_top_marker"></div>
       <div class="row">

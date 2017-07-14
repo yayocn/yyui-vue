@@ -54,7 +54,7 @@
             <h2 class="m-b-6">模态框
               <small><code>modal.js</code></small>
             </h2>
-            <p class="lead">
+            <p>
               模态框由三层三部分组成。<code>.modal</code>是最外层，<code>.modal-dialog</code>是对话框层，<code>.modal-content</code>
               是内容层。内容层由头部、主体、脚部组成。</p>
 
@@ -158,13 +158,13 @@
             </div>
 
             <h3 id="modal_function">方法</h3>
-            <p class="lead"><code>$('...').modal('toggle')</code></p>
+            <p><code>$('...').modal('toggle')</code></p>
             <p>手动打开或关闭模态框。在模态框显示或隐藏之前返回到主调函数中（也就是，在触发 shown.yyui.modal 或 hidden.yyui.modal 事件之前）。</p>
             <div class="divider-sm"></div>
-            <p class="lead"><code>$('...').modal('show')</code></p>
+            <p><code>$('...').modal('show')</code></p>
             <p>手动打开模态框。在模态框显示之前返回到主调函数中 （也就是，在触发 shown.yyui.modal 事件之前）。</p>
             <div class="divider-sm"></div>
-            <p class="lead"><code>$('...').modal('hide')</code></p>
+            <p><code>$('...').modal('hide')</code></p>
             <p>手动关闭模态框。在模态框显示之前返回到主调函数中 （也就是，在触发 hidden.yyui.modal 事件之前）。</p>
 
             <h3 id="modal_event">事件</h3>
@@ -439,7 +439,7 @@
             <p><code>.carousel-control</code>需要设置<code>href</code>和<code>data-slide</code>。</p>
 
             <h3 id="carousel_function">方法</h3>
-            <p class="lead"><code>$('...').carousel(options)</code></p>
+            <p><code>$('...').carousel(options)</code></p>
             <p><code>options</code>是一个对象字面量。它有以下属性：</p>
             <div class="table-responsive">
               <table class="table">
@@ -482,23 +482,23 @@
             <p>此外，你也可以通过<code>data-*</code>的方式进行设置。例如：<code>data-interval="2000"</code>。</p>
 
             <div class="divider-sm"></div>
-            <p class="lead"><code>$('...').carousel('cycle')</code></p>
+            <p><code>$('...').carousel('cycle')</code></p>
             <p>从左到右循环轮播。</p>
 
             <div class="divider-sm"></div>
-            <p class="lead"><code>$('...').carousel('pause')</code></p>
+            <p><code>$('...').carousel('pause')</code></p>
             <p>暂停轮播。</p>
 
             <div class="divider-sm"></div>
-            <p class="lead"><code>$('...').carousel(number)</code></p>
+            <p><code>$('...').carousel(number)</code></p>
             <p>轮播项停留的时间。</p>
 
             <div class="divider-sm"></div>
-            <p class="lead"><code>$('...').carousel('prev')</code></p>
+            <p><code>$('...').carousel('prev')</code></p>
             <p>上一项。</p>
 
             <div class="divider-sm"></div>
-            <p class="lead"><code>$('...').carousel('next')</code></p>
+            <p><code>$('...').carousel('next')</code></p>
             <p>下一项。</p>
 
             <h3 id="carousel_event">事件</h3>

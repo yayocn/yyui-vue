@@ -2,7 +2,7 @@
   <div>
     <masthead-component class="text-center">
       <span class="yyui-docs-log">Y</span>
-      <p class="lead">YY UI，是 YaYo 出于兴趣和以学习的目的而形成的一个前端响应式框架。</p>
+      <h4>YY UI，是 YaYo 出于兴趣和以学习的目的而形成的一个前端响应式框架。</h4>
       <a class="btn btn-lg btn-theme m-b-2" href="../files/yyui-1.1.2.zip">下载 YY UI</a>
       <p class="font-sm text-light">当前版本: {{ yyuiVersion }}</p>
     </masthead-component>

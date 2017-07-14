@@ -14,7 +14,7 @@
 
               <small><code>_dropdown.scss</code></small>
             </h2>
-            <p class="lead">用于有子菜单或者上下文的的菜单项。<code>dropdown.js</code>使其有了交互。</p>
+            <p>用于有子菜单或者上下文的的菜单项。<code>dropdown.js</code>使其有了交互。</p>
 
             <h3 id="dropdown_default">默认下拉菜单</h3>
             <p class="">将下拉菜单触发器和下拉菜单都包裹在<code>.dropdown</code>里。然后加入组成菜单的HTML代码。</p>
@@ -175,7 +175,7 @@
             <h2 class="m-b-6">按钮组
               <small><code>_button-group.scss</code></small>
             </h2>
-            <p class="lead">通过按钮组容器把一组按钮放在同一行里。按钮组中的<code>button</code>的样式可以随意组合。</p>
+            <p>通过按钮组容器把一组按钮放在同一行里。按钮组中的<code>button</code>的样式可以随意组合。</p>
 
             <h3 id="btn_group_example">实例</h3>
             <p>将一组<code>&lt;button</code>包裹在<code>.btn-group</code>中形成按钮组。</p>
@@ -343,7 +343,7 @@
             <h2 class="m-b-6">输入框组
               <small><code>_input-group.scss</code></small>
             </h2>
-            <p class="lead">
+            <p>
               通过在文本输入框<code>&lt;input></code>前面、后面或是两边加上文字或按钮，可以实现对表单控件的扩展。为<code>.input-group</code>赋予<code>.input-group-addon</code>类，可以给<code>.form-control</code>的前面或后面添加额外的元素。
             </p>
 
@@ -599,7 +599,7 @@
             <h2 class="m-b-6">导航
               <small><code>_nav.scss</code></small>
             </h2>
-            <p class="lead">导航组件都依赖<code>.nav</code>类。</p>
+            <p>导航组件都依赖<code>.nav</code>类。</p>
 
             <h3 id="nav_example">实例</h3>
             <p>YY UI 只提供了默认的样式。例子中展现了<code>.active</code>、<code>.disabled</code>状态。</p>
@@ -848,7 +848,7 @@
             <h2 class="m-b-6">导航条
               <small><code>_navbar.scss</code></small>
             </h2>
-            <p class="lead">导航条是在您的应用或网站中作为导航页头的响应式基础组件。它们在移动设备上可以折叠（并且可开可关），且在视口（viewport）宽度增加时逐渐变为水平展开模式。</p>
+            <p>导航条是在您的应用或网站中作为导航页头的响应式基础组件。它们在移动设备上可以折叠（并且可开可关），且在视口（viewport）宽度增加时逐渐变为水平展开模式。</p>
 
             <h3 id="navbar_default">默认导航条</h3>
             <p>默认的导航条是白色的背景，暗色的文字。</p>
@@ -1013,7 +1013,7 @@
             <h2 class="m-b-6">路径导航
               <small><code>_breadcrumb.scss</code></small>
             </h2>
-            <p class="lead">在一个带有层次的导航结构中标明当前页面的位置。</p>
+            <p>在一个带有层次的导航结构中标明当前页面的位置。</p>
             <p>各路径间的分隔符已经自动通过<code>:before</code>和<code>content</code>属性添加了。</p>
             <div class="yyui-docs-example">
               <div class="yyui-docs-surface">
@@ -1047,7 +1047,7 @@
             <h2 class="m-b-6">分页
               <small><code>_paginations.scss</code></small>
             </h2>
-            <p class="lead">提供带有展示页码的分页组件和翻页组件。</p>
+            <p>提供带有展示页码的分页组件和翻页组件。</p>
             <p><code>&laquo;</code>用<code>&amp;#171;</code>或<code>&amp;laquo;</code>表示，
               <code>&raquo;</code>用<code>&amp;#187;</code>或<code>&amp;raquo;</code>表示。
             </p>
@@ -1216,7 +1216,7 @@
             <h2 class="m-b-6">标签
               <small><code>_labels.scss</code></small>
             </h2>
-            <p class="lead">标签的字体大小为父元素的75%;</p>
+            <p>标签的字体大小为父元素的75%;</p>
 
             <h3 id="label_style">样式</h3>
             <div class="yyui-docs-example">
@@ -1269,7 +1269,7 @@
             <h2 class="m-b-6">巨幕
               <small><code>_jumbotron.scss</code></small>
             </h2>
-            <p class="lead">这是一个轻量、灵活的组件，它能延伸至整个浏览器视口来展示网站上的关键内容。</p>
+            <p>这是一个轻量、灵活的组件，它能延伸至整个浏览器视口来展示网站上的关键内容。</p>
 
             <h3 id="jumbotron_example">实例</h3>
             <div class="yyui-docs-example">
@@ -1331,7 +1331,7 @@
             <h2 class="m-b-6">缩略图
               <small><code>_thumbnail.scss</code></small>
             </h2>
-            <p class="lead">通过缩略图组件扩展 YY UI 的 <a href="global.htmlrid">栅格系统</a>，可以很容易地展示栅格样式的图像、视频、文本等内容。</p>
+            <p>通过缩略图组件扩展 YY UI 的 <a href="global.htmlrid">栅格系统</a>，可以很容易地展示栅格样式的图像、视频、文本等内容。</p>
             <p>如果你想实现一个瀑布流，你需要使用一个第三方插件，比如
               <a href="http://masonry.desandro.com">Masonry</a>、<a href="http://isotope.metafizzy.co">Isotope</a> 或
               <a href="http://salvattore.com">Salvattore</a>。
@@ -1405,7 +1405,7 @@
             <h2 class="m-b-6">警告框
               <small><code>_alert.scss</code></small>
             </h2>
-            <p class="lead">警告框组件通过提供一些灵活的预定义消息，为常见的用户动作提供反馈消息。警告框中的消息一般比较重要，自带背景醒目。</p>
+            <p>警告框组件通过提供一些灵活的预定义消息，为常见的用户动作提供反馈消息。警告框中的消息一般比较重要，自带背景醒目。</p>
 
             <h3 id="alert_example">实例</h3>
             <p>将任意文本放在警告框中，<code>.alert</code>类是必须要设置的，警告框没有默认样式，需要添加特定样式类，代表不同的警告信息。YY UI 设置了四种状态。</p>
@@ -1496,7 +1496,7 @@
             <h2 class="m-b-6">进度条
               <small><code>_progress.scss</code></small>
             </h2>
-            <p class="lead">通过这些简单、灵活的进度条，为当前工作流程或动作提供实时反馈。</p>
+            <p>通过这些简单、灵活的进度条，为当前工作流程或动作提供实时反馈。</p>
 
             <h3 id="progress_default">默认进度条</h3>
             <p class="text-danger">
@@ -1605,7 +1605,7 @@
             <h2 class="m-b-6">列表组
               <small><code>_list-group.scss</code></small>
             </h2>
-            <p class="lead">列表组能用于显示一组简单的元素，还能用于复杂的定制的内容。</p>
+            <p>列表组能用于显示一组简单的元素，还能用于复杂的定制的内容。</p>
 
             <h3 id="list_group_default">默认列表</h3>
             <p>最简单的列表组仅仅是一个带有多个列表条目的无序列表，另外还需要设置适当的类。我们提供了一些预定义的样式，你可以根据自身的需求通过 CSS 自己定制。</p>
@@ -1903,7 +1903,7 @@
             <h2 class="m-b-6">媒体对象
               <small><code>_media.scss</code></small>
             </h2>
-            <p class="lead">媒体对像主要用于评论等互动模块。</p>
+            <p>媒体对像主要用于评论等互动模块。</p>
 
             <h3 id="media_example">实例</h3>
             <div class="yyui-docs-example">
