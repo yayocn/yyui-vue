@@ -30,32 +30,16 @@
               </div>
               <div class="yyui-docs-code">
                 <!--<i class="fa fa-file-code-o yyui-docs-copy"></i>-->
-                <pre>
-                <span class="label">&lt;div</span><span class="attr"> class=</span><span class="value">"dropdown"</span><span
-                    class="label">&gt;</span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;button</span><span class="attr"> type=</span><span class="value">"button"</span><span
-                    class="attr"> class=</span><span class="value">"btn btn-default dropdown-toggle"</span><span
-                    class="label">&gt;</span>dropdown<span class="label">&lt;/button></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;ul</span><span class="attr"> class=</span><span class="value">"dropdown-menu"</span><span
-                    class="label">&gt;</span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;li</span><span class="attr"> class=</span><span
-                    class="value">"dropdown-item"</span><span class="label">&gt;</span><span
-                    class="label">&lt;a</span><span class="attr"> href=</span><span
-                    class="value">"javascript:;"</span><span class="label">&gt;</span>Action<span class="label">&lt;/a>&lt;/li></span></span>
-                  <br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;li</span><span class="attr"> class=</span><span
-                    class="value">"dropdown-item"</span><span class="label">&gt;</span><span
-                    class="label">&lt;a</span><span class="attr"> href=</span><span
-                    class="value">"javascript:;"</span><span class="label">&gt;</span>Action<span class="label">&lt;/a>&lt;/li></span></span>
-                  <br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;li</span><span class="attr"> class=</span><span
-                    class="value">"dropdown-item"</span><span class="label">&gt;</span><span
-                    class="label">&lt;a</span><span class="attr"> href=</span><span
-                    class="value">"javascript:;"</span><span class="label">&gt;</span>Action<span class="label">&lt;/a>&lt;/li></span></span>
-                  <br/>
-                &nbsp;&nbsp;<span class="label">&lt;/ul></span><br/>
-                <span class="label">&lt;/div></span>
-              </pre>
+                <pre v-hljs><code class="html">
+    &lt;div class="dropdown">
+      &lt;button type="button" class="btn btn-default dropdown-toggle">dropdown&lt;/button>
+      &lt;ul class="dropdown-menu">
+        &lt;li class="dropdown-item">&lt;a href="javascript:;">Action&lt;/a>&lt;/li>
+        &lt;li class="dropdown-item">&lt;a href="javascript:;">Action&lt;/a>&lt;/li>
+        &lt;li class="dropdown-item">&lt;a href="javascript:;">Action&lt;/a>&lt;/li>
+      &lt;/ul>
+    &lt;/div>
+                </code></pre>
               </div>
             </div>
 
@@ -96,52 +80,27 @@
               </div>
               <div class="yyui-docs-code">
                 <!--<i class="fa fa-file-code-o yyui-docs-copy"></i>-->
-                <pre>
-                <span class="label">&lt;button</span><span class="attr"> type=</span><span class="value">"button"</span><span
-                    class="attr"> class=</span><span class="value">"btn btn-primary"</span><span class="attr"> data-toggle=</span><span
-                    class="value">"modal"</span><span class="attr"> data-target=</span><span
-                    class="value">"#modal_1"</span><span class="label">&gt;</span>模态框<span
-                    class="label">&lt;/button></span><br/>
-                <br/>
-                <span class="label">&lt;div</span><span class="attr"> class=</span><span
-                    class="value">"modal fade"</span><span class="attr"> id=</span><span
-                    class="value">"modal_1"</span><span class="label">&gt;</span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;div</span><span class="attr"> class=</span><span class="value">"modal-dialog"</span><span
-                    class="label">&gt;</span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;div</span><span class="attr"> class=</span><span
-                    class="value">"modal-content"</span><span class="label">&gt;</span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;div</span><span
-                    class="attr"> class=</span><span class="value">"modal-header"</span><span
-                    class="label">&gt;</span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;button</span><span class="attr"> type=</span><span
-                    class="value">"button"</span><span class="attr"> class=</span><span
-                    class="value">"close"</span><span class="attr"> data-dismiss=</span><span
-                    class="value">"modal"</span><span class="label">&gt;</span>&amp;times;<span class="label">&lt;/button></span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;h4</span><span class="attr"> class=</span><span
-                    class="value">"modal-title"</span><span class="label">&gt;</span>标题<span
-                    class="label">&lt;/h4></span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;/div></span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;div</span><span
-                    class="attr"> class=</span><span class="value">"modal-body"</span><span
-                    class="label">&gt;</span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span
-                    class="label">&lt;p></span>内容<span>&lt;/p></span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;/div></span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;div</span><span
-                    class="attr"> class=</span><span class="value">"modal-footer"</span><span
-                    class="label">&gt;</span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;button</span><span class="attr"> type=</span><span
-                    class="value">"button"</span><span class="attr"> class=</span><span
-                    class="value">"btn btn-default"</span><span class="attr"> data-dismiss=</span><span class="value">"modal"</span><span
-                    class="label">&gt;</span>关闭<span class="label">&lt;/button></span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;button</span><span class="attr"> type=</span><span
-                    class="value">"button"</span><span class="attr"> class=</span><span
-                    class="value">"btn btn-primary"</span><span class="label">&gt;</span>保存<span class="label">&lt;/button></span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;/div></span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;/div></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;/div></span><br/>
-                <span class="label">&lt;/div></span>
-              </pre>
+                <pre v-hljs><code class="html">
+    &lt;button type="button" class="btn btn-theme" data-toggle="modal" data-target="#modal_1">模态框&lt;/button>
+                  
+    &lt;div class="modal fade" id="modal_1">
+      &lt;div class="modal-dialog">
+        &lt;div class="modal-content">
+          &lt;div class="modal-header">
+            &lt;button type="button" class="close" data-dismiss="modal">&times;&lt;/button>
+            &lt;h4 class="modal-title">标题&lt;/h4>
+          &lt;/div>
+          &lt;div class="modal-body">
+            &lt;p>内容...&lt;/p>
+          &lt;/div>
+          &lt;div class="modal-footer">
+            &lt;button type="button" class="btn btn-default" data-dismiss="modal">关闭&lt;/button>
+            &lt;button type="button" class="btn btn-primary">保存&lt;/button>
+          &lt;/div>
+        &lt;/div>
+      &lt;/div>
+    &lt;/div>
+                </code></pre>
               </div>
             </div>
 
@@ -288,34 +247,30 @@
               </div>
               <div class="yyui-docs-code">
                 <!--<i class="fa fa-file-code-o yyui-docs-copy"></i>-->
-                <pre>
-                <span class="label">&lt;ul</span><span class="attr"> class=</span><span
-                    class="value">"nav nav-tabs"</span><span class="label">&gt;</span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;li</span><span class="attr"> class=</span><span class="value">"active"</span><span
-                    class="label">&gt;&lt;a</span><span class="attr"> href=</span><span
-                    class="value">"#baidu1"</span><span class="attr"> data-toggle=</span><span
-                    class="value">"tab"</span><span class="label">&gt;</span>百度<span
-                    class="label">&lt;/a>&lt;/li></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;li>&lt;a</span><span class="attr"> href=</span><span class="value">"#ali1"</span><span
-                    class="attr"> data-toggle=</span><span class="value">"tab"</span><span
-                    class="label">&gt;</span>阿里<span class="label">&lt;/a>&lt;/li></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;li>&lt;a</span><span class="attr"> href=</span><span class="value">"#tengxun1"</span><span
-                    class="attr"> data-toggle=</span><span class="value">"tab"</span><span
-                    class="label">&gt;</span>腾讯<span class="label">&lt;/a>&lt;/li></span><br/>
-                <span class="label">&lt;/ul></span><br/>
-                <span class="label">&lt;div</span><span class="attr"> class=</span><span
-                    class="value">"tab-content"</span><span class="label">&gt;</span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;div</span><span class="attr"> class=</span><span class="value">"tab-pane active"</span><span
-                    class="attr"> id=</span><span class="value">"baidu1"</span><span class="label">&gt;</span>...<span
-                    class="label">&lt;/div></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;div</span><span class="attr"> class=</span><span class="value">"tab-pane"</span><span
-                    class="attr"> id=</span><span class="value">"ali1"</span><span class="label">&gt;</span>...<span
-                    class="label">&lt;/div></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;div</span><span class="attr"> class=</span><span class="value">"tab-pane"</span><span
-                    class="attr"> id=</span><span class="value">"tengxun1"</span><span class="label">&gt;</span>...<span
-                    class="label">&lt;/div></span><br/>
-                <span class="label">&lt;/div></span><br/>
-              </pre>
+                <pre v-hljs><code class="html">
+    &lt;ul class="nav nav-tabs">
+      &lt;li class="active">&lt;a href="#baidu1" data-toggle="tab">百度&lt;/a>&lt;/li>
+      &lt;li>&lt;a href="#ali1" data-toggle="tab">阿里&lt;/a>&lt;/li>
+      &lt;li>&lt;a href="#tengxun1" data-toggle="tab">腾讯&lt;/a>&lt;/li>
+    &lt;/ul>
+    &lt;div class="tab-content">
+      &lt;div class="tab-pane active" id="baidu1">
+        &lt;p>
+          百度（Nasdaq：BIDU）是全球最大的中文搜索引擎、最大的中文网站。
+        &lt;/p>
+      &lt;/div>
+      &lt;div class="tab-pane" id="ali1">
+        &lt;p>
+          阿里巴巴网络技术有限公司（简称：阿里巴巴集团）是以曾担任英语教师的马云为首的18人，于1999年在中国杭州创立。
+        &lt;/p>
+      &lt;/div>
+      &lt;div class="tab-pane" id="tengxun1">
+        &lt;p>
+          深圳市腾讯计算机系统有限公司成立于1998年11月，由马化腾、张志东、许晨晔、陈一丹、曾李青五位创始人共同创立。
+        &lt;/p>
+      &lt;/div>
+    &lt;/div>
+                </code></pre>
               </div>
             </div>
 
@@ -337,22 +292,17 @@
               <div class="yyui-docs-surface">
                 <div class="alert alert-info alert-dismissible">
                   这是警告框
-
                   <button type="button" class="close" data-dismiss="alert">×</button>
                 </div>
               </div>
               <div class="yyui-docs-code">
                 <!--<i class="fa fa-file-code-o yyui-docs-copy"></i>-->
-                <pre>
-                <span class="label">&lt;div</span><span class="attr"> class=</span><span class="value">"alert alert-info alert-dismissible"</span><span
-                    class="label">&gt;</span><br/>
-                &nbsp;&nbsp;... <br/>
-                &nbsp;&nbsp;<span class="label">&lt;button</span><span class="attr"> type=</span><span class="value">"button"</span><span
-                    class="attr"> class=</span><span class="value">"close"</span><span
-                    class="attr"> data-dismiss=</span><span class="value">"alert"</span><span class="label">&gt;</span>&times;<span
-                    class="label">&lt;/button></span><br/>
-                <span class="label">&lt;/div></span><br/>
-              </pre>
+                <pre v-hljs><code class="html">
+    &lt;div class="alert alert-info alert-dismissible">
+      这是警告框
+      &lt;button type="button" class="close" data-dismiss="alert">×&lt;/button>
+    &lt;/div>
+                </code></pre>
               </div>
             </div>
 
@@ -420,63 +370,55 @@
               </div>
               <div class="yyui-docs-code">
                 <!--<i class="fa fa-file-code-o yyui-docs-copy"></i>-->
-                <pre>
-                <span class="label">&lt;div</span><span class="attr"> class=</span><span
-                    class="value">"carousel slide"</span><span class="attr"> id=</span><span
-                    class="value">"carousel_1"</span><span class="attr"> data-ride=</span><span
-                    class="value">"carousel"</span><span class="label">&gt;</span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;ol</span><span class="attr"> class=</span><span class="value">"carousel-indicators"</span><span
-                    class="label">&gt;</span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;li</span><span class="attr"> data-target=</span><span
-                    class="value">"#carousel_1"</span><span class="attr"> data-slide-to=</span><span
-                    class="value">"0"</span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;li</span><span class="attr"> data-target=</span><span
-                    class="value">"#carousel_1"</span><span class="attr"> data-slide-to=</span><span
-                    class="value">"1"</span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;/ol></span><br/>
-                <br/>
-                &nbsp;&nbsp;<span class="label">&lt;div</span><span class="attr"> class=</span><span class="value">"carousel-content"</span><span
-                    class="label">&gt;</span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;div</span><span class="attr"> class=</span><span
-                    class="value">"carousel-item active"</span><span class="label">&gt;</span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;img</span><span
-                    class="attr"> src=</span><span class="value">"..."</span><span class="attr"> alt=</span><span
-                    class="value">"..."</span><span class="label">/></span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;div</span><span
-                    class="attr"> class=</span><span class="value">carousel-caption</span><span
-                    class="label">&gt;</span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;... <br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;/div></span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;/div></span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;div</span><span class="attr"> class=</span><span
-                    class="value">"carousel-item"</span><span class="label">&gt;</span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;img</span><span
-                    class="attr"> src=</span><span class="value">"..."</span><span class="attr"> alt=</span><span
-                    class="value">"..."</span><span class="label">/></span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;div</span><span
-                    class="attr"> class=</span><span class="value">carousel-caption</span><span
-                    class="label">&gt;</span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;... <br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;/div></span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;/div></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;/div></span><br/>
-                <br/>
-                &nbsp;&nbsp;<span class="label">&lt;a</span><span class="attr"> class=</span><span class="value">"left carousel-control"</span><span
-                    class="attr"> href=</span><span class="value">"#carousel_1"</span><span
-                    class="attr"> data-slide=</span><span class="value">"prev"</span><span
-                    class="label">&gt;</span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;span</span><span class="attr"> class=</span><span
-                    class="value">"fa fa-chevron-left icon-prev"</span><span class="label">&gt;&amp;#139;&lt;/span></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;/a></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;a</span><span class="attr"> class=</span><span class="value">"right carousel-control"</span><span
-                    class="attr"> href=</span><span class="value">"#carousel_1"</span><span
-                    class="attr"> data-slide=</span><span class="value">"next"</span><span
-                    class="label">&gt;</span><br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;<span class="label">&lt;span</span><span class="attr"> class=</span><span
-                    class="value">"icon-next"</span><span class="label">&gt;&amp;#155;&lt;/span></span><br/>
-                &nbsp;&nbsp;<span class="label">&lt;/a></span><br/>
-                <span class="label">&lt;/div></span>
-              </pre>
+                <pre v-hljs><code class="html">
+    &lt;div id="carousel_1" class="carousel slide" data-ride="carousel">
+      &lt;ol class="carousel-indicators">
+        &lt;li data-target="#carousel_1" data-slide-to="0" class="active">&lt;/li>
+        &lt;li data-target="#carousel_1" data-slide-to="1">&lt;/li>
+        &lt;li data-target="#carousel_1" data-slide-to="2">&lt;/li>
+      &lt;/ol>
+
+      &lt;div class="carousel-content">
+        &lt;div class="carousel-item active">
+          &lt;img src="../assets/image/daojian01.jpg" alt="First slide">
+          &lt;div class="container">
+            &lt;div class="carousel-caption text-left">
+              &lt;h1>结城明日奈&lt;/h1>
+              &lt;p>本作女主角。SAO系统下拥有排名前五名美貌的美女玩家。&lt;/p>
+              &lt;p>&lt;a class="btn btn-lg btn-primary" href="#" role="button">亚斯娜&lt;/a>&lt;/p>
+            &lt;/div>
+          &lt;/div>
+        &lt;/div>
+        &lt;div class="carousel-item">
+          &lt;img src="../assets/image/daojian02.jpg" alt="Second slide">
+          &lt;div class="container">
+            &lt;div class="carousel-caption">
+              &lt;h1>桐谷和人&lt;/h1>
+              &lt;p>主角桐谷和人是使用世界首款完全潜行游戏“刀剑神域（Sword Art Online）”的玩家。&lt;/p>
+              &lt;p>&lt;a class="btn btn-lg btn-primary" href="#" role="button">桐人&lt;/a>&lt;/p>
+            &lt;/div>
+          &lt;/div>
+        &lt;/div>
+        &lt;div class="carousel-item">
+          &lt;img src="../assets/image/daojian03.jpg" alt="Third slide">
+          &lt;div class="container">
+            &lt;div class="carousel-caption text-right">
+              &lt;h1>刀剑神域&lt;/h1>
+              &lt;p>这虽然是游戏，但可不是闹着玩的。”——“刀剑神域（Sword Art Online）”设计者茅场晶彦。&lt;/p>
+              &lt;p>&lt;a class="btn btn-lg btn-primary" href="#" role="button">刀剑神域 &lt;/a>&lt;/p>
+            &lt;/div>
+          &lt;/div>
+        &lt;/div>
+      &lt;/div>
+
+      &lt;a class="left carousel-control" href="#carousel_1" data-slide="prev">
+        &lt;span class="icon-prev">&#139;&lt;/span>
+      &lt;/a>
+      &lt;a class="right carousel-control" href="#carousel_1" data-slide="next">
+        &lt;span class="icon-next">&#155;&lt;/span>
+      &lt;/a>
+    &lt;/div>
+                </code></pre>
               </div>
             </div>
 
