@@ -64,11 +64,16 @@
   import masthead from './common/masthead.vue'
   import slogan from './common/slogan.vue'
 
+  import common from '../assets/js/common'
+
   export default {
     name: 'start',
     components: {
       'masthead-component': masthead,
       'slogan-component': slogan
+    },
+    mounted () {
+      common.toTop()
     }
   }
 </script>

@@ -44,6 +44,8 @@
   import slogan from './common/slogan.vue'
   import { mapState } from 'vuex'
 
+  import common from '../assets/js/common'
+
   export default {
     name: 'introduction',
     components: {
@@ -52,6 +54,9 @@
     },
     computed: mapState([
       'yyuiVersion'
-    ])
+    ]),
+    mounted () {
+      common.toTop();
+    }
   }
 </script>

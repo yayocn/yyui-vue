@@ -7,5 +7,8 @@ export default {
     $('body').animate({
       scrollTop: top
     }, 500, 'easeInOutExpo')
+  },
+  toTop () {
+    $(window).scrollTop(0)
   }
 }
