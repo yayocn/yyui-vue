@@ -7,3 +7,5 @@ build yyuisite with vue
 
   It will contain all languages when pack highlight.js. These are two opinions. First, remove unnecessary language javascript file at node_modules.
 Second, don't refer highlight.js with webpack, just use `script` label.
+
+  For the first, we can't control well what unnecessary javascript file.
