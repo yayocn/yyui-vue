@@ -6,8 +6,6 @@ import global from '../components/global.vue'
 import components from '../components/components.vue'
 import plugins from '../components/plugins.vue'
 
-Vue.use(VueRouter)
-
 const routes = [
   {path: '/', component: introduction},
   {path: '/introduction', component: introduction},
@@ -18,5 +16,7 @@ const routes = [
 ]
 
 const router = new VueRouter({ routes })
+
+Vue.use(VueRouter)
 
 export default router
