@@ -1,3 +1,4 @@
+var webpack = require('webpack')
 var ExtractTextPlugin = require('extract-text-webpack-plugin')
 var path = require('path')
 var merge = require('webpack-merge')
@@ -46,6 +47,12 @@ module.exports = merge(baseConfig, {
     ]
   },
   plugins: [
-    new ExtractTextPlugin('css/[name].[contenthash].css')
+    new ExtractTextPlugin('css/[name].[contenthash].css'),
+    new webpack.optimize.UglifyJsPlugin({
+      compress: {
+        warnings: false,
+        drop_console: false
+      }
+    })
   ]
 })
