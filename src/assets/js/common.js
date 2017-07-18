@@ -5,7 +5,7 @@ export default {
     var ele = $(`#${anchor}`)
     var top = ele.offset().top
     $('body').animate({
-      scrollTop: top
+      scrollTop: top - 60
     }, 500, 'easeInOutExpo')
   }
 }
