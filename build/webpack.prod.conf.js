@@ -22,7 +22,8 @@ module.exports = merge(baseConfig, {
           use: [{
             loader: 'css-loader',
             options: {
-              sourcemap: true
+              minimize: true,
+              sourcemap: false
             }
           }]
         })
@@ -34,6 +35,7 @@ module.exports = merge(baseConfig, {
           use: [{
             loader: 'css-loader',
             options: {
+              minimize: true,
               sourcemap: false
             }
           }, {
