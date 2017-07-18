@@ -1,5 +1,5 @@
 <template>
-  <div id="top">
+  <div id="app">
     <header>
       <navbar-component></navbar-component>
     </header>
@@ -9,24 +9,16 @@
 </template>
 
 <script>
-  import navbar from './components/navbar.vue'
-  import main from './components/main.vue'
-  import footer from './components/footer.vue'
-  import MainComponent from './components/main'
-
-  import router from './route/index'
-  import store from './store/index'
-  import './directives/highlight'
+  import Navbar from './components/navbar.vue'
+  import Footer from './components/footer.vue'
+  import Main from './components/main.vue'
 
   export default {
     name: 'app',
     components: {
-      MainComponent,
-      'navbar-component': navbar,
-      'main-component': main,
-      'footer-component': footer
-    },
-    router,
-    store
+      'navbar-component': Navbar,
+      'footer-component': Footer,
+      'main-component': Main,
+    }
   }
 </script>

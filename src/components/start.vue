@@ -71,9 +71,6 @@
     components: {
       'masthead-component': masthead,
       'slogan-component': slogan
-    },
-    mounted () {
-      common.toTop()
     }
   }
 </script>

@@ -15,7 +15,7 @@
           <div class="col-sm-4 m-t-10">
             <a href="http://www.w3cplus.com/sassguide/" target="_blank"><img class="img-responsive" src="../assets/image/sass.png" alt=""/></a>
             <h3>预处理器</h3>
-            <p class="text-indent">YY UI 采用CSS预处理器 <a href="https://www.sass.hk/">SASS</a> 开发。
+            <p class="text-indent">YY UI 采用CSS预处理器 <a href="https://www.sass.hk/" target="_blank">SASS</a> 开发。
               SASS是一种CSS的开发工具，提供了许多便利的写法，大大节省了设计者的时间，使得CSS的开发，变得简单和可维护。</p>
           </div>
 
@@ -54,9 +54,6 @@
     },
     computed: mapState([
       'yyuiVersion'
-    ]),
-    mounted () {
-      common.toTop();
-    }
+    ])
   }
 </script>

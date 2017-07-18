@@ -1,5 +1,7 @@
-import Vue from 'Vue'
+import Vue from 'vue'
 import App from './App.vue'
+import router from './router'
+import store from './store'
 
 import '../lib/yyui/css/yyui-1.1.2.css'
 import './assets/css/common.scss'
@@ -12,15 +14,11 @@ import 'jquery'
 import 'jquery.easing'
 import '../lib/yyui/js/yyui-1.1.2'
 import './assets/js/scrollspy'
+import './directives/highlight'
 
-Vue.config.debug = true // 开启错误提示
-
-window.onload = function () {
-  new Vue({
-    el: '#yyui',
-    template: '<App/>',
-    components: {
-      App
-    }
-  })
-}
+new Vue({
+  el: '#yyui',
+  router,
+  store,
+  render: h => h(App)
+})

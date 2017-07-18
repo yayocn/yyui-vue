@@ -2468,9 +2468,6 @@
     },
     methods: {
       toAnchor: common.toAnchor
-    },
-    mounted () {
-      common.toTop()
     }
   }
 </script>
