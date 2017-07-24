@@ -8,7 +8,7 @@ var baseConfig = require('./webpack.base.conf')
 module.exports = merge(baseConfig, {
   output: {
     path: path.resolve(__dirname, '../dist'),
-    publicPath: '/',
+    publicPath: 'http://yyui.yayocn.cn/',
     filename: 'js/[name].[chunkhash].js',
     chunkFilename: 'js/[id].[chunkhash].js'
   },

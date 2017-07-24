@@ -13,7 +13,7 @@
           <div class="col-sm-4">
             <h4>开发环境</h4>
             <p>编译并且压缩后的css、javascript文件，不含文档和源代码。</p>
-            <a class="btn btn-theme-outline m-b-2" href="./files/yyui-1.1.2.zip">下载 YY UI</a>
+            <a class="btn btn-theme-outline m-b-2" href="files/yyui-1.1.2.zip">下载 YY UI</a>
           </div>
           <div class="col-sm-4">
             <h4>源码</h4>
