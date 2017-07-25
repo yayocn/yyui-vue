@@ -9,7 +9,7 @@ import Plugins from '../components/plugins.vue'
 Vue.use(VueRouter)
 
 export default new VueRouter({
-  // mode: 'history', // it's wrong after build
+  mode: 'history', // it's wrong after build
   scrollBehavior: () => ({
     y: 0
   }),
