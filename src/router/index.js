@@ -6,13 +6,16 @@ import Global from '../components/global.vue'
 import Components from '../components/components.vue'
 import Plugins from '../components/plugins.vue'
 
+import common from '../assets/js/common'
+
 Vue.use(VueRouter)
 
-export default new VueRouter({
-  mode: 'history', // it's wrong after build
-  scrollBehavior: () => ({
-    y: 0
-  }),
+const router = new VueRouter({
+  // it's wrong after build
+  // mode: 'history',
+  // scrollBehavior: () => ({
+  //   y: 0
+  // }),
   routes: [
     {
       path: '/',
@@ -40,3 +43,9 @@ export default new VueRouter({
     }
   ]
 })
+
+router.afterEach((to, from, next) => {
+  common.toAnchor('top')
+})
+
+export default router
